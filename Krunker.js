@@ -1,4 +1,5 @@
 window.JfCzGzvGIQB8rrJX = { isProxy: true };
+
 (function () {
   "use strict";
   var iììïîîí = typeof document != "undefined" ? document.currentScript : null;
@@ -33812,7 +33813,6 @@ window.JfCzGzvGIQB8rrJX = { isProxy: true };
     connected: false,
     socketId: -1,
     sendQueue: [],
-    events: null,
     trackPacketStats: false,
     tickPacketCount: 0,
     ingressPacketCount: 0,
@@ -34061,7 +34061,7 @@ window.JfCzGzvGIQB8rrJX = { isProxy: true };
       this.connected = false;
       this.socketId = -1;
       this.sendQueue.length = 0;
-      this.events = null;
+      this.events = iîîiìíî;
       this.tickPacketCount = 0;
       this.ingressPacketCount = 0;
       this.ingressDataSize = 0;
@@ -53426,7 +53426,6 @@ window.JfCzGzvGIQB8rrJX = { isProxy: true };
     }]);
   }();
   var iîiîïii = new iìîîïii();
-
   var iììiììï = iîííìíï("<!> <!> <!>", 1);
   async function iiïííïî(Iiìîiìî, Iiîiiîì) {
     try {
@@ -130324,7 +130323,7 @@ window.JfCzGzvGIQB8rrJX = { isProxy: true };
     if (!iÌîíìíì && iÏiíîiì.nametagOpacity > 0) {
       for (iÏìïiïï = 0; iÏìïiïï < iÎíîiíí.players.list.length; ++iÏìïiïï) {
         if ((iììîîíi = iÎíîiíí.players.list[iÏìïiïï]).active && (!iÎíîiíí.controls || iÎíîiíí.controls.spect.target != iììîîíi) && !iììîîíi.isYou && iììîîíi.objInstances) {
-          if (iììîîíi.Nvtoj7) {
+          if (iììîîíi.cnSeen) {
             var iÌiiíïì;
             (iÌiiíïì = iììîîíi.objInstances.position.clone()).y += 11.6 - iììîîíi.crouchVal * 3;
             if (iiïïííì(iììîîíi.hatIndex) >= 0 || iiïïííì(iììîîíi.headIndex) >= 0) {
@@ -130515,7 +130514,7 @@ window.JfCzGzvGIQB8rrJX = { isProxy: true };
             }
             iìiiíiî.restore(-1);
           }
-          if (iììîîíi.isJuggernaut && !iììîîíi.Nvtoj7 && !iiiïïîî(iÏìiïïï.x, iÏìiïïï.y, iÏìiïïï.z, iììîîíi)) {
+          if (iììîîíi.isJuggernaut && !iììîîíi.cnSeen && !iiiïïîî(iÏìiïïï.x, iÏìiïïï.y, iÏìiïïï.z, iììîîíi)) {
             iíîïïïi.set(iììîîíi.x, iììîîíi.y + iììîîíi.height / 2, iììîîíi.z);
             var iÍíîîíi = (iÏìiííî = (iIìïiíî = Math.max(0.3, 1 - iiiiîïì(iÏìiïïï.x, iÏìiïïï.y, iÏìiïïï.z, iíîïïïi.x, iíîïïïi.y, iíîïïïi.z) / 600)) * 70) >= 1 && iÎíïîíi.frustum.containPoint(iíîïïïi);
             var iÎïììîì = iìiìïïî[iììîîíi.team && iÎíîiíí.mode && iÎíîiíí.mode.teams && iììîîíi.team == iIiîiíi ? 0 : 1];
@@ -141530,7 +141529,7 @@ window.JfCzGzvGIQB8rrJX = { isProxy: true };
       this.lastPicked = {};
       this.propID = 1;
       this.weaponTier = 0;
-      this.Nvtoj7 = false;
+      this.cnSeen = false;
       this.lastLoadout.length = 0;
       this.lastSkins.length = 0;
       this.lastThrow = true;
@@ -141598,7 +141597,7 @@ window.JfCzGzvGIQB8rrJX = { isProxy: true };
       this.recon = false;
       this.meleeAnim = {};
       this.isHidden = false;
-      this.Nvtoj7 = false;
+      this.cnSeen = false;
       this.kpdData = false;
       this.bypassUser = false;
       this.resetTimer = 0;
@@ -141995,7 +141994,7 @@ window.JfCzGzvGIQB8rrJX = { isProxy: true };
             this.lastInputReceivedAt;
           }
           for (var iÏìïìíì = 0; iÏìïìíì < this.inputs.length; ++iÏìïìíì) {
-            this.Gmmx1k(this.inputs[iÏìïìíì], iÏîìïìì, false, !iÏîìïìì || iÏîìïìì.moveLock);
+            this.procInputs(this.inputs[iÏìïìíì], iÏîìïìì, false, !iÏîìïìì || iÏîìïìì.moveLock);
           }
           this.resetInputs();
         }
@@ -142105,7 +142104,7 @@ window.JfCzGzvGIQB8rrJX = { isProxy: true };
       this.meleeAnim.armE = 0;
       this.meleeAnim.armS = 0;
     };
-    this.Gmmx1k = function (iÏìïïiì, iÌiïïïí, iÍîìïíí, iÌíîîîi) {
+    this.procInputs = function (iÏìïïiì, iÌiïïïí, iÍîìïíí, iÌíîîîi) {
       this.recon = iÍîìïíí;
       if (this.noclip) {
         this.onGround = true;
@@ -143631,7 +143630,7 @@ window.JfCzGzvGIQB8rrJX = { isProxy: true };
         this.list[iÌiiiìï].forcePos = true;
         if (this.list[iÌiiiìï].objInstances) {
           this.list[iÌiiiìï].objInstances.visible = false;
-          this.list[iÌiiiìï].Nvtoj7 = false;
+          this.list[iÌiiiìï].cnSeen = false;
         }
       }
     };
@@ -156154,7 +156153,7 @@ window.JfCzGzvGIQB8rrJX = { isProxy: true };
             }
           },
           get inView() {
-            return !!IIïìíìi.Nvtoj7;
+            return !!IIïìíìi.cnSeen;
           },
           get assetID() {
             return IIïìíìi.config && IIïìíìi.config.aID || "";
@@ -199433,7 +199432,7 @@ window.JfCzGzvGIQB8rrJX = { isProxy: true };
           if (iìíiîiï.tmpInpts[IÌíiíîí][0] <= IÎììììi[0]) {
             iìíiîiï.tmpInpts.splice(IÌíiíîí, 1);
           } else {
-            iíiïììì.Gmmx1k(iìíiîiï.tmpInpts[IÌíiíîí], iíìîìíi, true);
+            iíiïììì.procInputs(iìíiîiï.tmpInpts[IÌíiíîí], iíìîìíi, true);
             IÌíiíîí++;
           }
         }
@@ -199806,7 +199805,7 @@ window.JfCzGzvGIQB8rrJX = { isProxy: true };
           if (iíìîìíi && iíìîìíi.config && iíìîìíi && iíìîìíi.config.kCams) {
             iìíiîiï.camLookAt(iìiìîíì.x, iìiìîíì.y + iìiìîíì.height / 1.5, iìiìîíì.z);
             iìiìîíì.interpolate = false;
-            iìiìîíì.Nvtoj7 = true;
+            iìiìîíì.cnSeen = true;
             if (iìiìîíì.objInstances) {
               iìiìîíì.objInstances.visible = true;
             }
@@ -201749,9 +201748,9 @@ window.JfCzGzvGIQB8rrJX = { isProxy: true };
         iìíiîiï.wSwap = 0;
         if (!iíìîìíi.noPred && !iíìîìíi.dontSendInputs) {
           iìíiîiï.tmpInpts[iìíiîiï.tmpInpts._push ? "_push" : "push"](iiîïìïì);
-          iíiïììì.Gmmx1k(iiîïìïì, iíìîìíi, false, iíìîìíi.moveLock);
+          iíiïììì.procInputs(iiîïìïì, iíìîìíi, false, iíìîìíi.moveLock);
           if (iíìîìíi.isSandbox && iïíiîii) {
-            iíìíïïi.Gmmx1k(iiîïìïì, iïíiîii, false, iïíiîii.moveLock);
+            iíìíïïi.procInputs(iiîïìïì, iïíiîii, false, iïíiîii.moveLock);
           }
         }
         if (!iíìîìíi.isSandbox && !iïìíïíî && !iíìîìíi.dontSendInputs) {
@@ -202149,28 +202148,28 @@ window.JfCzGzvGIQB8rrJX = { isProxy: true };
         if (iíiïììì && iíiïììì.active || window.spectating) {
           for (var IIìïîìì = 0; IIìïîìì < iíìîìíi.players.list.length; ++IIìïîìì) {
             if ((iìïiíîi = iíìîìíi.players.list[IIìïîìì]).active && iìïiíîi.objInstances && iìïiíîi != iíiïììì) {
-              iìïiíîi.Nvtoj7 = (!iíìîìíi.hidePlayers || !!iìïiíîi.isBot) && (!window.spectating || iìïiíîi != iìíiîiï.spect.target);
+              iìïiíîi.cnSeen = (!iíìîìíi.hidePlayers || !!iìïiíîi.isBot) && (!window.spectating || iìïiíîi != iìíiîiï.spect.target);
               if (iìïiíîi.latestData) {
                 if (window.spectating && (!window.spectating || iîìîîiì) || IIìïïíï && IIìïïíï == iìïiíîi.team && !iíìîìíi.mode.fakeNames || IIìïïíï && IIìïïíï != iìïiíîi.team && iíìîìíi.mode.teamSee && iíìîìíi.mode.teamSee[0] == IIìïïíï && iíìîìíi.mode.teamSee[1] == iìïiíîi.team || !iíìîìíi.config.nameTags && !iíìîìíi.mode.hideNames && iíìîìíi.canSee(window.spectating && iìíiîiï.spect.target ? iìíiîiï.spect.target : iíiïììì, iìïiíîi.x, iìïiíîi.y, iìïiíîi.z) == null) {
                   if (iíìîìíi.config.nameTagsFR && IIìïïíï && IIìïïíï == iìïiíîi.team) {
-                    iìïiíîi.Nvtoj7 = false;
+                    iìïiíîi.cnSeen = false;
                   }
                 } else {
-                  iìïiíîi.Nvtoj7 = false;
+                  iìïiíîi.cnSeen = false;
                 }
                 if (iìïïïìì.tmp.hideNames == 1 && (!iíìîìíi.mode.teams || IIìïïíï && IIìïïíï != iìïiíîi.team) || iìïïïìì.tmp.hideNames == 2 && iìïîìïî && iìïîìïî == iìïiíîi.team || iìïïïìì.tmp.hideNames == 3 || iíìîìíi.mode.hideNames) {
-                  iìïiíîi.Nvtoj7 = false;
+                  iìïiíîi.cnSeen = false;
                 }
                 if (iíìîìíi.mode.nameDist) {
                   var IIiìïìï = iiiiììï.camera.getWorldPosition(iiiiììï.targetVector);
                   if (iiiiîïì(IIiìïìï.x, IIiìïìï.y, IIiìïìï.z, iìïiíîi.x, iìïiíîi.y, iìïiíîi.z) > iíìîìíi.mode.nameDist) {
-                    iìïiíîi.Nvtoj7 = false;
+                    iìïiíîi.cnSeen = false;
                   }
                 }
                 var IÏìiîïí = iiiiììï.fpsCamera.getWorldPosition(iiiiììï.targetVector);
                 iíìîìíi.players.toggleLOD(iìïiíîi, !!window.spectating || iíìîìíi.canSee(IÏìiîïí, iìïiíîi.x, iìïiíîi.y + iìïiíîi.height + 1, iìïiíîi.z, 15, true) == null);
               } else {
-                iìïiíîi.Nvtoj7 = false;
+                iìïiíîi.cnSeen = false;
                 iíìîìíi.players.toggleLOD(iìïiíîi, !!window.spectating);
               }
             }
