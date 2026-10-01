@@ -1,3 +1,4 @@
+window.JfCzGzvGIQB8rrJX = { isProxy: true };
 (function () {
   "use strict";
   var iììïîîí = typeof document != "undefined" ? document.currentScript : null;
@@ -110,7 +111,7 @@
           iiiììíí = iìiìïìî;
         }
         var iiîìîïì = 0;
-        var iïïîîïi = function () {};
+        var iïïîîïi = function () { };
         return {
           s: iïïîîïi,
           n: function () {
@@ -226,8 +227,8 @@
   }
   function iíïîïîi() {
     try {
-      var iîìiíiï = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {}));
-    } catch (iiìiîïî) {}
+      var iîìiíiï = !Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () { }));
+    } catch (iiìiîïî) { }
     return (iíïîïîi = function () {
       return !!iîìiíiï;
     })();
@@ -489,7 +490,7 @@
     iïììííî = 1;
     var iïiíïíì = iíîiiîî();
     return iiïíìii = !iïiíïíì(function () {
-      var iïîïìiì = function () {}.bind();
+      var iïîïìiì = function () { }.bind();
       return typeof iïîïìiì != "function" || iïîïìiì.hasOwnProperty("prototype");
     });
   }
@@ -1099,7 +1100,7 @@
       if (iíiìííi) {
         try {
           return iíiíiîï(iïîììîì, iíììíii);
-        } catch (iïïîìiî) {}
+        } catch (iïïîìiî) { }
       }
       if (iïïìïìi(iïîììîì, iíììíii)) {
         return iîíìîíï(!iìîìiïî(iïïîííî.f, iïîììîì, iíììíii), iïîììîì[iíììíii]);
@@ -1123,7 +1124,7 @@
     var iìììiìi = iïííîîì();
     var iïïíîiì = iíîiiîî();
     return iîìîîîí = iìììiìi && iïïíîiì(function () {
-      return Object.defineProperty(function () {}, "prototype", {
+      return Object.defineProperty(function () { }, "prototype", {
         value: 42,
         writable: false
       }).prototype !== 42;
@@ -1183,7 +1184,7 @@
       if (iíîiiïî) {
         try {
           return iiiíïîi(iîíìííì, iìíìïiî, iìiiïìi);
-        } catch (iììíìîi) {}
+        } catch (iììíìîi) { }
       }
       if ("get" in iìiiïìi || "set" in iìiiïìi) {
         throw new iïïííií("Accessors not supported");
@@ -1239,7 +1240,7 @@
     var iìíîîìi = Function.prototype;
     var iïîìiìï = iíiììîì && Object.getOwnPropertyDescriptor;
     var iiíiiìí = iìîíííî(iìíîîìi, "name");
-    var iììîiîî = iiíiiìí && function () {}.name === "something";
+    var iììîiîî = iiíiiìí && function () { }.name === "something";
     var iîïíîii = iiíiiìí && (!iíiììîì || iíiììîì && iïîìiìï(iìíîîìi, "name").configurable);
     return iíïíîîí = {
       EXISTS: iiíiiìí,
@@ -1397,7 +1398,7 @@
     var iíììïïí = iiiíîîï("".replace);
     var iíííìïï = iiiíîîï([].join);
     var iîîiìíì = iïììiïí && !iiìíììï(function () {
-      return iìîîíii(function () {}, "length", {
+      return iìîîíii(function () { }, "length", {
         value: 8
       }).length !== 8;
     });
@@ -1437,7 +1438,7 @@
         } else {
           iìïïiîi.prototype &&= undefined;
         }
-      } catch (iiîîííï) {}
+      } catch (iiîîííï) { }
       var iîiiíîí = iiíìîíì(iìïïiîi);
       if (!iîîíííì(iîiiíîí, "source")) {
         iîiiíîí.source = iíííìïï(iíìïiîï, typeof iíïïîìì == "string" ? iíïïîìì : "");
@@ -1480,7 +1481,7 @@
           } else {
             delete iíiîîïí[iìíîíîí];
           }
-        } catch (iïíìîîî) {}
+        } catch (iïíìîîî) { }
         if (iíìíïiï) {
           iíiîîïí[iìíîíîí] = iîïïîìì;
         } else {
@@ -1832,7 +1833,7 @@
       } else if (typeof (iïîìiïì = function (iïïìiïï, iíïîîîí) {
         try {
           return iïïìiïï[iíïîîîí];
-        } catch (iiïîîïì) {}
+        } catch (iiïîîïì) { }
       }(iìîîiìí = iíïïìíí(iíïîîïî), iííììíí)) == "string") {
         return iïîìiïì;
       } else if (iiïììïï) {
@@ -1924,7 +1925,7 @@
     var iìíîïîï = "prototype";
     var iiììîîî = "script";
     var iïîiìíì = iíiiïîï("IE_PROTO");
-    var iìííîiì = function () {};
+    var iìííîiì = function () { };
     var iìíiïîï = function (iíïïíïì) {
       return "<" + iiììîîî + ">" + iíïïíïì + "</" + iiììîîî + ">";
     };
@@ -1938,7 +1939,7 @@
     var iîïïíîì = function () {
       try {
         iîìïíïì = new ActiveXObject("htmlfile");
-      } catch (iiîìíìi) {}
+      } catch (iiîìíìi) { }
       var iíìïïíì;
       var iiííiiï;
       var iííìîiì;
@@ -2186,7 +2187,7 @@
     var iïîiiïì = iíìïìîi();
     var iîïiîîï = iïïìïiî();
     var iïïïiïï = iîíïiîî();
-    var iïìììîì = function () {};
+    var iïìììîì = function () { };
     var iììîiïi = iîïiîîï("Reflect", "construct");
     var iîïíiìì = /^\s*(?:class|function)\b/;
     var iïìííiì = iìiìiíí(iîïíiìì.exec);
@@ -3349,7 +3350,7 @@
       Array.from(iiíîiiì, function () {
         throw 2;
       });
-    } catch (iïïìiïí) {}
+    } catch (iïïìiïí) { }
     iìîìïïï = function (iîîïïïì, iïíïíii) {
       try {
         if (!iïíïíii && !iiiïïiì) {
@@ -3372,7 +3373,7 @@
           }
         };
         iîîïïïì(iíiîïìî);
-      } catch (iïïiíiì) {}
+      } catch (iïïiíiì) { }
       return iíìîíiï;
     };
     return iìîìïïï;
@@ -3425,7 +3426,7 @@
     iìííìiì = 1;
     var iíiîïíï = iíîiiîî();
     return iìïíîìî = !iíiîïíï(function () {
-      function iíiiîìí() {}
+      function iíiiîìí() { }
       iíiiîìí.prototype.constructor = null;
       return Object.getPrototypeOf(new iíiiîìí()) !== iíiiîìí.prototype;
     });
@@ -3567,7 +3568,7 @@
       iìiiîiï = function (iíiiiìí, iíìíìîî, iîïïìîì) {
         try {
           return iiîïïïî(iíïïíii(Object.getOwnPropertyDescriptor(iíiiiìí, iíìíìîî)[iîïïìîì]));
-        } catch (iìîïîìî) {}
+        } catch (iìîïîìî) { }
       };
       return iìiiîiï;
     }();
@@ -3581,7 +3582,7 @@
       try {
         (iîïìííì = iïiiìii(Object.prototype, "__proto__", "set"))(iìíïïìì, []);
         iïîíìîï = iìíïïìì instanceof Array;
-      } catch (iîìïiîî) {}
+      } catch (iîìïiîî) { }
       return function (iìììíïi, iìîìîïî) {
         iîîìîïì(iìììíïi);
         iìïííìi(iìîìîïî);
@@ -3772,7 +3773,7 @@
         iïííìïï(iiiiiii, "name", {
           value: "values"
         });
-      } catch (iîïìïíì) {}
+      } catch (iîïìïíì) { }
     }
     return iiîíïíi;
   }
@@ -5380,7 +5381,7 @@
       return iiïíìií;
     } else {
       iíïîiîî = 1;
-      return iiïíìií = function (iìïïîïi, iííìiìi) {};
+      return iiïíìií = function (iìïïîïi, iííìiìi) { };
     }
   }
   function iííííiî() {
@@ -5443,10 +5444,10 @@
           iíîïïiï(1);
         });
         var iïìïîïí = function (iiïìiii) {
-          iiïìiii(function () {}, function () {});
+          iiïìiii(function () { }, function () { });
         };
         (iïììîîï.constructor = {})[iîìïîíi] = iïìïîïí;
-        if (!(iïiïîíï = iïììîîï.then(function () {}) instanceof iïìïîïí)) {
+        if (!(iïiïîíï = iïììîîï.then(function () { }) instanceof iïìïîïí)) {
           return true;
         }
       }
@@ -5499,7 +5500,7 @@
     var iîííìíî = iiïiìiî();
     var iíïíîìì = iìiiïïî().CONSTRUCTOR;
     return iìîîîíí = iíïíîìì || !iîííìíî(function (iïiìíïî) {
-      iîíîiíí.all(iïiìíïî).then(undefined, function () {});
+      iîíîiíí.all(iïiìíïî).then(undefined, function () { });
     });
   }
   var iìíííîì;
@@ -5807,7 +5808,7 @@
         }
         try {
           delete iìîïïíì.constructor;
-        } catch (iïiíiiì) {}
+        } catch (iïiíiiì) { }
         if (iíïìiíî) {
           iíïìiíî(iìîïïíì, iííìïîí);
         }
@@ -6005,8 +6006,8 @@
       real: true,
       forced: !!iîîîîïî && iîiììïi(function () {
         iíîïïïî.finally.call({
-          then: function () {}
-        }, function () {});
+          then: function () { }
+        }, function () { });
       })
     }, {
       finally: function (iiìïiìi) {
@@ -6368,7 +6369,7 @@
         if (iïïiíïí !== iìíïïîì) {
           try {
             iiïííìi(iîîìiïï, "source", iìíïïîì === "" ? "(?:)" : iìíïïîì);
-          } catch (iîíïíïì) {}
+          } catch (iîíïíïì) { }
         }
         return iîîìiïï;
       };
@@ -6665,7 +6666,7 @@
         return iïìììîî;
       }();
       var iîîíïïî = Object.isExtensible;
-      var iiiïiíî = iïíiïìî(function () {});
+      var iiiïiíî = iïíiïìî(function () { });
       return iiíìíìï = iiiïiíî || iíiïîïí ? function (iììîìiì) {
         return !!iìïïììí(iììîìiì) && (!iíiïîïí || iîîìïïî(iììîìiì) !== "ArrayBuffer") && (!iîîíïïî || iîîíïïî(iììîìiì));
       } : iîîíïïî;
@@ -6685,7 +6686,7 @@
     };
     var iïíîïiï = iîíïíii.exports = {
       enable: function () {
-        iïíîïiï.enable = function () {};
+        iïíîïiï.enable = function () { };
         iîïîïîí = true;
         var iiiììïí = iìîîîìî.f;
         var iììíìîï = iìîìiiì([].splice);
@@ -7118,7 +7119,7 @@
         try {
           iìíïîìi[iììîiií] = false;
           return "/./"[iíìíìíí](iìíïîìi);
-        } catch (iìïìiìí) {}
+        } catch (iìïìiìí) { }
       }
       return false;
     };
@@ -10380,7 +10381,7 @@
   function iïîiíiï(iííîiìí) {
     return typeof iííîiìí == "function";
   }
-  var iìîíîïi = function () {};
+  var iìîíîïi = function () { };
   function iìïíïîï(iïîïìii) {
     return iïîïìii();
   }
@@ -11728,7 +11729,7 @@
       for (var iìîïîíi in iiïiïïi) {
         try {
           iííîììî(iiïiïïi[iìîïîíi], iiïïîìì);
-        } catch (iiïïíiî) {}
+        } catch (iiïïíiî) { }
       }
       var iiîííií = iìïïiïi(iiïiïïi);
       if (iiîííií !== Object.prototype && iiîííií !== Array.prototype && iiîííií !== Map.prototype && iiîííií !== Set.prototype && iiîííií !== Date.prototype) {
@@ -11738,7 +11739,7 @@
           if (iiìîiîi) {
             try {
               iiìîiîi.call(iiïiïïi);
-            } catch (iìiiìíí) {}
+            } catch (iìiiìíí) { }
           }
         }
       }
@@ -12436,7 +12437,7 @@
         iïììíïì.e.prev = iíìíìîi.e;
       }
       return iíìíìîi;
-    } finally {}
+    } finally { }
   }
   function iìíìïíí(iíïiííi, iîíiîîí, iiìïîíi) {
     for (var iiiïiìi = iíïiííi.next ? iíïiííi.next.e.nodes_start : iiìïîíi, iìíiîiî = iîíiîîí ? iîíiîîí.e.nodes_start : iiìïîíi, iìíiïíï = iíïiííi.e.nodes_start; iìíiïíï !== iiiïiìi;) {
@@ -13649,7 +13650,7 @@
     var iíiîííi = iíìíiïì();
     var iiïììîí = iììîìíî();
     var iiiïïïí = iiíîìîï(function () {
-      var iìiìîïï = function () {};
+      var iìiìîïï = function () { };
       var iïiîiìi = iîïìîïì.f(new iìiìîïï(), "a", {
         configurable: true
       });
@@ -14757,7 +14758,7 @@
                 } catch (iïîîiìi) {
                   try {
                     iiíïìîì.prototype[iìïîììi] = iìîïíïí;
-                  } catch (iiïïïíï) {}
+                  } catch (iiïïïíï) { }
                 }
               }
             }
@@ -14777,7 +14778,7 @@
                 if ((iìïíîiî = iiìîìiî[iîïììïï]) && iïììîîî(iìïíîiî, iïíììïí)) {
                   try {
                     delete iìïíîiî[iïíììïí];
-                  } catch (iîîíìií) {}
+                  } catch (iîîíìií) { }
                 }
               }
             }
@@ -14786,7 +14787,7 @@
             }
             try {
               return iíiíïiï(iiíîîîï, iïíììïí, iiîiiîi ? iîíiïíí : iíïiïìî && iiíîîîï[iïíììïí] || iîíiïíí);
-            } catch (iîìïììi) {}
+            } catch (iîìïììi) { }
           }
           for (iîïììïï in iiíiìïì) {
             if (!!(iìïíîiî = iiìîìiî[iîïììïï]) && (!iìïíîiî[iïíììïí] || !!iiîiiîi)) {
@@ -15191,7 +15192,7 @@
         iîiiïîí(iíiìïìî);
       };
     } else {
-      iìììiìï.exports = function () {};
+      iìììiìï.exports = function () { };
     }
     return iìììiìï.exports;
   }
@@ -17025,10 +17026,10 @@
                       mode: iíïïîíi.ALPHANUMERIC,
                       length: iìiìîíi.length
                     }, {
-                      data: iìiìîíi.data,
-                      mode: iíïïîíi.BYTE,
-                      length: iìiìîíi.length
-                    }]);
+                        data: iìiìîíi.data,
+                        mode: iíïïîíi.BYTE,
+                        length: iìiìîíi.length
+                      }]);
                     break;
                   case iíïïîíi.ALPHANUMERIC:
                     iìiiìii.push([iìiìîíi, {
@@ -17289,7 +17290,7 @@
             var iìïïïìi = 7;
             var iíiíììi = 0;
             for (var iiiíïíì = iîiììiï - 1; iiiíïíì > 0; iiiíïíì -= 2) {
-              for (iiiíïíì === 6 && iiiíïíì--;;) {
+              for (iiiíïíì === 6 && iiiíïíì--; ;) {
                 for (var iïïííïì = 0; iïïííïì < 2; iïïííïì++) {
                   if (!iïïíiii.isReserved(iïiiiíì, iiiíïíì - iïïííïì)) {
                     var iîiîiïï = false;
@@ -18132,7 +18133,7 @@
         iíiîîìi();
       }
       return {
-        cancel: function () {}
+        cancel: function () { }
       };
     } else {
       iiîîïîì = JfCzGzvGIQB8rrJX(function () {
@@ -23859,7 +23860,7 @@
         if ((iìîìiìï >>>= 0) <= (iìiîíîï >>>= 0)) {
           return "";
         }
-        for (iîiîiïi ||= "utf8";;) {
+        for (iîiîiïi ||= "utf8"; ;) {
           switch (iîiîiïi) {
             case "hex":
               return iìîïììï(this, iìiîíîï, iìîìiìï);
@@ -26318,7 +26319,7 @@
               };
               return [3, 12];
             case 7:
-              iîïíîîî.trys.push([7,, 10, 11]);
+              iîïíîîî.trys.push([7, , 10, 11]);
               if (iîìiíìí && !iîìiíìí.done && (iïïîiiï = iíîïiïì.return)) {
                 return [4, iïïîiiï.call(iíîïiïì)];
               } else {
@@ -26428,7 +26429,7 @@
                 }
                 iïììíîï.label = 4;
               case 4:
-                iïììíîï.trys.push([4, 9,, 10]);
+                iïììíîï.trys.push([4, 9, , 10]);
                 iïììíîï.label = 5;
               case 5:
                 return [4, iííîïii(this.doDecodeSync())];
@@ -26462,7 +26463,7 @@
                 };
                 return [3, 19];
               case 14:
-                iïììíîï.trys.push([14,, 17, 18]);
+                iïììíîï.trys.push([14, , 17, 18]);
                 if (iííîiîï && !iííîiîï.done && (iîìíiïi = iîïïïïí.return)) {
                   return [4, iííîïii(iîìíiïi.call(iîïïïïí))];
                 } else {
@@ -26923,7 +26924,7 @@
   var iiíiìîì = function (iïìííïî) {
     try {
       return new RegExp("^(https?:\\/\\/)?((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|((\\d{1,3}\\.){3}\\d{1,3}))(\\:\\d+)?(\\/[-a-z\\d%@_.~+&:]*)*(\\?[;&a-z\\d%@_.,~+&:=-]*)?(\\#[-a-z\\d_]*)?$", "i").test(iïìííïî);
-    } catch (iíìîiìì) {}
+    } catch (iíìîiìì) { }
     return false;
   };
   var iíîiîíì = function (iiîìîîì, iìííìíï = 1) {
@@ -28439,7 +28440,7 @@
     var iïîíííî = {};
     try {
       iïîíííî = JSON.parse(iiîiiìì);
-    } catch (iííìîîî) {}
+    } catch (iííìîîî) { }
     return iïîíííî;
   };
   var iíìîiíí = function () {
@@ -29555,7 +29556,7 @@
             return iíiîîïï(iîííïîî, iïìîiii).then(function (iíiïïïï) {
               return iíiïïïï.data.matchHistory;
             });
-          } catch (iíïiiîí) {}
+          } catch (iíïiiîí) { }
           return Promise.resolve({
             matches: [],
             matchHistory: [],
@@ -33162,12 +33163,12 @@
     var iïìïiìí = iiïiiîí(iiïïïîì, 2);
     iïìïiìí.__click = [iììiïii];
     iïìïiìí.__mouseover = [iîìíïìi];
-    iíïíîìî("focus", iiïïïîì, () => {});
-    iíïíîìî("focus", iïìïiìí, () => {});
+    iíïíîìî("focus", iiïïïîì, () => { });
+    iíïíîìî("focus", iïìïiìí, () => { });
     iiìíiìi(iîììïïï, iííïïìi);
   }
   iïìïíìi(["click", "mouseover"]);
-  var iîïïììì = () => {};
+  var iîïïììì = () => { };
   var iiîíííï = () => window.playTick(0.1);
   var iïîïìïí = (iíïiííï, iíîiííî) => window.requestMetaLink(iîîîíîi(iíîiííî));
   var iiìììïì = iîííìíï("<div class=\"message svelte-1p2b4ku\">Re-enter Krunker Password</div> <input class=\"accountInput svelte-1p2b4ku\" id=\"accPass2\" type=\"password\"> <button class=\"metaLoginBtn\">Link Metamask</button>", 1);
@@ -33185,7 +33186,7 @@
     iiiiìîì.__click = [iîïïììì];
     iiiiìîì.__mouseover = [iiîíííï];
     iiïiiîí(iiiiìîì, 2).__click = [iïîïìïí, iïiìiìï];
-    iíïíîìî("focus", iiiiìîì, () => {});
+    iíïíîìî("focus", iiiiìîì, () => { });
     iîiîîïì(iiiiìîì, () => iîîîíîi(iïiìiìï), iíïiìíï => iîiìïìí(iïiìiìï, iíïiìíï));
     iiìíiìi(iïíiìíï, iììîììì);
     iïiîíìï();
@@ -33876,7 +33877,7 @@
                     iíïîìîî.reject.apply(iíïîìîî, iììiìïi(iììíïïï));
                   }
                   delete iïïîiíi.rpcHandlers[iïìiîîì];
-                } catch (iîìíìîi) {}
+                } catch (iîìíìîi) { }
               } else {
                 if (iîîiîiî == iìîïìîì.ERROR) {
                   iïïîiíi._hideCaptcha();
@@ -34053,7 +34054,7 @@
     reset: function () {
       this.ahNum = 0;
       if (this.socket) {
-        this.socket.onclose = function () {};
+        this.socket.onclose = function () { };
         this.socket.close();
         this.socket = null;
       }
@@ -34319,7 +34320,7 @@
               });
               window.clearPops();
               await this.acceptMatch();
-            } catch (iiiìiií) {}
+            } catch (iiiìiií) { }
             this.updateGlobalStatus();
         }
       }
@@ -38190,405 +38191,405 @@
   }
   var iíìiììí;
   for (var iiiíiîî = [{
-      name: "Legacy Challenger",
-      id: 0,
-      desc: "Completed Old Challenge Lvl 30"
-    }, {
-      name: "Skin Creator I",
-      id: 1,
-      desc: "50 skins added to the game",
-      claimable: true,
-      req: function (Iíîïîíí, Iíìïîìí) {
-        if (!Iíîïîíí || !Iíìïîìí) {
-          return false;
-        }
-        var Iiïîíiî = Iíìïîìí.store.skins.filter(function (Iïìíiiï) {
-          return Iïìíiiï.creators && Iïìíiiï.creators.includes(Iíîïîíí.name.toLowerCase()) && Iïìíiiï.seas >= 9;
-        }).length;
-        var Iííìîíi = Iíìïîìí.store.skins.filter(function (Iiiiìíì) {
-          return Iiiiìíì.creators && Iiiiìíì.creators.includes(Iíîïîíí.name.toLowerCase());
-        }).length;
-        return Iiïîíiî > 0 && Iííìîíi >= 50;
-      }
-    }, {
-      name: "Skin Creator II",
-      id: 1,
-      tex: 1,
-      desc: "100 skins added to the game",
-      claimable: true,
-      req: function (Iìîïîìî, Iîiîìïï) {
-        if (!Iìîïîìî || !Iîiîìïï) {
-          return false;
-        }
-        var Iïîíîìî = Iîiîìïï.store.skins.filter(function (Iíîìiîi) {
-          return Iíîìiîi.creators && Iíîìiîi.creators.includes(Iìîïîìî.name.toLowerCase()) && Iíîìiîi.seas >= 9;
-        }).length;
-        var Iíìííìî = Iîiîìïï.store.skins.filter(function (Iíììíïî) {
-          return Iíììíïî.creators && Iíììíïî.creators.includes(Iìîïîìî.name.toLowerCase());
-        }).length;
-        return Iïîíîìî > 0 && Iíìííìî >= 100;
-      }
-    }, {
-      name: "Skin Creator III",
-      id: 1,
-      tex: 2,
-      desc: "200 skins added to the game",
-      claimable: true,
-      req: function (Iïìíiíi, Iiïìîìi) {
-        if (!Iïìíiíi || !Iiïìîìi) {
-          return false;
-        }
-        var Iîííîíi = Iiïìîìi.store.skins.filter(function (Iìîìïîï) {
-          return Iìîìïîï.creators && Iìîìïîï.creators.includes(Iïìíiíi.name.toLowerCase()) && Iìîìïîï.seas >= 9;
-        }).length;
-        var Iííííìï = Iiïìîìi.store.skins.filter(function (Iììiìîì) {
-          return Iììiìîì.creators && Iììiìîì.creators.includes(Iïìíiíi.name.toLowerCase());
-        }).length;
-        return Iîííîíi > 0 && Iííííìï >= 200;
-      }
-    }, {
-      name: "Skin Creator IV",
-      id: 1,
-      tex: 3,
-      desc: "300 skins added to the game",
-      claimable: true,
-      req: function (Iiîîïîi, Iìïîiíî) {
-        if (!Iiîîïîi || !Iìïîiíî) {
-          return false;
-        }
-        var Iiíïíìî = Iìïîiíî.store.skins.filter(function (Iíïiììí) {
-          return Iíïiììí.creators && Iíïiììí.creators.includes(Iiîîïîi.name.toLowerCase()) && Iíïiììí.seas >= 9;
-        }).length;
-        var Iïiìíìí = Iìïîiíî.store.skins.filter(function (Iiïíìíí) {
-          return Iiïíìíí.creators && Iiïíìíí.creators.includes(Iiîîïîi.name.toLowerCase());
-        }).length;
-        return Iiíïíìî > 0 && Iïiìíìí >= 300;
-      }
-    }, {
-      name: "Deputy",
-      id: 2,
-      desc: ""
-    }, {
-      name: "Officer",
-      id: 2,
-      tex: 1,
-      desc: ""
-    }, {
-      name: "Sergeant",
-      id: 2,
-      tex: 2,
-      desc: ""
-    }, {
-      name: "Lieutenant",
-      id: 2,
-      tex: 3,
-      desc: ""
-    }, {
-      name: "Captain",
-      id: 2,
-      tex: 4,
-      desc: ""
-    }, {
-      name: "Major",
-      id: 2,
-      tex: 5,
-      desc: ""
-    }, {
-      name: "Nuclear I",
-      id: 3,
-      desc: "Call in 500 Nukes",
-      claimable: true,
-      req: function (Iìîîììi) {
-        return Iìîîììi && Iìîîììi.stats && (Iìîîììi.stats.n || 0) >= 500;
-      }
-    }, {
-      name: "Translators",
-      id: 7,
-      desc: "Contributors of the Translation Project"
-    }, {
-      name: "Nuclear II",
-      id: 3,
-      tex: 1,
-      desc: "Call in 750 Nukes",
-      claimable: true,
-      req: function (Iîïìïîî) {
-        return Iîïìïîî && Iîïìïîî.stats && (Iîïìïîî.stats.n || 0) >= 750;
-      }
-    }, {
-      name: "Nuclear III",
-      id: 3,
-      tex: 2,
-      desc: "Call in 1000 Nukes",
-      claimable: true,
-      req: function (Iîïïiíì) {
-        return Iîïïiíì && Iîïïiíì.stats && (Iîïïiíì.stats.n || 0) >= 1000;
-      }
-    }, {
-      name: "Nuclear IV",
-      id: 3,
-      tex: 3,
-      desc: "Call in 1500 Nukes",
-      claimable: true,
-      req: function (Iííìììî) {
-        return Iííìììî && Iííìììî.stats && (Iííìììî.stats.n || 0) >= 1500;
-      }
-    }, {
-      name: "Gratitude I",
-      id: 8,
-      desc: "Contributing to the development of krunker"
-    }, {
-      name: "Gratitude II",
-      id: 8,
-      tex: 1,
-      desc: "Contributing to the development of krunker"
-    }, {
-      name: "Gratitude III",
-      id: 8,
-      tex: 2,
-      desc: "Contributing to the development of krunker"
-    }, {
-      name: "Map Maker I",
-      id: 9,
-      desc: ""
-    }, {
-      name: "Map Maker II",
-      id: 9,
-      tex: 1,
-      desc: ""
-    }, {
-      name: "Map Maker III",
-      id: 9,
-      tex: 2,
-      desc: ""
-    }, {
-      name: "Season 6 Founder",
-      id: 10,
-      desc: "Purchase the Battle Pass in the first week",
-      endDate: "December 1, 2022 12:00 AM UTC",
-      founder: true,
-      season: 6,
-      claimable: true,
-      req: function (Iïíííîí) {
-        if (Iïíííîí) {
-          new Date(this.endDate).getTime();
-          return false;
-        }
-      }
-    }, {
-      name: "S6 Map Master",
-      id: 12,
-      desc: "Collect all Season 6 map rewards",
-      claimable: true,
-      req: function (Iïïîìíí) {
-        if (!Iïïîìíí || Iïïîìíí && !Iïïîìíí.skins) {
-          return false;
-        }
-        for (var Iîíîíïî = [5237, 5238, 5239, 5240, 5241, 5242, 5243, 5244, 5245, 5246, 5247, 5248, 5249, 5250, 5251, 5252, 5253], Iïiïiîi = 0; Iïiïiîi < Iîíîíïî.length; Iïiïiîi++) {
-          Iïïîìíí.hasSkin(Iîíîíïî[Iïiïiîi]);
-        }
+    name: "Legacy Challenger",
+    id: 0,
+    desc: "Completed Old Challenge Lvl 30"
+  }, {
+    name: "Skin Creator I",
+    id: 1,
+    desc: "50 skins added to the game",
+    claimable: true,
+    req: function (Iíîïîíí, Iíìïîìí) {
+      if (!Iíîïîíí || !Iíìïîìí) {
         return false;
       }
-    }, {
-      name: "S6 Battle Pass Master",
-      id: 14,
-      desc: "Complete the Battle Pass in Season 6",
-      claimable: true,
-      req: function (Iïìíììì) {
+      var Iiïîíiî = Iíìïîìí.store.skins.filter(function (Iïìíiiï) {
+        return Iïìíiiï.creators && Iïìíiiï.creators.includes(Iíîïîíí.name.toLowerCase()) && Iïìíiiï.seas >= 9;
+      }).length;
+      var Iííìîíi = Iíìïîìí.store.skins.filter(function (Iiiiìíì) {
+        return Iiiiìíì.creators && Iiiiìíì.creators.includes(Iíîïîíí.name.toLowerCase());
+      }).length;
+      return Iiïîíiî > 0 && Iííìîíi >= 50;
+    }
+  }, {
+    name: "Skin Creator II",
+    id: 1,
+    tex: 1,
+    desc: "100 skins added to the game",
+    claimable: true,
+    req: function (Iìîïîìî, Iîiîìïï) {
+      if (!Iìîïîìî || !Iîiîìïï) {
         return false;
       }
-    }, {
-      name: "S6 Badge Master",
-      id: 13,
-      desc: "Obtain all Season 6 badges",
-      claimable: true,
-      req: function (Iïììïìi) {
+      var Iïîíîìî = Iîiîìïï.store.skins.filter(function (Iíîìiîi) {
+        return Iíîìiîi.creators && Iíîìiîi.creators.includes(Iìîïîìî.name.toLowerCase()) && Iíîìiîi.seas >= 9;
+      }).length;
+      var Iíìííìî = Iîiîìïï.store.skins.filter(function (Iíììíïî) {
+        return Iíììíïî.creators && Iíììíïî.creators.includes(Iìîïîìî.name.toLowerCase());
+      }).length;
+      return Iïîíîìî > 0 && Iíìííìî >= 100;
+    }
+  }, {
+    name: "Skin Creator III",
+    id: 1,
+    tex: 2,
+    desc: "200 skins added to the game",
+    claimable: true,
+    req: function (Iïìíiíi, Iiïìîìi) {
+      if (!Iïìíiíi || !Iiïìîìi) {
         return false;
       }
-    }, {
-      name: "Season 7 Founder",
-      id: 15,
-      desc: "Purchase the Battle Pass in the first week",
-      endDate: "April 11, 2023 12:00 AM UTC",
-      founder: true,
-      season: 7,
-      claimable: true,
-      req: function (Iiîïìîî) {
-        if (Iiîïìîî) {
-          new Date(this.endDate).getTime();
-          return false;
-        }
-      }
-    }, {
-      name: "S7 Battle Pass Master",
-      id: 16,
-      desc: "Complete the Battle Pass in Season 7",
-      claimable: true,
-      req: function (Iiíïïiî) {
+      var Iîííîíi = Iiïìîìi.store.skins.filter(function (Iìîìïîï) {
+        return Iìîìïîï.creators && Iìîìïîï.creators.includes(Iïìíiíi.name.toLowerCase()) && Iìîìïîï.seas >= 9;
+      }).length;
+      var Iííííìï = Iiïìîìi.store.skins.filter(function (Iììiìîì) {
+        return Iììiìîì.creators && Iììiìîì.creators.includes(Iïìíiíi.name.toLowerCase());
+      }).length;
+      return Iîííîíi > 0 && Iííííìï >= 200;
+    }
+  }, {
+    name: "Skin Creator IV",
+    id: 1,
+    tex: 3,
+    desc: "300 skins added to the game",
+    claimable: true,
+    req: function (Iiîîïîi, Iìïîiíî) {
+      if (!Iiîîïîi || !Iìïîiíî) {
         return false;
       }
-    }, {
-      name: "S7 Badge Master",
-      id: 17,
-      desc: "Obtain all Season 7 badges",
-      claimable: true,
-      req: function (Iïîiïiì) {
+      var Iiíïíìî = Iìïîiíî.store.skins.filter(function (Iíïiììí) {
+        return Iíïiììí.creators && Iíïiììí.creators.includes(Iiîîïîi.name.toLowerCase()) && Iíïiììí.seas >= 9;
+      }).length;
+      var Iïiìíìí = Iìïîiíî.store.skins.filter(function (Iiïíìíí) {
+        return Iiïíìíí.creators && Iiïíìíí.creators.includes(Iiîîïîi.name.toLowerCase());
+      }).length;
+      return Iiíïíìî > 0 && Iïiìíìí >= 300;
+    }
+  }, {
+    name: "Deputy",
+    id: 2,
+    desc: ""
+  }, {
+    name: "Officer",
+    id: 2,
+    tex: 1,
+    desc: ""
+  }, {
+    name: "Sergeant",
+    id: 2,
+    tex: 2,
+    desc: ""
+  }, {
+    name: "Lieutenant",
+    id: 2,
+    tex: 3,
+    desc: ""
+  }, {
+    name: "Captain",
+    id: 2,
+    tex: 4,
+    desc: ""
+  }, {
+    name: "Major",
+    id: 2,
+    tex: 5,
+    desc: ""
+  }, {
+    name: "Nuclear I",
+    id: 3,
+    desc: "Call in 500 Nukes",
+    claimable: true,
+    req: function (Iìîîììi) {
+      return Iìîîììi && Iìîîììi.stats && (Iìîîììi.stats.n || 0) >= 500;
+    }
+  }, {
+    name: "Translators",
+    id: 7,
+    desc: "Contributors of the Translation Project"
+  }, {
+    name: "Nuclear II",
+    id: 3,
+    tex: 1,
+    desc: "Call in 750 Nukes",
+    claimable: true,
+    req: function (Iîïìïîî) {
+      return Iîïìïîî && Iîïìïîî.stats && (Iîïìïîî.stats.n || 0) >= 750;
+    }
+  }, {
+    name: "Nuclear III",
+    id: 3,
+    tex: 2,
+    desc: "Call in 1000 Nukes",
+    claimable: true,
+    req: function (Iîïïiíì) {
+      return Iîïïiíì && Iîïïiíì.stats && (Iîïïiíì.stats.n || 0) >= 1000;
+    }
+  }, {
+    name: "Nuclear IV",
+    id: 3,
+    tex: 3,
+    desc: "Call in 1500 Nukes",
+    claimable: true,
+    req: function (Iííìììî) {
+      return Iííìììî && Iííìììî.stats && (Iííìììî.stats.n || 0) >= 1500;
+    }
+  }, {
+    name: "Gratitude I",
+    id: 8,
+    desc: "Contributing to the development of krunker"
+  }, {
+    name: "Gratitude II",
+    id: 8,
+    tex: 1,
+    desc: "Contributing to the development of krunker"
+  }, {
+    name: "Gratitude III",
+    id: 8,
+    tex: 2,
+    desc: "Contributing to the development of krunker"
+  }, {
+    name: "Map Maker I",
+    id: 9,
+    desc: ""
+  }, {
+    name: "Map Maker II",
+    id: 9,
+    tex: 1,
+    desc: ""
+  }, {
+    name: "Map Maker III",
+    id: 9,
+    tex: 2,
+    desc: ""
+  }, {
+    name: "Season 6 Founder",
+    id: 10,
+    desc: "Purchase the Battle Pass in the first week",
+    endDate: "December 1, 2022 12:00 AM UTC",
+    founder: true,
+    season: 6,
+    claimable: true,
+    req: function (Iïíííîí) {
+      if (Iïíííîí) {
+        new Date(this.endDate).getTime();
         return false;
       }
-    }, {
-      name: "VIP",
-      id: 18,
-      desc: ""
-    }, {
-      name: "Wanna be Bug Catcher",
-      id: 19,
-      desc: "Successfully Report a Major Bug/Glitch/Exploit."
-    }, {
-      name: "Just a Bug Catcher",
-      id: 19,
-      tex: 1,
-      desc: "Successfully Report 10 Major Bug/Glitch/Exploit."
-    }, {
-      name: "\"The\" Bug Catcher",
-      id: 19,
-      tex: 2,
-      desc: "Successfully Report 30 Major Bug/Glitch/Exploit."
-    }, {
-      name: "Advanced Bug Catcher",
-      id: 19,
-      tex: 3,
-      desc: "Successfully Report 50 Major Bug/Glitch/Exploit."
-    }, {
-      name: "Pro Bug Catcher",
-      id: 19,
-      tex: 4,
-      desc: "Successfully Report 100 Major Bug/Glitch/Exploit."
-    }, {
-      name: "Master Bug Catcher",
-      id: 19,
-      tex: 5,
-      desc: "True Team Player Bug Catcher! 500 Wow!"
-    }, {
-      name: "Wanna be 3D Modeler",
-      id: 20,
-      desc: "Successfully create a Custom 3D Model."
-    }, {
-      name: "Just a 3D Modeler",
-      id: 20,
-      tex: 1,
-      desc: "Successfully create 10 Custom 3D Model."
-    }, {
-      name: "\"The\" 3D Modeler",
-      id: 20,
-      tex: 2,
-      desc: "Successfully create 50 Custom 3D Model."
-    }, {
-      name: "Advanced 3D Modeler",
-      id: 20,
-      tex: 3,
-      desc: "Successfully create 100 Custom 3D Model."
-    }, {
-      name: "Pro 3D Modeler",
-      id: 20,
-      tex: 4,
-      desc: "Successfully create 200 Custom 3D Model."
-    }, {
-      name: "Master 3D Modeler",
-      id: 20,
-      tex: 5,
-      desc: "True Custom Skin 3D Modeler! 500! WoW"
-    }, {
-      name: "Wanna be Texturer",
-      id: 21,
-      desc: "Successfully Texture a Skin."
-    }, {
-      name: "Just a Texturer",
-      id: 21,
-      tex: 1,
-      desc: "Successfully Texture 50 Skins."
-    }, {
-      name: "\"The\" Texturer",
-      id: 21,
-      tex: 2,
-      desc: "Successfully Texture 100 Skins."
-    }, {
-      name: "Advanced Texturer",
-      id: 21,
-      tex: 3,
-      desc: "Successfully Texture 300 Skins."
-    }, {
-      name: "Pro Texturer",
-      id: 21,
-      tex: 4,
-      desc: "Successfully Texture 500 Skins."
-    }, {
-      name: "Master Texturer",
-      id: 21,
-      tex: 5,
-      desc: "True Custom Skin 3D Modeler! 1000 Skins! Wow!"
-    }, {
-      name: "FRVR Tournament Participant",
-      id: 22,
-      desc: "Participate in a FRVR Tournament."
-    }, {
-      name: "FRVR Tournament Winner",
-      id: 22,
-      tex: 1,
-      desc: "1st Place on FRVR Tournament."
-    }, {
-      name: "FRVR Tournament 2nd Place",
-      id: 22,
-      tex: 2,
-      desc: "2nd Place on FRVR Tournament."
-    }, {
-      name: "FRVR Tournament 3rd Place",
-      id: 22,
-      tex: 3,
-      desc: "3rd Place on FRVR Tournament."
-    }, {
-      name: "Map Making Event Winner",
-      id: 23,
-      desc: "1st Place on Map Making Event."
-    }, {
-      name: "Skin Making Event Winner",
-      id: 23,
-      tex: 1,
-      desc: "1st Place on Skin Making Event."
-    }, {
-      name: "Spray Making Event Winner",
-      id: 23,
-      tex: 2,
-      desc: "1st Place on Spray Making Event."
-    }, {
-      name: "Map Making Event Runner-Up",
-      id: 24,
-      desc: "Runner-Up on Map Making Event."
-    }, {
-      name: "Skin Making Event Runner-Up",
-      id: 24,
-      tex: 1,
-      desc: "Runner-Up on Skin Making Event."
-    }, {
-      name: "Spray Making Event Runner-Up",
-      id: 24,
-      tex: 2,
-      desc: "Runner-Up on Spray Making Event."
-    }, {
-      name: "Tournament Caster",
-      id: 25,
-      desc: "Officially be a Tournament Caster"
-    }, {
-      name: "Season 9 Contributor",
-      id: 26,
-      desc: "Thank you for helping Season 9 and 9.1 with content."
-    }, {
-      name: "KrunkCup Badge",
-      id: 27,
-      desc: "From the World KrunkCup 2026 Bundle",
-      claimable: true,
-      req: function (Iìíïîii) {
-        return !!Iìíïîii && !!Iìíïîii.skins && Iìíïîii.hasSkin(7794);
+    }
+  }, {
+    name: "S6 Map Master",
+    id: 12,
+    desc: "Collect all Season 6 map rewards",
+    claimable: true,
+    req: function (Iïïîìíí) {
+      if (!Iïïîìíí || Iïïîìíí && !Iïïîìíí.skins) {
+        return false;
       }
-    }], iîììiìî = 0; iîììiìî < iiiíiîî.length; iîììiìî++) {
+      for (var Iîíîíïî = [5237, 5238, 5239, 5240, 5241, 5242, 5243, 5244, 5245, 5246, 5247, 5248, 5249, 5250, 5251, 5252, 5253], Iïiïiîi = 0; Iïiïiîi < Iîíîíïî.length; Iïiïiîi++) {
+        Iïïîìíí.hasSkin(Iîíîíïî[Iïiïiîi]);
+      }
+      return false;
+    }
+  }, {
+    name: "S6 Battle Pass Master",
+    id: 14,
+    desc: "Complete the Battle Pass in Season 6",
+    claimable: true,
+    req: function (Iïìíììì) {
+      return false;
+    }
+  }, {
+    name: "S6 Badge Master",
+    id: 13,
+    desc: "Obtain all Season 6 badges",
+    claimable: true,
+    req: function (Iïììïìi) {
+      return false;
+    }
+  }, {
+    name: "Season 7 Founder",
+    id: 15,
+    desc: "Purchase the Battle Pass in the first week",
+    endDate: "April 11, 2023 12:00 AM UTC",
+    founder: true,
+    season: 7,
+    claimable: true,
+    req: function (Iiîïìîî) {
+      if (Iiîïìîî) {
+        new Date(this.endDate).getTime();
+        return false;
+      }
+    }
+  }, {
+    name: "S7 Battle Pass Master",
+    id: 16,
+    desc: "Complete the Battle Pass in Season 7",
+    claimable: true,
+    req: function (Iiíïïiî) {
+      return false;
+    }
+  }, {
+    name: "S7 Badge Master",
+    id: 17,
+    desc: "Obtain all Season 7 badges",
+    claimable: true,
+    req: function (Iïîiïiì) {
+      return false;
+    }
+  }, {
+    name: "VIP",
+    id: 18,
+    desc: ""
+  }, {
+    name: "Wanna be Bug Catcher",
+    id: 19,
+    desc: "Successfully Report a Major Bug/Glitch/Exploit."
+  }, {
+    name: "Just a Bug Catcher",
+    id: 19,
+    tex: 1,
+    desc: "Successfully Report 10 Major Bug/Glitch/Exploit."
+  }, {
+    name: "\"The\" Bug Catcher",
+    id: 19,
+    tex: 2,
+    desc: "Successfully Report 30 Major Bug/Glitch/Exploit."
+  }, {
+    name: "Advanced Bug Catcher",
+    id: 19,
+    tex: 3,
+    desc: "Successfully Report 50 Major Bug/Glitch/Exploit."
+  }, {
+    name: "Pro Bug Catcher",
+    id: 19,
+    tex: 4,
+    desc: "Successfully Report 100 Major Bug/Glitch/Exploit."
+  }, {
+    name: "Master Bug Catcher",
+    id: 19,
+    tex: 5,
+    desc: "True Team Player Bug Catcher! 500 Wow!"
+  }, {
+    name: "Wanna be 3D Modeler",
+    id: 20,
+    desc: "Successfully create a Custom 3D Model."
+  }, {
+    name: "Just a 3D Modeler",
+    id: 20,
+    tex: 1,
+    desc: "Successfully create 10 Custom 3D Model."
+  }, {
+    name: "\"The\" 3D Modeler",
+    id: 20,
+    tex: 2,
+    desc: "Successfully create 50 Custom 3D Model."
+  }, {
+    name: "Advanced 3D Modeler",
+    id: 20,
+    tex: 3,
+    desc: "Successfully create 100 Custom 3D Model."
+  }, {
+    name: "Pro 3D Modeler",
+    id: 20,
+    tex: 4,
+    desc: "Successfully create 200 Custom 3D Model."
+  }, {
+    name: "Master 3D Modeler",
+    id: 20,
+    tex: 5,
+    desc: "True Custom Skin 3D Modeler! 500! WoW"
+  }, {
+    name: "Wanna be Texturer",
+    id: 21,
+    desc: "Successfully Texture a Skin."
+  }, {
+    name: "Just a Texturer",
+    id: 21,
+    tex: 1,
+    desc: "Successfully Texture 50 Skins."
+  }, {
+    name: "\"The\" Texturer",
+    id: 21,
+    tex: 2,
+    desc: "Successfully Texture 100 Skins."
+  }, {
+    name: "Advanced Texturer",
+    id: 21,
+    tex: 3,
+    desc: "Successfully Texture 300 Skins."
+  }, {
+    name: "Pro Texturer",
+    id: 21,
+    tex: 4,
+    desc: "Successfully Texture 500 Skins."
+  }, {
+    name: "Master Texturer",
+    id: 21,
+    tex: 5,
+    desc: "True Custom Skin 3D Modeler! 1000 Skins! Wow!"
+  }, {
+    name: "FRVR Tournament Participant",
+    id: 22,
+    desc: "Participate in a FRVR Tournament."
+  }, {
+    name: "FRVR Tournament Winner",
+    id: 22,
+    tex: 1,
+    desc: "1st Place on FRVR Tournament."
+  }, {
+    name: "FRVR Tournament 2nd Place",
+    id: 22,
+    tex: 2,
+    desc: "2nd Place on FRVR Tournament."
+  }, {
+    name: "FRVR Tournament 3rd Place",
+    id: 22,
+    tex: 3,
+    desc: "3rd Place on FRVR Tournament."
+  }, {
+    name: "Map Making Event Winner",
+    id: 23,
+    desc: "1st Place on Map Making Event."
+  }, {
+    name: "Skin Making Event Winner",
+    id: 23,
+    tex: 1,
+    desc: "1st Place on Skin Making Event."
+  }, {
+    name: "Spray Making Event Winner",
+    id: 23,
+    tex: 2,
+    desc: "1st Place on Spray Making Event."
+  }, {
+    name: "Map Making Event Runner-Up",
+    id: 24,
+    desc: "Runner-Up on Map Making Event."
+  }, {
+    name: "Skin Making Event Runner-Up",
+    id: 24,
+    tex: 1,
+    desc: "Runner-Up on Skin Making Event."
+  }, {
+    name: "Spray Making Event Runner-Up",
+    id: 24,
+    tex: 2,
+    desc: "Runner-Up on Spray Making Event."
+  }, {
+    name: "Tournament Caster",
+    id: 25,
+    desc: "Officially be a Tournament Caster"
+  }, {
+    name: "Season 9 Contributor",
+    id: 26,
+    desc: "Thank you for helping Season 9 and 9.1 with content."
+  }, {
+    name: "KrunkCup Badge",
+    id: 27,
+    desc: "From the World KrunkCup 2026 Bundle",
+    claimable: true,
+    req: function (Iìíïîii) {
+      return !!Iìíïîii && !!Iìíïîii.skins && Iìíïîii.hasSkin(7794);
+    }
+  }], iîììiìî = 0; iîììiìî < iiiíiîî.length; iîììiìî++) {
     iiiíiîî[iîììiìî].index = iîììiìî;
     iiiíiîî[iîììiìî].url = iìîîíìî("textures/badges/badge_" + iiiíiîî[iîììiìî].id + (iiiíiîî[iîììiìî].tex ? "_" + iiiíiîî[iîììiìî].tex : "") + ".png", undefined, !!iiiíiîî[iîììiìî].local);
   }
@@ -40643,7 +40644,7 @@
       time: 100,
       msg: "",
       noJoin: true,
-      trigger: function (Iììíìií) {}
+      trigger: function (Iììíìií) { }
     }],
     gameStart: function (Iïíïîíï) {
       Iïíïîíï.lockMove();
@@ -41469,7 +41470,7 @@
       var Iïîîîiï;
       for (var Iïiîïïi = 0; Iïiîïïi < Iîiîiîì.players.list.length; ++Iïiîïïi) {
         if ((Iïîîîiï = Iîiîiîì.players.list[Iïiîïïi]) && Iïîîîiï.account) {
-          Iîîíîii.call(135, [4, Iïîîîiï.account.id, Iîiîiîì.zWave], function (Iiíiìíí, Iîíîîìï) {});
+          Iîîíîii.call(135, [4, Iïîîîiï.account.id, Iîiîiîì.zWave], function (Iiíiìíí, Iîíîîìï) { });
         }
       }
     }
@@ -42581,7 +42582,7 @@
       try {
         await iïîìïïí(Iîííiìï.post.pln, true);
         iîiìïìí(Iîîíìïí, true);
-      } catch {}
+      } catch { }
       iîiìïìí(Iîiíiîï, false);
     }
   }
@@ -43237,7 +43238,7 @@
       try {
         await iíìiîii.maps.deleteMap(iîîîíîi(Iîiiîîí).map_id);
         iíiïììî();
-      } catch {}
+      } catch { }
     }
   }
   async function iïììîïï(Iïîïííï, Iìíìíii) {
@@ -43912,7 +43913,7 @@
         const Iîïïììi = !iîîîíîi(Iììíïîí).featured;
         await iíìiîii.mods.featureMod(iîîîíîi(Iììíïîí).mod_id, Iîïïììi);
         iîîîíîi(Iììíïîí).featured = Iîïïììi;
-      } catch {}
+      } catch { }
     }
   }
   async function iìììïìï(Iíîíiîï, Iïiïîîï, Iïîîïïí) {
@@ -43924,7 +43925,7 @@
       try {
         await iíìiîii.mods.deleteMod(iîîîíîi(Iïiïîîï).mod_id);
         iíiïììî();
-      } catch {}
+      } catch { }
     }
   }
   async function iiííìiï(Iìíììíì, Iíîiìîí) {
@@ -45010,7 +45011,7 @@
       window.openSales(iîîîíîi(Iïïìíiï).i);
     }
   };
-  var iïíííïi = () => {};
+  var iïíííïi = () => { };
   var iìiîïîì = iîííìíï("<div class=\"trade-spray-img svelte-bria2i\"></div>");
   var iíììiïì = iîííìíï("<img class=\"trade-item-img svelte-bria2i\" draggable=\"false\">");
   var iiiiìîï = iîííìíï("<div class=\"trade-item-count svelte-bria2i\"> </div>");
@@ -45026,7 +45027,7 @@
       window.openSales(iîîîíîi(Iìíìïîï).i);
     }
   };
-  var iiíïîíi = () => {};
+  var iiíïîíi = () => { };
   var iîíïìíî = iîííìíï("<div class=\"trade-spray-img svelte-bria2i\"></div>");
   var iîiìïìi = iîííìíï("<img class=\"trade-item-img svelte-bria2i\" draggable=\"false\">");
   var iîîîîîì = iîííìíï("<div class=\"trade-item-serial svelte-bria2i\"> </div>");
@@ -45253,7 +45254,7 @@
   var iìiìïîi = iîííìíï("<div class=\"trade-loading svelte-kfskmv\"><i class=\"material-icons trade-spinner svelte-kfskmv\">hourglass_empty</i> <div>Fetching Inventories...</div></div>");
   var iííííïî = iîííìíï("<div class=\"trade-loading svelte-kfskmv\"><div style=\"color: #f44336;\"> </div></div>");
   var iîíïîïí = iîííìíï("<div class=\"trade-error svelte-kfskmv\"> </div>");
-  var iìïìíiï = () => {};
+  var iìïìíiï = () => { };
   var iíiííií = iîííìíï("<div class=\"trade-sides svelte-kfskmv\"><!> <!></div> <button class=\"trade-toggle-missing svelte-kfskmv\" title=\"Toggle Missing Items\"><span class=\"material-icons svelte-kfskmv\">rule</span></button> <textarea class=\"trade-message svelte-kfskmv\" placeholder=\"Add a message to the offer\" maxlength=\"500\"></textarea> <!> <div class=\"trade-submit svelte-kfskmv\" role=\"button\" tabindex=\"0\"> </div>", 1);
   var iíííîïì = iîííìíï("<div class=\"trade-overlay svelte-kfskmv\" role=\"dialog\" aria-modal=\"true\" tabindex=\"-1\"><div class=\"trade-window svelte-kfskmv\" role=\"document\"><!></div></div>");
   const iíîïíiì = {
@@ -45827,7 +45828,7 @@
       if (Iiìííïï?.data && !Iiìííïï.error) {
         iîiìïìí(Iíìììíï, Iììíîîî);
       }
-    } catch {}
+    } catch { }
     iîiìïìí(Iîïîïîi, false);
   }
   async function iiîíiii(Iiíìíïï, Iîìïìíî, Iiìiîíí, Iíîiïíi, Iìììîíí) {
@@ -45872,7 +45873,7 @@
         return Iìììïíí.data?.featured ?? Iiíiíîî;
       }(iîîîíîi(Iíïiíïi).player_name, Iììîìiï);
       iîîîíîi(Iíïiíïi).player_featured = Iììîìiï ? 1 : 0;
-    } catch {}
+    } catch { }
   }
   function iìïìïîì(Iíîíiïï, Iïïíìii, Iiìííìì) {
     if (iîîîíîi(Iïïíìii) && iîîîíîi(Iiìííìì)) {
@@ -50011,7 +50012,7 @@
         if (iiîíïïí.isLoaded(Iìîiîíï)) {
           await iîiììiì(Iìîiîíï, true);
         }
-      } catch (Iiííìïí) {}
+      } catch (Iiííìïí) { }
     });
     await Promise.allSettled(Iîìïiií);
   }
@@ -50164,7 +50165,7 @@
               if (Iîííïiì != null) {
                 Iìïiíìì.remove(Iîííïiì);
               }
-            } catch (Iîííiîï) {}
+            } catch (Iîííiîï) { }
             Iïîìîïî.style.display = "none";
             Iìííïìï(Iïïîiíi);
           }
@@ -50452,7 +50453,7 @@
     if (Iîíiîii.email) {
       try {
         await iíìiîii.auth.submitKidParentalEmail(Iìiïîîî.challenge_id, Iîíiîii.email);
-      } catch (Iïìiïìï) {}
+      } catch (Iïìiïìï) { }
     }
     return "submitted";
   }
@@ -50519,7 +50520,7 @@
     if (Iïíìïìì && Iïíìïìì.email) {
       try {
         await iíìiîii.auth.submitKidParentalEmail(Iíiîíîì.challenge_id, Iïíìïìì.email);
-      } catch (Iìiïiìî) {}
+      } catch (Iìiïiìî) { }
     }
   }
   async function iììîíïî(Iìîììii) {
@@ -50550,7 +50551,7 @@
         refreshToken: Iíïïííî.refresh_token
       });
       if (iiîììïï != null) {
-        iiîììïï(Iíïïííî.access_token).catch(function (Iíiïïïî) {});
+        iiîììïï(Iíïïííî.access_token).catch(function (Iíiïïïî) { });
       }
       iïiììíi();
       iîîîiîí.set(false);
@@ -50608,7 +50609,7 @@
         refreshToken: Iìíïìií.refresh_token
       });
       if (iiîììïï != null) {
-        iiîììïï(Iìíïìií.access_token).catch(function (Iìíïiïi) {});
+        iiîììïï(Iìíïìií.access_token).catch(function (Iìíïiïi) { });
       }
       iïiììíi();
     } catch (Iìïiíïí) {
@@ -50879,7 +50880,7 @@
           });
           Iíìîïíi.start();
           Iíïîííî = Iíìîïíi;
-        } catch {} finally {
+        } catch { } finally {
           Iìîîïìì = false;
         }
       }
@@ -53291,7 +53292,7 @@
         iîïîïíi.set(Iiiîîîi.data.profile.funds);
         iìiiïïï.set(Iiiîîîi.data.profile.score);
       }
-    } catch (Iïíiïïî) {}
+    } catch (Iïíiïïî) { }
   }
   var iìîîïii = function () {
     return iiîìíîi(function Iîiííïi() {
@@ -53424,35 +53425,7 @@
       }
     }]);
   }();
-  var iîiîïii = new iìîîïii();
-  JfCzGzvGIQB8rrJX(function () {
-    var Iíïìiíí;
-    if (!iììïiíí(iìïîìíï)) {
-      Iíïìiíí = function () {
-        var Iiîiîïì;
-        var Iììîìíí = (Iiîiîïì = window.getSavedVal) === null || Iiîiîïì === undefined ? undefined : Iiîiîïì.call(window, iïiìíiì);
-        if (Iììîìíí) {
-          return parseInt(Iììîìíí, 10);
-        } else {
-          return null;
-        }
-      }();
-      if (!Iíïìiíí || Date.now() - Iíïìiíí >= 7200000) {
-        (function () {
-          var Iìîììïï;
-          if ((Iìîììïï = window.saveVal) !== null && Iìîììïï !== undefined) {
-            Iìîììïï.call(window, iïiìíiì, Date.now().toString());
-          }
-        })();
-        iïiíîîì({
-          title: "Register",
-          content: iîiíîiî
-        }, {
-          duration: 15000
-        });
-      }
-    }
-  }, 45000 + Math.random() * 15000);
+
   var iììiììï = iîííìíï("<!> <!> <!>", 1);
   async function iiïííïî(Iiìîiìî, Iiîiiîì) {
     try {
@@ -54739,7 +54712,7 @@
       }
     }, {
       key: "_onChangeCallback",
-      value: function () {}
+      value: function () { }
     }, {
       key: Symbol.iterator,
       value: function* () {
@@ -58854,7 +58827,7 @@
       }
     }, {
       key: "_onChangeCallback",
-      value: function () {}
+      value: function () { }
     }, {
       key: Symbol.iterator,
       value: function* () {
@@ -59009,16 +58982,16 @@
     iìîîiîï(Iîiiïíi, Iìïìïíi);
     return iiîìíîi(Iîiiïíi, [{
       key: "onBeforeShadow",
-      value: function () {}
+      value: function () { }
     }, {
       key: "onAfterShadow",
-      value: function () {}
+      value: function () { }
     }, {
       key: "onBeforeRender",
-      value: function () {}
+      value: function () { }
     }, {
       key: "onAfterRender",
-      value: function () {}
+      value: function () { }
     }, {
       key: "applyMatrix4",
       value: function (Iïïíïìí) {
@@ -59280,7 +59253,7 @@
       }
     }, {
       key: "raycast",
-      value: function () {}
+      value: function () { }
     }, {
       key: "traverse",
       value: function (Iîîíïïí) {
@@ -60481,10 +60454,10 @@
       }
     }, {
       key: "onBeforeRender",
-      value: function () {}
+      value: function () { }
     }, {
       key: "onBeforeCompile",
-      value: function () {}
+      value: function () { }
     }, {
       key: "customProgramCacheKey",
       value: function () {
@@ -61139,7 +61112,7 @@
       this.version = 0;
     }, [{
       key: "onUploadCallback",
-      value: function () {}
+      value: function () { }
     }, {
       key: "needsUpdate",
       set: function (Iìííííì) {
@@ -63546,7 +63519,7 @@
       this.uuid = iííîííï();
     }, [{
       key: "onUploadCallback",
-      value: function () {}
+      value: function () { }
     }, {
       key: "needsUpdate",
       set: function (Iîìïiïì) {
@@ -64689,7 +64662,7 @@
       }
     }, {
       key: "updateMorphTargets",
-      value: function () {}
+      value: function () { }
     }, {
       key: "dispose",
       value: function () {
@@ -66331,7 +66304,7 @@
     iìîîiîï(Iíìiïiî, Iììïìîî);
     return iiîìíîi(Iíìiïiî, [{
       key: "update",
-      value: function () {}
+      value: function () { }
     }, {
       key: "clone",
       value: function () {
@@ -67123,7 +67096,7 @@
       this.cacheArcLengths = null;
     }, [{
       key: "getPoint",
-      value: function () {}
+      value: function () { }
     }, {
       key: "getPointAt",
       value: function (Iìíïïîí, Iîíììiì) {
@@ -71007,58 +70980,58 @@
             Iìììîîî = 30;
           }
           for (var Iîîîïií = Iîìïííí.tracks.length, Iiìîiií = Iíîîíiï / Iìììîîî, Iîiiiïì = function () {
-              var Iîíïïìï = Iîìïííí.tracks[Iîìíiìï];
-              var Iiiiïïî = Iîíïïìï.ValueTypeName;
-              if (Iiiiïïî === "bool" || Iiiiïïî === "string") {
-                return 0;
-              }
-              var Iïiìïíí = Iííîiîì.tracks.find(function (Iîííïìí) {
-                return Iîííïìí.name === Iîíïïìï.name && Iîííïìí.ValueTypeName === Iiiiïïî;
-              });
-              if (Iïiìïíí === undefined) {
-                return 0;
-              }
-              var Iîïìiïï = 0;
-              var Iìíìïïì = Iîíïïìï.getValueSize();
-              if (Iîíïïìï.createInterpolant.isInterpolantFactoryMethodGLTFCubicSpline) {
-                Iîïìiïï = Iìíìïïì / 3;
-              }
-              var Iîiiîìï = 0;
-              var Iìiíïíî = Iïiìïíí.getValueSize();
-              if (Iïiìïíí.createInterpolant.isInterpolantFactoryMethodGLTFCubicSpline) {
-                Iîiiîìï = Iìiíïíî / 3;
-              }
-              var Iîííiiî;
-              var Iiìîíiì = Iîíïïìï.times.length - 1;
-              if (Iiìîiií <= Iîíïïìï.times[0]) {
-                var Iiiiïîï = Iîïìiïï;
-                var Iîîíîíï = Iìíìïïì - Iîïìiïï;
-                Iîííiiî = Iîíïïìï.values.slice(Iiiiïîï, Iîîíîíï);
-              } else if (Iiìîiií >= Iîíïïìï.times[Iiìîíiì]) {
-                var Iîïïíiì = Iiìîíiì * Iìíìïïì + Iîïìiïï;
-                var Iïíìïíi = Iîïïíiì + Iìíìïïì - Iîïìiïï;
-                Iîííiiî = Iîíïïìï.values.slice(Iîïïíiì, Iïíìïíi);
-              } else {
-                var Iîiíîïi = Iîíïïìï.createInterpolant();
-                var Iïïíïïî = Iîïìiïï;
-                var Iîìïíiï = Iìíìïïì - Iîïìiïï;
-                Iîiíîïi.evaluate(Iiìîiií);
-                Iîííiiî = Iîiíîïi.resultBuffer.slice(Iïïíïïî, Iîìïíiï);
-              }
+            var Iîíïïìï = Iîìïííí.tracks[Iîìíiìï];
+            var Iiiiïïî = Iîíïïìï.ValueTypeName;
+            if (Iiiiïïî === "bool" || Iiiiïïî === "string") {
+              return 0;
+            }
+            var Iïiìïíí = Iííîiîì.tracks.find(function (Iîííïìí) {
+              return Iîííïìí.name === Iîíïïìï.name && Iîííïìí.ValueTypeName === Iiiiïïî;
+            });
+            if (Iïiìïíí === undefined) {
+              return 0;
+            }
+            var Iîïìiïï = 0;
+            var Iìíìïïì = Iîíïïìï.getValueSize();
+            if (Iîíïïìï.createInterpolant.isInterpolantFactoryMethodGLTFCubicSpline) {
+              Iîïìiïï = Iìíìïïì / 3;
+            }
+            var Iîiiîìï = 0;
+            var Iìiíïíî = Iïiìïíí.getValueSize();
+            if (Iïiìïíí.createInterpolant.isInterpolantFactoryMethodGLTFCubicSpline) {
+              Iîiiîìï = Iìiíïíî / 3;
+            }
+            var Iîííiiî;
+            var Iiìîíiì = Iîíïïìï.times.length - 1;
+            if (Iiìîiií <= Iîíïïìï.times[0]) {
+              var Iiiiïîï = Iîïìiïï;
+              var Iîîíîíï = Iìíìïïì - Iîïìiïï;
+              Iîííiiî = Iîíïïìï.values.slice(Iiiiïîï, Iîîíîíï);
+            } else if (Iiìîiií >= Iîíïïìï.times[Iiìîíiì]) {
+              var Iîïïíiì = Iiìîíiì * Iìíìïïì + Iîïìiïï;
+              var Iïíìïíi = Iîïïíiì + Iìíìïïì - Iîïìiïï;
+              Iîííiiî = Iîíïïìï.values.slice(Iîïïíiì, Iïíìïíi);
+            } else {
+              var Iîiíîïi = Iîíïïìï.createInterpolant();
+              var Iïïíïïî = Iîïìiïï;
+              var Iîìïíiï = Iìíìïïì - Iîïìiïï;
+              Iîiíîïi.evaluate(Iiìîiií);
+              Iîííiiî = Iîiíîïi.resultBuffer.slice(Iïïíïïî, Iîìïíiï);
+            }
+            if (Iiiiïïî === "quaternion") {
+              new iìîììíi().fromArray(Iîííiiî).normalize().conjugate().toArray(Iîííiiî);
+            }
+            for (var Iiíiïïï = Iïiìïíí.times.length, Iííííiî = 0; Iííííiî < Iiíiïïï; ++Iííííiî) {
+              var Iìíïïíì = Iííííiî * Iìiíïíî + Iîiiîìï;
               if (Iiiiïïî === "quaternion") {
-                new iìîììíi().fromArray(Iîííiiî).normalize().conjugate().toArray(Iîííiiî);
-              }
-              for (var Iiíiïïï = Iïiìïíí.times.length, Iííííiî = 0; Iííííiî < Iiíiïïï; ++Iííííiî) {
-                var Iìíïïíì = Iííííiî * Iìiíïíî + Iîiiîìï;
-                if (Iiiiïïî === "quaternion") {
-                  iìîììíi.multiplyQuaternionsFlat(Iïiìïíí.values, Iìíïïíì, Iîííiiî, 0, Iïiìïíí.values, Iìíïïíì);
-                } else {
-                  for (var Iïiîiìî = Iìiíïíî - Iîiiîìï * 2, Iïìíîiï = 0; Iïìíîiï < Iïiîiìî; ++Iïìíîiï) {
-                    Iïiìïíí.values[Iìíïïíì + Iïìíîiï] -= Iîííiiî[Iïìíîiï];
-                  }
+                iìîììíi.multiplyQuaternionsFlat(Iïiìïíí.values, Iìíïïíì, Iîííiiî, 0, Iïiìïíí.values, Iìíïïíì);
+              } else {
+                for (var Iïiîiìî = Iìiíïíî - Iîiiîìï * 2, Iïìíîiï = 0; Iïìíîiï < Iïiîiìî; ++Iïìíîiï) {
+                  Iïiìïíí.values[Iìíïïíì + Iïìíîiï] -= Iîííiiî[Iïìíîiï];
                 }
               }
-            }, Iîìíiìï = 0; Iîìíiìï < Iîîîïií; ++Iîìíiìï) {
+            }
+          }, Iîìíiìï = 0; Iîìíiìï < Iîîîïií; ++Iîìíiìï) {
             Iîiiiïì();
           }
           Iííîiîì.blendMode = iïîíiiï;
@@ -71181,7 +71154,7 @@
       }
     }, {
       key: "intervalChanged_",
-      value: function () {}
+      value: function () { }
     }]);
   }();
   var iìïììíî = function (Iìííiïî) {
@@ -71984,7 +71957,7 @@
       this.requestHeader = {};
     }, [{
       key: "load",
-      value: function () {}
+      value: function () { }
     }, {
       key: "loadAsync",
       value: function (Iiiíïiï, Iiìïíiì) {
@@ -71995,7 +71968,7 @@
       }
     }, {
       key: "parse",
-      value: function () {}
+      value: function () { }
     }, {
       key: "setCrossOrigin",
       value: function (Iíiîìïï) {
@@ -72558,7 +72531,7 @@
     iìîîiîï(Iïiïììï, Iïîïííì);
     return iiîìíîi(Iïiïììï, [{
       key: "dispose",
-      value: function () {}
+      value: function () { }
     }, {
       key: "copy",
       value: function (Iiììiîi, Iïìïïìi) {
@@ -75704,10 +75677,10 @@
     }
     return iiîìíîi(Iìîìïií, [{
       key: "_getValue_unavailable",
-      value: function () {}
+      value: function () { }
     }, {
       key: "_setValue_unavailable",
-      value: function () {}
+      value: function () { }
     }, {
       key: "_getValue_direct",
       value: function (Iiìîïii, Iîîiïii) {
@@ -76236,9 +76209,9 @@
       this.blendMode = Iìïìííî;
       var Iîíïîîî = Iîìiîîi.tracks;
       for (var Iîîíìíí = Iîíïîîî.length, Iïìïiíì = new Array(Iîîíìíí), Iîìiïìi = {
-          endingStart: iíîìïïï,
-          endingEnd: iíîìïïï
-        }, Iiîìïìí = 0; Iiîìïìí !== Iîîíìíí; ++Iiîìïìí) {
+        endingStart: iíîìïïï,
+        endingEnd: iíîìïïï
+      }, Iiîìïìí = 0; Iiîìïìí !== Iîîíìíí; ++Iiîìïìí) {
         var Iiïìíiï = Iîíïîîî[Iiîìïìí].createInterpolant(null);
         Iïìïiíì[Iiîìïìí] = Iiïìíiï;
         Iiïìíiï.settings = Iîìiïìi;
@@ -78930,13 +78903,13 @@
       }
     }, {
       key: "disconnect",
-      value: function () {}
+      value: function () { }
     }, {
       key: "dispose",
-      value: function () {}
+      value: function () { }
     }, {
       key: "update",
-      value: function () {}
+      value: function () { }
     }]);
   }(iìïïîîì);
   function iîíiìïi(Iîiïììì, Iïïiîîï, Iíìïíiì, Iiíiiïi) {
@@ -82242,7 +82215,7 @@
   function iíìiíîi(Iïíïïiî, Iìiíïií, Iïïîîìî) {
     var Iiíiiíi = Iïíïïiî.name;
     var Iïîîìíì = Iiíiiíi.length;
-    for (iîîìïiï.lastIndex = 0;;) {
+    for (iîîìïiï.lastIndex = 0; ;) {
       var Iìììïïì = iîîìïiï.exec(Iiíiiíi);
       var Iîïïìíi = iîîìïiï.lastIndex;
       var Iiiîîiì = Iìììïïì[1];
@@ -84579,22 +84552,22 @@
       compressedTexImage2D: function () {
         try {
           Iiíiíïí.compressedTexImage2D.apply(Iiíiíïí, arguments);
-        } catch (Iîïìííî) {}
+        } catch (Iîïìííî) { }
       },
       compressedTexImage3D: function () {
         try {
           Iiíiíïí.compressedTexImage3D.apply(Iiíiíïí, arguments);
-        } catch (Iíîíìíi) {}
+        } catch (Iíîíìíi) { }
       },
       texImage2D: function () {
         try {
           Iiíiíïí.texImage2D.apply(Iiíiíïí, arguments);
-        } catch (Iiîìíïí) {}
+        } catch (Iiîìíïí) { }
       },
       texImage3D: function () {
         try {
           Iiíiíïí.texImage3D.apply(Iiíiíïí, arguments);
-        } catch (Iíííìíi) {}
+        } catch (Iíííìíi) { }
       },
       updateUBOMapping: function (Iìïîîìí, Iìïìïîi) {
         var Iiíïííi = Iiìîïïï.get(Iìïìïîi);
@@ -84618,32 +84591,32 @@
       texStorage2D: function () {
         try {
           Iiíiíïí.texStorage2D.apply(Iiíiíïí, arguments);
-        } catch (Iíîïíìî) {}
+        } catch (Iíîïíìî) { }
       },
       texStorage3D: function () {
         try {
           Iiíiíïí.texStorage3D.apply(Iiíiíïí, arguments);
-        } catch (Iiìîíïì) {}
+        } catch (Iiìîíïì) { }
       },
       texSubImage2D: function () {
         try {
           Iiíiíïí.texSubImage2D.apply(Iiíiíïí, arguments);
-        } catch (Iïííííì) {}
+        } catch (Iïííííì) { }
       },
       texSubImage3D: function () {
         try {
           Iiíiíïí.texSubImage3D.apply(Iiíiíïí, arguments);
-        } catch (Iïïîïíi) {}
+        } catch (Iïïîïíi) { }
       },
       compressedTexSubImage2D: function () {
         try {
           Iiíiíïí.compressedTexSubImage2D.apply(Iiíiíïí, arguments);
-        } catch (Iìïìîíï) {}
+        } catch (Iìïìîíï) { }
       },
       compressedTexSubImage3D: function () {
         try {
           Iiíiíïí.compressedTexSubImage3D.apply(Iiíiíïí, arguments);
-        } catch (Iïïiïìi) {}
+        } catch (Iïïiïìi) { }
       },
       scissor: function (Iiîîìïï) {
         if (Iíìïïiì.equals(Iiîîìïï) === false) {
@@ -84731,7 +84704,7 @@
     var Iïïíìií = false;
     try {
       Iïïíìií = typeof OffscreenCanvas != "undefined" && new OffscreenCanvas(1, 1).getContext("2d") !== null;
-    } catch (Iiîíïïì) {}
+    } catch (Iiîíïïì) { }
     function Iiiìiïí(Iíiìíìi, Iïiiiïï) {
       if (Iïïíìií) {
         return new OffscreenCanvas(Iíiìíìi, Iïiiiïï);
@@ -85052,7 +85025,7 @@
       }
       if (Iìiííïï.isRenderTargetTexture === false && Iìiííïï.isExternalTexture !== true && Iìiííïï.version > 0 && Iiíìíií.__version !== Iìiííïï.version) {
         var Iiíìíìî = Iìiííïï.image;
-        if (Iiíìíìî === null) ;else if (Iiíìíìî.complete !== false) {
+        if (Iiíìíìî === null); else if (Iiíìíìî.complete !== false) {
           Iîïiïíì(Iiíìíií, Iìiííïï, Iîìîíîi);
           return;
         }
@@ -86814,7 +86787,7 @@
       Iíïîiïï.setAnimationLoop = function (Iiîíìïì) {
         Iîïìiií = Iiîíìïì;
       };
-      Iíïîiïï.dispose = function () {};
+      Iíïîiïï.dispose = function () { };
       return Iíïîiïï;
     }
     iìîîiîï(Iiìîìïî, Iííîïíí);
@@ -87506,7 +87479,7 @@
         Iíííïíi.needsUpdate = Iiiiîïî;
         Iíííïíi.type = Iïîiiíî;
       }
-      function Iiïìííï(Iííííïî) {}
+      function Iiïìííï(Iííííïî) { }
       function Iïííîìi(Iíïiiiì) {
         var Iïííìïì = Iíïiiiì.target;
         Iïííìïì.removeEventListener("dispose", Iïííîìi);
@@ -89925,7 +89898,7 @@
           stage: Iïììïìì.data.stage || 0
         });
       }
-    } catch (Iiíïíìì) {}
+    } catch (Iiíïíìì) { }
   }
   var iiíîïïï = {
     lottery: null,
@@ -90521,7 +90494,7 @@
               if (this.isCacheValid(this.lastCountTimestamp)) {
                 return this.lastTotalCount;
               }
-            } catch (Iiìììîi) {}
+            } catch (Iiìììîi) { }
           }
         } catch (Iïîííií) {
           Iiïìiìí.e(Iïîííií);
@@ -90753,7 +90726,7 @@
         itemConfig: JSON.parse(Iîììiìî)
       };
       Iîîìîiî.onSkinChange(Iìíîiîî);
-    } catch (Iìïîíii) {}
+    } catch (Iìïîíii) { }
   }
   iïìïíìi(["change", "input", "click"]);
   var iïîììíí = iîííìíï("<div class=\"advanced-tab svelte-c6djxn\"><div class=\"advanced-section svelte-c6djxn\"><h3 class=\"section-title svelte-c6djxn\"><i class=\"material-icons svelte-c6djxn\">code</i> Item Configuration (JSON)</h3> <textarea id=\"skin-config\" class=\"form-textarea svelte-c6djxn\" rows=\"8\"></textarea> <div class=\"automatic-attributes svelte-c6djxn\"><div class=\"automatic-attributes-header svelte-c6djxn\"><div class=\"automatic-attributes-title svelte-c6djxn\"><i class=\"material-icons svelte-c6djxn\">info</i> <h4 class=\"svelte-c6djxn\">Automatic Attributes</h4></div> <span class=\"info-text svelte-c6djxn\">These attributes are automatically copied from the default/selected base skin. They can be overridden above.</span></div> <div class=\"automatic-attributes-content svelte-c6djxn\"><pre class=\"svelte-c6djxn\"> </pre></div></div></div></div>");
@@ -91137,7 +91110,7 @@
                 iîiìïìí(Iìiííìî, iîïïïïi(Iîiíïìì));
                 iîiìïìí(Iiìíiìì, iîïïïïi(Iìîîiíí));
                 iîiìïìí(Iiîììií, iîïïïïi(Iiìíììi));
-              } catch (Iïìiïíï) {} finally {
+              } catch (Iïìiïíï) { } finally {
                 iîiìïìí(Iiïììîî, false);
               }
             }
@@ -91491,7 +91464,7 @@
                       ...Iiíîiíî.editingSkin,
                       itemConfig: Iiiïìiï
                     });
-                  } catch (Iîìïíïï) {}
+                  } catch (Iîìïíïï) { }
                   var Iïïíïiï;
                 }
                 async function Iíiìïíî(Iïîîíìi, Iíìíïíí) {
@@ -91512,7 +91485,7 @@
                               ...Iiíîiíî.editingSkin,
                               itemConfig: Iïiíîìi
                             });
-                          } catch (Iìììîïï) {}
+                          } catch (Iìììîïï) { }
                         })();
                       } catch (Iïiîiìí) {
                         iîiìïìí(Iiïïíii, iîïïïïi(Iïiîiìí.message || "Upload failed"));
@@ -91538,7 +91511,7 @@
                         ...Iiíîiíî.editingSkin,
                         itemConfig: Iîïíììî
                       });
-                    } catch (Iîíîïïì) {}
+                    } catch (Iîíîïïì) { }
                   })();
                   Iîîîïiî();
                 }
@@ -91576,7 +91549,7 @@
                               ...Iiíîiíî.editingSkin,
                               itemConfig: Iiiïîií
                             });
-                          } catch (Iiîïiíï) {}
+                          } catch (Iiîïiíï) { }
                         })(Iïíiííî);
                       } catch (Iiíïììi) {
                         iîiìïìí(Iíîïìîi, iîïïïïi({
@@ -91641,7 +91614,7 @@
                       ...Iiíîiíî.editingSkin,
                       itemConfig: Iiïiïíì
                     });
-                  } catch (Iïïíïïï) {}
+                  } catch (Iïïíïïï) { }
                 }
                 async function Iïîíiiï(Iiîìîíï) {
                   iîiìïìí(Iïìïííî, iîïïïïi(Iiîìîíï));
@@ -91661,7 +91634,7 @@
                               ...Iiíîiíî.editingSkin,
                               itemConfig: Iìííîîi
                             });
-                          } catch (Iííiiîì) {}
+                          } catch (Iííiiîì) { }
                         })();
                       } catch (Iíiìiîi) {
                         iîiìïìí(Iïìïíîî, iîïïïïi(Iíiìiîi.message || "Upload failed"));
@@ -91687,7 +91660,7 @@
                         ...Iiíîiíî.editingSkin,
                         itemConfig: Iiiìíîí
                       });
-                    } catch (Iiíîìíï) {}
+                    } catch (Iiíîìíï) { }
                   })();
                   Iîîîïiî();
                 }
@@ -91736,7 +91709,7 @@
                       ...Iiíîiíî.editingSkin,
                       itemConfig: Iìiïiïì
                     });
-                  } catch (Iiiïîïï) {}
+                  } catch (Iiiïîïï) { }
                 }
                 const Iiìîiíî = ["skinCol", "shirtCol", "sleeveCol", "pantsCol", "waistCol", "shoeCol", "hairCol"];
                 let Iïìïïiî = iìïììíì(iîïïïïi({}));
@@ -91765,7 +91738,7 @@
                       ...Iiíîiíî.editingSkin,
                       itemConfig: Iîiiììì
                     });
-                  } catch (Iîîîïîí) {}
+                  } catch (Iîîîïîí) { }
                 }
                 function Iîíìîíí(Iíííìïî) {
                   try {
@@ -91782,7 +91755,7 @@
                       ...Iiíîiíî.editingSkin,
                       itemConfig: Iïíiìïí
                     });
-                  } catch (Iíïíïïï) {}
+                  } catch (Iíïíïïï) { }
                 }
                 function Iîiïïiï(Iïìïììí) {
                   Iíííiiì(Iïìïììí, "");
@@ -95049,7 +95022,7 @@
           return iÌiíîìï;
         }(false);
         await iïiììíi();
-      } catch (iÏíîîíì) {}
+      } catch (iÏíîîíì) { }
     }, 100);
     return iÎïïìíì.data;
   }
@@ -95648,35 +95621,35 @@
       window.showWindow(5);
     }
   };
-  var iíïîìíï = () => {};
-  var iiîïiiì = () => {};
+  var iíïîìíï = () => { };
+  var iiîïiiì = () => { };
   var iîiíîiï = iîííìíï("<div class=\"sub-tab-dot svelte-lri212\" role=\"button\" tabindex=\"0\"></div>");
-  var iîîiîìì = () => {};
-  var iîîîîìï = () => {};
+  var iîîiîìì = () => { };
+  var iîîîîìï = () => { };
   var iîïiìiî = iîííìíï("<div class=\"sub-tab-dot svelte-lri212\" role=\"button\" tabindex=\"0\"></div>");
-  var iíiîîîí = () => {};
-  var iíîiíìi = () => {};
+  var iíiîîîí = () => { };
+  var iíîiíìi = () => { };
   var iíìíïíï = iîííìíï("<div class=\"sub-tab-dot svelte-lri212\" role=\"button\" tabindex=\"0\"></div>");
   var iiïíiîï = (iÏîíïìì, iÎììíïi) => {
     if (!iÎììíïi) {
       window.showWindow(5);
     }
   };
-  var iïîíííí = () => {};
+  var iïîíííí = () => { };
   var iíìiìîî = () => {
     if (typeof playSelect == "function") {
       playSelect();
     }
     window.prizeWheel(2);
   };
-  var iíìîïíî = () => {};
+  var iíìîïíî = () => { };
   var iïîïîîî = (iÌíïììî, iÏîíïìí) => {
     if (typeof playSelect == "function") {
       playSelect();
     }
     window.prizeWheel(2, null, iÏîíïìí.multi);
   };
-  var iiiíîîî = () => {};
+  var iiiíîîî = () => { };
   var iîìíïïì = iîííìíï("<div class=\"shop-actions-cell svelte-lri212\"><div class=\"shop-sub-action svelte-lri212\" role=\"button\" tabindex=\"0\" style=\"font-size: 34px !important;\">1x Spin <div class=\"svelte-lri212\"> </div></div> <div class=\"shop-sub-action-sep svelte-lri212\"></div> <div class=\"shop-sub-action svelte-lri212\" role=\"button\" tabindex=\"0\" style=\"font-size: 34px !important;\"> <div class=\"svelte-lri212\"> </div></div></div>");
   var iîìiïìi = () => {
     if (typeof playSelect == "function") {
@@ -95684,7 +95657,7 @@
     }
     window.prizeWheel(2);
   };
-  var iììiììî = () => {};
+  var iììiììî = () => { };
   var iiììîìî = iîííìíï("<div class=\"shop-action-cell svelte-lri212\" role=\"button\" tabindex=\"0\">Spend <div class=\"svelte-lri212\"> </div></div>");
   var iiîïìíì = (iÏìiîìî, iÌììïïî) => {
     if (typeof playSelect == "function") {
@@ -95692,7 +95665,7 @@
     }
     window.prizeWheel(null, iÌììïïî.ticketIndex);
   };
-  var iiìíîìi = () => {};
+  var iiìíîìi = () => { };
   var iíïíìii = iîííìíï("<div class=\"shop-action-overlay svelte-lri212\"><!> <div style=\"display: table-cell;\" class=\"svelte-lri212\"><div class=\"shop-action-sep svelte-lri212\"></div></div> <div class=\"shop-action-cell svelte-lri212\" role=\"button\" tabindex=\"0\" style=\"font-size: 34px !important;\">Redeem <div class=\"svelte-lri212\"><img class=\"ticket-img svelte-lri212\" alt=\"ticket\" style=\"width: 70px !important;\"></div></div> <div class=\"ticket-count svelte-lri212\"> </div></div>");
   var iiìiiiî = (iÍiííii, iÌììïîî) => {
     if (typeof playSelect == "function") {
@@ -95700,18 +95673,18 @@
     }
     iÌììïîî(-1);
   };
-  var iííîïîî = () => {};
+  var iííîïîî = () => { };
   var iiíìïìi = (iÍíîïîï, iIíìïii) => {
     if (typeof playSelect == "function") {
       playSelect(0.1);
     }
     window.bundlePopup(true, false, iîîîíîi(iIíìïii).ID);
   };
-  var iíiiîìî = () => {};
+  var iíiiîìî = () => { };
   var iïïïííì = iîííìíï("<div class=\"bundle-discount-label svelte-lri212\"> </div>");
   var iïïííìï = iîííìíï("<div class=\"bundle-original-price svelte-lri212\"> </div>");
   var iïïííïí = (iÏììiiï, iÍíiííi) => window.viewItem(iîîîíîi(iÍíiííi).id);
-  var iiìíîii = () => {};
+  var iiìíîii = () => { };
   var iiìîìîi = iîííìíï("<div class=\"bundle-item-req svelte-lri212\" role=\"button\" tabindex=\"0\"></div>");
   var iîïîííï = iîííìíï("<div class=\"bundle-item-req svelte-lri212\"></div>");
   var iiîìíïì = iîííìíï("<div class=\"bundle-item-req svelte-lri212\"><div class=\"bundle-item-more svelte-lri212\"> </div></div>");
@@ -95721,7 +95694,7 @@
     }
     window.bundlePopup(true, false, iîîîíîi(iÏìíîïî).ID);
   };
-  var iïíìiìì = () => {};
+  var iïíìiìì = () => { };
   var iîìîîíï = iîííìíï("<div class=\"bundle-card svelte-lri212\"><div class=\"bundle-icon svelte-lri212\" role=\"button\" tabindex=\"0\"><div class=\"bundle-item-name svelte-lri212\"> </div> <!> <!></div> <div class=\"bundle-highlights svelte-lri212\"><!> <!></div> <div class=\"bundle-buy-btn svelte-lri212\" role=\"button\" tabindex=\"0\"><div class=\"bundle-buy-btn-text svelte-lri212\"> </div></div></div>");
   var iîiïiïí = (iÏìíìíi, iÍiíìíì) => {
     if (typeof playSelect == "function") {
@@ -95729,28 +95702,28 @@
     }
     iÍiíìíì(1);
   };
-  var iìíïîîî = () => {};
+  var iìíïîîî = () => { };
   var iíiiiìi = iîííìíï("<div class=\"home-tab svelte-lri212\"><div class=\"sub-tab-panel svelte-lri212\" role=\"button\" tabindex=\"0\"><div class=\"sub-tab-dots svelte-lri212\"></div> <div class=\"sub-tab-nav svelte-lri212\">Unlock new Items!</div> <div class=\"sub-tab-header svelte-lri212\"><div class=\"sub-tab-subtitle svelte-lri212\" style=\"color: #dd90f9 !important;\">Checkout the</div> Battle Pass</div></div> <div class=\"sub-tab-panel svelte-lri212\" role=\"button\" tabindex=\"0\"><div class=\"sub-tab-dots svelte-lri212\"></div> <div class=\"sub-tab-nav svelte-lri212\">Unlock new skins!</div> <div class=\"sub-tab-header svelte-lri212\"><div class=\"sub-tab-subtitle svelte-lri212\" style=\"color: var(--yellow) !important;\">Purchase</div> 600 KR</div></div> <div class=\"sub-tab-panel svelte-lri212\" role=\"button\" tabindex=\"0\"><div class=\"sub-tab-dots svelte-lri212\"></div> <div class=\"sub-tab-nav svelte-lri212\">Craft new Items!</div> <div class=\"junkyard-display svelte-lri212\"> <span class=\"material-icons svelte-lri212\" style=\"color: #cc51f8; font-size: 38px; margin-left: 8px; vertical-align: top; margin-right: -9px;\">plumbing</span></div> <div class=\"sub-tab-header svelte-lri212\"><div class=\"sub-tab-subtitle svelte-lri212\">Enter the</div> Junkyard</div></div> <div class=\"heroic-spin-card svelte-lri212\" role=\"button\" tabindex=\"0\"><!> <div class=\"heroic-spin-name svelte-lri212\"><!> <div class=\"heroic-spin-price svelte-lri212\"> <div class=\"ticket-img-sep svelte-lri212\">|</div> <img class=\"ticket-img svelte-lri212\" alt=\"ticket\" style=\"width: 56px !important;\"></div></div> <div class=\"heroic-spin-img svelte-lri212\"></div> <div class=\"heroic-img-grad svelte-lri212\"></div></div> <div class=\"bundle-holder svelte-lri212\"><div class=\"bundleSliderH svelte-lri212\"><div class=\"bundleSliderBtn disabled svelte-lri212\" role=\"button\" tabindex=\"0\"><div class=\"bundleSliderArrow svelte-lri212\"></div></div></div> <div class=\"bundleCols svelte-lri212\"></div> <div class=\"bundleSliderH svelte-lri212\"><div class=\"bundleSliderBtn svelte-lri212\" role=\"button\" tabindex=\"0\"><div class=\"bundleSliderArrow right svelte-lri212\"></div></div></div></div></div>");
   const iîîîíîï = {
     hash: "svelte-lri212",
     code: ".home-tab.svelte-lri212 {text-align:center;font-size:0;}.sub-tab-panel.svelte-lri212,\n  .heroic-spin-card.svelte-lri212,\n  .bundle-holder.svelte-lri212,\n  .bundle-card.svelte-lri212 {font-size:16px;}\n\n  .sub-tab-panel.svelte-lri212 {cursor:pointer;vertical-align:top;width:760px;height:360px;position:relative;display:inline-block;border-radius:6px;transition:all 0.1s;text-align:left;border:4px solid white;}.sub-tab-panel.svelte-lri212:hover {transform:scale(0.98);}.sub-tab-dots.svelte-lri212 {position:absolute;right:30px;bottom:40px;}.sub-tab-dot.svelte-lri212 {pointer-events:all;cursor:pointer;width:30px;height:30px;border-radius:50px;display:inline-block;margin:10px;}.sub-tab-dot.svelte-lri212:hover {transform:scale(1.2);}.sub-tab-nav.svelte-lri212 {position:absolute;right:40px;top:30px;z-index:6;font-size:23px;color:#fff;}.sub-tab-header.svelte-lri212 {text-shadow:0px 0px 10px rgb(0 0 0 / 79%);position:absolute;font-size:50px;left:40px;color:#fff;bottom:40px;}.sub-tab-subtitle.svelte-lri212 {font-size:27px;color:#dd90f9 !important;}.junkyard-display.svelte-lri212 {position:absolute;display:inline-block;background:black;padding:10px;padding-left:20px;right:30px;top:60px;border-radius:6px;font-size:28px;color:#fff;}\n\n  .heroic-spin-card.svelte-lri212 {cursor:pointer;vertical-align:top;display:inline-block;position:relative;background:rgba(0, 0, 0, 0.4);margin-left:4px;border:4px solid;width:502px;height:360px;border-radius:6px;text-shadow:0px 0px 30px rgb(0 0 0);overflow:hidden;}\n\n  .shop-action-overlay.svelte-lri212 {z-index:12;text-align:center;position:absolute;opacity:0;left:0px;right:0px;top:0px;bottom:0px;background:rgba(0, 0, 0, 0.8);color:rgba(255, 255, 255, 0.5);transition:opacity 0.15s ease;display:inline-table;width:100%;height:100%;}.heroic-spin-card.svelte-lri212:active .shop-action-overlay.svelte-lri212,\n  .heroic-spin-card.svelte-lri212:hover .shop-action-overlay.svelte-lri212 {z-index:9999999999;opacity:1;}.shop-action-cell.svelte-lri212 {display:table-cell;color:#fff;font-size:21px;cursor:pointer;transition:transform 0.1s ease;width:49%;vertical-align:middle;}.shop-action-cell.svelte-lri212:hover {transform:scale(0.9);}.shop-actions-cell.svelte-lri212 {display:table-cell;color:#fff;font-size:21px;cursor:pointer;transition:transform 0.2s ease;width:49%;vertical-align:middle;}.shop-sub-action.svelte-lri212 {transition:transform 0.2s ease;}.shop-sub-action.svelte-lri212:hover {transform:scale(0.9);}.shop-sub-action-sep.svelte-lri212 {background:#fc9803;width:calc(100% - 20px);opacity:0.8;margin:10px 10px;border-radius:4px;height:5px;}.shop-action-sep.svelte-lri212 {height:calc(100% - 20px);background:#fff;opacity:0.8;margin:10px 0px;border-radius:4px;width:5px;}.ticket-count.svelte-lri212 {color:#2196f3;font-size:12px;position:absolute;bottom:10px;text-align:center;width:100%;left:0;}.ticket-img.svelte-lri212 {width:34px;vertical-align:text-top;display:inline-block;}.ticket-img-sep.svelte-lri212 {display:inline-block;margin:0 5px 0 7px;}\n\n  .heroic-spin-name.svelte-lri212 {font-size:38px;position:absolute;bottom:16px;z-index:6;margin-left:-5px;text-shadow:0px 0px 30px #000,\n      0px 0px 3px #000,\n      0px 0px 6px #000;}.heroic-spin-price.svelte-lri212 {font-size:30px;color:#ffc147;width:514px;text-align:center;pointer-events:none;position:relative;text-shadow:0px 0px 30px rgb(0 0 0);}.heroic-spin-img.svelte-lri212 {position:absolute;background-size:cover;top:10px;left:50%;width:345px;height:345px;transform:translateX(-50%);filter:drop-shadow(0 0 40px rgba(0, 0, 0, 0.4));transition:all 0.2s;}.heroic-spin-card.svelte-lri212:hover .heroic-spin-img.svelte-lri212 {transform:translateX(-50%) scale(1.1);}.heroic-img-grad.svelte-lri212 {position:absolute;bottom:0px;width:100%;height:110px;z-index:5;}\n\n  .bundle-holder.svelte-lri212 {position:relative;display:inline-block;vertical-align:top;cursor:pointer;transition:all 0.1s;}\n\n  .bundleCols {display:inline-block;scroll-behavior:smooth;width:auto;white-space:nowrap;overflow-x:scroll;scrollbar-width:none;-ms-overflow-style:none;max-width:1185px;width:1185px;}.bundleCols::-webkit-scrollbar {width:0;height:0;}.bundle-card.svelte-lri212 {position:relative;width:268px;background:#151515;margin:5px;border-radius:8px;padding:10px;padding-bottom:12px;display:inline-block;}.bundle-icon.svelte-lri212 {display:inline-block;height:242px;width:204px;background:#000;border-radius:4px;cursor:pointer;text-align:center;position:relative;background-repeat:no-repeat;background-size:cover;transition:0.2s;}.bundle-icon.svelte-lri212:hover {transform:scale(0.99);}.bundle-item-name.svelte-lri212 {font-size:15px;cursor:pointer;overflow:hidden;text-overflow:ellipsis;white-space:initial;position:absolute;top:6px;left:8px;text-align:left;width:145px;filter:drop-shadow(0px 0px 4px black);transition:0.2s;color:white;}.bundle-discount-label.svelte-lri212 {position:absolute;bottom:40px;right:8px;background:#ff4444;color:#fff;padding:4px 8px;border-radius:4px;font-size:14px;font-weight:bold;filter:drop-shadow(0px 0px 4px black);z-index:10;}.bundle-original-price.svelte-lri212 {position:absolute;bottom:6px;right:8px;color:rgba(255, 255, 255, 0.9);font-size:14px;filter:drop-shadow(0px 0px 4px black);z-index:10;}.bundle-original-price.svelte-lri212::after {content:'';position:absolute;left:0;top:50%;width:100%;height:2px;background:#ff4444;transform:translateY(-50%);}.bundle-highlights.svelte-lri212 {position:relative;color:#fff;display:inline-block;margin-left:7px;margin-bottom:-10px;vertical-align:top;}.bundle-item-req.svelte-lri212 {position:relative;vertical-align:top;margin-bottom:10px;width:50px;height:50px;background:#000;display:block;border:2px solid dimgrey;border-radius:4px;cursor:pointer;background-size:95%;background-position:center;background-repeat:no-repeat;}.bundle-item-req.svelte-lri212:hover {filter:brightness(1.05);transform:scale(1.1);}.bundle-item-req.svelte-lri212:active {transform:scale(0.96);}.bundle-item-more.svelte-lri212 {font-size:15px;position:absolute;transform:translate(-50%, -50%);left:50%;top:50%;color:rgba(255, 255, 255, 0.75) !important;}.bundle-buy-btn.svelte-lri212 {text-align:center;background:#cc51f8;margin-top:10px;height:36px;border-radius:4px;width:100%;line-height:36px;font-size:16px;cursor:pointer;}.bundle-buy-btn.svelte-lri212:hover {filter:brightness(1.05);transform:scale(0.95);}.bundle-buy-btn.svelte-lri212:active {transform:scale(0.92);}.bundle-buy-btn-text.svelte-lri212 {font-size:16px;color:#fff;}.bundle-buy-btn-discount.svelte-lri212 {background:linear-gradient(135deg, #ff6b6b 0%, #ff4444 100%);box-shadow:0 4px 12px rgba(255, 68, 68, 0.4);\n    animation: svelte-lri212-bundleDiscountGlow 2s ease-in-out infinite;}\n\n  @keyframes svelte-lri212-bundleDiscountGlow {\n    0%,\n    100% {\n      box-shadow: 0 4px 12px rgba(255, 68, 68, 0.4);\n    }\n    50% {\n      box-shadow:\n        0 4px 20px rgba(255, 68, 68, 0.7),\n        0 0 30px rgba(255, 68, 68, 0.3);\n    }\n  }.bundle-buy-btn-discount.svelte-lri212:hover {filter:brightness(1.1);box-shadow:0 6px 16px rgba(255, 68, 68, 0.5);\n    animation: none;}.bundle-buy-btn-discount.svelte-lri212 .bundle-buy-btn-text.svelte-lri212 {color:#fff;font-weight:bold;text-shadow:0 1px 2px rgba(0, 0, 0, 0.3);}"
   };
   iïìïíìi(["click", "keydown", "mousedown"]);
-  var iïîíïìî = () => {};
+  var iïîíïìî = () => { };
   var iiíìiií = (iÎìiiìí, iÏìîíïì) => {
     if (typeof playSelect == "function") {
       playSelect();
     }
     window.prizeWheel(iÏìîíïì());
   };
-  var iìîííîï = () => {};
+  var iìîííîï = () => { };
   var iiïìììi = (iIiìíîî, iÏììììì, iÎïîíii) => {
     if (typeof playSelect == "function") {
       playSelect();
     }
     window.prizeWheel(iÏììììì(), null, iÎïîíii().multi);
   };
-  var iiiïiïî = () => {};
+  var iiiïiïî = () => { };
   var iïiîiïï = iîííìíï("<div class=\"shop-actions-cell svelte-1yvmrcv\"><div class=\"shop-sub-action svelte-1yvmrcv\" role=\"button\" tabindex=\"0\">1x Spin <div> </div></div> <div class=\"shop-sub-action-sep svelte-1yvmrcv\"></div> <div class=\"shop-sub-action svelte-1yvmrcv\" role=\"button\" tabindex=\"0\"> <div> </div></div></div>");
   var iïïììïï = (iÌííîîï, iIïiiìí) => {
     if (typeof playSelect == "function") {
@@ -95758,7 +95731,7 @@
     }
     window.prizeWheel(iIïiiìí());
   };
-  var iíîîìii = () => {};
+  var iíîîìii = () => { };
   var iìîíïìi = iîííìíï("<div class=\"shop-action-cell svelte-1yvmrcv\" role=\"button\" tabindex=\"0\">Spend <div> </div></div>");
   var iiìíïìì = (iÎîìiii, iÌìíîìi, iÌìiîíï) => {
     if (typeof playSelect == "function") {
@@ -95766,7 +95739,7 @@
     }
     window.prizeWheel(iÌìíîìi(), iÌìiîíï().ticketIndex);
   };
-  var iíîîïiî = () => {};
+  var iíîîïiî = () => { };
   var iîìîiïï = iîííìíï("<div style=\"display: table-cell;\"><div class=\"shop-action-sep svelte-1yvmrcv\"></div></div> <div class=\"shop-action-cell svelte-1yvmrcv\" role=\"button\" tabindex=\"0\">Redeem <div><img class=\"ticket-img svelte-1yvmrcv\" alt=\"ticket\"></div></div> <div class=\"ticket-count svelte-1yvmrcv\"> </div>", 1);
   var iïiíïíî = iîííìíï("<div class=\"shop-action-overlay svelte-1yvmrcv\"><!> <!></div>");
   var iîìíìîï = iîííìíï("<div class=\"ticket-count ticket-count-corner svelte-1yvmrcv\"> </div>");
@@ -95777,7 +95750,7 @@
   var iiïîïiï = iîííìíï("<div class=\"spin-promo-badge svelte-1yvmrcv\"> </div>");
   var iììïìiï = iîííìíï("<div class=\"shopCard svelte-1yvmrcv\" role=\"button\" tabindex=\"0\"><!> <!> <div class=\"spin-name svelte-1yvmrcv\"><!> <div class=\"spin-price svelte-1yvmrcv\"><!></div></div> <!> <div class=\"shop-img-grad svelte-1yvmrcv\"></div> <!></div>");
   var iiïîiïï = (iIîîíîì, iIîïiîï) => iIîïiîï.viewTickets();
-  var iíìîíïí = () => {};
+  var iíìîíïí = () => { };
   var iiíîíìì = iîííìíï("<div class=\"prize-wheels-tab svelte-1yvmrcv\"><div class=\"prize-wheels-header svelte-1yvmrcv\"><div style=\"color: rgba(255,255,255,0.6); margin-bottom: 10px; margin-top: 0px; width: 100%; text-align: center;\"><!></div></div> <div class=\"prize-wheel-table svelte-1yvmrcv\"><!> <div class=\"shopCard\" role=\"button\" tabindex=\"0\"><div class=\"spin-name svelte-1yvmrcv\">View Tickets <div class=\"spin-price svelte-1yvmrcv\"></div></div> <div class=\"shop-img svelte-1yvmrcv\"></div> <div class=\"shop-img-grad svelte-1yvmrcv\"></div></div></div></div>");
   const iîïïìïí = {
     hash: "svelte-1yvmrcv",
@@ -95785,7 +95758,7 @@
   };
   iïìïíìi(["click", "keydown"]);
   var iîiiiii = () => window.showPremiumBenefits();
-  var iìîiíïí = () => {};
+  var iìîiíïí = () => { };
   var iïìiïíí = iîííìíï("<div class=\"shopCard\" role=\"button\" tabindex=\"0\"> <div class=\"spinVal\" style=\"margin-top: 119px; width: 309px; line-height: 63px;\"> <span style=\"color: #fff\">USD</span></div></div>");
   var iíííìiì = iîííìíï("<div class=\"premium-time-section svelte-1dbkhl\"><span style=\"color: #fff\">Time Remaining</span> <span class=\"premium-time svelte-1dbkhl\"> </span></div>");
   var iîiïìîi = iîííìíï("<div class=\"store-list svelte-1dbkhl\"></div> <div class=\"premium-res svelte-1dbkhl\"></div> <!>", 1);
@@ -95795,7 +95768,7 @@
     code: ".premium-tab.svelte-1dbkhl {color:#fff;}.premium-header.svelte-1dbkhl {margin-left:5px;width:calc(100% - 55px);margin-top:15px;margin-bottom:15px;padding:20px;padding-bottom:5px;padding-top:15px;border-radius:6px;background-color:rgba(0, 0, 0, 0.4);}.store-list.svelte-1dbkhl {margin-top:20px;overflow-x:auto;white-space:nowrap;}.store-list.svelte-1dbkhl::-webkit-scrollbar-track {-webkit-box-shadow:none;box-shadow:none;border-radius:0px;}.store-list.svelte-1dbkhl::-webkit-scrollbar {width:12px;}.store-list.svelte-1dbkhl::-webkit-scrollbar-thumb {border-radius:0px;-webkit-box-shadow:none;box-shadow:none;}.premium-res.svelte-1dbkhl {margin-bottom:10px;color:rgba(255, 255, 255, 0.3);}.premium-time-section.svelte-1dbkhl {margin-left:5px;width:calc(100% - 55px);margin-top:15px;margin-bottom:15px;padding:20px;padding-bottom:5px;padding-top:10px;padding-bottom:10px;border-radius:6px;background-color:rgba(0, 0, 0, 0.4);}.premium-time.svelte-1dbkhl {float:right;color:rgba(255, 255, 255, 0.5);font-size:20px;}.legal-text.svelte-1dbkhl {font-size:15px;text-align:center;margin-bottom:10px;margin-top:10px;color:#d4d4d4;}.terms-text.svelte-1dbkhl {color:#d4d4d4;font-size:16px;text-align:center;margin-bottom:10px;margin-top:10px;}"
   };
   iïìïíìi(["click", "keydown"]);
-  var iîiíîìí = () => {};
+  var iîiíîìí = () => { };
   var iíîìíîí = iîííìíï("<div class=\"shopSale\"> </div>");
   var iîiíìïí = iîííìíï("<div class=\"shopCard\" role=\"button\" tabindex=\"0\"><!> <span style=\"color: #fff\">KR</span> <div class=\"spinVal\" style=\"color: #fff\"> </div></div>");
   var iìïíîïï = iîííìíï("<div class=\"purchase-kr-tab svelte-1ko99up\"><div class=\"purchase-info-table svelte-1ko99up\"></div> <div class=\"legal-text svelte-1ko99up\"><!></div> <div class=\"terms-text svelte-1ko99up\"><!></div></div>");
@@ -100369,7 +100342,7 @@
         iîiìïìí(iIîïìíí, iîïïïïi([...iîîîíîi(iIîïìíí), ...iIïïïíì.history]));
         iîiìïìí(iÍïìïïí, iîïïïïi(iIïïïíì.has_more));
         iîiìïìí(iÍìiïïi, iîïïïïi(iIïïïíì.next_cursor));
-      } catch (iÎîìïií) {} finally {
+      } catch (iÎîìïií) { } finally {
         iîiìïìí(iÌíîííî, false);
       }
     }
@@ -101202,7 +101175,7 @@
   var iiïìîîí = iîííìíï("<div class=\"bm-loading svelte-8w05wa\">Loading...</div>");
   var iiiîîîì = iîííìíï("<div class=\"bm-error svelte-8w05wa\"> </div>");
   var iïîîiìì = (iIíìiíï, iÌíïîïí, iÎïïïíi) => iÌíïîïí(iîîîíîi(iÎïïïíi));
-  var iîiiíìí = () => {};
+  var iîiiíìí = () => { };
   var iíîîíii = iîííìíï("<div class=\"bm-spray-img svelte-8w05wa\"></div>");
   var iîïíîìi = iîííìíï("<img class=\"bm-item-img svelte-8w05wa\" draggable=\"false\">");
   var iííiiïï = iîííìíï("<div class=\"bm-item-price svelte-8w05wa\"> <span class=\"kr-label svelte-8w05wa\">KR</span></div>");
@@ -101212,7 +101185,7 @@
   var iîíiiíí = iîííìíï("<div class=\"bm-req-text svelte-8w05wa\"> </div>");
   var iíìíííî = iîííìíï("<div class=\"bm-action-btn bm-owned-btn svelte-8w05wa\">Owned</div>");
   var iìîìììì = (iÎïîïîí, iÎíîïìï, iÌîîïìi) => iÎíîïìï(iîîîíîi(iÌîîïìi));
-  var iîïïíìì = () => {};
+  var iîïïíìì = () => { };
   var iîîîïïï = iîííìíï("<div class=\"bm-action-btn bm-purchase-btn svelte-8w05wa\" role=\"button\" tabindex=\"0\">Purchase</div>");
   var iîíïïîi = iîííìíï("<div class=\"bm-action-btn bm-locked-btn svelte-8w05wa\"> </div>");
   var iiiììíì = iîííìíï("<div class=\"bm-card svelte-8w05wa\"><div class=\"bm-card-icon svelte-8w05wa\" role=\"button\" tabindex=\"0\"><!> <div class=\"bm-item-name svelte-8w05wa\"> </div> <!> <!> <!></div> <!> <div class=\"bm-actions svelte-8w05wa\"><!></div></div>");
@@ -101265,7 +101238,7 @@
   var iïîïîìì = iîííìíï("<div class=\"jy-filter-bar svelte-1vqzycn\"><input type=\"search\" placeholder=\"Search items...\" class=\"jy-search-input svelte-1vqzycn\"> <select class=\"jy-sort-select svelte-1vqzycn\"><option>Default Sort</option><option>Sort by Rarity</option><option>Sort by Name</option><option>Sort by Junk Price</option></select></div>");
   var iîîíiîì = iîííìíï("<div style=\"color: #fff; text-align: center; margin-top: 20px;\"> </div>");
   var iiííïìì = () => window.showWindow(5);
-  var iïîiîíî = () => {};
+  var iïîiîíî = () => { };
   var iìîiìîi = iîííìíï("<div style=\"color: #fff; text-align: center; margin-top: 20px; cursor: pointer;\" role=\"button\" tabindex=\"0\"><span style=\"color: #31caec\">Register</span> to craft!</div>");
   var iìîíîií = iîííìíï("<div class=\"jy-empty svelte-1vqzycn\">No items match your search.</div>");
   var iîïìiîî = iîííìíï("<div class=\"junkyard-tab svelte-1vqzycn\"><div class=\"jy-scroll svelte-1vqzycn\"><div class=\"craft-header-img svelte-1vqzycn\"><div class=\"craft-header-name svelte-1vqzycn\">Welcome to the Junkyard</div> <div class=\"craft-header-desc svelte-1vqzycn\">Craft brand new skins & items by using Junk and other Materials, which can be found scattered\n      around every map in the game or earned from challenges.</div></div> <!> <div class=\"craft-grid svelte-1vqzycn\"><!></div></div></div>");
@@ -101702,7 +101675,7 @@
                   iîiìïìí(iIìïïïî, iîïïïïi([...iîîîíîi(iIìïïïî), ...iÌïíììì.listings]));
                   iîiìïìí(iÍiiiïi, iîïïïïi(iÌïíììì.has_more));
                   iîiìïìí(iÍïiiíï, iîïïïïi(iÌïíììì.next_cursor_id));
-                } catch (iIiìiìí) {} finally {
+                } catch (iIiìiìí) { } finally {
                   iîiìïìí(iÎiîiíï, false);
                 }
               }
@@ -102117,7 +102090,7 @@
                         iîiìïìí(iÍïiïíí, iîïïïïi(iÍíîiíì.listings));
                         iîiìïìí(iÏiïììï, iîïïïïi(iÍíîiíì.has_more));
                         iîiìïìí(iÍiíiîî, iîïïïïi(iÍíîiíì.next_cursor_id));
-                      } catch (iÍîìíìí) {} finally {
+                      } catch (iÍîìíìí) { } finally {
                         iîiìïìí(iÎíîíîï, false);
                       }
                     }
@@ -102161,7 +102134,7 @@
                         iîiìïìí(iÍïiïíí, iîïïïïi([...iîîîíîi(iÍïiïíí), ...iÌiîiiî.listings]));
                         iîiìïìí(iÏiïììï, iîïïïïi(iÌiîiiî.has_more));
                         iîiìïìí(iÍiíiîî, iîïïïïi(iÌiîiiî.next_cursor_id));
-                      } catch (iÏîìiìi) {} finally {
+                      } catch (iÏîìiìi) { } finally {
                         iîiìïìí(iÍîîïìí, false);
                       }
                     }
@@ -102201,7 +102174,7 @@
                         iîiìïìí(iÍïiïíí, iîïïïïi(iÎîìîií.listings));
                         iîiìïìí(iÏiïììï, iîïïïïi(iÎîìîií.has_more));
                         iîiìïìí(iÍiíiîî, iîïïïïi(iÎîìîií.next_cursor_id));
-                      } catch (iIîìïíi) {} finally {
+                      } catch (iIîìïíi) { } finally {
                         iîiìïìí(iÎíîíîï, false);
                       }
                     }
@@ -102285,7 +102258,7 @@
                                 iîiìïìí(iÍïiïíí, iîïïïïi(iÎïïíîi.listings));
                                 iîiìïìí(iÏiïììï, iîïïïïi(iÎïïíîi.has_more));
                                 iîiìïìí(iÍiíiîî, iîïïïïi(iÎïïíîi.next_cursor_id));
-                              } catch (iÍìiiíï) {} finally {
+                              } catch (iÍìiiíï) { } finally {
                                 iîiìïìí(iÌïììîí, false);
                               }
                             }
@@ -102711,7 +102684,7 @@
                           iîiìïìí(iÏííìîï, true);
                           const iÌîiíií = await iííïíîi();
                           iîiìïìí(iÏîïîíï, iîïïïïi(iÌîiíií.filter(iÍííîìì => iÍííîìì.cnt === undefined || iÍííîìì.cnt > 0)));
-                        } catch (iIîîìiï) {} finally {
+                        } catch (iIîîìiï) { } finally {
                           iîiìïìí(iÏííìîï, false);
                         }
                       }
@@ -103180,7 +103153,7 @@
                               }
                               return iÍíîiìí.data || [];
                             }()));
-                          } catch (iÌîiîíi) {} finally {
+                          } catch (iÌîiîíi) { } finally {
                             iîiìïìí(iIìííïí, false);
                           }
                         }
@@ -103660,7 +103633,7 @@
                                 iîiìïìí(iIïîííï, iîïïïïi(iÎîìîiî.stats));
                                 iîiìïìí(iÏïïiîi, iîïïïïi(iÎîìîiî.has_more));
                                 iîiìïìí(iÍííìíï, iîïïïïi(iÎîìîiî.next_cursor));
-                              } catch (iÍiïìîí) {} finally {
+                              } catch (iÍiïìîí) { } finally {
                                 iîiìïìí(iIïíiîi, false);
                               }
                             }
@@ -104003,7 +103976,7 @@
                                   iîiìïìí(iIïîííï, iîïïïïi([...iîîîíîi(iIïîííï), ...iÎïíiîí.stats]));
                                   iîiìïìí(iÏïïiîi, iîïïïïi(iÎïíiîí.has_more));
                                   iîiìïìí(iÍííìíï, iîïïïïi(iÎïíiîí.next_cursor));
-                                } catch (iÌïíïïî) {} finally {
+                                } catch (iÌïíïïî) { } finally {
                                   iîiìïìí(iÌîíiïì, false);
                                 }
                               }
@@ -105016,7 +104989,7 @@
                         });
                         iîiìïìí(iÍíííïì, iîïïïïi((iÎìiíîî.completed || []).map(iÍiïíìí => iIííìíi(iÍiïíìí, iÎíïììi().id))));
                         iîiìïìí(iÎîïîíì, !!iÎìiíîî.completed_has_more);
-                      } catch {}
+                      } catch { }
                     }
                   })();
                 } catch (iÎîíïiï) {
@@ -107722,7 +107695,7 @@
     var iÏiíîíï = null;
     try {
       iÏiíîíï = await ((iÏíîííi = (iÎïïìîi = window.FRVR?.auth) === null || iÎïïìîi === undefined ? undefined : iÎïïìîi.getFreshAccessToken) === null || iÏíîííi === undefined ? undefined : iÏíîííi.call(iÎïïìîi));
-    } catch (iÌíììii) {}
+    } catch (iÌíììii) { }
     if (!iÏiíîíï) {
       iîiìïìí(iìïiíií, "error");
       iîiìïìí(iíïïiìi, "Not signed in.");
@@ -108066,7 +108039,7 @@
         })(iÌìììíì);
       }
     };
-    iÎîîíìì.onerror = function (iÏiîìîï) {};
+    iÎîîíìì.onerror = function (iÏiîìîï) { };
     iÎîîíìì.onclose = function (iÌiiîîî) {
       iiììíìï();
       iíïìiîî = null;
@@ -108241,7 +108214,7 @@
         if (iíïìiîî) {
           try {
             iíïìiîî.close(1000, "client disconnect");
-          } catch (iIííïíî) {}
+          } catch (iIííïíî) { }
           iíïìiîî = null;
         }
         iîiìïìí(iìïiíií, "disconnected");
@@ -108891,7 +108864,7 @@
               iiîiïíî().then(() => iîîîíîi(iÎiìììí)?.focus());
               const iÌìiîîi = iìïiììî.history[iÏiîììï.friend.id];
               if (!iÌìiîîi || !iÌìiîîi.initialised && !iÌìiîîi.loading) {
-                iïïììïi(iÏiîììï.friend.id, 0, 15).catch(iÎïìííî => {});
+                iïïììïi(iÏiîììï.friend.id, 0, 15).catch(iÎïìííî => { });
               }
             });
             let iIìïìïí = "";
@@ -108956,7 +108929,7 @@
                 if (iîîîíîi(iÏíïììì)) {
                   iîîîíîi(iÏíïììì).scrollTop = iîîîíîi(iÏíïììì).scrollHeight - iÍiiiií;
                 }
-              } catch (iIíîîïí) {} finally {
+              } catch (iIíîîïí) { } finally {
                 iîiìïìí(iÎiïìïí, false);
               }
             }
@@ -109691,7 +109664,7 @@
     var iÍíîiìï = null;
     try {
       iÍíîiìï = new URL(window.location.href).searchParams.get("game");
-    } catch (iÍìîîìï) {}
+    } catch (iÍìîîìï) { }
     if ((iÏïîìïî = window.backToOrigin) !== null && iÏïîìïî !== undefined) {
       iÏïîìïî.call(window, false, iÍíîiìï ? {
         exclude: iÍíîiìï
@@ -113482,7 +113455,7 @@
       } else if (iììïiíí(iiììîiì).subscribed) {
         iïiiiîi(null);
       }
-    } catch (iÎìïiîî) {}
+    } catch (iÎìïiîî) { }
   }
   async function iïììîïî(iÌïîììï) {
     try {
@@ -113539,7 +113512,7 @@
         };
       });
       iÎîïìïí.close();
-    } catch (iÍíiîïì) {}
+    } catch (iÍíiîïì) { }
   }
   async function iìïíîïî() {
     try {
@@ -113600,7 +113573,7 @@
       } finally {
         iIíîiïì.f();
       }
-    } catch (iÎíïïìî) {}
+    } catch (iÎíïïìî) { }
   }
   function iiïiíïì(iÏiîiîi) {
     var iÏiiiïî = (iÏiîiîi + "=".repeat((4 - iÏiîiîi.length % 4) % 4)).replace(/-/g, "+").replace(/_/g, "/");
@@ -113770,7 +113743,7 @@
       symbol: "RP",
       amount: iÍîìîíî
     }]);
-    function iÌìííìi(iÎíîííï) {}
+    function iÌìííìi(iÎíîííï) { }
     function iÎîîííí(iÍîïïii, iÌîìiíî) {
       return iíiïiìí(() => ({
         render: () => "<div></div>",
@@ -114340,7 +114313,7 @@
         }, () => {
           iîiìïìí(iIiìíiì, iIíìíìi(iîîîíîi(iÌïîïìî).length + (iÎîïîîí().showPromo && !(iîîîíîi(iIïiíïî).length < 3) && (iÌîiîìî() !== "expanded" || iîîîíîi(iIïiíïî).length !== 3 && (!(iîîîíîi(iIïiíïî).length > 3) || iîîîíîi(iIïiíïî).length % 4 == 0)) ? 1 : 0), iÌîiîìî() === "expanded"));
         });
-        iîiïïiï(() => {}, () => {
+        iîiïïiï(() => { }, () => {
           iîiìïìí(iÌìîììi, 3);
         });
         iîiïïiï(() => iîîîíîi(iÌìîììi), () => {
@@ -114453,7 +114426,7 @@
         }, () => {
           iîiìïìí(iIîíííi, iÌîiîìî() === "expanded" ? 4 : Math.min(iîîîíîi(iÌîìîïí).length + (iîîîíîi(iÏîiìïi) ? 1 : 0), 3));
         });
-        iîiïïiï(() => {}, () => {
+        iîiïïiï(() => { }, () => {
           iîiìïìí(iÎìíìîî, 4);
         });
         iîiïïiï(() => iîîîíîi(iÌïîïìî), () => {
@@ -114987,7 +114960,7 @@
                       iïiiiîi(null);
                     }
                   }
-                } catch (iÍiîiiï) {}
+                } catch (iÍiîiiï) { }
               }();
               return iììïiíí(iiììîiì).subscribed;
             } catch (iIììïìî) {
@@ -115227,7 +115200,7 @@
               ...iÎìîïïî,
               isClaimed: true
             }));
-          } catch (iÍïìíìî) {} finally {
+          } catch (iÍïìíìî) { } finally {
             iîiìïìí(iÌiìïîi, false);
           }
         }
@@ -115629,7 +115602,7 @@
   }
   iïìïíìi(["click"]);
   if ("serviceWorker" in window.navigator) {
-    window.navigator.serviceWorker.register("./service-worker.js").then(function (iIïîììî) {}, function (iÍiìiíï) {});
+    window.navigator.serviceWorker.register("./service-worker.js").then(function (iIïîììî) { }, function (iÍiìiíï) { });
   }
   var iïïìiìì = window.currentStorage;
   var iiïïììî = function () {
@@ -115678,7 +115651,7 @@
               });
             }();
           }
-        } catch (iÎíïííi) {}
+        } catch (iÎíïííi) { }
         var iÏìîiïï;
         var iIíîïiî = iÌïîìïï.gameId || this.parseQuery();
         var iÍïïííì = iÌïîìïï.validationToken;
@@ -115696,7 +115669,7 @@
             var iÌìïiìï = null;
             try {
               iÌìïiìï = await iÏiìíìï.getCaptchaToken();
-            } catch (iIïìiîî) {}
+            } catch (iIïìiîî) { }
             if (!iÌìïiìï) {
               throw iÌiîîïi;
             }
@@ -115938,7 +115911,7 @@
         var iÎïiìií = null;
         try {
           iÎïiìií = await iÍíïìîî.json();
-        } catch (iÌîïiìî) {}
+        } catch (iÌîïiìî) { }
         throw {
           message: iÍíïìîî.statusText,
           response: {
@@ -117237,7 +117210,7 @@
                 iÌîiíii.object.startMaterial(iÏiiïiì.substring(7).trim(), iÌîiíii.materialLibraries);
               } else if (iìïïííi.test(iÏiiïiì)) {
                 iÌîiíii.materialLibraries.push(iÏiiïiì.substring(7).trim());
-              } else if (iiïííiì.test(iÏiiïiì)) ;else if (iÏíîîíï === "s") {
+              } else if (iiïííiì.test(iÏiiïiì)); else if (iÏíîîíï === "s") {
                 if ((iÌîïiíî = iÏiiïiì.split(" ")).length > 1) {
                   var iÍïíìïí = iÌîïiíî[1].trim().toLowerCase();
                   iÌîiíii.object.smooth = iÍïíìïí !== "0" && iÍïíìïí !== "off";
@@ -117450,7 +117423,7 @@
     var iÎiìîiï = iÍîiîií / 8 | 0;
     return (iIìïiíí[iÎiìîiï] | iIìïiíí[iÎiìîiï + 1] << 8 | iIìïiíí[iÎiìîiï + 2] << 16) >> (iÍîiîií & 7);
   };
-  var iïîíïîi = ["unexpected EOF", "invalid block type", "invalid length/literal", "invalid distance", "stream finished", "no stream handler",, "no callback", "invalid UTF-8 data", "extra field too long", "date not in range 1980-2099", "filename too long", "stream finishing", "invalid zip data"];
+  var iïîíïîi = ["unexpected EOF", "invalid block type", "invalid length/literal", "invalid distance", "stream finished", "no stream handler", , "no callback", "invalid UTF-8 data", "extra field too long", "date not in range 1980-2099", "filename too long", "stream finishing", "invalid zip data"];
   var iíiíìíi = function (iÏìîíïí, iÍïïììï, iÏïïîii) {
     var iIiíìïï = new Error(iÍïïììï || iïîíïîi[iÏìîíïí]);
     iIiíìïï.code = iÏìîíïí;
@@ -117468,7 +117441,7 @@
     iïííîíi.decode(iîîîììí, {
       stream: true
     });
-  } catch (iÏíiïìî) {}
+  } catch (iÏíiïìî) { }
   function iìiiiìï(iÌìíiìî, iÍiìiïì, iÏiììïi) {
     var iÏìïíïî = iÏiììïi.length - iÌìíiìî - 1;
     if (iÍiìiïì >= iÏiììïi[iÏìïíïî]) {
@@ -120067,7 +120040,7 @@
                   }
                   var iÍíïïiì = (1 << iÍïíiii) - 1;
                   var iIiïìîì = (1 << iÌïïììí) - 1;
-                  for (var iÌîíiîî = iÌiîíìí;; iÌîíiîî = iÌiîíìí) {
+                  for (var iÌîíiîî = iÌiîíìí; ; iÌîíiîî = iÌiîíìí) {
                     var iÌïìîïì = (iÎíííìï = iÍìîìii[iiîîîïì(iÏïííïï, iÌiîíìí) & iÍíïïiì]) >> 4;
                     if ((iÌiîíìí += iÎíííìï & 15) > iÌíîîîï) {
                       if (iÏìîïìi) {
@@ -123324,8 +123297,8 @@
     this.renderToScreen = false;
   };
   Object.assign(iíïîîïì.prototype, {
-    setSize: function () {},
-    render: function () {}
+    setSize: function () { },
+    render: function () { }
   });
   iíïîîïì.FullScreenQuad = function () {
     var iIííîiî = new iìiïííî(-1, 1, 1, -1, 0, 1);
@@ -127424,7 +127397,7 @@
           shadows: true
         });
       };
-      this.addGRASS = function (iÍîïìíî, iIiïîìî, iIîiìií, iÍîíîìï) {};
+      this.addGRASS = function (iÍîïìíî, iIiïîìî, iIîiìií, iÍîíîìï) { };
       this.addLOOT = function (iIïïiìí, iÍïîîîi, iÌîìïîi, iÏìîïiì) {
         var iÍïiìîi = Math.round(Math.abs((iIïïiìí[0] + iIïïiìí[2]) % 3));
         iÎîîiìï(iÌîìïîi.clutterMesh, iIïïiìí[0] + 6, iIïïiìí[1], iIïïiìí[2] + 15, 18, 1, 3, [1, 1, 1, 0, 1, 1], {
@@ -127754,7 +127727,7 @@
         return "<span style='color:var(--yellow);'>Egg Basket is Required</span>";
       }
     },
-    onPickup: function (iÎiììíi, iÎîîîiì, iIìîíîì, iIíîïìi) {},
+    onPickup: function (iÎiììíi, iÎîîîiì, iIìîíîì, iIíîïìi) { },
     onDestroy: function (iÏïiîiï, iÎìïiîí, iÏïiîîî, iÍìíïïî) {
       if (!iÎìïiîí) {
         return SOUND.stop("egg_0");
@@ -128915,8 +128888,8 @@
     updateCustomGUI: function (iÎiîïîi, iÍìïîïî, iÎîíìíí, iÍiiiïï, iÌîîìïï, iÎîíííí, iIïiîii, iÍííìîì, iÍíiiìî, iÌîíîíï) {
       if (iIïiîii && iIïiîii.length) {
         for (var iÌìîìïí = iÍííìîì ? iIïiîii : iììiìïi(iIïiîii).sort(function (iIiîîiï, iÎíïîiì) {
-            return (iIiîîiï.z || 0) - (iÎíïîiì.z || 0);
-          }), iIíïiíì = 0; iIíïiíì < iÌìîìïí.length; ++iIíïiíì) {
+          return (iIiîîiï.z || 0) - (iÎíïîiì.z || 0);
+        }), iIíïiíì = 0; iIíïiíì < iÌìîìïí.length; ++iIíïiíì) {
           if ((iíîïììì = iÌìîìïí[iIíïiíì]).o && !iíîïììì.nv) {
             iíiíîìì(iÎiîïîi, iíîïììì, iÍìïîïî, iÎîíìíí, iÍiiiïï, iÌîîìïï, iÎîíííí);
           }
@@ -133171,129 +133144,129 @@
   }(iìîíîïí);
   iiiîïïï.CONFIG_PROPS = ["zoneSize", "zoneSpeed", "zoneRnd", "zoneCol0", "zoneCol1", "zoneCol2", "zoneHeight", "zoneStages", "zoneWait"];
   for (var iiìiiïì = [{
-      name: "Boosted",
-      key: "speed",
-      timer: 0,
-      def: 1,
-      max: 5,
-      mlt: 0.1,
-      mid: 41,
-      execute: function (iIîïïíì, iÎíîiîî, iÌiîîïì) {
-        var iÌíììíï = 1 + iÎíîiîî.effects[this.index] * this.mlt;
-        iÎíîiîî.attributes[this.key] = iÌíììíï;
-      }
-    }, {
-      name: "Sleight of Hand",
-      key: "reload",
-      timer: 0,
-      def: 1,
-      max: 5,
-      mlt: 0.1,
-      mid: 42,
-      execute: function (iÏïîîií, iÌîìîîï, iÌîíííî) {
-        var iÎîiîïí = 1 - iÌîìîîï.effects[this.index] * this.mlt;
-        iÌîìîîï.attributes[this.key] = Math.abs(iÎîiîïí);
-      }
-    }, {
-      name: "Rapid Fire",
-      key: "fRate",
-      timer: 0,
-      def: 1,
-      max: 5,
-      mlt: 0.05,
-      mid: 43,
-      execute: function (iÌíiiii, iÌíïíïì, iÏíïîií) {
-        var iÎiìïii = 1 - iÌíïíïì.effects[this.index] * this.mlt;
-        iÌíïíïì.attributes[this.key] = Math.abs(iÎiìïii);
-      }
-    }, {
-      name: "Siphon",
-      key: "siphon",
-      timer: 0,
-      def: 0,
-      max: 5,
-      hp: 10,
-      mlt: 1,
-      mid: 44,
-      execute: function (iÍîìiíî, iÌííiîî, iÎiiïïi) {
-        var iIîiïïï = iÌííiîî.effects[this.index] * this.mlt;
-        iÌííiîî.attributes[this.key] = iIîiïïï * this.hp;
-      }
-    }, {
-      name: "Rooted",
-      key: "rooted",
-      timer: 25,
-      def: 1,
-      max: 2,
-      mlt: 0.25,
-      mid: 45,
-      execute: function (iÏîíïïí, iÏìiîíï, iÌíîîïî) {
-        var iIiîìíì = 1 - iÏìiîíï.effects[this.index] * this.mlt;
-        iÏìiîíï.attributes[this.key] = Math.abs(iIiîìíì);
-      }
-    }, {
-      name: "Dizzy",
-      key: "drunk",
-      timer: 35,
-      def: 0,
-      max: 4,
-      mlt: 0.25,
-      mid: 46,
-      execute: function (iÌîíííï, iÍîìîiï, iÍïìîiï) {
-        var iÌíììîí = iÍîìîiï.effects[this.index] * this.mlt;
-        iÍîìîiï.attributes[this.key] = iÌíììîí;
-      }
-    }, {
-      name: "Poisoned",
-      key: "enraged",
-      timer: 40,
-      def: 0,
-      hp: 10,
-      max: 1,
-      mlt: 1,
-      mid: 47,
-      execute: function (iÏíìïíì, iÎìíïìi, iÎììîií) {
-        var iÏíìïïï = iÎìíïìi.effects[this.index] * this.mlt;
-        iÎìíïìi.attributes[this.key] = iÏíìïïï * this.hp;
-      }
-    }, {
-      name: "Jump Boost",
-      key: "jump",
-      timer: 0,
-      def: 1,
-      max: 5,
-      mlt: 0.1,
-      mid: 51,
-      execute: function (iÍíìíîì, iIíííìí, iIïîiìí) {
-        var iÌiiïïi = 1 + iIíííìí.effects[this.index] * this.mlt;
-        iIíííìí.attributes[this.key] = iÌiiïïi;
-      }
-    }, {
-      name: "Zapped",
-      key: "zap",
-      timer: 5,
-      def: 0,
-      hp: 2,
-      max: 10,
-      mlt: 0.5,
-      mid: 52,
-      execute: function (iÎììîíì, iÌìíìíí, iIiíîîí) {
-        var iÍîîììï = iÌìíìíí.effects[this.index] * this.mlt;
-        iÌìíìíí.attributes[this.key] = iÍîîììï * this.hp;
-      }
-    }, {
-      name: "Strength",
-      key: "dmg",
-      timer: 0,
-      def: 1,
-      max: 10,
-      mlt: 0.1,
-      mid: 53,
-      execute: function (iIìîïìì, iÏïiííì, iIìîíîí) {
-        var iÌíìíïï = 1 + iÏïiííì.effects[this.index] * this.mlt;
-        iÏïiííì.attributes[this.key] = iÌíìíïï;
-      }
-    }], iìíìïìì = 0; iìíìïìì < iiìiiïì.length; iìíìïìì++) {
+    name: "Boosted",
+    key: "speed",
+    timer: 0,
+    def: 1,
+    max: 5,
+    mlt: 0.1,
+    mid: 41,
+    execute: function (iIîïïíì, iÎíîiîî, iÌiîîïì) {
+      var iÌíììíï = 1 + iÎíîiîî.effects[this.index] * this.mlt;
+      iÎíîiîî.attributes[this.key] = iÌíììíï;
+    }
+  }, {
+    name: "Sleight of Hand",
+    key: "reload",
+    timer: 0,
+    def: 1,
+    max: 5,
+    mlt: 0.1,
+    mid: 42,
+    execute: function (iÏïîîií, iÌîìîîï, iÌîíííî) {
+      var iÎîiîïí = 1 - iÌîìîîï.effects[this.index] * this.mlt;
+      iÌîìîîï.attributes[this.key] = Math.abs(iÎîiîïí);
+    }
+  }, {
+    name: "Rapid Fire",
+    key: "fRate",
+    timer: 0,
+    def: 1,
+    max: 5,
+    mlt: 0.05,
+    mid: 43,
+    execute: function (iÌíiiii, iÌíïíïì, iÏíïîií) {
+      var iÎiìïii = 1 - iÌíïíïì.effects[this.index] * this.mlt;
+      iÌíïíïì.attributes[this.key] = Math.abs(iÎiìïii);
+    }
+  }, {
+    name: "Siphon",
+    key: "siphon",
+    timer: 0,
+    def: 0,
+    max: 5,
+    hp: 10,
+    mlt: 1,
+    mid: 44,
+    execute: function (iÍîìiíî, iÌííiîî, iÎiiïïi) {
+      var iIîiïïï = iÌííiîî.effects[this.index] * this.mlt;
+      iÌííiîî.attributes[this.key] = iIîiïïï * this.hp;
+    }
+  }, {
+    name: "Rooted",
+    key: "rooted",
+    timer: 25,
+    def: 1,
+    max: 2,
+    mlt: 0.25,
+    mid: 45,
+    execute: function (iÏîíïïí, iÏìiîíï, iÌíîîïî) {
+      var iIiîìíì = 1 - iÏìiîíï.effects[this.index] * this.mlt;
+      iÏìiîíï.attributes[this.key] = Math.abs(iIiîìíì);
+    }
+  }, {
+    name: "Dizzy",
+    key: "drunk",
+    timer: 35,
+    def: 0,
+    max: 4,
+    mlt: 0.25,
+    mid: 46,
+    execute: function (iÌîíííï, iÍîìîiï, iÍïìîiï) {
+      var iÌíììîí = iÍîìîiï.effects[this.index] * this.mlt;
+      iÍîìîiï.attributes[this.key] = iÌíììîí;
+    }
+  }, {
+    name: "Poisoned",
+    key: "enraged",
+    timer: 40,
+    def: 0,
+    hp: 10,
+    max: 1,
+    mlt: 1,
+    mid: 47,
+    execute: function (iÏíìïíì, iÎìíïìi, iÎììîií) {
+      var iÏíìïïï = iÎìíïìi.effects[this.index] * this.mlt;
+      iÎìíïìi.attributes[this.key] = iÏíìïïï * this.hp;
+    }
+  }, {
+    name: "Jump Boost",
+    key: "jump",
+    timer: 0,
+    def: 1,
+    max: 5,
+    mlt: 0.1,
+    mid: 51,
+    execute: function (iÍíìíîì, iIíííìí, iIïîiìí) {
+      var iÌiiïïi = 1 + iIíííìí.effects[this.index] * this.mlt;
+      iIíííìí.attributes[this.key] = iÌiiïïi;
+    }
+  }, {
+    name: "Zapped",
+    key: "zap",
+    timer: 5,
+    def: 0,
+    hp: 2,
+    max: 10,
+    mlt: 0.5,
+    mid: 52,
+    execute: function (iÎììîíì, iÌìíìíí, iIiíîîí) {
+      var iÍîîììï = iÌìíìíí.effects[this.index] * this.mlt;
+      iÌìíìíí.attributes[this.key] = iÍîîììï * this.hp;
+    }
+  }, {
+    name: "Strength",
+    key: "dmg",
+    timer: 0,
+    def: 1,
+    max: 10,
+    mlt: 0.1,
+    mid: 53,
+    execute: function (iIìîïìì, iÏïiííì, iIìîíîí) {
+      var iÌíìíïï = 1 + iÏïiííì.effects[this.index] * this.mlt;
+      iÏïiííì.attributes[this.key] = iÌíìíïï;
+    }
+  }], iìíìïìì = 0; iìíìïìì < iiìiiïì.length; iìíìïìì++) {
     iiìiiïì[iìíìïìì].index = iìíìïìì;
   }
   var iíïîïîì = ["nuke_0", 1, 1, 0, false];
@@ -134503,7 +134476,7 @@
             iÌiîìïï = iÎïíïïî && iïîíïíï(iÎïíïïî) ? iÎïíïïî : undefined;
           }
           if (iÌiîìïï != null) {
-            iÏíiíïí.storageUpdt(iIîiìîì.account.name, null, iÏìîìîï, "private", function (iIiïíïi, iÌíïìiì) {}, iÍíìiîí + "," + iÌiîìïï);
+            iÏíiíïí.storageUpdt(iIîiìîì.account.name, null, iÏìîìîï, "private", function (iIiïíïi, iÌíïìiì) { }, iÍíìiîí + "," + iÌiîìïï);
           }
         }
       }
@@ -139479,15 +139452,15 @@
             iÏïîíìì.maps = iIiìîíï.maps;
           }
           var iÎìiiíî = `
-      import { createRequire } from "node:module";
-      import { workerData } from "node:worker_threads";
+        import { createRequire } from "node:module";
+        import { workerData } from "node:worker_threads";
 
-      const filename = "${iììïîîí && iììïîîí.tagName.toUpperCase() === "SCRIPT" && iììïîîí.src || new URL("app.js", document.baseURI).href}";
-      const require = createRequire(filename);
-      const { tsImport } = require("tsx/esm/api");
+        const filename = "${iììïîîí && iììïîîí.tagName.toUpperCase() === "SCRIPT" && iììïîîí.src || new URL("app.js", document.baseURI).href}";
+        const require = createRequire(filename);
+        const { tsImport } = require("tsx/esm/api");
 
-      tsImport(workerData.__ts_worker_filename, filename);
-      `;
+        tsImport(workerData.__ts_worker_filename, filename);
+        `;
           var iÏîíiii = function (iÌììiïï) {
             function iÎìíïíï(iÎíîììì) {
               var iÌïìîîì;
@@ -140836,7 +140809,7 @@
       }
       this.finishGenerate(iIîììíi);
     };
-    this.finishGenerate = function (iÌíiiíì) {};
+    this.finishGenerate = function (iÌíiiíì) { };
   }
   function iììììîi(iIìîìîí, iÌiíïïî, iÎìiïii, iIiîììî = {}) {
     for (var iÏîiíîí in iÎìiïii) {
@@ -142710,7 +142683,7 @@
                       if (iÌììiìí.onEnterObject && iÌììîiì) {
                         iÌiïïïí.onTrigger(this, iÌììiìí);
                       }
-                    } else if (iÌììiìí.isEvent) ;else if (iÌììiìí.redirection) ;else if (iÌììiìí.serverNode) ;else if (iÌììiìí.jumpPad) {
+                    } else if (iÌììiìí.isEvent); else if (iÌììiìí.redirection); else if (iÌììiìí.serverNode); else if (iÌììiìí.jumpPad) {
                       var iÏiîïíí = iÌììiìí.bounce * 0.1 / (this.crouchVal == 1 && iÌììiìí.crouch ? 2 : 1);
                       var iIiìîîi = 0;
                       var iIìììîï = 0;
@@ -142759,7 +142732,7 @@
                         iÏiìîïi.score(this, iÌììiìí.scoreP);
                         iÏiìîïi.logTime(this);
                       }
-                    } else if (iÌììiìí.premium && (this.account && this.account.premiumT || this.premiumT)) ;else if (iÌììiìí.verified && (this.account && this.account.featured || this.featured)) ;else if (iÌììiìí.kpd && this.account && this.account.canFlag) ;else if (iÌììiìí.teamZ && iÌiïïïí.teamCheck(iÌììiìí, this)) ;else if (iÌììiìí.kr && iÏiìîïi.enoughKR(this, iÌììiìí.amount)) ;else if (iÌììiìí.noPVP) {
+                    } else if (iÌììiìí.premium && (this.account && this.account.premiumT || this.premiumT)); else if (iÌììiìí.verified && (this.account && this.account.featured || this.featured)); else if (iÌììiìí.kpd && this.account && this.account.canFlag); else if (iÌììiìí.teamZ && iÌiïïïí.teamCheck(iÌììiìí, this)); else if (iÌììiìí.kr && iÏiìîïi.enoughKR(this, iÌììiìí.amount)); else if (iÌììiìí.noPVP) {
                       this.noPVP = true;
                     } else if (iÌììiìí.forcePVP) {
                       this.forcePVP = true;
@@ -142768,7 +142741,7 @@
                     } else if (iÌììiìí.checkpoint) {
                       iÌiïïïí.setCheckPoint(this, iÌììiìí);
                     } else if (iÌììiìí.pickup == null || !iïîíïíï(iÌììiìí.pickup) || iÌiïïïí.mode.teamOptions && iÌiïïïí.mode.teamOptions[this.team - 1] == "Infected") {
-                      if (iÌììiìí.flag) ;else if (iÌììiìí.trigger) {
+                      if (iÌììiìí.flag); else if (iÌììiìí.trigger) {
                         if (!!this.flag && !iÌiïïïí.mode.oneflag && iÌììiìí.team == this.team && !!iÌììiìí.flagObj && (!!iÌiïïïí.mode.rush || !iÌììiìí.flagObj.carrier) && iÌììiìí.flagObj.x == iÌììiìí.flagObj.orgX && iÌììiìí.flagObj.y == iÌììiìí.flagObj.orgY && iÌììiìí.flagObj.z == iÌììiìí.flagObj.orgZ) {
                           iÌiïïïí.capFlag(this, this.flag);
                         }
@@ -142793,7 +142766,7 @@
                             }
                           }
                         }
-                      } else if (iÌììiìí.noPCol) ;else {
+                      } else if (iÌììiìí.noPCol); else {
                         if (iÌììiìí.ropeLadder && this.y < iÌììiìí.y + iÌììiìí.height && this.crouchVal == 0 && !this.grapple && (this.velocity.y = 0, this.onLadder = true, this.onTerrain = false, this.stepSrc = null, iÎìïïïí !== undefined)) {
                           iÍíïîïí = iìîîíìi(Math.sin(this.xDire), Math.cos(this.xDire), 0, 0);
                           if ((iÎïîìîî = (Math.abs(iîìïîïï(iÍíïîïí, iÎìïïïí - this.xDire)) - Math.PI / 2) / (Math.PI / 2)) > 0) {
@@ -144991,7 +144964,7 @@
       }
       return iÌíîìîì.objInstances;
     };
-    this.pickProp = function (iÎìîíìï) {};
+    this.pickProp = function (iÎìîíìï) { };
     this.regenMeshes = function (iIïiiîì) {
       if (iIïiiîì.objInstances) {
         this.disposeMesh(iIïiiîì, true);
@@ -145907,7 +145880,7 @@
         }
       }
     };
-    this.debugHitboxes = function (iÎiìïïì) {};
+    this.debugHitboxes = function (iÎiìïïì) { };
     this.debugHitbox = function (iIíîììi, iÌïìiïì, iÍìïiíí) {
       if (iIíîììi && iIíîììi.debugMode && iÏìîìîì) {
         var iÎìíììí = this.fetchState(iÌïìiïì, iIíîììi);
@@ -147477,7 +147450,7 @@
               iÏiiïíï = (iÎiíìîî ? "Tap" : "Press <span style=\"color:" + iîïïìií + "\">[" + iiiíííî(iÏïiììï.controls.binds.interact.val) + "]</span>") + " to " + (iÎïìiîi.obj.interactMsg || (!iÎïìiîi.obj.active && iÎïìiîi.obj.closeable ? "Close" : "Open") + " gate") + (iÎïìiîi.obj.scoreP != 0 || iIîíììï > 2 ? " <span style='color:" + (iÌiíïìì ? iííïîìì : iìíîíìî) + "'>[" + (iIîíììï > 2 && iIîíììï != 7 ? (iIîíììï == 3 ? "Account" : iIîíììï == 4 ? "Verified" : "Premium") + " Only" : (iIîíììï == 7 ? "Level " : "") + iÎïìiîi.obj.scoreP || 0) + (iIîíììï == 2 ? " Kills" : "") + "]</span>" : "");
             } else if (iÎïìiîi.type == 1) {
               iÏiiïíï = "<span style='color:" + iìíîíìî + "'>[" + iíîîìîî(iÎïìiîi.obj.deposited || 0) + "]</span><div style='color: #fff;margin-top:-30px;'>Press <span style='color:" + iîïïìií + "'>[" + iiiíííî(iÏïiììï.controls.binds.interact.val) + "]</span> to Deposit - " + (iÎïìiîi.obj.depositAmnt || "All") + "</div><div style='color: #fff;margin-top:-30px;'>Press <span style='color:" + iîïïìií + "'>[" + iiiíííî(iÏïiììï.controls.binds.secondaryInteract.val) + "]</span> to Withdraw - " + (iÎïìiîi.obj.withdrawAmnt || "All") + "</div>";
-            } else if (iÎïìiîi.type == 2) ;else if (iÎïìiîi.type == 3) {
+            } else if (iÎïìiîi.type == 2); else if (iÎïìiîi.type == 3) {
               iÏiiïíï = "Press <span style=\"color:" + iîïïìií + "\">";
               if (iÎïìiîi.data == 1) {
                 iÏiiïíï += "[" + iiiíííî(10001) + "]</span> to Plant";
@@ -147735,7 +147708,7 @@
         }
       }
     };
-    this.saveWeaponStats = function (iÏíiìiï) {};
+    this.saveWeaponStats = function (iÏíiìiï) { };
     this.giveAssist = function (iIìiiîí) {
       if (iIìiiîí) {
         iIìiiîí.assists++;
@@ -148998,7 +148971,7 @@
           if (!iÏîiîïi) {
             iÏíïïîí.players.sync();
           }
-        } catch (iÍíiiíï) {}
+        } catch (iÍíiiíï) { }
       }
     };
     this.simulateInputs = function (iÎíìíìì) {
@@ -149557,2888 +149530,2888 @@
   var iîíììïî = "data:audio/ogg;base64,T2dnUwACAAAAAAAAAACiCJbGAAAAAKsPvDsBE09wdXNIZWFkAQI4AYC7AAAAAABPZ2dTAAAAAAAAAAAAAKIIlsYBAAAAhn7ZnQGJT3B1c1RhZ3MNAAAATGF2ZjU4LjI5LjEwMAQAAAAdAAAAZW5jb2Rlcj1MYXZjNTguNTQuMTAwIGxpYm9wdXMQAAAAbWFqb3JfYnJhbmQ9aXNvbREAAABtaW5vcl92ZXJzaW9uPTUxMh4AAABjb21wYXRpYmxlX2JyYW5kcz1pc29taXNvMm1wNDFPZ2dTAARfrwAAAAAAAKIIlsYCAAAAhpkL7EUDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwP/Mv/B/+b/ff8N/4//Cf+m/w7/Af8D/xX/EP8n/xL/ef8c/wjn/6v/MP8y/zv8//78//78//78//78//78//78//78//78//78//78//78//78//78//78//78//78//78//78//78//78//78//78//78//78f/1srZ9jb2rPJEmd/TtgmcpblLcpYMhE5/XGVQtYk44vp4XhCu9IehAtZ9hEVMiDs7oiJ5jTpjq5jezVnxrPoJs4oqlDSsOgN0h+vhpDXqXPKDhLYlHU32tNpSig2XVjNZ6saUz6iyikmDcNRanGthq0xnU9wYwDTZD6t8jFqY11w5ogWvxbQY5PBerf53U9YIcQYyB/9VBtMWX7vWam6YLTntJUQ31ktwq7akebm7neyzlGSWqn5OfBsCh3Q+QsMPnMA5RcBNpkWCkLJjEDuUkB6VPzb0MJ8XQ6pW46Hg08Rbm0p4QcDbHWlj5CZMZlm3M36+wUAx7GXKy06KCZ1tLeFlYTOaWHKYU9IcTDLWvxt/gHS5uuOJFn1UIVeoAoTKbtskm3bZLYlQ9v1r6oAPx/+9jTTyz6Pe+Kdy9CbMOz+Mfxh2dM6u1BM/uk8S9h8I8uLPfGDabrsf0QDEWareOALYbjsRlwSkqsjAQoH3mMyHuzAaWEvgSX2JeqleWryHMbzMooX2ijydENFwoKZsaM9zDMlKSJ69XFFCswC9UZwgPnNM1YXRAaGsMTq+al0YaG4rgzrFf/0/prTezaqcl7y18v2xRbqocesKomjAfeCzB+8eRTfpuzY93SAb2qD3loOqHfU/EvjgGGtc73dteX5Ya4/omb4EwtX3lHeYvP5L8ntETsdq1hgARzc2Pw8lj3QOH/lGDMa3Rq37aaAWK09tttsRGwVSIDMDZXmXiOh+Yo8mNXQwwjp597dj6/YKfiysFAdhmZLLrhaAQIl0CMmvxIkLZ+shyesye2OCpWi0sJMsEClFR0LBliAX0Uecng6QAHsYGnVhcOIsnX9Aq1QSGD/BBQ0WVEYLHb3HIljfZlMwKemDLJPXFMGrE+jQYjA6l8yOqtORBMjvsMI29sPx3My81iDpsusBM3Qza5Bsa4ilA+vQgUXCm1P4rDZulPLSb9v9xtUg0moDdzT+I/kVUS3a3b9ICv/b2SOdv8f/lAKZIe1Ieoh0m2PCh7JXuxR2KORUGFVL4hCsRArlbjck8lXD+PWU5GrRlxaIphNXtKfSNWUEFhZiti8es1Dt0gbEqtnG+kxmakLgATPAsTzzvJgM68vA8Vq3msROKl+9us6zALvifLr/Fww/Nz2Wut2uqtIJeljopp+lOjwhDFHQCKZQsRgX1ERxAS9OegNWLmGoR1PZh9MFAumQxZD3AT9H23LWRADl5oMaCWz4ZCAv774Oth9GhTUHugZ8ymA2xv2jKNq0isn83AxVZCCO4mnvmBfg/r0sbieLiWPhmxHgTWkeQzuhhncF8o9Yu5qIpEirjkHg646owJwlIUFAGfAVfoZiwJMla2JidRsk9fSHwLpje40+LOvcUj/LB/mARWwxPMQHu4zIVo5ddPAz144iZR2oIbvR/21bzQKEToQ05uA0J65/u2jTMyN7mdMCRNYyvtvQOh1k8qEfLZkuBvkOGFOyw/vKLBkAgvhyFWH5RmCAIW/TI9EXWelEN6Wp8SzZvXkxuqvubyEx00Qh8kre2Ji1Shk9BG/iO3jiA24QCtEkqOtUePViwbL0bQDVJHselHm5xVIaohJmMhQVXdFKJSOkIkJk82d160mSibvj1qkojuk2St/2wJNtvJkkJSX/x9jFBuSGPL9aAXSyh66GXQy6EI0ODWJbC+eksMAGXZ2FUR1yd2j36YpYy+AI0cRRr0oPCU25haRrHnC43YIFDD4PCwnibP+OkOwy6RLpUUhDTNn3yldPJ3oAoLJCg0LEPhiA6PBVQlv0XjF+/LF4r6oVwf/mPEI0JQS433Kts4vfQ0LpmgM5cqpPm+oQjNwgdXLBS9WszNfpCdd+jz7kxfBxH80QSPmR5i00bXYIQ6y17T6XGelDN9BmDJCOLQhRZsCQWJonxGfK87GUzVrsL2J1AN3TxCCtg7CdObJfLqW6u19nozf4nDsYXCb3IYhlWIBfSx8vG9YEYBO408wcut3ReR5khyzzr5TAHieDUD4pjihtkUUI4OkGx4psyZJ5u3aclFCqiCyvJAyqnbkr8OSRLdUHXEbQd+0z3e6YvE2LFU8Y0RWKkCTIPJIfLscmhpUmAWSztXEkjSc6BoD7qSGGnOgouYsm7XmiP9ZCdrQJEv/ybUm1oAM9gP/F7dcfPGmcwLPl70hmcoTXCGz1fKkkiC1qagEBdhQHNoQ8ZJwu87RCEDmGhAlbEnZoCRRFtek6qDj1xFA6arhI5sP8IK+ZwOB5J3i1wJGCnhgZ0TyNBkxB/VVEGs2xa0uGeAOECxfl9kvbpLqn5xQoUNzP2cchs4fx6vkxu/brQrLq28zSA/cXoF7Gjo0Owf6qZwrh6mYrN1zI3w0+1XtDhuVUMpvPC0O4qhFY9HUaowvAK7UNzP8T1jgBuObyMrKriP8jXamtxwV1O0guO6D0rP17X/IjxrgOz6evQuFSgqyK8sUUqz5sAIWt6cQmizfnAX8sscIB0mgDDPftSkMBttIAAlIPr18PCpP/xy5gAieGLCzl+4gc8jXNa5g/NpMBKqlmP65FlnAuecM0nxX+oKHfZ+vh+lnbLHa0+m7HSuukWciV1REaEahPcrquQppHA1qWGfxMy6Qv0blIy2LG2XldgpSbFeT3Zr3Ia3sjsVb6crg0PS0G9/y8PMhTW5B0fNQ+kpwOB1VCJHm9D8e0MEHoCnriTRYykk74ITbrdXkCOSaXvEReWr6JV2IE5pPun6oF2dnH+caGEhrUAH+i7AfVy85sj5vcKsUI2hogcrMcCz532+hSGYYmpon9P2mU1SLwNikQLw3e2nbQndzyd0elV7XKMwUcRHoy2LAFkMjWXj0PQ+fDzD1ICkgE7iuf2ZvEgznJAAHqAAKTCa+M2jAfg7ZHayYEm7VbBaSF+rycDQKw5gcn6xm83V7UwUQUkWuY2F7Ek8oT+eoALn+4cZMx25UROq3cb83lfgdFfU6qEaMmMou6eEeKxKhD0InbamemKkG7vC+L0mb3tky10q27anEwBmVYlndLa7k/AS2/tJbADb/yab/BgoLgv06fVoT1MMphlLhMS6UOYuPrRLpm0NSj4BU14/utH7YlZ6HzanP30ZXxNH2ZB91jqIwFVeW0b5jotvMeSpN8cGnm4QTmy0b6ZagFmM4180x3rgJUCgb1ZWM+VCbVCxZ7ZattWPNqb8TLK4nWoN7l6TTxRkM+BUMBgBAFq6aOdjO9+pMFqq5Ls2kU5j8OzWYPdUJFcniefmrIXEncx3BaeWQvGewK+KBjhxgGW2hl5bo3saPaaGR7oZ6dx4SzHxIc8eTuzwsJwUyg4ZYpoCmotwcV8RhjX1CkzvF6U8uZEms297OR7hyhU64fIFRbNBBp/9nbfJYnawCdm7dgLaX/Wqr1Jk/Hakj+zouG6NI6Lpj4SArBaAoRqDFP/eMBA0/N+Y/AdPpUS2C9g6+UCnVDp8TbmBGjnhpSM4fkqAmw4SaYTYAOFVC7l2B8rbOx94asxD3rMC+lduuDDmxGdx/oaxi0QptUXxnVMEKKmzs6qu5eZQ2MuSwb2dkEnlVrQoN9nqEIsEE10r3abG9+S+clEfx6E1zNmGGusogigdhYtK0eTIgrTybo55l1Z4awPv8FXW6hShKLwC2JptTQwy1i4uKJhSybAyhA1D//FpNdLux2mN6fD7SBv5Nv6t7K9qz/7UIq2cdQJvuyBxOpRyoswKeCvKdwTOKWLHvziiunnzuGx3v/OjLl1lVyOCwFuRNFJ1vVexVffhqw5VL647uFCHrKaJPlb6op4bkYvcLF57+jEoJc9YXuDSuRswkFTULOnzcGfHjzVFgySCowBLKMkZc6lTYlYYgjSZci0uSQVOfhX/rrcnYUo1ueKjqqYNs1uaCdYrKmlsB/BLRngQQAMEtjilglh9hLv8qsFkU8vAH+tz3nIe1aCb/MkSVWwNtkttiWwEgDZtW/ysnZAn2O3E349vRINF4+LGsLvFht5S/Tdp+oyVfU4jmBNcSWHq/2VJjENAa+9uT6XSDqioMY4Hx7S60Fi5NVPxqv6u2eEd33Am6YSsa9Enyi50xRp0pzgsQcF41O1cJ0TilcjX1k7/JO/YcydA1aHewvJvamFqYdKIlYEz6PhGyi8nJ6ccBQ69Ybl2TR9p5P2Xf81CO24rMRPGa+CkqgXZtV6s5yOvdFmcqRvKUfGEUIka4O24PWURSMm5M6X68AhK9r43g8BJvYl7/tyQQtCMouWtO2XBK+vkf7CeLbQGWmRIMs8Cdo8LXnVswKBn5m3wRcS8FgNF1I7erBd3QSSSTsSAT/rShVLCBNtn/KytJ8EMEcF/dX2T2jru7ZmR0jZMK/90XYn7anJECEAGN8aTNKh1S2Fmoab5r3yXvndxb66Zpt/FyIK9r65iG7YuWZQo+fONwv9iY1TpgUffE2VCUkNFKvQqXJ3KgSvnQv7wpALobtIUZGUdXpxPPfhXylKQzIz0d3tEz9/oLiZIyuetZ9pI6aZBzAxBCXB6OnZg2b2Cx2TuT6e0ppgeRgDxG4t0NTfFVJlvHmczS766syVo2TeutcPn/iZqTjQQgI/hM3z4mqcVWyXBjzFcPJg0n096X8AHBe4FkD2F5uziIm2bwMVQAQEOwDe2ruA5vefkggbbSE0qgtLVd6ltZfy2Te4Q8t7bQ+BAv5MV1chUNLsct0jk4K8ep0xlQ2tWVsLpRPBHarZZ2z5zHRmz9hh5N3ET9DbeLnUnOAVwjVrqu+YPyjpeZAGqcDjZV5ysfBG9bnTvxU255TW08wZdqR9WT/5VAkbWXQ2SPp3TTGQdrVwxqdaO4neg9d6JOBjplMeiV/vK5ifQ3jAFvTQw55VaxUfJs3z18lJjWiN0UU/n4WvlA4w589BIiQzQVn0BLotLHUcx8wJvT3cl6DlD0KOxLUmT6SU/OMoAwza1wMPFW7AefYud5jw0dm6UZ4qmsbSB/++dyKSvfzsBUIE+5/7zcDopGQMypSKoV4eqxil/Y/y7qxBlBFQfiqGlv/tCw7LmRIgIui6tZ0RrWFyHoMWfBLcbbuMDdSBO7Nhe1pVX4tk11MJy7Xs33aVqs2ZDJ03tKcHsJIeRb4p/VibfLDV/W5gvwvTjq5gVCbp12aGAALOHHAFF/x3uPd1S60pEspNd1VjJ6Wf4vvyLCWH97zHcKBgu+1LAh79KbydMAu+bXvMm2x+GMhczm3X59UagcZJstxfLV7ceAXnj7Qx4kzJySBX2VAwSu9+44mWyfpPfryFzgXlYJCKPmeMqKb1eDZAeWy4IgUCzGPaMc/OCA3UdVmm1lcQMJuBKX6vz9VEx1SLI6B8iUZksxdcUiVbw5Oeklr5y88jaf/Gf7f19UoVUICF/Vvy9a+56j8fhHUySa2/rFFOc6vpDuX6ca24o0xam8O9Lq5svsM9R8kMXps80evAGgyTdL1nR/+TfSeUnkgE6x+Txey4YHi4tO337ndpuK/OTCq2N10vjtptQKW1PE49XhqeBHV23K2VwY5E+0mzR9Uh6vEQQkwWKF22EAq75HnvKuSU7YVOzvOLrsdqP6WFAJ/itBTW2COzj5yHWUR2c+6493QF3KCcPU+wKJ/pQ+YuH4A/Q5wiyxpls/nmGnskR8buvp5G0waXflbIlhqnYizYlZHhdxW1zNp5gcwz0YStlrcw7HhVFGiJlB2QHZizufoLd0Rl8J12SC4jvEJeBH7CUrPgfJNq+oAFU3CEY21f8u6M5la0yDFJqSp92PXiYgTZl2TSewjR7JQ2pcEQVqVhFu7yOiFkfVchSEmhKvOSa8s8jyc9nXl1ZsqBbNyaQu8Hp5lNxMV6KuWyntjiRGRVBg/IQ+k89OQEX3xGyzv7MPxUx8mpEsg7D68NgSfIYOUr04NZMy3q26/3hR+GGku/VmJVC45URkl20Nkdk50WtbURIV5h1urFkAug62vJJFzhkFVskVkrvqDZv0ax3zkoskLa7vHcsfAGwR95bLRtVzOMJoto8pz4ea6B+OJ0grhaVevrygzufzOFdWilrK1oHfBGMNUzghd/s7feT9VwJzMHmsMJfMnv9AerTfcU+61Fty6NGe+nGMxgAdgYQpa0ztGuLxBgffvqeN7VQVVf6lNbVNxX80e7V5GnL/rMoNYONIWvJ/jtgzuRQkuHiJeY0v3vWJc1/NoTshPq9iFBRC4ki6CJUXuOV4UJnkVMqO9oWNWMU7Eeb0Gj33mjE/vWmOL7TFu6I2Mcz0RJgxSgfkt1ic35Xi2AL0bNItNb5oCpkgaRGpHnZlMerAjFYpOn0Tcc//XiJ0gTFtFm/ullQuWNLlaDGw1Du76a1/9X6X6I869AtGZqN2HT1aN8kVngy2dR/bi77D5br9YcTnscligbqzDzx++ixs/iDucs5xXlNMP+0rj+3Tvlq+G5KIkeYu84ZrS3A1IwBbk6Do6eb4ekZohvQg5ECLMoaMLWm+ZaqoK4SlR9eSIcasm0D1D69VkVQAiH8/6BDKlgCDihREK18yO9yv4I2XyowHMiCnLM8Eq7mAcV1BhfC0oCExdED5R9Law7LOcv4FIniiPxElx3y3brsNbZgnZiYdxprrA+G1nzMsVWsrdFo72LIn2mYg8ZwqpYDWEt6tXRZGkyrDy/jCpfDMFnT5EeRj+60p66P1cNhR92U6NmZip3cBV3UbxWLifocCUGXds3OvxQ28TsF0YyH9qp3u6ZYTntYg7Bhws5AcQIZxb2huXjYz2p5uW2E7O+wGviJgEng1lUyVw1pqKVK6JhoiQA6UF5iHaBUZnsCK0Rs22x+S/hoFdVNgZBcpawAV9yLInwPdMEwM+3QI0CcdhEhx3bYONcuisJCyEMcANrBacT+D8uEw891Cm6OUCYPgb8VdtdW/LrFiszAId/DiGzzQJ+Kk8HVcNY0wn1smazuYagrTKv0B5p5gyN6x/tvBc7fyCwVoTk1Ts5vDA+r5nwOL5tV6H/wJXEtb25PtStVVruMwKZB/P4l7waovjTnWRJzB7FkLiIsIbtcC4sa07DVgVIxUvIJ/6xUDQ3KU4wYPGUYUjlWtBS6ICXnDNXvrSfZVJ+lefqm2UqCvoUjjYCmHlujIK1ypVTeMnVZj41ylGqgPmQNWc7G2J4Rfwccl2SVyxAPQUK/9sY3Cr2G99YK2TviP46581JjYoP+ZHNkyVRWBSNnkDGcBTQvq8MGOQnwj/jfVepLFTDCtwmRT3dZRPviWNfkQdSep3xKfDEqk5htwfCS5vFLynERa+uo0gryMndT3PouMiOPKnSMOC4j1dHVW8tBUtvHYywE3kLsEHOEfH2Cl7j8d7oAl6K1uYzC0M/0QnGiQOeU4UQzdxmQbTxvW8P21CklqlGMhJP2Qfy6v74SOMK1HhWWid2sVdXH6egtPuCGgEyy2hbMCdWF/y22fU9bVSQC+SH8wg/tseW2jgR/6+zqXYID5MlQVsJ3cO9kf/6NqihQgbuJxH/itC18B+t/7yl7qMtO4rVj4biXivu8aWlqotStLxsyJiyOofu1ejcupd55ELuF8urbjV+LnZ+gJpX7/VWRQ66/3T/f3xzafULVt+eXVnqtp1lhUlhy9xkptFbXXx1bnFjSD5mFDQOv70EAJvsCd9D9GXXR0uKxmXi2lnhJcq9lbCMuqwLpH1GWCn8IJWyi/C7f70ffJqTspck3blcA0D4aPugcZ/i76TGpiX89SQGza/6VAHyAAuzX/Bdrjgx5VSyu4i5z5OIe3gvwwMkbKtdciqmlxWj19JFgP1Kr3/QW8377O7B4FKoDLDlBByPXDHei2ZzztkwOd5FEdrTy6EduCc/yPljod7gSPb1JczluHfgEam3cDxfLKOqvalSd8UYBAGvuvT/I6JiW6QRnjFrYqBlVMCl4MmaL4AT/4KFtSJNZfDoBi5Lj8UioLMcvs3Z5C38Zm94W4vQXhI6n0K7enQ1GgZmMBjh7LOUj4lELILfSEJW3nI8MoVPZbmn1ashntfCohQnrufi6iYro8aKCw3q2yWYdSQ2/6pQ9amdv/L/J5yKNVnHoGHh7jceZJlMvqcorihPF/otr6m1PyjZIeM7RFhR1He2A6rthOw/A0BuKOcuZodg93bsrRdELtlccyAyvZSz3DmzDw268mgmCGjAyssmIaihi1JsJ4nrOF1vl6eRZVt85lwP+KQhp3ayvUP+mBChKdU76m1/OAbGAyfpMkDWZr9TihOSWVA2hDRX3PJ+rbDLTyZgQ+sFxgDSiG4PiAaqde8zWgTXWz77jItnkbaF86nt4wPfgg1LR0PazxbBW81L8pbhYbz1RgC2MwTYZ8yO9sx48FD7F1QB1nm6o/QqlceKuc79TOQdWlwAdfFK3gyAydQd8ViQH6b8r+0slP/IDyX2V4dYH/ZyuJR5t9AVC29bElbc0uKHKlss1Q75GxAvkE4blcLSVvq6LMDwlZ1KfOekOv/uGnm4zL9u52Qn4vdzrCJO+g1HQRpiv66sRjCKguqxB0Q2KXhUsLWiBjZJdJ9A65urCoIHdNdovw7yR/ITR7d+LT41DNmrKFO/PWYtPkzatB7wcvt5KMaBxMvqZT8SX5Obs2AT/Jb/IFArbZJJh/Hl531uYuZMs8lYLx03OEPegNJbVaNXTFxF4wOSGjh1RVJ4zWEkMquR0p675/taRaoeJbI8LujHaRdOPiAUcEvKcjBnU57msCTHnM0wA4oXrTiJNkJGt/+BUsO1F3sCUUjMmDlZLRlNDXCe+n5di3S4oXxii5AEuy0d9uNTVb1+vVUC1SLNqHLdivkSfqFX2SVVatiimDop0tG1WnYHpBr+KoENVZbbJ3qv62BMANF1ItHX8R0/FZa6eDQ5H143EYUWzDQvRNIskyCYcpmOCgbthy2/a8nz38XkLR7QSbBoELKx5XSALZVHRmIYD6W6E7y0kM/Wth2bMyhCVEbdVQi13OiXh1xYLvQbbUVpf7TRcSkgFqPVB0gR0ov5dB1PQsBz4iQAkr79IP+g8P/oA/JVLngBDsITY39COMqNUCnZyfr4tZZcWkNgkRigp77/InDhFknyA2ud055MaTrsMgUOIBWOeLbeh79xM6s7yL0WMsJwHqJZuElN8oW3T/Ve+Iur+b26d0fjeu92bsOMLF88Mk7zNOQ1ELyxBjLOSRIkpXpiUa8/Qd6RSn3llmigI7UpJd0I5s6cv2IuyzH1BK76gPExnf84eGF7FBiW7SoUjaYePakOYOrhdH3xFXD/OjvSJNNdufHn6n6EROtmFuQ76vbv5VL3cELLpUGGCeYkor3foLIyHNYVSyLharfqQr4sc//iOI+yGodidSBGHR3tOvUDd5++bSwJMMlEIu605mHe1VBrzSZP7zCzEY68M7tk21/xEjusRFXmfw/97fnqyd23aTK3taFKTQev7UtD8lU5V2jDLfMCoQblx7lcB+xS0w6BH0yIGsk6rA4LG0S4Sf4V9PDJ3kddgY7KBYv//qoZ7aVlRnyBDxhwY9V7D4oa0KqSnqk3YM/ZgKPjEYu9qrwOPYQ8a+oiDX3Ji6Q3es1FCvp4FbMtk5rsjTx5M4p5f40xBcXF3UZtSNURzXFjypK345ALPnjAi5/CcQDCq6Qfv6EUUlns3bb7rF1gqChOAgo4QKGqOoH4eZnn4lYDtcDIHsx0ddGq5EDPncUY2CtS3FUruJcKa6RgByM86p4VmKR6KlLYAvcJO0qudEGdgzecFJN5o6+v6zMGEY47JcXMIzKdjDeOCmQ8M6EGzqRlFYvixSQjqZKVb0EN+FOks5VFaxCpKJio9Ue5HZ+fxrLPR22bHP2ra+ZkiWY3IBbVV//0Zyf6k4g==";
   var iîiiìii = [["Afghanistan", "af"], ["Albania", "al"], ["Algeria", "dz"], ["American Samoa", "as"], ["Andorra", "ad"], ["Angola", "ao"], ["Anguilla", "ai"], ["Antarctica", "aq"], ["Antigua and Barbuda", "ag"], ["Argentina", "ar"], ["Armenia", "am"], ["Aruba", "aw"], ["Australia", "au"], ["Austria", "at"], ["Azerbaijan", "az"], ["Bahamas", "bs"], ["Bahrain", "bh"], ["Bangladesh", "bd"], ["Barbados", "bb"], ["Belarus", "by"], ["Belgium", "be"], ["Belize", "bz"], ["Benin", "bj"], ["Bermuda", "bm"], ["Bhutan", "bt"], ["Bolivia", "bo"], ["Bosnia and Herzegovina", "ba"], ["Botswana", "bw"], ["Brazil", "br"], ["British Indian Ocean Territory", "io"], ["British Virgin Islands", "vg"], ["Brunei", "bn"], ["Bulgaria", "bg"], ["Burkina Faso", "bf"], ["Burundi", "bi"], ["Cambodia", "kh"], ["Cameroon", "cm"], ["Canada", "ca"], ["Cape Verde", "cv"], ["Cayman Islands", "ky"], ["Central African Republic", "cf"], ["Chad", "td"], ["Chile", "cl"], ["China", "cn"], ["Christmas Island", "cx"], ["Cocos Islands", "cc"], ["Colombia", "co"], ["Comoros", "km"], ["Cook Islands", "ck"], ["Costa Rica", "cr"], ["Croatia", "hr"], ["Cuba", "cu"], ["Curacao", "cw"], ["Cyprus", "cy"], ["Czech Republic", "cz"], ["Democratic Republic of the Congo", "cd"], ["Denmark", "dk"], ["Djibouti", "dj"], ["Dominica", "dm"], ["Dominican Republic", "do"], ["East Timor", "tl"], ["Ecuador", "ec"], ["Egypt", "eg"], ["El Salvador", "sv"], ["Equatorial Guinea", "gq"], ["Eritrea", "er"], ["Estonia", "ee"], ["Ethiopia", "et"], ["Falkland Islands", "fk"], ["Faroe Islands", "fo"], ["Fiji", "fj"], ["Finland", "fi"], ["France", "fr"], ["French Polynesia", "pf"], ["Gabon", "ga"], ["Gambia", "gm"], ["Georgia", "ge"], ["Germany", "de"], ["Ghana", "gh"], ["Gibraltar", "gi"], ["Greece", "gr"], ["Greenland", "gl"], ["Grenada", "gd"], ["Guam", "gu"], ["Guatemala", "gt"], ["Guernsey", "gg"], ["Guinea", "gn"], ["Guinea-Bissau", "gw"], ["Guyana", "gy"], ["Haiti", "ht"], ["Honduras", "hn"], ["Hong Kong", "hk"], ["Hungary", "hu"], ["Iceland", "is"], ["India", "in"], ["Indonesia", "id"], ["Iran", "ir"], ["Iraq", "iq"], ["Ireland", "ie"], ["Isle of Man", "im"], ["Israel", "il"], ["Italy", "it"], ["Ivory Coast", "ci"], ["Jamaica", "jm"], ["Japan", "jp"], ["Jersey", "je"], ["Jordan", "jo"], ["Kazakhstan", "kz"], ["Kenya", "ke"], ["Kiribati", "ki"], ["Kosovo", "xk"], ["Kuwait", "kw"], ["Kyrgyzstan", "kg"], ["Laos", "la"], ["Latvia", "lv"], ["Lebanon", "lb"], ["Lesotho", "ls"], ["Liberia", "lr"], ["Libya", "ly"], ["Liechtenstein", "li"], ["Lithuania", "lt"], ["Luxembourg", "lu"], ["Macau", "mo"], ["Macedonia", "mk"], ["Madagascar", "mg"], ["Malawi", "mw"], ["Malaysia", "my"], ["Maldives", "mv"], ["Mali", "ml"], ["Malta", "mt"], ["Marshall Islands", "mh"], ["Mauritania", "mr"], ["Mauritius", "mu"], ["Mayotte", "yt"], ["Mexico", "mx"], ["Micronesia", "fm"], ["Moldova", "md"], ["Monaco", "mc"], ["Mongolia", "mn"], ["Montenegro", "me"], ["Montserrat", "ms"], ["Morocco", "ma"], ["Mozambique", "mz"], ["Myanmar", "mm"], ["Namibia", "na"], ["Nauru", "nr"], ["Nepal", "np"], ["Netherlands", "nl"], ["Netherlands Antilles", "an"], ["New Caledonia", "nc"], ["New Zealand", "nz"], ["Nicaragua", "ni"], ["Niger", "ne"], ["Nigeria", "ng"], ["Niue", "nu"], ["North Korea", "kp"], ["Northern Mariana Islands", "mp"], ["Norway", "no"], ["Oman", "om"], ["Pakistan", "pk"], ["Palau", "pw"], ["Palestine", "ps"], ["Panama", "pa"], ["Papua New Guinea", "pg"], ["Paraguay", "py"], ["Peru", "pe"], ["Philippines", "ph"], ["Pitcairn", "pn"], ["Poland", "pl"], ["Portugal", "pt"], ["Puerto Rico", "pr"], ["Qatar", "qa"], ["Republic of the Congo", "cg"], ["Reunion", "re"], ["Romania", "ro"], ["Russia", "ru"], ["Rwanda", "rw"], ["Saint Barthelemy", "bl"], ["Saint Helena", "sh"], ["Saint Kitts and Nevis", "kn"], ["Saint Lucia", "lc"], ["Saint Martin", "mf"], ["Saint Pierre and Miquelon", "pm"], ["Saint Vincent and the Grenadines", "vc"], ["Samoa", "ws"], ["San Marino", "sm"], ["Sao Tome and Principe", "st"], ["Saudi Arabia", "sa"], ["Senegal", "sn"], ["Serbia", "rs"], ["Seychelles", "sc"], ["Sierra Leone", "sl"], ["Singapore", "sg"], ["Sint Maarten", "sx"], ["Slovakia", "sk"], ["Slovenia", "si"], ["Solomon Islands", "sb"], ["Somalia", "so"], ["South Africa", "za"], ["South Korea", "kr"], ["South Sudan", "ss"], ["Spain", "es"], ["Sri Lanka", "lk"], ["Sudan", "sd"], ["Suriname", "sr"], ["Svalbard and Jan Mayen", "sj"], ["Swaziland", "sz"], ["Sweden", "se"], ["Switzerland", "ch"], ["Syria", "sy"], ["Taiwan", "tw"], ["Tajikistan", "tj"], ["Tanzania", "tz"], ["Thailand", "th"], ["Togo", "tg"], ["Tokelau", "tk"], ["Tonga", "to"], ["Trinidad and Tobago", "tt"], ["Tunisia", "tn"], ["Turkey", "tr"], ["Turkmenistan", "tm"], ["Turks and Caicos Islands", "tc"], ["Tuvalu", "tv"], ["U.S. Virgin Islands", "vi"], ["Uganda", "ug"], ["Ukraine", "ua"], ["United Arab Emirates", "ae"], ["United Kingdom", "gb"], ["United States", "us"], ["Uruguay", "uy"], ["Uzbekistan", "uz"], ["Vanuatu", "vu"], ["Vatican", "va"], ["Venezuela", "ve"], ["Vietnam", "vn"], ["Wallis and Futuna", "wf"], ["Western Sahara", "eh"], ["Yemen", "ye"], ["Zambia", "zm"], ["Zimbabwe", "zw"]];
   for (var iïîïîiì = [(iíiïíîí = {
-      name: "AWP Blaster",
-      src: "weapon_1",
-      icon: "icon_1",
-      assetIcon: "",
-      sound: "weapon_1",
-      refDist: 25,
-      rollOff: 1,
-      equipment: false,
-      secondary: false,
-      noSpread: false,
-      projectile: {},
-      pj_asset: "",
-      pj_disable: true,
-      pj_mat: "BASIC",
-      pj_color: 16777179,
-      pj_dmg: 100,
-      pj_spd: 2.5,
-      pj_lookDir: true,
-      pj_grav: 0.0001,
-      pj_scale: 1.4,
-      pj_length: 10,
-      pj_range: 7000,
-      pj_snd: 0,
-      akimbo: false,
-      noAim: false,
-      animWhileAim: true,
-      trail: true,
-      flap: {
-        src: "flap_0",
-        rot: 2.1,
-        scl: 1,
-        zOff: 0.43,
-        xOff: 0.17,
-        yOff: 0.53
-      },
-      physRang: 0,
-      physPow: 0,
-      burst: true,
-      burstC: 2,
-      burstR: 100,
-      spread: 180,
-      minSpread: 20,
-      noAo: true,
-      nAuto: true,
-      type: 0,
-      scope: true,
-      swapTime: 300,
-      aimSpd: 120,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 0.95,
-      ammo: 12,
-      dmg: 100,
-      hsMlt: 1.5,
-      pierce: 0.2,
-      reload: 1200,
-      range: 1000,
-      dropStart: 230,
-      dmgDrop: 30,
-      scale: 0.00115608717587935,
-      leftHoldY: -0.65,
-      rightHoldY: -0.68,
-      leftHoldZ: 2.1,
-      rightHoldZ: 0.75,
-      holdW: 1,
-      xOff: 0.8,
-      yOff: -0.65,
-      zOff: -1.8,
-      xOrg: 0,
-      yOrg: -0.55,
-      zOrg: -0.8,
-      cLean: 0.2,
-      cRot: 0.2,
-      cDrop: 0.1,
-      inspectR: 0.2,
-      inspectM: 0.1,
-      muzOff: 8,
-      muzMlt: 1.6,
-      rate: 280
-    }, iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iíiïíîí, "spread", 260), "zoom", 2.7), "leanMlt", 1.5), "recoil", 0.009), "recoilR", 0.05), "recover", 0.993), "recoverY", 0.997), "recoverF", 0.975), "recoilYM", 0.55), "recoilZ", 1.5), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iíiïíîí, "recoilAnim", {
-      time: 280,
-      aimTime: 500,
-      recoilTweenY: 0.24
-    }), "jumpYM", 0.15), "rumble", 0.9), "rumbleDur", 500), "icnPad", 9), "charm", true), "charmMXOff", -0.37), "charmMYOff", -0.4), "charmMZOff", -0.91), "charmMScl", 1), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iíiïíîí, "charmXOff", 0), "charmYOff", 0), "charmZOff", 0), "charmScl", 1), "magReserve", 10), "altSkin", {
+    name: "AWP Blaster",
+    src: "weapon_1",
+    icon: "icon_1",
+    assetIcon: "",
+    sound: "weapon_1",
+    refDist: 25,
+    rollOff: 1,
+    equipment: false,
+    secondary: false,
+    noSpread: false,
+    projectile: {},
+    pj_asset: "",
+    pj_disable: true,
+    pj_mat: "BASIC",
+    pj_color: 16777179,
+    pj_dmg: 100,
+    pj_spd: 2.5,
+    pj_lookDir: true,
+    pj_grav: 0.0001,
+    pj_scale: 1.4,
+    pj_length: 10,
+    pj_range: 7000,
+    pj_snd: 0,
+    akimbo: false,
+    noAim: false,
+    animWhileAim: true,
+    trail: true,
+    flap: {
+      src: "flap_0",
+      rot: 2.1,
+      scl: 1,
+      zOff: 0.43,
+      xOff: 0.17,
+      yOff: 0.53
+    },
+    physRang: 0,
+    physPow: 0,
+    burst: true,
+    burstC: 2,
+    burstR: 100,
+    spread: 180,
+    minSpread: 20,
+    noAo: true,
+    nAuto: true,
+    type: 0,
+    scope: true,
+    swapTime: 300,
+    aimSpd: 120,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 0.95,
+    ammo: 12,
+    dmg: 100,
+    hsMlt: 1.5,
+    pierce: 0.2,
+    reload: 1200,
+    range: 1000,
+    dropStart: 230,
+    dmgDrop: 30,
+    scale: 0.00115608717587935,
+    leftHoldY: -0.65,
+    rightHoldY: -0.68,
+    leftHoldZ: 2.1,
+    rightHoldZ: 0.75,
+    holdW: 1,
+    xOff: 0.8,
+    yOff: -0.65,
+    zOff: -1.8,
+    xOrg: 0,
+    yOrg: -0.55,
+    zOrg: -0.8,
+    cLean: 0.2,
+    cRot: 0.2,
+    cDrop: 0.1,
+    inspectR: 0.2,
+    inspectM: 0.1,
+    muzOff: 8,
+    muzMlt: 1.6,
+    rate: 280
+  }, iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iíiïíîí, "spread", 260), "zoom", 2.7), "leanMlt", 1.5), "recoil", 0.009), "recoilR", 0.05), "recover", 0.993), "recoverY", 0.997), "recoverF", 0.975), "recoilYM", 0.55), "recoilZ", 1.5), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iíiïíîí, "recoilAnim", {
+    time: 280,
+    aimTime: 500,
+    recoilTweenY: 0.24
+  }), "jumpYM", 0.15), "rumble", 0.9), "rumbleDur", 500), "icnPad", 9), "charm", true), "charmMXOff", -0.37), "charmMYOff", -0.4), "charmMZOff", -0.91), "charmMScl", 1), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iíiïíîí, "charmXOff", 0), "charmYOff", 0), "charmZOff", 0), "charmScl", 1), "magReserve", 10), "altSkin", {
+    projection: true,
+    video: 2,
+    outline: 0,
+    outlineS: 1.05
+  })), {
+    name: "Zombie Assaulter",
+    src: "weapon_2",
+    icon: "icon_2",
+    assetIcon: "",
+    sound: "weapon_2",
+    refDist: 25,
+    rollOff: 1,
+    projectile: {},
+    pj_asset: "",
+    pj_disable: true,
+    pj_mat: "BASIC",
+    pj_color: 16777179,
+    pj_dmg: 23,
+    pj_spd: 2.6,
+    pj_lookDir: true,
+    pj_grav: 0.00011,
+    pj_scale: 1.4,
+    pj_length: 10,
+    pj_range: 3000,
+    pj_snd: 0,
+    equipment: false,
+    secondary: false,
+    noSpread: false,
+    akimbo: false,
+    noAim: false,
+    noAo: true,
+    nAuto: false,
+    physRang: 0,
+    physPow: 0,
+    swapWiggle: 0.3,
+    attach: 0,
+    attachYOff: -0.07,
+    attachZOff: -0.8,
+    zRot: 1,
+    type: 0,
+    swapTime: 300,
+    aimSpd: 130,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 0.95,
+    ammo: 35,
+    rate: 90,
+    reload: 1500,
+    dmg: 28,
+    hsMlt: 1.5,
+    pierce: 1,
+    range: 700,
+    dmgDrop: 5,
+    scale: 0.00095745145728643,
+    leftHoldY: -0.41,
+    rightHoldY: -0.6,
+    leftHoldZ: 0.5,
+    rightHoldZ: -1.2,
+    holdW: 0.8,
+    xOff: 0.7,
+    yOff: -0.87,
+    zOff: -3.33,
+    rotOff: -0.08,
+    rotOffA: -0.035,
+    aimOffY: 0.042,
+    yRot: 0.0018,
+    xOrg: 0,
+    yOrg: -0.59,
+    zOrg: -2.14,
+    cLean: 0.2,
+    cRot: 0.1,
+    cDrop: 0.1,
+    inspectR: 0.1,
+    inspectM: 1.5,
+    caseZOff: -1.7,
+    caseYOff: -0.2,
+    muzOff: 5.1,
+    muzOffY: -0.05,
+    muzMlt: 1.4,
+    spread: 100,
+    minSpread: 5,
+    zoom: 1.6,
+    leanMlt: 1.5,
+    recoil: 0.003,
+    recoilR: 0.05,
+    recover: 0.978,
+    recoverY: 0.995,
+    recoverF: 0.975,
+    jYMlt: 0.9,
+    recoilYM: 1.1,
+    recoilZ: 4.3,
+    recoilZM: -0.04,
+    aimRecMlt: 0.65,
+    recoilAnim: {
+      time: 160,
+      recoilTweenY: 0.065,
+      recoilTweenZ: 0.1
+    },
+    jumpYM: 0.3,
+    rumble: 0.5,
+    icnPad: 5,
+    charm: true,
+    charmMXOff: -0.37,
+    charmMYOff: -0.3,
+    charmMZOff: 1.19,
+    charmMScl: 1,
+    charmXOff: 0,
+    charmYOff: 0,
+    charmZOff: 0,
+    charmScl: 1,
+    muzID: 3,
+    magReserve: 7,
+    mysteryBoxR: 2,
+    altSkin: {
       projection: true,
       video: 2,
       outline: 0,
       outlineS: 1.05
-    })), {
-      name: "Zombie Assaulter",
-      src: "weapon_2",
-      icon: "icon_2",
-      assetIcon: "",
-      sound: "weapon_2",
-      refDist: 25,
-      rollOff: 1,
-      projectile: {},
-      pj_asset: "",
-      pj_disable: true,
-      pj_mat: "BASIC",
-      pj_color: 16777179,
-      pj_dmg: 23,
-      pj_spd: 2.6,
-      pj_lookDir: true,
-      pj_grav: 0.00011,
-      pj_scale: 1.4,
-      pj_length: 10,
-      pj_range: 3000,
-      pj_snd: 0,
-      equipment: false,
-      secondary: false,
-      noSpread: false,
-      akimbo: false,
-      noAim: false,
-      noAo: true,
-      nAuto: false,
-      physRang: 0,
-      physPow: 0,
-      swapWiggle: 0.3,
-      attach: 0,
-      attachYOff: -0.07,
-      attachZOff: -0.8,
-      zRot: 1,
-      type: 0,
-      swapTime: 300,
-      aimSpd: 130,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 0.95,
-      ammo: 35,
-      rate: 90,
-      reload: 1500,
-      dmg: 28,
-      hsMlt: 1.5,
-      pierce: 1,
-      range: 700,
-      dmgDrop: 5,
-      scale: 0.00095745145728643,
-      leftHoldY: -0.41,
-      rightHoldY: -0.6,
-      leftHoldZ: 0.5,
-      rightHoldZ: -1.2,
-      holdW: 0.8,
-      xOff: 0.7,
-      yOff: -0.87,
-      zOff: -3.33,
-      rotOff: -0.08,
-      rotOffA: -0.035,
-      aimOffY: 0.042,
-      yRot: 0.0018,
-      xOrg: 0,
-      yOrg: -0.59,
-      zOrg: -2.14,
-      cLean: 0.2,
-      cRot: 0.1,
-      cDrop: 0.1,
-      inspectR: 0.1,
-      inspectM: 1.5,
-      caseZOff: -1.7,
-      caseYOff: -0.2,
-      muzOff: 5.1,
-      muzOffY: -0.05,
-      muzMlt: 1.4,
-      spread: 100,
-      minSpread: 5,
-      zoom: 1.6,
-      leanMlt: 1.5,
-      recoil: 0.003,
-      recoilR: 0.05,
-      recover: 0.978,
-      recoverY: 0.995,
-      recoverF: 0.975,
-      jYMlt: 0.9,
-      recoilYM: 1.1,
-      recoilZ: 4.3,
-      recoilZM: -0.04,
-      aimRecMlt: 0.65,
-      recoilAnim: {
-        time: 160,
-        recoilTweenY: 0.065,
-        recoilTweenZ: 0.1
-      },
-      jumpYM: 0.3,
-      rumble: 0.5,
-      icnPad: 5,
-      charm: true,
-      charmMXOff: -0.37,
-      charmMYOff: -0.3,
-      charmMZOff: 1.19,
-      charmMScl: 1,
-      charmXOff: 0,
-      charmYOff: 0,
-      charmZOff: 0,
-      charmScl: 1,
-      muzID: 3,
-      magReserve: 7,
-      mysteryBoxR: 2,
-      altSkin: {
-        projection: true,
-        video: 2,
-        outline: 0,
-        outlineS: 1.05
-      }
-    }, {
-      name: "Pistol",
-      src: "weapon_3",
-      icon: "icon_3",
-      assetIcon: "",
-      sound: "weapon_3",
-      refDist: 25,
-      rollOff: 1,
-      secondary: true,
-      equipment: false,
-      noSpread: false,
-      akimbo: false,
-      noAim: false,
-      noAo: true,
-      transp: true,
-      nAuto: true,
-      projectile: {},
-      pj_asset: "",
-      pj_disable: true,
-      pj_mat: "BASIC",
-      pj_color: 16777179,
-      pj_dmg: 12,
-      pj_spd: 2.3,
-      pj_lookDir: true,
-      pj_grav: 0.0001,
-      pj_scale: 1.4,
-      pj_length: 10,
-      pj_range: 1600,
-      pj_snd: 0,
-      physRang: 0,
-      physPow: 0,
-      kill: ["", 75],
-      swapWiggle: 0.3,
-      type: 1,
-      shine: 10,
-      swapTime: 260,
-      aimSpd: 110,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 1.05,
-      ammo: 16,
-      reload: 700,
-      dmg: 20,
-      hsMlt: 1.5,
-      range: 700,
-      dmgDrop: 10,
-      scale: 0.0003158947055276376,
-      leftHoldY: -1.1,
-      rightHoldY: -0.62,
-      leftHoldZ: -0.3,
-      rightHoldZ: -0.32,
-      rightHoldX: 0.13,
-      holdW: 1.3,
-      xOff: 1.2,
-      yOff: -0.6,
-      zOff: -3.7,
-      xOrg: 0,
-      yRot: -0.005,
-      yOrg: -0.23,
-      zOrg: -3.9,
-      jYMlt: 0.1,
-      cLean: 0.3,
-      cRot: 0.3,
-      caseZOff: 0.2,
-      caseYOff: 0,
-      inspectR: 0.3,
-      inspectM: 0.8,
-      muzID: 3,
-      muzOff: 1.5,
-      muzOffY: 0,
-      muzMlt: 0.95,
-      rate: 100,
-      spread: 60,
-      zoom: 1.4,
-      leanMlt: 1,
-      recoil: 0.006,
-      recoilR: 0.02,
-      recover: 0.98,
-      recoverY: 0.99,
-      recoverF: 0.98,
-      recoilYM: 0.2,
-      aimRecMlt: 0.4,
-      recoilZ: 3.8,
-      recoilZM: -0.4,
-      recoilAnim: {
-        time: 200,
-        recoilTweenY: 0.28,
-        recoilTweenZ: 0.1
-      },
-      rumble: 0.4,
-      icnPad: -15,
-      expScale: 0.8,
-      charm: true,
+    }
+  }, {
+    name: "Pistol",
+    src: "weapon_3",
+    icon: "icon_3",
+    assetIcon: "",
+    sound: "weapon_3",
+    refDist: 25,
+    rollOff: 1,
+    secondary: true,
+    equipment: false,
+    noSpread: false,
+    akimbo: false,
+    noAim: false,
+    noAo: true,
+    transp: true,
+    nAuto: true,
+    projectile: {},
+    pj_asset: "",
+    pj_disable: true,
+    pj_mat: "BASIC",
+    pj_color: 16777179,
+    pj_dmg: 12,
+    pj_spd: 2.3,
+    pj_lookDir: true,
+    pj_grav: 0.0001,
+    pj_scale: 1.4,
+    pj_length: 10,
+    pj_range: 1600,
+    pj_snd: 0,
+    physRang: 0,
+    physPow: 0,
+    kill: ["", 75],
+    swapWiggle: 0.3,
+    type: 1,
+    shine: 10,
+    swapTime: 260,
+    aimSpd: 110,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 1.05,
+    ammo: 16,
+    reload: 700,
+    dmg: 20,
+    hsMlt: 1.5,
+    range: 700,
+    dmgDrop: 10,
+    scale: 0.0003158947055276376,
+    leftHoldY: -1.1,
+    rightHoldY: -0.62,
+    leftHoldZ: -0.3,
+    rightHoldZ: -0.32,
+    rightHoldX: 0.13,
+    holdW: 1.3,
+    xOff: 1.2,
+    yOff: -0.6,
+    zOff: -3.7,
+    xOrg: 0,
+    yRot: -0.005,
+    yOrg: -0.23,
+    zOrg: -3.9,
+    jYMlt: 0.1,
+    cLean: 0.3,
+    cRot: 0.3,
+    caseZOff: 0.2,
+    caseYOff: 0,
+    inspectR: 0.3,
+    inspectM: 0.8,
+    muzID: 3,
+    muzOff: 1.5,
+    muzOffY: 0,
+    muzMlt: 0.95,
+    rate: 100,
+    spread: 60,
+    zoom: 1.4,
+    leanMlt: 1,
+    recoil: 0.006,
+    recoilR: 0.02,
+    recover: 0.98,
+    recoverY: 0.99,
+    recoverF: 0.98,
+    recoilYM: 0.2,
+    aimRecMlt: 0.4,
+    recoilZ: 3.8,
+    recoilZM: -0.4,
+    recoilAnim: {
+      time: 200,
+      recoilTweenY: 0.28,
+      recoilTweenZ: 0.1
+    },
+    rumble: 0.4,
+    icnPad: -15,
+    expScale: 0.8,
+    charm: true,
+    charmMXOff: -0.37,
+    charmMYOff: -0.2,
+    charmMZOff: 0.91,
+    charmMScl: 1,
+    charmXOff: 0,
+    charmYOff: 0,
+    charmZOff: 0,
+    charmScl: 1,
+    magReserve: 7,
+    mysteryBoxR: 0,
+    altSkin: {
+      projection: true,
+      video: 2,
+      outline: 0,
+      outlineS: 1.05
+    }
+  }, {
+    name: "UMPire",
+    src: "weapon_4",
+    icon: "icon_4",
+    assetIcon: "",
+    sound: "weapon_4",
+    refDist: 25,
+    rollOff: 1,
+    secondary: false,
+    equipment: false,
+    noSpread: false,
+    nAuto: false,
+    noAim: false,
+    akimbo: false,
+    projectile: {},
+    pj_asset: "",
+    pj_disable: true,
+    pj_mat: "BASIC",
+    pj_color: 16777179,
+    pj_dmg: 18,
+    pj_spd: 2.4,
+    pj_lookDir: true,
+    pj_grav: 0.00011,
+    pj_scale: 1.4,
+    pj_length: 10,
+    pj_range: 2700,
+    pj_snd: 0,
+    physRang: 0,
+    physPow: 0,
+    swapWiggle: 0.5,
+    attach: 0,
+    attachYOff: -0.09,
+    attachZOff: -1.1,
+    zRot: 0.75,
+    noAo: true,
+    type: 0,
+    shine: 50,
+    swapTime: 300,
+    aimSpd: 110,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 1.04,
+    ammo: 44,
+    reload: 1000,
+    dmg: 24,
+    hsMlt: 1.5,
+    pierce: 1,
+    range: 700,
+    dmgDrop: 12,
+    scale: 0.000574897587939697,
+    leftHoldY: -0.4,
+    leftHoldX: -0.1,
+    leftHoldZ: 1.1,
+    rightHoldZ: -0.95,
+    rightHoldY: -0.5,
+    holdW: 0.85,
+    xOff: 0.85,
+    yOff: -0.86,
+    zOff: -3,
+    xOrg: 0,
+    yOrg: -0.59,
+    zOrg: -2.5,
+    cRot: 0.18,
+    cLean: 0.16,
+    inspectR: 0.2,
+    inspectM: 1.2,
+    caseYOff: -0.15,
+    caseZOff: -0.4,
+    muzID: 3,
+    muzOff: 2.15,
+    muzOffY: 0.1,
+    rate: 80,
+    spread: 70,
+    minSpread: 5,
+    zoom: 1.65,
+    jYMlt: 0.8,
+    leanMlt: 1,
+    recoil: 0.0034,
+    recoilY: 0.77,
+    recoilYM: 0.3,
+    recoilR: 0.065,
+    recover: 0.975,
+    recoverY: 0.996,
+    recoverF: 0.975,
+    recoilZ: 4.2,
+    recoilZM: -0.1,
+    aimRecMlt: 0.6,
+    recoilAnim: {
+      time: 190,
+      recoilTweenYM: 0.05,
+      recoilTweenY: 0.06,
+      recoilTweenZ: 0.14
+    },
+    expScale: 0.8,
+    rumble: 0.4,
+    icnPad: 0,
+    charm: true,
+    charmMXOff: -0.35,
+    charmMYOff: 0.17,
+    charmMZOff: 1.53,
+    charmMScl: 1,
+    charmXOff: 0,
+    charmYOff: 0,
+    charmZOff: 0,
+    charmScl: 1,
+    magReserve: 7,
+    mysteryBoxR: 2,
+    altSkin: {
+      projection: true,
+      video: 2,
+      outline: 0,
+      outlineS: 1.05
+    }
+  }, {
+    name: "Revolver",
+    src: "weapon_5",
+    icon: "icon_5",
+    assetIcon: "",
+    sound: "weapon_5",
+    refDist: 25,
+    rollOff: 1,
+    secondary: false,
+    equipment: false,
+    noSpread: false,
+    akimbo: false,
+    noAim: false,
+    nAuto: true,
+    noAo: true,
+    projectile: {},
+    pj_asset: "",
+    pj_disable: true,
+    pj_mat: "BASIC",
+    pj_color: 16777179,
+    pj_dmg: 66,
+    pj_spd: 2.3,
+    pj_lookDir: true,
+    pj_grav: 0.0001,
+    pj_scale: 1.4,
+    pj_length: 10,
+    pj_range: 2600,
+    pj_snd: 0,
+    physRang: 0,
+    physPow: 0,
+    nCase: true,
+    transp: true,
+    kill: ["", 50],
+    type: 0,
+    swapTime: 200,
+    swapWiggle: 0.4,
+    aimSpd: 110,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 1.04,
+    burst: true,
+    burstC: 3,
+    burstR: 90,
+    ammo: 12,
+    reload: 900,
+    dmg: 66,
+    hsMlt: 1.5,
+    pierce: 0.85,
+    dmgDrop: 10,
+    scale: 0.000515531266331653,
+    hDstOff: 1.6,
+    leftHoldY: -1.3,
+    rightHoldY: -0.8,
+    leftHoldZ: -0.6,
+    rightHoldZ: -0.72,
+    rightHoldX: 0.1,
+    holdW: 1.1,
+    rotOff: -0.05,
+    xOff: 0.7,
+    yOff: -0.5,
+    zOff: -3.5,
+    xOrg: 0,
+    yOrg: -0.31,
+    zOrg: -3.5,
+    jYMlt: 0.4,
+    cLean: 0.2,
+    cRot: 0.1,
+    cDrop: 0.1,
+    inspectR: 0.1,
+    inspectM: 0.3,
+    muzID: 3,
+    muzOff: 2.75,
+    muzOffY: 0.2,
+    muzMlt: 0.95,
+    range: 700,
+    rate: 450,
+    spread: 100,
+    zoom: 1.45,
+    leanMlt: 1.6,
+    recoil: 0.013,
+    recoilR: 0.082,
+    recover: 0.982,
+    recoverY: 0.992,
+    recoverF: 0.98,
+    recoilYM: 0.5,
+    aimRecMlt: 0.1,
+    recoilZM: 0.01,
+    recoilZ: 4,
+    recoilAnim: {
+      time: 350,
+      recoilTweenY: 0.39,
+      recoilTweenYM: 0.25
+    },
+    expScale: 0.9,
+    rumble: 0.7,
+    icnPad: -10,
+    charm: true,
+    charmMXOff: -0.27,
+    charmMYOff: -0.58,
+    charmMZOff: 0.56,
+    charmMScl: 1,
+    charmXOff: 0,
+    charmYOff: 0,
+    charmZOff: 0,
+    charmScl: 1,
+    magReserve: 5,
+    mysteryBoxR: 1,
+    altSkin: {
+      projection: true,
+      video: 2,
+      outline: 0,
+      outlineS: 1.05
+    }
+  }, iïïiïïí({
+    name: "Shotgun",
+    src: "weapon_6",
+    icon: "icon_6",
+    assetIcon: "",
+    sound: "weapon_6",
+    refDist: 25,
+    rollOff: 1,
+    secondary: false,
+    equipment: false,
+    noSpread: false,
+    noAim: false,
+    akimbo: false,
+    altSkin: {
+      name: "Nova Pump",
+      mid: 0,
+      blocked: true,
+      noSale: true,
+      midT: 38,
+      scl: 0.9,
+      mScl: 1,
+      zOff: 0.28,
+      yOff: -0.5,
+      seas: 2,
+      weapon: 6,
+      rarity: 0,
       charmMXOff: -0.37,
       charmMYOff: -0.2,
-      charmMZOff: 0.91,
+      charmMZOff: 1.18,
       charmMScl: 1,
       charmXOff: 0,
       charmYOff: 0,
       charmZOff: 0,
       charmScl: 1,
-      magReserve: 7,
-      mysteryBoxR: 0,
-      altSkin: {
-        projection: true,
-        video: 2,
-        outline: 0,
-        outlineS: 1.05
-      }
-    }, {
-      name: "UMPire",
-      src: "weapon_4",
-      icon: "icon_4",
-      assetIcon: "",
-      sound: "weapon_4",
-      refDist: 25,
-      rollOff: 1,
-      secondary: false,
-      equipment: false,
-      noSpread: false,
-      nAuto: false,
-      noAim: false,
-      akimbo: false,
-      projectile: {},
-      pj_asset: "",
-      pj_disable: true,
-      pj_mat: "BASIC",
-      pj_color: 16777179,
-      pj_dmg: 18,
-      pj_spd: 2.4,
-      pj_lookDir: true,
-      pj_grav: 0.00011,
-      pj_scale: 1.4,
-      pj_length: 10,
-      pj_range: 2700,
-      pj_snd: 0,
-      physRang: 0,
-      physPow: 0,
-      swapWiggle: 0.5,
-      attach: 0,
-      attachYOff: -0.09,
-      attachZOff: -1.1,
-      zRot: 0.75,
-      noAo: true,
-      type: 0,
-      shine: 50,
-      swapTime: 300,
-      aimSpd: 110,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 1.04,
-      ammo: 44,
-      reload: 1000,
-      dmg: 24,
-      hsMlt: 1.5,
-      pierce: 1,
-      range: 700,
-      dmgDrop: 12,
-      scale: 0.000574897587939697,
-      leftHoldY: -0.4,
-      leftHoldX: -0.1,
-      leftHoldZ: 1.1,
-      rightHoldZ: -0.95,
-      rightHoldY: -0.5,
-      holdW: 0.85,
-      xOff: 0.85,
-      yOff: -0.86,
-      zOff: -3,
-      xOrg: 0,
-      yOrg: -0.59,
-      zOrg: -2.5,
-      cRot: 0.18,
-      cLean: 0.16,
-      inspectR: 0.2,
-      inspectM: 1.2,
-      caseYOff: -0.15,
-      caseZOff: -0.4,
-      muzID: 3,
-      muzOff: 2.15,
-      muzOffY: 0.1,
-      rate: 80,
-      spread: 70,
-      minSpread: 5,
-      zoom: 1.65,
-      jYMlt: 0.8,
-      leanMlt: 1,
-      recoil: 0.0034,
-      recoilY: 0.77,
-      recoilYM: 0.3,
-      recoilR: 0.065,
-      recover: 0.975,
-      recoverY: 0.996,
-      recoverF: 0.975,
-      recoilZ: 4.2,
-      recoilZM: -0.1,
-      aimRecMlt: 0.6,
-      recoilAnim: {
-        time: 190,
-        recoilTweenYM: 0.05,
-        recoilTweenY: 0.06,
-        recoilTweenZ: 0.14
-      },
-      expScale: 0.8,
-      rumble: 0.4,
-      icnPad: 0,
-      charm: true,
-      charmMXOff: -0.35,
-      charmMYOff: 0.17,
-      charmMZOff: 1.53,
-      charmMScl: 1,
-      charmXOff: 0,
-      charmYOff: 0,
-      charmZOff: 0,
-      charmScl: 1,
-      magReserve: 7,
-      mysteryBoxR: 2,
-      altSkin: {
-        projection: true,
-        video: 2,
-        outline: 0,
-        outlineS: 1.05
-      }
-    }, {
-      name: "Revolver",
-      src: "weapon_5",
-      icon: "icon_5",
-      assetIcon: "",
-      sound: "weapon_5",
-      refDist: 25,
-      rollOff: 1,
-      secondary: false,
-      equipment: false,
-      noSpread: false,
-      akimbo: false,
-      noAim: false,
-      nAuto: true,
-      noAo: true,
-      projectile: {},
-      pj_asset: "",
-      pj_disable: true,
-      pj_mat: "BASIC",
-      pj_color: 16777179,
-      pj_dmg: 66,
-      pj_spd: 2.3,
-      pj_lookDir: true,
-      pj_grav: 0.0001,
-      pj_scale: 1.4,
-      pj_length: 10,
-      pj_range: 2600,
-      pj_snd: 0,
-      physRang: 0,
-      physPow: 0,
-      nCase: true,
-      transp: true,
-      kill: ["", 50],
-      type: 0,
-      swapTime: 200,
-      swapWiggle: 0.4,
-      aimSpd: 110,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 1.04,
-      burst: true,
-      burstC: 3,
-      burstR: 90,
-      ammo: 12,
-      reload: 900,
-      dmg: 66,
-      hsMlt: 1.5,
-      pierce: 0.85,
-      dmgDrop: 10,
-      scale: 0.000515531266331653,
-      hDstOff: 1.6,
-      leftHoldY: -1.3,
-      rightHoldY: -0.8,
-      leftHoldZ: -0.6,
-      rightHoldZ: -0.72,
-      rightHoldX: 0.1,
-      holdW: 1.1,
-      rotOff: -0.05,
-      xOff: 0.7,
-      yOff: -0.5,
-      zOff: -3.5,
-      xOrg: 0,
-      yOrg: -0.31,
-      zOrg: -3.5,
-      jYMlt: 0.4,
-      cLean: 0.2,
-      cRot: 0.1,
-      cDrop: 0.1,
-      inspectR: 0.1,
-      inspectM: 0.3,
-      muzID: 3,
-      muzOff: 2.75,
-      muzOffY: 0.2,
-      muzMlt: 0.95,
-      range: 700,
-      rate: 450,
-      spread: 100,
-      zoom: 1.45,
-      leanMlt: 1.6,
-      recoil: 0.013,
-      recoilR: 0.082,
-      recover: 0.982,
-      recoverY: 0.992,
-      recoverF: 0.98,
-      recoilYM: 0.5,
-      aimRecMlt: 0.1,
-      recoilZM: 0.01,
-      recoilZ: 4,
-      recoilAnim: {
-        time: 350,
-        recoilTweenY: 0.39,
-        recoilTweenYM: 0.25
-      },
-      expScale: 0.9,
-      rumble: 0.7,
-      icnPad: -10,
-      charm: true,
-      charmMXOff: -0.27,
-      charmMYOff: -0.58,
-      charmMZOff: 0.56,
-      charmMScl: 1,
-      charmXOff: 0,
-      charmYOff: 0,
-      charmZOff: 0,
-      charmScl: 1,
-      magReserve: 5,
-      mysteryBoxR: 1,
-      altSkin: {
-        projection: true,
-        video: 2,
-        outline: 0,
-        outlineS: 1.05
-      }
-    }, iïïiïïí({
-      name: "Shotgun",
-      src: "weapon_6",
-      icon: "icon_6",
-      assetIcon: "",
-      sound: "weapon_6",
-      refDist: 25,
-      rollOff: 1,
-      secondary: false,
-      equipment: false,
-      noSpread: false,
-      noAim: false,
-      akimbo: false,
-      altSkin: {
-        name: "Nova Pump",
-        mid: 0,
-        blocked: true,
-        noSale: true,
-        midT: 38,
-        scl: 0.9,
-        mScl: 1,
-        zOff: 0.28,
-        yOff: -0.5,
-        seas: 2,
-        weapon: 6,
-        rarity: 0,
-        charmMXOff: -0.37,
-        charmMYOff: -0.2,
-        charmMZOff: 1.18,
-        charmMScl: 1,
-        charmXOff: 0,
-        charmYOff: 0,
-        charmZOff: 0,
-        charmScl: 1,
-        projection: true,
-        video: 2,
-        outline: 0,
-        outlineS: 1.05
-      },
-      noAo: true,
-      nAuto: true,
-      nCase: true,
-      nRing: true,
-      swapWiggle: 0.4,
-      shine: 35,
-      type: 0,
-      physRang: 35,
-      physPow: 0.09,
-      swapTime: 300,
-      aimSpd: 120,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 1,
-      burst: true,
-      burstC: 3,
-      burstR: 60,
-      ammo: 6,
-      reload: 1100,
-      dmg: 50,
-      hsMlt: 1.25,
-      dmgDrop: 50,
-      scale: 0.00082934281407035,
-      rightHoldX: 0.1,
-      leftHoldY: -0.6,
-      rightHoldY: -0.6,
-      leftHoldZ: 0.4,
-      rightHoldZ: -1.3,
-      holdW: 1,
-      xOff: 0.95,
-      yOff: -0.6,
-      zOff: -3.8,
-      xOrg: 0,
-      yOrg: -0.3,
-      zOrg: -2.8,
-      cLean: 0.2,
-      cRot: 0.2,
-      cDrop: 0.1,
-      jYMlt: 0.2,
-      inspectR: 0.1,
-      muzID: 3,
-      muzOff: 6,
-      muzMlt: 1.8,
-      inspectM: 1.9,
-      range: 160,
-      rate: 450,
-      innac: 110,
-      spread: 180,
-      shots: 5,
-      cSpread: [[0.03, 0.02, -0.27, 0.02, 0.03, -0.31, 0.3, -0.01, 0.01, 0.28], [0.01, 0.02, -0.17, -0.22, -0.3, 0.31, 0.32, 0.28, 0.3, -0.2]],
-      minSpread: 20,
-      zoom: 1.25,
-      leanMlt: 1.6,
-      recoil: 0.02,
-      recoilR: 0.015,
-      recover: 0.99,
-      recoverF: 0.97,
-      recoilZ: 2.1,
-      recoilZM: 0.2,
-      aimRecMlt: 0.67,
-      recoilYM: 0.65,
-      recoilAnim: {
-        time: 340,
-        recoilTweenY: 0.22
-      },
-      jumpYM: 0.5,
-      rumble: 0.8,
-      icnPad: 10,
-      expScale: 0.85,
-      charm: true,
-      charmMXOff: -0.37,
-      charmMYOff: -0.39,
-      charmMZOff: 1.2,
-      charmMScl: 1,
-      charmXOff: 0,
-      charmYOff: 0,
-      charmZOff: 0,
-      charmScl: 1,
-      magReserve: 12,
-      mysteryBoxR: 3
-    }, "altSkin", {
       projection: true,
       video: 2,
       outline: 0,
       outlineS: 1.05
-    }), (iiìííìi = {
-      name: "NORU",
-      src: "weapon_7",
-      icon: "icon_7",
-      assetIcon: "",
-      sound: "weapon_7",
-      refDist: 25,
-      rollOff: 1,
-      secondary: false,
-      equipment: false,
-      akimbo: false,
-      noAim: false,
-      nAuto: false,
-      noSpread: false,
-      projectile: {},
-      pj_asset: "",
-      pj_disable: true,
-      pj_mat: "BASIC",
-      pj_color: 16777179,
-      pj_dmg: 18,
-      pj_spd: 2.3,
-      pj_lookDir: true,
-      pj_grav: 0.0001,
-      pj_scale: 1.4,
-      pj_length: 10,
-      pj_range: 3000,
-      pj_snd: 0,
-      physRang: 0,
-      physPow: 0,
-      type: 0,
-      attach: 0,
-      swapWiggle: 0.3,
-      attachYOff: -0.085,
-      attachZOff: -0.74,
-      zRot: 0.75,
-      noAo: true,
-      swapTime: 600,
-      aimSpd: 200,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 0.79,
-      jumMlt: 0.85,
-      ammo: 60,
-      reload: 3300,
-      dmg: 22,
-      hsMlt: 1.5,
-      pierce: 1,
-      range: 700,
-      dmgDrop: 10,
-      jYMlt: 0.8,
-      scale: 0.0008856008924623108,
-      leftHoldY: -0.85,
-      leftHoldX: 0.4,
-      rightHoldX: -0.1,
-      rightHoldY: -0.79,
-      leftHoldZ: 1.1,
-      rightHoldZ: -0.2,
-      holdW: 1.1,
-      yRot: -0.01,
-      xOff: 0.95,
-      yOff: -0.75,
-      zOff: -2.8,
-      xOrg: 0,
-      yOrg: -0.6,
-      zOrg: -1.8,
-      cLean: 0.1,
-      cRot: 0.1,
-      cDrop: 0.1,
-      inspectR: 0.2,
-      inspectM: 0.6,
-      caseInd: 2,
-      caseZOff: -0.5,
-      caseYOff: -0.1,
-      muzID: 3,
-      muzOff: 5.5,
-      muzOffY: -0.14,
-      muzMlt: 1.7,
-      rate: 100,
-      spread: 300,
-      minSpread: 10,
-      zoom: 1.3,
-      leanMlt: 1.6,
-      recoil: 0.0032,
-      recoilR: 0.04,
-      recover: 0.98,
-      recoverY: 0.9975,
-      recoverF: 0.975,
-      recoilZ: 3.8,
-      recoilYM: 0.25
-    }, iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiìííìi, "recoilZ", 3), "recoilZM", -0.1), "aimRecMlt", 0.5), "recoilAnim", {
-      time: 200,
-      recoilTweenY: 0.045,
-      recoilTweenZ: 0.12
-    }), "jumpYM", 0.5), "expScale", 0.85), "rumble", 0.65), "icnPad", 10), "charm", true), "charmMXOff", -0.37), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiìííìi, "charmMYOff", -0.16), "charmMZOff", 0.91), "charmMScl", 1), "charmXOff", 0), "charmYOff", 0), "charmZOff", 0), "charmScl", 1), "magReserve", 4), "mysteryBoxR", 3), "altSkin", {
-      projection: true,
-      video: 2,
-      outline: 0,
-      outlineS: 1.05
-    })), {
-      name: "Semi Auto",
-      src: "weapon_8",
-      icon: "icon_8",
-      assetIcon: "",
-      sound: "weapon_8",
-      refDist: 25,
-      rollOff: 1,
-      noSpread: false,
-      secondary: false,
-      equipment: false,
-      noAim: false,
-      akimbo: false,
-      projectile: {},
-      pj_asset: "",
-      pj_disable: true,
-      pj_mat: "BASIC",
-      pj_color: 16777179,
-      pj_dmg: 33,
-      pj_spd: 2.5,
-      pj_lookDir: true,
-      pj_grav: 0.0001,
-      pj_scale: 1.4,
-      pj_length: 10,
-      pj_range: 4000,
-      pj_snd: 0,
-      physRang: 0,
-      physPow: 0,
-      altSkin: {
-        name: "Nova Semi",
-        blocked: true,
-        noSale: true,
-        mid: 0,
-        midT: 0,
-        seas: 3,
-        weapon: 8,
-        rarity: 0,
-        charmMXOff: -0.29999999999999993,
-        charmMYOff: -0.35000000000000014,
-        charmMZOff: 1.13,
-        charmMScl: 1,
-        charmXOff: 0,
-        charmYOff: 0,
-        charmZOff: 0,
-        charmScl: 1,
-        projection: true,
-        video: 2,
-        outline: 0,
-        outlineS: 1.05
-      },
-      attach: 0,
-      attachYOff: -0.08,
-      attachZOff: -1.55,
-      nAuto: true,
-      zRot: 0.7,
-      type: 0,
-      noAo: true,
-      swapWiggle: 0.4,
-      swapTime: 300,
-      aimSpd: 120,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 1,
-      ammo: 12,
-      reload: 1500,
-      dmg: 35,
-      hsMlt: 1.4571,
-      lsMlt: 0.5429,
-      pierce: 0.2,
-      range: 1000,
-      dmgDrop: 0,
-      scale: 0.00093686221105528,
-      leftHoldY: -0.5,
-      rightHoldY: -0.45,
-      leftHoldZ: 0.4,
-      rightHoldZ: -1.85,
-      jYMlt: 0.6,
-      xOff: 0.8,
-      yOff: -0.6,
-      zOff: -3.5,
-      xOrg: 0,
-      yOrg: -0.395,
-      yRot: -0.005,
-      zOrg: -3.4,
-      rotOff: -0.02,
-      cLean: 0.2,
-      cRot: 0.2,
-      cDrop: 0.1,
-      inspectR: 0.2,
-      inspectM: 1.4,
-      muzID: 3,
-      muzOff: 4,
-      muzOffY: -0.05,
-      muzMlt: 1.1,
-      rate: 100,
-      spread: 250,
-      caseZOff: -1.3,
-      zoom: 2.1,
-      recoil: 0.01,
-      recoilR: 0.08,
-      recover: 0.98,
-      recoilY: 0.36,
-      recoverY: 0.994,
-      recoverF: 0.975,
-      recoilYM: 0.6,
-      recoilZ: 2,
-      recoilZM: 0.2,
-      aimRecMlt: 0.8,
-      recoilAnim: {
-        time: 250,
-        recoilTweenY: 0.11,
-        recoilTweenZ: 0.15
-      },
-      jumpYM: 0.5,
-      rumble: 0.75,
-      icnPad: 10,
-      charm: true,
-      charmMXOff: -0.2699999999999999,
+    },
+    noAo: true,
+    nAuto: true,
+    nCase: true,
+    nRing: true,
+    swapWiggle: 0.4,
+    shine: 35,
+    type: 0,
+    physRang: 35,
+    physPow: 0.09,
+    swapTime: 300,
+    aimSpd: 120,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 1,
+    burst: true,
+    burstC: 3,
+    burstR: 60,
+    ammo: 6,
+    reload: 1100,
+    dmg: 50,
+    hsMlt: 1.25,
+    dmgDrop: 50,
+    scale: 0.00082934281407035,
+    rightHoldX: 0.1,
+    leftHoldY: -0.6,
+    rightHoldY: -0.6,
+    leftHoldZ: 0.4,
+    rightHoldZ: -1.3,
+    holdW: 1,
+    xOff: 0.95,
+    yOff: -0.6,
+    zOff: -3.8,
+    xOrg: 0,
+    yOrg: -0.3,
+    zOrg: -2.8,
+    cLean: 0.2,
+    cRot: 0.2,
+    cDrop: 0.1,
+    jYMlt: 0.2,
+    inspectR: 0.1,
+    muzID: 3,
+    muzOff: 6,
+    muzMlt: 1.8,
+    inspectM: 1.9,
+    range: 160,
+    rate: 450,
+    innac: 110,
+    spread: 180,
+    shots: 5,
+    cSpread: [[0.03, 0.02, -0.27, 0.02, 0.03, -0.31, 0.3, -0.01, 0.01, 0.28], [0.01, 0.02, -0.17, -0.22, -0.3, 0.31, 0.32, 0.28, 0.3, -0.2]],
+    minSpread: 20,
+    zoom: 1.25,
+    leanMlt: 1.6,
+    recoil: 0.02,
+    recoilR: 0.015,
+    recover: 0.99,
+    recoverF: 0.97,
+    recoilZ: 2.1,
+    recoilZM: 0.2,
+    aimRecMlt: 0.67,
+    recoilYM: 0.65,
+    recoilAnim: {
+      time: 340,
+      recoilTweenY: 0.22
+    },
+    jumpYM: 0.5,
+    rumble: 0.8,
+    icnPad: 10,
+    expScale: 0.85,
+    charm: true,
+    charmMXOff: -0.37,
+    charmMYOff: -0.39,
+    charmMZOff: 1.2,
+    charmMScl: 1,
+    charmXOff: 0,
+    charmYOff: 0,
+    charmZOff: 0,
+    charmScl: 1,
+    magReserve: 12,
+    mysteryBoxR: 3
+  }, "altSkin", {
+    projection: true,
+    video: 2,
+    outline: 0,
+    outlineS: 1.05
+  }), (iiìííìi = {
+    name: "NORU",
+    src: "weapon_7",
+    icon: "icon_7",
+    assetIcon: "",
+    sound: "weapon_7",
+    refDist: 25,
+    rollOff: 1,
+    secondary: false,
+    equipment: false,
+    akimbo: false,
+    noAim: false,
+    nAuto: false,
+    noSpread: false,
+    projectile: {},
+    pj_asset: "",
+    pj_disable: true,
+    pj_mat: "BASIC",
+    pj_color: 16777179,
+    pj_dmg: 18,
+    pj_spd: 2.3,
+    pj_lookDir: true,
+    pj_grav: 0.0001,
+    pj_scale: 1.4,
+    pj_length: 10,
+    pj_range: 3000,
+    pj_snd: 0,
+    physRang: 0,
+    physPow: 0,
+    type: 0,
+    attach: 0,
+    swapWiggle: 0.3,
+    attachYOff: -0.085,
+    attachZOff: -0.74,
+    zRot: 0.75,
+    noAo: true,
+    swapTime: 600,
+    aimSpd: 200,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 0.79,
+    jumMlt: 0.85,
+    ammo: 60,
+    reload: 3300,
+    dmg: 22,
+    hsMlt: 1.5,
+    pierce: 1,
+    range: 700,
+    dmgDrop: 10,
+    jYMlt: 0.8,
+    scale: 0.0008856008924623108,
+    leftHoldY: -0.85,
+    leftHoldX: 0.4,
+    rightHoldX: -0.1,
+    rightHoldY: -0.79,
+    leftHoldZ: 1.1,
+    rightHoldZ: -0.2,
+    holdW: 1.1,
+    yRot: -0.01,
+    xOff: 0.95,
+    yOff: -0.75,
+    zOff: -2.8,
+    xOrg: 0,
+    yOrg: -0.6,
+    zOrg: -1.8,
+    cLean: 0.1,
+    cRot: 0.1,
+    cDrop: 0.1,
+    inspectR: 0.2,
+    inspectM: 0.6,
+    caseInd: 2,
+    caseZOff: -0.5,
+    caseYOff: -0.1,
+    muzID: 3,
+    muzOff: 5.5,
+    muzOffY: -0.14,
+    muzMlt: 1.7,
+    rate: 100,
+    spread: 300,
+    minSpread: 10,
+    zoom: 1.3,
+    leanMlt: 1.6,
+    recoil: 0.0032,
+    recoilR: 0.04,
+    recover: 0.98,
+    recoverY: 0.9975,
+    recoverF: 0.975,
+    recoilZ: 3.8,
+    recoilYM: 0.25
+  }, iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiìííìi, "recoilZ", 3), "recoilZM", -0.1), "aimRecMlt", 0.5), "recoilAnim", {
+    time: 200,
+    recoilTweenY: 0.045,
+    recoilTweenZ: 0.12
+  }), "jumpYM", 0.5), "expScale", 0.85), "rumble", 0.65), "icnPad", 10), "charm", true), "charmMXOff", -0.37), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiìííìi, "charmMYOff", -0.16), "charmMZOff", 0.91), "charmMScl", 1), "charmXOff", 0), "charmYOff", 0), "charmZOff", 0), "charmScl", 1), "magReserve", 4), "mysteryBoxR", 3), "altSkin", {
+    projection: true,
+    video: 2,
+    outline: 0,
+    outlineS: 1.05
+  })), {
+    name: "Semi Auto",
+    src: "weapon_8",
+    icon: "icon_8",
+    assetIcon: "",
+    sound: "weapon_8",
+    refDist: 25,
+    rollOff: 1,
+    noSpread: false,
+    secondary: false,
+    equipment: false,
+    noAim: false,
+    akimbo: false,
+    projectile: {},
+    pj_asset: "",
+    pj_disable: true,
+    pj_mat: "BASIC",
+    pj_color: 16777179,
+    pj_dmg: 33,
+    pj_spd: 2.5,
+    pj_lookDir: true,
+    pj_grav: 0.0001,
+    pj_scale: 1.4,
+    pj_length: 10,
+    pj_range: 4000,
+    pj_snd: 0,
+    physRang: 0,
+    physPow: 0,
+    altSkin: {
+      name: "Nova Semi",
+      blocked: true,
+      noSale: true,
+      mid: 0,
+      midT: 0,
+      seas: 3,
+      weapon: 8,
+      rarity: 0,
+      charmMXOff: -0.29999999999999993,
       charmMYOff: -0.35000000000000014,
-      charmMZOff: 1.15,
+      charmMZOff: 1.13,
       charmMScl: 1,
       charmXOff: 0,
       charmYOff: 0,
       charmZOff: 0,
       charmScl: 1,
-      magReserve: 8,
-      mysteryBoxR: 2
-    }, {
-      name: "Dream Wrecker",
-      src: "weapon_9",
-      icon: "icon_9",
-      assetIcon: "",
-      sound: "weapon_9",
-      refDist: 25,
-      rollOff: 1,
-      noSpread: false,
-      noAim: false,
-      secondary: false,
-      equipment: false,
-      akimbo: false,
-      nInsp: true,
-      kill: ["", 75],
-      nSkill: true,
-      nAuto: false,
-      nCase: true,
-      nRing: true,
-      noAo: true,
-      projectile: {},
-      pj_asset: "",
-      pj_mat: "BASIC",
-      pj_color: 16777179,
-      pj_explode: 45,
-      pj_dmg: 60,
-      pj_eDmg: 45,
-      pj_spd: 0.75,
-      pj_grav: 0.00008,
-      pj_nImp: true,
-      pj_lookDir: true,
-      pj_scale: 1.4,
-      pj_length: 10,
-      pj_range: 1500,
-      type: 0,
-      swapTime: 350,
-      swapWiggle: 0.4,
-      aimSpd: 200,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 0.95,
-      physRang: 46,
-      physPow: 0.095,
-      dmg: 25,
-      ammo: 9,
-      shots: 0,
-      reload: 1500,
-      hsMlt: 1,
-      lsMlt: 1,
-      scale: 0.00076263407035176,
-      leftHoldX: -0.1,
-      leftHoldY: -0.36,
-      rightHoldY: -0.3,
-      leftHoldZ: 1.2,
-      rightHoldX: -0.15,
-      rightHoldZ: -0.45,
-      holdW: 0.9,
-      jYMlt: 0.4,
-      xOff: 0.95,
-      yOff: -0.56,
-      zOff: -2.6,
-      xOrg: 0,
-      yOrg: -0.945,
-      zOrg: -3,
-      zRot: 0.9,
-      cLean: 0.2,
-      cRot: 0.2,
-      cDrop: 0.1,
-      muzID: 3,
-      muzOff: 5,
-      muzOffY: 0,
-      muzMlt: 1.5,
-      rate: 320,
-      spread: 120,
-      minSpread: 15,
-      zoom: 1.5,
-      leanMlt: 1.4,
-      landBob: 0.8,
-      recoil: 0.008,
-      recoilR: 0.012,
-      recover: 0.99,
-      recoverY: 0.998,
-      recoverF: 0.975,
-      recoilZ: 4,
-      recoilZM: -0.5,
-      aimRecMlt: 0.9,
-      recoilAnim: {
-        time: 400,
-        recoilTweenY: 0.25
-      },
-      jumpYM: 0.3,
-      expScale: 0.7,
-      rumble: 1,
-      rumbleDur: 750,
-      icnPad: 10,
-      charm: true,
-      charmMXOff: -0.38999999999999996,
-      charmMYOff: -0.16000000000000003,
-      charmMZOff: -0.019999999999999532,
-      charmMScl: 1,
-      charmXOff: 0,
-      charmYOff: 0,
-      charmZOff: 0,
-      charmScl: 1,
-      magReserve: 8,
-      mysteryBoxR: 0,
-      altSkin: {
-        projection: true,
-        video: 2,
-        outline: 0,
-        outlineS: 1.05
-      }
-    }, {
-      name: "Akimbo Uzi",
-      src: "weapon_10",
-      icon: "icon_10",
-      assetIcon: "",
-      sound: "weapon_10",
-      refDist: 25,
-      rollOff: 1,
-      secondary: false,
-      equipment: false,
-      nAuto: false,
-      noAo: true,
-      physRang: 0,
-      physPow: 0,
-      altSkin: {
-        name: "Nova Uzi",
-        mid: 0,
-        midT: 0,
-        blocked: true,
-        noSale: true,
-        weapon: 10,
-        rarity: 0,
-        seas: 3,
-        projection: true,
-        video: 2,
-        outline: 0,
-        outlineS: 1.05
-      },
-      nInsp: true,
-      noAim: true,
-      akimbo: true,
-      type: 0,
-      swapTime: 300,
-      aimSpd: 120,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 1.04,
-      ammo: 30,
-      reload: 1300,
-      dmg: 18,
-      hsMlt: 1,
-      pierce: 1,
-      range: 500,
-      dmgDrop: 13,
-      scale: 0.9,
-      rightHoldY: -0.55,
-      leftHoldZ: 0.2,
-      leftHoldX: -0.1,
-      leftHoldY: -0.55,
-      rightHoldZ: 0.2,
-      rightHoldX: -0.1,
-      holdW: 1.3,
-      xOff: 1.5,
-      yOff: -0.95,
-      zOff: -3.3,
-      xOrg: 0,
-      yOrg: -0.62,
-      zOrg: -2.5,
-      zLnM: 0.4,
-      cLean: 0.1,
-      cRot: 0.1,
-      cDrop: 0.2,
-      caseYOff: -0.15,
-      caseZOff: -0.4,
-      muzID: 3,
-      muzOff: 3.6,
-      rate: 70,
-      spread: 0,
-      noSpread: false,
-      movSpread: 0.01,
-      minSpread: 10,
-      zoom: 1.5,
-      recoil: 0.0034,
-      recoilR: 0.015,
-      leanMlt: 0.6,
-      recover: 0.978,
-      recoverY: 0.996,
-      recoverF: 0.975,
-      recoilZ: 5,
-      recoilYM: 0.7,
-      recoilAnim: {
-        recoilTweenY: 0.01
-      },
-      expScale: 0.7,
-      rumble: 0.4,
-      icnPad: -4,
-      charm: true,
-      charmMXOff: -0.37,
-      charmMYOff: -0.2,
-      charmMZOff: 0.91,
-      charmMScl: 1,
-      charmXOff: 0,
-      charmYOff: 0,
-      charmZOff: 0,
-      charmScl: 1,
-      magReserve: 6,
-      mysteryBoxR: 1
-    }, {
-      name: "Desert Eagle",
-      src: "weapon_11",
-      icon: "icon_11",
-      assetIcon: "",
-      sound: "weapon_11",
-      refDist: 25,
-      rollOff: 1,
-      noSpread: false,
-      akimbo: false,
-      secondary: true,
-      equipment: false,
-      noAim: false,
-      projectile: {},
-      pj_asset: "",
-      pj_disable: true,
-      pj_mat: "BASIC",
-      pj_color: 16777179,
-      pj_dmg: 50,
-      pj_spd: 2.3,
-      pj_lookDir: true,
-      pj_grav: 0.0001,
-      pj_scale: 1.4,
-      pj_length: 10,
-      pj_range: 1500,
-      pj_snd: 0,
-      physRang: 0,
-      physPow: 0,
-      nAuto: true,
-      noAo: true,
-      transp: true,
-      kill: ["", 50],
-      type: 1,
-      swapTime: 200,
-      aimSpd: 110,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 1,
-      ammo: 3,
-      reload: 1000,
-      dmg: 80,
-      hsMlt: 1.2,
-      pierce: 0.85,
-      dmgDrop: 10,
-      scale: 0.94,
-      leftHoldY: -0.9,
-      rightHoldY: -0.7,
-      leftHoldZ: -0.5,
-      rightHoldZ: -0.5,
-      holdW: 1.1,
-      xOff: 1,
-      yOff: -0.5,
-      zOff: -4.1,
-      xOrg: 0,
-      yOrg: -0.195,
-      zOrg: -3.8,
-      cLean: 0.3,
-      cRot: 0.3,
-      inspectR: 0.35,
-      inspectM: 0.9,
-      muzID: 3,
-      muzOff: 2,
-      muzMlt: 1.1,
-      range: 700,
-      rate: 350,
-      spread: 150,
-      jYMlt: 0.5,
-      zoom: 1.4,
-      leanMlt: 1.6,
-      recoil: 0.01,
-      recoilR: 0.01,
-      recover: 0.982,
-      recoverY: 0.995,
-      recoverF: 0.98,
-      recoilYM: 0.62,
-      aimRecMlt: 0.23,
-      recoilZ: 4.8,
-      recoilZM: 0.2,
-      recoilAnim: {
-        time: 240,
-        recoilTweenY: 0.42
-      },
-      rumble: 0.8,
-      icnPad: -10,
-      expScale: 1.55,
-      charm: true,
-      charmMXOff: -0.34,
-      charmMYOff: -0.2,
-      charmMZOff: 0.88,
-      charmMScl: 1,
-      charmXOff: 0,
-      charmYOff: 0,
-      charmZOff: 0,
-      charmScl: 1,
-      magReserve: 7,
-      mysteryBoxR: 0,
-      altSkin: {
-        projection: true,
-        video: 2,
-        outline: 0,
-        outlineS: 1.05
-      }
-    }, (iïíïíîî = {
-      name: "Cupids Blaster",
-      src: "weapon_12",
-      icon: "icon_12",
-      assetIcon: "",
-      sound: "weapon_12",
-      refDist: 25,
-      rollOff: 1,
-      akimbo: false,
-      noSpread: false,
-      noAim: false,
-      noAo: true,
-      physRang: 0,
-      physPow: 0,
-      secondary: true,
-      equipment: false,
-      nRing: true,
-      nAuto: true,
-      transp: true,
-      nCase: true,
-      kill: ["", 50],
-      type: 1,
-      swapTime: 200,
-      aimSpd: 120,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 1,
-      ammo: 4,
-      reload: 1500,
-      dmg: 45,
-      hsMlt: 1.25,
-      pierce: 0.85,
-      dmgDrop: 10,
-      scale: 1.1,
-      leftHoldY: -1,
-      rightHoldY: -0.65,
-      leftHoldZ: -0.2,
-      rightHoldZ: -0.2,
-      holdW: 1,
-      xOff: 1.3,
-      yOff: -0.83,
-      zOff: -4.1,
-      xOrg: 0,
-      yRot: -0.01,
-      yOrg: -0.53,
-      zOrg: -3.8,
-      cLean: 0.2,
-      cRot: 0.2,
-      cDrop: 0,
-      inspectR: 0.1,
-      inspectM: 0.8,
-      muzID: 3,
-      muzOff: 2.2,
-      muzOffY: 0.1
-    }, iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïíïíîî, "muzID", 3), "muzMlt", 1.1), "jYMlt", 0.8), "range", 700), "rate", 170), "spread", 150), "zoom", 1.4), "leanMlt", 1.6), "recoil", 0.006), "recoilR", 0.01), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïíïíîî, "recover", 0.98), "recoverY", 0.99), "recoverF", 0.98), "recoilYM", 0.2), "recoilZ", 2.2), "aimRecMlt", 0.3), "recoilAnim", {
-      time: 200,
-      recoilTweenY: 0.32
-    }), "rumble", 0.4), "icnPad", -8), "expScale", 1.85), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïíïíîî, "charm", true), "charmMXOff", -0.53), "charmMYOff", -0.12), "charmMZOff", 0.67), "charmMScl", 1), "charmXOff", 0), "charmYOff", 0), "charmZOff", 0), "charmScl", 1), "magReserve", 6), iïïiïïí(iïïiïïí(iïïiïïí(iïíïíîî, "mysteryBoxR", 1), "altSkin", {
-      mid: 4,
-      seas: 6,
-      weapon: 12,
-      rarity: 0
-    }), "funcOnHit", function (iÎiîiìí, iÏîîîií) {
-      if (iÎiîiìí.forceTeam) {
-        iÎiîiìí.forceTeam(1, 15000, 20, iÏîîîií);
-      }
-    })), {
-      name: "Combat Knife",
-      icon: "icon_0",
-      challSrc: "weapon_k",
-      assetIcon: "",
-      melee: true,
-      noSkins: true,
-      canThrow: true,
-      aimLean: 0.01,
-      holdW: 0.9,
-      swapWiggle: 0.3,
-      sound: "melee",
-      refDist: 25,
-      rollOff: 1,
-      hsMlt: 1,
-      lsMlt: 1,
-      insX: 0.1,
-      inspAnim: {
-        arZ: 0.3,
-        arX: 0.6,
-        arY: -2.2,
-        apZ: -1.3,
-        apX: -0.1,
-        apY: 1,
-        wpZ: -0.19,
-        wpY: -0.4,
-        wrY: -0.2
-      },
-      anim: function (iÎîíïìí, iIììíìi, iÌíiìïï, iÌìíiiì) {
-        if (iÌíiìïï == 1) {
-          iÎîíïìí.handAnimInd = (iÎîíïìí.handAnimInd || 1) * -1;
-          var iÍiíïïi = false;
-          if (iÎîíïìí.meleeAnim.anim) {
-            iÎîíïìí.meleeAnim.anim.stop();
-            iÍiíïïi = iÎîíïìí.meleeAnim.armM >= 2;
-          }
-          iÎîíïìí.resetMeleeAnim();
-          var iÎïïìíi = -1.2;
-          var iÎíïíïî = 0.7;
-          var iÍìííiï = -0.4;
-          if (iÍiíïïi) {
-            iÎïïìíi += 0.1;
-            iÎîíïìí.meleeAnim.weaR = iÎïïìíi;
-            iÍìííiï += 0.8;
-            iÎîíïìí.meleeAnim.armR = iÍìííiï;
-            iÎíïíïî += 0.2;
-            iÎîíïìí.meleeAnim.weaM = iÎíïíïî;
-            iÎîíïìí.meleeAnim.flipW = Math.PI;
-          } else {
-            iÎïïìíi -= 0.4;
-          }
-          iÎîíïìí.meleeAnim.anim = new iIììíìi.Tween(iÎîíïìí.meleeAnim).to({
-            armR: iÍìííiï,
-            lArm: 1,
-            armT: iÍiíïïi ? -0.2 : -0.8,
-            armY: -3,
-            armM: iÍiíïïi ? -10 : 13,
-            armE: -2,
-            weaR: iÎïïìíi,
-            weaM: iÎíïíïî
-          }, (iÍiíïïi ? 1.3 : 1) * 220).easing(iIììíìi.Easing.Cubic.Out).onComplete(function () {
-            iÎîíïìí.meleeAnim.anim = new iIììíìi.Tween(iÎîíïìí.meleeAnim).to({
-              armR: 0,
-              armT: 0,
-              armY: 0,
-              lArm: 0,
-              armM: 0,
-              armE: 0,
-              weaR: 0,
-              weaM: 0,
-              flipW: 0
-            }, 350).easing(iIììíìi.Easing.Cubic.Out).start();
-          }).start();
-        } else if (iÌíiìïï == 2) {
-          iÎîíïìí.handAnimInd = (iÎîíïìí.handAnimInd || 1) * -1;
-          if (iÎîíïìí.meleeAnim.anim) {
-            iÎîíïìí.meleeAnim.anim.stop();
-          }
-          iÎîíïìí.resetMeleeAnim();
-          var iÌiiiií = iÎîíïìí.handAnimInd ? "lArm" : "";
-          iÌiiiií = {};
-          if (iÎîíïìí.handAnimInd == 1) {
-            iÌiiiií.lArm = -2.7;
-          } else {
-            iÌiiiií.rArm = -2.7;
-          }
-          iÎîíïìí.meleeAnim.anim = new iIììíìi.Tween(iÎîíïìí.meleeAnim).to(iÌiiiií, 10).easing(iIììíìi.Easing.Linear.None).onComplete(function () {
-            iÎîíïìí.meleeAnim.anim = new iIììíìi.Tween(iÎîíïìí.meleeAnim).to({
-              lArm: 0,
-              rArm: 0
-            }, 150).easing(iIììíìi.Easing.Linear.None).delay(100).start();
-          }).start();
-        } else if (iÌíiìïï == 3) {
-          if (iÎîíïìí.meleeAnim.anim) {
-            iÎîíïìí.meleeAnim.anim.stop();
-          }
-          iÎîíïìí.resetMeleeAnim();
-          iÎîíïìí.meleeAnim.armR = -1.3;
-          iÎîíïìí.meleeAnim.armM = 1.7;
-          iÎîíïìí.meleeAnim.armE = 1.1;
-          iÎîíïìí.meleeAnim.armY = 2.9;
-          iÎîíïìí.meleeAnim.armT = 1;
-          iÎîíïìí.meleeAnim.armS = 1.7;
-          iÎîíïìí.meleeAnim.weaR = -0.6;
-          iÎîíïìí.meleeAnim.anim = new iIììíìi.Tween(iÎîíïìí.meleeAnim).to({
-            armY: -9,
-            armS: -0.1,
-            armE: -7.5,
-            armM: -1.5,
-            lArm: 0.5,
-            weaR: -3
-          }, 200 - (iÌìíiiì || 1) * 200 + 300).easing(iIììíìi.Easing.Cubic.Out).onComplete(function () {
-            iÎîíïìí.meleeAnim.anim = new iIììíìi.Tween(iÎîíïìí.meleeAnim).to({
-              armR: 0,
-              armT: 0,
-              armY: 0,
-              lArm: 0,
-              armM: 0,
-              armS: 0,
-              armE: 0,
-              weaR: 0
-            }, 350).easing(iIììíìi.Easing.Cubic.Out).start();
-          }).start();
-        }
-      },
-      type: 2,
-      swapTime: 250,
-      aimSpd: 100,
-      chrgTime: 0,
-      ovrChrg: true,
-      rate: 250,
-      dmg: 50,
-      dmgDrop: 0,
-      range: 15,
-      spdMlt: 1.1,
-      spread: 100,
-      leftHoldY: -0.82,
-      leftHoldX: 1.5,
-      rightHoldX: -1.5,
-      rightHoldY: -0.82,
-      leftHoldZ: -0.5,
-      rightHoldZ: -0.5,
-      xOff: 0,
-      yOff: -0.6,
-      zOff: -3.6,
-      xOrg: 0.0001,
-      yOrg: -0.6,
-      zOrg: -3.6,
-      zRM: 0.35,
-      zoom: 1.2,
-      leanMlt: 0.8,
-      recoil: 0.006,
-      recoilR: 0.01,
-      recover: 0.98,
-      recoverF: 0.98,
-      rumble: 0.4,
-      rumbleDur: 150,
-      icnPad: -10,
-      altSkin: {
-        projection: true,
-        video: 2,
-        outline: 0,
-        outlineS: 1.05
-      }
-    }, (iiîìîiî = {
-      name: "Crossbow",
-      src: "weapon_14",
-      icon: "icon_14",
-      assetIcon: "",
-      sound: "weapon_14",
-      refDist: 25,
-      rollOff: 1,
-      noSpread: false,
-      akimbo: false,
-      secondary: false,
-      equipment: false,
-      noAim: false,
-      nInsp: true,
-      nRing: true,
-      nAuto: true,
-      noAo: true,
-      physRang: 0,
-      physPow: 0,
-      nCase: true,
-      nMuz: true,
-      attach: 0,
-      attachYOff: -0.1,
-      attachZOff: 0.75,
-      kill: ["", 75],
-      type: 0,
-      projectile: {},
-      pj_asset: "",
-      pj_mat: "BASIC",
-      pj_color: 16777179,
-      pj_explode: 100,
-      pj_dmg: 100,
-      pj_eDmg: 100,
-      pj_spd: 0.75,
-      pj_grav: 0.00008,
-      pj_nImp: true,
-      pj_lookDir: true,
-      pj_scale: 1.4,
-      pj_length: 10,
-      pj_range: 1500,
-      swapTime: 200,
-      aimSpd: 120,
-      chrgTime: 1300,
-      chrgMlt: 0.9,
-      ovrChrg: true,
-      spdMlt: 1,
-      ammo: 3,
-      reload: 900,
-      dmg: 100,
-      hsMlt: 1,
-      lsMlt: 1,
-      pierce: 0,
-      dmgDrop: 0,
-      scale: 0.0007303348040201011,
-      leftHoldY: -0.33,
-      rightHoldY: -0.28,
-      leftHoldZ: 2.2,
-      leftHoldX: 0,
-      rightHoldZ: 0.9,
-      xOff: 1,
-      yOff: -1,
-      zOff: -1.4,
-      xOrg: 0,
-      yOrg: -0.72,
-      zOrg: -0.7,
-      cLean: 0.1,
-      cRot: 0.1,
-      zRot: 0.9,
-      cDrop: 0.2,
-      holdW: 0.5,
-      muzID: 3,
-      muzOff: 2.2,
-      muzOffY: 0.1
-    }, iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiîìîiî, "muzID", 3), "muzMlt", 1.1), "jYMlt", 0.95), "range", 700), "rate", 150), "spread", 120), "zoom", 1.4), "leanMlt", 0.3), "recoil", 0.007), "recoilR", 0.01), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiîìîiî, "recover", 0.985), "recoverY", 0.996), "recoverF", 0.98), "recoilZ", 4), "recoilAnim", {
-      time: 300,
-      recoilTweenY: 0.1
-    }), "rumble", 0.5), "icnPad", 9), "charm", true), "charmMXOff", -0.23999999999999994), "charmMYOff", 0.04), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiîìîiî, "charmMZOff", -0.01), "charmMScl", 1), "charmXOff", 0), "charmYOff", 0), "charmZOff", 0), "charmScl", 1), "magReserve", 20), "mysteryBoxR", 1), "altSkin", {
       projection: true,
       video: 2,
       outline: 0,
       outlineS: 1.05
-    })), {
-      name: "Famas",
-      src: "weapon_15",
-      icon: "icon_15",
-      assetIcon: "",
-      sound: "weapon_15",
-      refDist: 25,
-      rollOff: 1,
-      akimbo: false,
-      noSpread: false,
-      secondary: false,
-      equipment: false,
-      noAim: false,
-      noAo: true,
-      nAuto: true,
-      projectile: {},
-      pj_asset: "",
-      pj_disable: true,
-      pj_mat: "BASIC",
-      pj_color: 16777179,
-      pj_dmg: 28,
-      pj_spd: 2.4,
-      pj_lookDir: true,
-      pj_grav: 0.0001,
-      pj_scale: 1.4,
-      pj_length: 10,
-      pj_range: 3000,
-      pj_snd: 0,
-      physRang: 0,
-      physPow: 0,
-      burst: true,
-      burstC: 4,
-      burstR: 90,
-      swapWiggle: 0.6,
-      attach: 0,
-      attachYOff: -0.1,
-      attachZOff: -0.5,
-      zRot: 1,
-      type: 0,
-      swapTime: 300,
-      aimSpd: 130,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 0.95,
-      ammo: 36,
-      rate: 280,
-      reload: 1200,
-      dmg: 28,
-      hsMlt: 1.5,
-      pierce: 1,
-      range: 900,
-      dmgDrop: 5,
-      scale: 0.0008858419597989991,
-      leftHoldY: -0.45,
-      rightHoldY: -0.5,
-      leftHoldZ: 0.72,
-      rightHoldZ: -0.75,
-      holdW: 1,
-      xOff: 1,
-      yOff: -0.86,
-      yRot: 0.0018,
-      zOff: -3,
-      xOrg: 0,
-      yOrg: -1.14,
-      zOrg: -2,
-      cLean: 0.2,
-      cRot: 0.2,
-      cDrop: 0.1,
-      inspectR: 0.1,
-      inspectM: 1.5,
-      caseZOff: -1.7,
-      caseYOff: -0.2,
-      muzID: 3,
-      muzOff: 4.9,
-      muzOffY: -0.05,
-      muzMlt: 1.4,
-      spread: 90,
-      minSpread: 5,
-      zoom: 1.5,
-      leanMlt: 1.5,
-      recoil: 0.003,
-      recoilR: 0.02,
-      recover: 0.978,
-      recoverY: 0.995,
-      recoverF: 0.975,
-      jYMlt: 0.9,
-      recoilYM: 0.32,
-      recoilZ: 5.5,
-      recoilZM: 0.05,
-      aimRecMlt: 0.65,
-      recoilAnim: {
-        time: 300,
-        recoilTweenY: 0.06,
-        recoilTweenZ: 0.1
-      },
-      jumpYM: 0.6,
-      rumble: 0.5,
-      expScale: 0.9,
-      icnPad: 9,
-      charm: true,
-      charmMXOff: -0.33,
-      charmMYOff: 0.195,
-      charmMZOff: 0.99,
-      charmMScl: 1,
-      charmXOff: 0,
-      charmYOff: 0,
-      charmZOff: 0,
-      charmScl: 1,
-      magReserve: 5,
-      mysteryBoxR: 2,
-      altSkin: {
-        projection: true,
-        video: 2,
-        outline: 0,
-        outlineS: 1.05
+    },
+    attach: 0,
+    attachYOff: -0.08,
+    attachZOff: -1.55,
+    nAuto: true,
+    zRot: 0.7,
+    type: 0,
+    noAo: true,
+    swapWiggle: 0.4,
+    swapTime: 300,
+    aimSpd: 120,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 1,
+    ammo: 12,
+    reload: 1500,
+    dmg: 35,
+    hsMlt: 1.4571,
+    lsMlt: 0.5429,
+    pierce: 0.2,
+    range: 1000,
+    dmgDrop: 0,
+    scale: 0.00093686221105528,
+    leftHoldY: -0.5,
+    rightHoldY: -0.45,
+    leftHoldZ: 0.4,
+    rightHoldZ: -1.85,
+    jYMlt: 0.6,
+    xOff: 0.8,
+    yOff: -0.6,
+    zOff: -3.5,
+    xOrg: 0,
+    yOrg: -0.395,
+    yRot: -0.005,
+    zOrg: -3.4,
+    rotOff: -0.02,
+    cLean: 0.2,
+    cRot: 0.2,
+    cDrop: 0.1,
+    inspectR: 0.2,
+    inspectM: 1.4,
+    muzID: 3,
+    muzOff: 4,
+    muzOffY: -0.05,
+    muzMlt: 1.1,
+    rate: 100,
+    spread: 250,
+    caseZOff: -1.3,
+    zoom: 2.1,
+    recoil: 0.01,
+    recoilR: 0.08,
+    recover: 0.98,
+    recoilY: 0.36,
+    recoverY: 0.994,
+    recoverF: 0.975,
+    recoilYM: 0.6,
+    recoilZ: 2,
+    recoilZM: 0.2,
+    aimRecMlt: 0.8,
+    recoilAnim: {
+      time: 250,
+      recoilTweenY: 0.11,
+      recoilTweenZ: 0.15
+    },
+    jumpYM: 0.5,
+    rumble: 0.75,
+    icnPad: 10,
+    charm: true,
+    charmMXOff: -0.2699999999999999,
+    charmMYOff: -0.35000000000000014,
+    charmMZOff: 1.15,
+    charmMScl: 1,
+    charmXOff: 0,
+    charmYOff: 0,
+    charmZOff: 0,
+    charmScl: 1,
+    magReserve: 8,
+    mysteryBoxR: 2
+  }, {
+    name: "Dream Wrecker",
+    src: "weapon_9",
+    icon: "icon_9",
+    assetIcon: "",
+    sound: "weapon_9",
+    refDist: 25,
+    rollOff: 1,
+    noSpread: false,
+    noAim: false,
+    secondary: false,
+    equipment: false,
+    akimbo: false,
+    nInsp: true,
+    kill: ["", 75],
+    nSkill: true,
+    nAuto: false,
+    nCase: true,
+    nRing: true,
+    noAo: true,
+    projectile: {},
+    pj_asset: "",
+    pj_mat: "BASIC",
+    pj_color: 16777179,
+    pj_explode: 45,
+    pj_dmg: 60,
+    pj_eDmg: 45,
+    pj_spd: 0.75,
+    pj_grav: 0.00008,
+    pj_nImp: true,
+    pj_lookDir: true,
+    pj_scale: 1.4,
+    pj_length: 10,
+    pj_range: 1500,
+    type: 0,
+    swapTime: 350,
+    swapWiggle: 0.4,
+    aimSpd: 200,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 0.95,
+    physRang: 46,
+    physPow: 0.095,
+    dmg: 25,
+    ammo: 9,
+    shots: 0,
+    reload: 1500,
+    hsMlt: 1,
+    lsMlt: 1,
+    scale: 0.00076263407035176,
+    leftHoldX: -0.1,
+    leftHoldY: -0.36,
+    rightHoldY: -0.3,
+    leftHoldZ: 1.2,
+    rightHoldX: -0.15,
+    rightHoldZ: -0.45,
+    holdW: 0.9,
+    jYMlt: 0.4,
+    xOff: 0.95,
+    yOff: -0.56,
+    zOff: -2.6,
+    xOrg: 0,
+    yOrg: -0.945,
+    zOrg: -3,
+    zRot: 0.9,
+    cLean: 0.2,
+    cRot: 0.2,
+    cDrop: 0.1,
+    muzID: 3,
+    muzOff: 5,
+    muzOffY: 0,
+    muzMlt: 1.5,
+    rate: 320,
+    spread: 120,
+    minSpread: 15,
+    zoom: 1.5,
+    leanMlt: 1.4,
+    landBob: 0.8,
+    recoil: 0.008,
+    recoilR: 0.012,
+    recover: 0.99,
+    recoverY: 0.998,
+    recoverF: 0.975,
+    recoilZ: 4,
+    recoilZM: -0.5,
+    aimRecMlt: 0.9,
+    recoilAnim: {
+      time: 400,
+      recoilTweenY: 0.25
+    },
+    jumpYM: 0.3,
+    expScale: 0.7,
+    rumble: 1,
+    rumbleDur: 750,
+    icnPad: 10,
+    charm: true,
+    charmMXOff: -0.38999999999999996,
+    charmMYOff: -0.16000000000000003,
+    charmMZOff: -0.019999999999999532,
+    charmMScl: 1,
+    charmXOff: 0,
+    charmYOff: 0,
+    charmZOff: 0,
+    charmScl: 1,
+    magReserve: 8,
+    mysteryBoxR: 0,
+    altSkin: {
+      projection: true,
+      video: 2,
+      outline: 0,
+      outlineS: 1.05
+    }
+  }, {
+    name: "Akimbo Uzi",
+    src: "weapon_10",
+    icon: "icon_10",
+    assetIcon: "",
+    sound: "weapon_10",
+    refDist: 25,
+    rollOff: 1,
+    secondary: false,
+    equipment: false,
+    nAuto: false,
+    noAo: true,
+    physRang: 0,
+    physPow: 0,
+    altSkin: {
+      name: "Nova Uzi",
+      mid: 0,
+      midT: 0,
+      blocked: true,
+      noSale: true,
+      weapon: 10,
+      rarity: 0,
+      seas: 3,
+      projection: true,
+      video: 2,
+      outline: 0,
+      outlineS: 1.05
+    },
+    nInsp: true,
+    noAim: true,
+    akimbo: true,
+    type: 0,
+    swapTime: 300,
+    aimSpd: 120,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 1.04,
+    ammo: 30,
+    reload: 1300,
+    dmg: 18,
+    hsMlt: 1,
+    pierce: 1,
+    range: 500,
+    dmgDrop: 13,
+    scale: 0.9,
+    rightHoldY: -0.55,
+    leftHoldZ: 0.2,
+    leftHoldX: -0.1,
+    leftHoldY: -0.55,
+    rightHoldZ: 0.2,
+    rightHoldX: -0.1,
+    holdW: 1.3,
+    xOff: 1.5,
+    yOff: -0.95,
+    zOff: -3.3,
+    xOrg: 0,
+    yOrg: -0.62,
+    zOrg: -2.5,
+    zLnM: 0.4,
+    cLean: 0.1,
+    cRot: 0.1,
+    cDrop: 0.2,
+    caseYOff: -0.15,
+    caseZOff: -0.4,
+    muzID: 3,
+    muzOff: 3.6,
+    rate: 70,
+    spread: 0,
+    noSpread: false,
+    movSpread: 0.01,
+    minSpread: 10,
+    zoom: 1.5,
+    recoil: 0.0034,
+    recoilR: 0.015,
+    leanMlt: 0.6,
+    recover: 0.978,
+    recoverY: 0.996,
+    recoverF: 0.975,
+    recoilZ: 5,
+    recoilYM: 0.7,
+    recoilAnim: {
+      recoilTweenY: 0.01
+    },
+    expScale: 0.7,
+    rumble: 0.4,
+    icnPad: -4,
+    charm: true,
+    charmMXOff: -0.37,
+    charmMYOff: -0.2,
+    charmMZOff: 0.91,
+    charmMScl: 1,
+    charmXOff: 0,
+    charmYOff: 0,
+    charmZOff: 0,
+    charmScl: 1,
+    magReserve: 6,
+    mysteryBoxR: 1
+  }, {
+    name: "Desert Eagle",
+    src: "weapon_11",
+    icon: "icon_11",
+    assetIcon: "",
+    sound: "weapon_11",
+    refDist: 25,
+    rollOff: 1,
+    noSpread: false,
+    akimbo: false,
+    secondary: true,
+    equipment: false,
+    noAim: false,
+    projectile: {},
+    pj_asset: "",
+    pj_disable: true,
+    pj_mat: "BASIC",
+    pj_color: 16777179,
+    pj_dmg: 50,
+    pj_spd: 2.3,
+    pj_lookDir: true,
+    pj_grav: 0.0001,
+    pj_scale: 1.4,
+    pj_length: 10,
+    pj_range: 1500,
+    pj_snd: 0,
+    physRang: 0,
+    physPow: 0,
+    nAuto: true,
+    noAo: true,
+    transp: true,
+    kill: ["", 50],
+    type: 1,
+    swapTime: 200,
+    aimSpd: 110,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 1,
+    ammo: 3,
+    reload: 1000,
+    dmg: 80,
+    hsMlt: 1.2,
+    pierce: 0.85,
+    dmgDrop: 10,
+    scale: 0.94,
+    leftHoldY: -0.9,
+    rightHoldY: -0.7,
+    leftHoldZ: -0.5,
+    rightHoldZ: -0.5,
+    holdW: 1.1,
+    xOff: 1,
+    yOff: -0.5,
+    zOff: -4.1,
+    xOrg: 0,
+    yOrg: -0.195,
+    zOrg: -3.8,
+    cLean: 0.3,
+    cRot: 0.3,
+    inspectR: 0.35,
+    inspectM: 0.9,
+    muzID: 3,
+    muzOff: 2,
+    muzMlt: 1.1,
+    range: 700,
+    rate: 350,
+    spread: 150,
+    jYMlt: 0.5,
+    zoom: 1.4,
+    leanMlt: 1.6,
+    recoil: 0.01,
+    recoilR: 0.01,
+    recover: 0.982,
+    recoverY: 0.995,
+    recoverF: 0.98,
+    recoilYM: 0.62,
+    aimRecMlt: 0.23,
+    recoilZ: 4.8,
+    recoilZM: 0.2,
+    recoilAnim: {
+      time: 240,
+      recoilTweenY: 0.42
+    },
+    rumble: 0.8,
+    icnPad: -10,
+    expScale: 1.55,
+    charm: true,
+    charmMXOff: -0.34,
+    charmMYOff: -0.2,
+    charmMZOff: 0.88,
+    charmMScl: 1,
+    charmXOff: 0,
+    charmYOff: 0,
+    charmZOff: 0,
+    charmScl: 1,
+    magReserve: 7,
+    mysteryBoxR: 0,
+    altSkin: {
+      projection: true,
+      video: 2,
+      outline: 0,
+      outlineS: 1.05
+    }
+  }, (iïíïíîî = {
+    name: "Cupids Blaster",
+    src: "weapon_12",
+    icon: "icon_12",
+    assetIcon: "",
+    sound: "weapon_12",
+    refDist: 25,
+    rollOff: 1,
+    akimbo: false,
+    noSpread: false,
+    noAim: false,
+    noAo: true,
+    physRang: 0,
+    physPow: 0,
+    secondary: true,
+    equipment: false,
+    nRing: true,
+    nAuto: true,
+    transp: true,
+    nCase: true,
+    kill: ["", 50],
+    type: 1,
+    swapTime: 200,
+    aimSpd: 120,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 1,
+    ammo: 4,
+    reload: 1500,
+    dmg: 45,
+    hsMlt: 1.25,
+    pierce: 0.85,
+    dmgDrop: 10,
+    scale: 1.1,
+    leftHoldY: -1,
+    rightHoldY: -0.65,
+    leftHoldZ: -0.2,
+    rightHoldZ: -0.2,
+    holdW: 1,
+    xOff: 1.3,
+    yOff: -0.83,
+    zOff: -4.1,
+    xOrg: 0,
+    yRot: -0.01,
+    yOrg: -0.53,
+    zOrg: -3.8,
+    cLean: 0.2,
+    cRot: 0.2,
+    cDrop: 0,
+    inspectR: 0.1,
+    inspectM: 0.8,
+    muzID: 3,
+    muzOff: 2.2,
+    muzOffY: 0.1
+  }, iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïíïíîî, "muzID", 3), "muzMlt", 1.1), "jYMlt", 0.8), "range", 700), "rate", 170), "spread", 150), "zoom", 1.4), "leanMlt", 1.6), "recoil", 0.006), "recoilR", 0.01), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïíïíîî, "recover", 0.98), "recoverY", 0.99), "recoverF", 0.98), "recoilYM", 0.2), "recoilZ", 2.2), "aimRecMlt", 0.3), "recoilAnim", {
+    time: 200,
+    recoilTweenY: 0.32
+  }), "rumble", 0.4), "icnPad", -8), "expScale", 1.85), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïíïíîî, "charm", true), "charmMXOff", -0.53), "charmMYOff", -0.12), "charmMZOff", 0.67), "charmMScl", 1), "charmXOff", 0), "charmYOff", 0), "charmZOff", 0), "charmScl", 1), "magReserve", 6), iïïiïïí(iïïiïïí(iïïiïïí(iïíïíîî, "mysteryBoxR", 1), "altSkin", {
+    mid: 4,
+    seas: 6,
+    weapon: 12,
+    rarity: 0
+  }), "funcOnHit", function (iÎiîiìí, iÏîîîií) {
+    if (iÎiîiìí.forceTeam) {
+      iÎiîiìí.forceTeam(1, 15000, 20, iÏîîîií);
+    }
+  })), {
+    name: "Combat Knife",
+    icon: "icon_0",
+    challSrc: "weapon_k",
+    assetIcon: "",
+    melee: true,
+    noSkins: true,
+    canThrow: true,
+    aimLean: 0.01,
+    holdW: 0.9,
+    swapWiggle: 0.3,
+    sound: "melee",
+    refDist: 25,
+    rollOff: 1,
+    hsMlt: 1,
+    lsMlt: 1,
+    insX: 0.1,
+    inspAnim: {
+      arZ: 0.3,
+      arX: 0.6,
+      arY: -2.2,
+      apZ: -1.3,
+      apX: -0.1,
+      apY: 1,
+      wpZ: -0.19,
+      wpY: -0.4,
+      wrY: -0.2
+    },
+    anim: function (iÎîíïìí, iIììíìi, iÌíiìïï, iÌìíiiì) {
+      if (iÌíiìïï == 1) {
+        iÎîíïìí.handAnimInd = (iÎîíïìí.handAnimInd || 1) * -1;
+        var iÍiíïïi = false;
+        if (iÎîíïìí.meleeAnim.anim) {
+          iÎîíïìí.meleeAnim.anim.stop();
+          iÍiíïïi = iÎîíïìí.meleeAnim.armM >= 2;
+        }
+        iÎîíïìí.resetMeleeAnim();
+        var iÎïïìíi = -1.2;
+        var iÎíïíïî = 0.7;
+        var iÍìííiï = -0.4;
+        if (iÍiíïïi) {
+          iÎïïìíi += 0.1;
+          iÎîíïìí.meleeAnim.weaR = iÎïïìíi;
+          iÍìííiï += 0.8;
+          iÎîíïìí.meleeAnim.armR = iÍìííiï;
+          iÎíïíïî += 0.2;
+          iÎîíïìí.meleeAnim.weaM = iÎíïíïî;
+          iÎîíïìí.meleeAnim.flipW = Math.PI;
+        } else {
+          iÎïïìíi -= 0.4;
+        }
+        iÎîíïìí.meleeAnim.anim = new iIììíìi.Tween(iÎîíïìí.meleeAnim).to({
+          armR: iÍìííiï,
+          lArm: 1,
+          armT: iÍiíïïi ? -0.2 : -0.8,
+          armY: -3,
+          armM: iÍiíïïi ? -10 : 13,
+          armE: -2,
+          weaR: iÎïïìíi,
+          weaM: iÎíïíïî
+        }, (iÍiíïïi ? 1.3 : 1) * 220).easing(iIììíìi.Easing.Cubic.Out).onComplete(function () {
+          iÎîíïìí.meleeAnim.anim = new iIììíìi.Tween(iÎîíïìí.meleeAnim).to({
+            armR: 0,
+            armT: 0,
+            armY: 0,
+            lArm: 0,
+            armM: 0,
+            armE: 0,
+            weaR: 0,
+            weaM: 0,
+            flipW: 0
+          }, 350).easing(iIììíìi.Easing.Cubic.Out).start();
+        }).start();
+      } else if (iÌíiìïï == 2) {
+        iÎîíïìí.handAnimInd = (iÎîíïìí.handAnimInd || 1) * -1;
+        if (iÎîíïìí.meleeAnim.anim) {
+          iÎîíïìí.meleeAnim.anim.stop();
+        }
+        iÎîíïìí.resetMeleeAnim();
+        var iÌiiiií = iÎîíïìí.handAnimInd ? "lArm" : "";
+        iÌiiiií = {};
+        if (iÎîíïìí.handAnimInd == 1) {
+          iÌiiiií.lArm = -2.7;
+        } else {
+          iÌiiiií.rArm = -2.7;
+        }
+        iÎîíïìí.meleeAnim.anim = new iIììíìi.Tween(iÎîíïìí.meleeAnim).to(iÌiiiií, 10).easing(iIììíìi.Easing.Linear.None).onComplete(function () {
+          iÎîíïìí.meleeAnim.anim = new iIììíìi.Tween(iÎîíïìí.meleeAnim).to({
+            lArm: 0,
+            rArm: 0
+          }, 150).easing(iIììíìi.Easing.Linear.None).delay(100).start();
+        }).start();
+      } else if (iÌíiìïï == 3) {
+        if (iÎîíïìí.meleeAnim.anim) {
+          iÎîíïìí.meleeAnim.anim.stop();
+        }
+        iÎîíïìí.resetMeleeAnim();
+        iÎîíïìí.meleeAnim.armR = -1.3;
+        iÎîíïìí.meleeAnim.armM = 1.7;
+        iÎîíïìí.meleeAnim.armE = 1.1;
+        iÎîíïìí.meleeAnim.armY = 2.9;
+        iÎîíïìí.meleeAnim.armT = 1;
+        iÎîíïìí.meleeAnim.armS = 1.7;
+        iÎîíïìí.meleeAnim.weaR = -0.6;
+        iÎîíïìí.meleeAnim.anim = new iIììíìi.Tween(iÎîíïìí.meleeAnim).to({
+          armY: -9,
+          armS: -0.1,
+          armE: -7.5,
+          armM: -1.5,
+          lArm: 0.5,
+          weaR: -3
+        }, 200 - (iÌìíiiì || 1) * 200 + 300).easing(iIììíìi.Easing.Cubic.Out).onComplete(function () {
+          iÎîíïìí.meleeAnim.anim = new iIììíìi.Tween(iÎîíïìí.meleeAnim).to({
+            armR: 0,
+            armT: 0,
+            armY: 0,
+            lArm: 0,
+            armM: 0,
+            armS: 0,
+            armE: 0,
+            weaR: 0
+          }, 350).easing(iIììíìi.Easing.Cubic.Out).start();
+        }).start();
       }
-    }, {
-      name: "Sawed Off",
-      src: "weapon_16",
-      icon: "icon_16",
-      assetIcon: "",
-      sound: "weapon_16",
-      noComp: true,
-      refDist: 25,
-      rollOff: 1,
-      noSpread: false,
-      akimbo: false,
-      noAim: false,
-      noAo: true,
-      nAuto: true,
-      nCase: true,
-      nRing: true,
-      secondary: true,
-      equipment: false,
-      swapWiggle: 0.4,
-      shine: 35,
-      type: 1,
-      physRang: 36,
-      physPow: 0.1,
-      swapTime: 200,
-      aimSpd: 100,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 1,
-      burst: true,
-      burstC: 3,
-      burstR: 100,
-      ammo: 3,
-      reload: 1100,
-      dmg: 12,
-      hsMlt: 1.5,
-      dmgDrop: 12,
-      scale: 1,
-      rightHoldX: 0.1,
-      leftHoldY: -0.5,
-      rightHoldY: -0.6,
-      leftHoldZ: 0.4,
-      rightHoldZ: -1.5,
-      holdW: 1,
-      xOff: 0.95,
-      yOff: -0.65,
-      zOff: -3.8,
-      xOrg: 0,
-      yOrg: -0.3,
-      zOrg: -2.8,
-      cLean: 0.2,
-      cRot: 0.2,
-      cDrop: 0.1,
-      jYMlt: 0.2,
-      inspectR: 0.1,
-      inspectM: 1.9,
-      muzID: 3,
-      muzOff: 6,
-      muzMlt: 1.8,
-      range: 210,
-      rate: 400,
-      innac: 110,
-      spread: 120,
-      shots: 5,
-      cSpread: [[0.03, 0.05, -0.27, -0.02, -0.03, 0.31, 0.3, -0.01, 0.01, -0.28], [0.01, 0.05, -0.17, -0.22, -0.3, 0.31, 0.32, 0.28, 0.3, -0.2]],
-      minSpread: 20,
-      zoom: 1.25,
-      leanMlt: 1.6,
-      recoil: 0.02,
-      recoilR: 0.015,
-      recover: 0.99,
-      recoverF: 0.97,
-      recoilZ: 2.1,
-      recoilZM: 0.32,
-      aimRecMlt: 0.3,
-      recoilYM: 1,
-      recoilAnim: {
-        time: 340,
-        recoilTweenY: 0.35
-      },
-      jumpYM: 0.5,
-      rumble: 0.8,
-      icnPad: 10,
-      expScale: 1,
-      charm: true,
-      charmMXOff: -0.37,
-      charmMYOff: -0.43,
-      charmMZOff: 1.23,
-      charmMScl: 1,
-      charmXOff: 0,
-      charmYOff: 0,
-      charmZOff: 0,
-      charmScl: 1,
-      magReserve: 20,
-      mysteryBoxR: 0,
-      altSkin: {
-        projection: true,
-        video: 2,
-        outline: 0,
-        outlineS: 1.05
-      }
-    }, {
-      name: "Auto Pistol",
-      src: "weapon_17",
-      icon: "icon_17",
-      assetIcon: "",
-      sound: "weapon_17",
-      refDist: 25,
-      rollOff: 1,
-      noSpread: false,
-      akimbo: false,
-      secondary: true,
-      equipment: false,
-      noAim: false,
-      nAuto: false,
-      noAo: true,
-      physRang: 0,
-      physPow: 0,
-      kill: ["", 50],
-      type: 1,
-      swapTime: 200,
-      aimSpd: 100,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 1,
-      ammo: 18,
-      reload: 1000,
-      dmg: 16,
-      hsMlt: 1.1,
-      pierce: 0.95,
-      dmgDrop: 2,
-      scale: 0.0003158947055276376,
-      leftHoldY: -1.1,
-      rightHoldY: -0.62,
-      leftHoldZ: -0.3,
-      rightHoldZ: -0.32,
-      rightHoldX: 0.13,
-      holdW: 1.35,
-      xOff: 1.2,
-      yOff: -0.6,
-      zOff: -3.7,
-      xOrg: 0,
-      yRot: -0.005,
-      yOrg: -0.23,
-      zOrg: -3.9,
-      cLean: 0.3,
-      cRot: 0.3,
-      inspectR: 0.35,
-      inspectM: 0.9,
-      muzID: 3,
-      muzOff: 2,
-      muzMlt: 1.1,
-      range: 700,
-      rate: 70,
-      spread: 150,
-      jYMlt: 0.5,
-      zoom: 1.3,
-      leanMlt: 1.6,
-      recoil: 0.004,
-      recoilR: 0.01,
-      recover: 0.98,
-      recoverY: 0.99,
-      recoverF: 0.98,
-      recoilYM: 0.2,
-      aimRecMlt: 0.4,
-      recoilZ: 3.8,
-      recoilZM: -0.4,
-      recoilAnim: {
-        time: 200,
-        recoilTweenY: 0.28
-      },
-      rumble: 0.8,
-      icnPad: -10,
-      expScale: 1.55,
-      charm: true,
-      charmMXOff: -0.31999999999999995,
-      charmMYOff: -0.17,
-      charmMZOff: 0.9900000000000007,
-      charmMScl: 1,
-      charmXOff: 0,
-      charmYOff: 0,
-      charmZOff: 0,
-      charmScl: 1,
-      magReserve: 6,
-      mysteryBoxR: 1,
-      altSkin: {
-        projection: true,
-        video: 2,
-        outline: 0,
-        outlineS: 1.05
-      }
-    }, {
-      name: "Bomb",
-      src: "weapon_18",
-      icon: "icon_18",
-      assetIcon: "",
-      sound: "weapon_18",
-      refDist: 25,
-      rollOff: 1,
-      transp: true,
-      bomb: true,
-      equipment: true,
-      nInsp: true,
-      noAim: true,
-      noAo: true,
-      nCase: true,
-      noCross: true,
-      nMuz: true,
-      type: 3,
-      aimSpd: 140,
-      chrgTime: 0,
-      ovrChrg: false,
-      swapTime: 250,
-      spdMlt: 0.65,
-      scale: 0.63,
-      holdW: 1.2,
-      zoom: 1,
-      rot: [0, Math.PI / 2, -0.4],
-      leftHoldY: -0.3,
-      rightHoldY: -0.3,
-      leftHoldZ: 0.33,
-      rightHoldX: -0.82,
-      leftHoldX: 0.82,
-      rightHoldZ: 0.33,
-      xOff: 0,
-      yOff: -0.8,
-      zOff: -3.5,
-      xOrg: 0.0001,
-      yOrg: 0.0001,
-      zOrg: 0.0001,
-      cLean: 0,
-      cRot: 0,
-      cDrop: 0.12,
-      jYMlt: 0.95,
-      spread: 120,
-      recover: 0.98,
-      recoverF: 0.98,
-      leanMlt: 0.3,
-      icnPad: 9
-    }, {
-      name: "Blaster",
-      src: "weapon_19",
-      icon: "icon_19",
-      assetIcon: "",
-      sound: "weapon_19",
-      refDist: 25,
-      rollOff: 1,
-      secondary: false,
-      equipment: false,
-      noSpread: false,
-      akimbo: false,
-      noAim: false,
-      noAo: true,
-      nCase: true,
-      nAuto: false,
-      physRang: 0,
-      physPow: 0,
-      swapWiggle: 0.3,
-      attach: 0,
-      attachYOff: -0.07,
-      attachZOff: -0.73,
-      zRot: 1,
-      type: 0,
-      kill: ["", 75],
-      swapTime: 300,
-      aimSpd: 130,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 0.95,
-      ammo: 16,
-      rate: 110,
-      reload: 1100,
-      dmg: 1,
-      projectile: {},
-      pj_asset: "",
-      pj_mat: "BASIC",
-      pj_color: 9109499,
-      pj_spd: 1,
-      pj_grav: 0,
-      pj_nImp: true,
-      pj_lookDir: true,
-      pj_scale: 0.7,
-      pj_dmg: 35,
-      pj_length: 10,
-      pj_range: 500,
-      hsMlt: 1.5,
-      lsMlt: 1,
-      pierce: 1,
-      range: 700,
-      dmgDrop: 0,
-      scale: 0.0007946847095477368,
-      leftHoldY: -0.8,
-      rightHoldY: -0.6,
-      leftHoldZ: 1.2,
-      rightHoldZ: -1.25,
-      holdW: 0.75,
-      xOff: 0.7,
-      yOff: -0.76,
-      zOff: -3,
-      rotOff: -0.05,
-      rotOffA: -0.02,
-      aimOffY: 0.042,
-      yRot: 0.0018,
-      xOrg: 0,
-      yOrg: -0.52,
-      zOrg: -2.3,
-      cLean: 0.2,
-      cRot: 0.2,
-      cDrop: 0.1,
-      inspectR: 0.1,
-      inspectM: 1.5,
-      caseZOff: -1.7,
-      caseYOff: -0.2,
-      muzID: 3,
-      muzOff: 5.1,
-      muzOffY: -0.08,
-      muzMlt: 1.4,
-      spread: 100,
-      minSpread: 5,
-      zoom: 1.6,
-      leanMlt: 1.5,
-      recoil: 0.003,
-      recoilR: 0.05,
-      recover: 0.978,
-      recoverY: 0.995,
-      recoverF: 0.975,
-      jYMlt: 0.9,
-      recoilYM: 0.4,
-      recoilZ: 5.7,
-      recoilZM: -0.05,
-      aimRecMlt: 0.7,
-      recoilAnim: {
-        time: 300,
-        recoilTweenY: 0.07,
-        recoilTweenZ: 0.1
-      },
-      jumpYM: 0.6,
-      rumble: 0.5,
-      icnPad: 5,
-      charm: true,
-      charmMXOff: -0.37,
-      charmMYOff: -0.17,
-      charmMZOff: 0.98,
-      charmMScl: 1,
-      charmXOff: 0,
-      charmYOff: 0,
-      charmZOff: 0,
-      charmScl: 1,
-      magReserve: 5,
-      mysteryBoxR: 1,
-      altSkin: {
-        projection: true,
-        video: 2,
-        outline: 0,
-        outlineS: 1.05
-      }
-    }, {
-      name: "Build Tool",
-      src: "weapon_20",
-      icon: "icon_20",
-      assetIcon: "",
-      sound: "weapon_20",
-      refDist: 25,
-      rollOff: 1,
-      aimSound: "paper_1",
-      swapSnd: "paper_1",
-      build: true,
-      equipment: true,
-      nInsp: true,
-      noAim: false,
-      noAo: true,
-      nCase: true,
-      noCross: true,
-      nMuz: true,
-      side: 2,
-      type: 3,
-      aimSpd: 100,
-      chrgTime: 0,
-      ovrChrg: false,
-      aimLean: 0.000001,
-      swapTime: 200,
-      spdMlt: 0.9,
-      scale: 1.2,
-      holdW: 1.3,
-      zoom: 1.1,
-      rate: 300,
-      range: 50,
-      rot: [0, Math.PI / 2, -0.4],
-      leftHoldY: 0.6,
-      rightHoldY: 0.6,
-      leftHoldZ: 0.1,
-      rightHoldX: -2.2,
-      leftHoldX: 2.2,
-      rightHoldZ: 0.1,
-      xOff: 0,
-      yOff: -2.6,
-      zOff: -3.5,
-      xOrg: 0.00001,
-      yOrg: -3.8,
-      zOrg: -3.2,
-      cLean: 0,
-      cRot: 0,
-      cDrop: 0.12,
-      jYMlt: 0.95,
-      spread: 120,
-      recover: 0.98,
-      recoverF: 0.98,
-      leanMlt: 0.3,
-      icnPad: 9
-    }, {
-      name: "Grappler",
-      src: "weapon_21",
-      icon: "icon_21",
-      assetIcon: "",
-      sound: "weapon_21",
-      refDist: 25,
-      rollOff: 1,
-      noSpread: true,
-      akimbo: false,
-      secondary: true,
-      equipment: false,
-      noAim: false,
-      grapRang: 500,
-      physRang: 0,
-      physPow: 0,
-      nAuto: true,
-      noAo: true,
-      transp: true,
-      kill: ["", 50],
-      type: 1,
-      swapTime: 200,
-      aimSpd: 110,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 1,
-      ammo: 10,
-      reload: 1000,
-      dmg: 1,
-      hsMlt: 1.5,
-      pierce: 0.85,
-      dmgDrop: 0,
-      scale: 1,
-      leftHoldY: -0.9,
-      rightHoldY: -0.7,
-      leftHoldZ: -0.5,
-      rightHoldZ: -0.5,
-      holdW: 1.1,
-      xOff: 1,
-      yOff: -0.5,
-      zOff: -4.1,
-      xOrg: 0,
-      yOrg: -0.195,
-      zOrg: -3.8,
-      cLean: 0.3,
-      cRot: 0.3,
-      inspectR: 0.35,
-      inspectM: 0.9,
-      muzID: 3,
-      muzOff: 1.8,
-      muzOffY: -0.2,
-      muzMlt: 1.1,
-      range: 700,
-      rate: 300,
-      spread: 0,
-      jYMlt: 0.5,
-      zoom: 1.2,
-      leanMlt: 1.6,
-      recoil: 0.01,
-      recoilR: 0.01,
-      recover: 0.982,
-      recoverY: 0.995,
-      recoverF: 0.98,
-      recoilYM: 0.62,
-      aimRecMlt: 0.23,
-      recoilZ: 4.8,
-      recoilZM: 0.2,
-      recoilAnim: {
-        time: 180,
-        recoilTweenY: 0.34
-      },
-      rumble: 0.8,
-      icnPad: -10,
-      expScale: 1.2,
-      charm: true,
-      charmMXOff: -0.34,
-      charmMYOff: -0.2,
-      charmMZOff: 0.36,
-      charmMScl: 1,
-      charmXOff: 0,
-      charmYOff: 0,
-      charmZOff: 0,
-      charmScl: 1
-    }, {
-      name: "Tehchy-9",
-      src: "weapon_22",
-      icon: "icon_22",
-      assetIcon: "",
-      sound: "weapon_22",
-      refDist: 25,
-      rollOff: 1,
-      noSpread: false,
-      akimbo: false,
-      secondary: true,
-      equipment: false,
-      noAim: false,
-      nAuto: true,
-      noAo: true,
-      physRang: 0,
-      physPow: 0,
-      burst: true,
-      burstC: 3,
-      burstR: 80,
-      kill: ["", 50],
-      type: 1,
-      swapTime: 200,
-      aimSpd: 100,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 1,
-      ammo: 18,
-      reload: 1000,
-      dmg: 23,
-      hsMlt: 1.25,
-      pierce: 0.95,
-      dmgDrop: 2,
-      scale: 0.0003158947055276376,
-      leftHoldY: -1.1,
-      rightHoldY: -0.62,
-      leftHoldZ: -0.3,
-      rightHoldZ: -0.32,
-      rightHoldX: 0.13,
-      holdW: 1.35,
-      xOff: 1.2,
-      yOff: -0.6,
-      zOff: -3.7,
-      xOrg: 0,
-      yRot: -0.005,
-      yOrg: -0.23,
-      zOrg: -3.9,
-      cLean: 0.3,
-      cRot: 0.3,
-      inspectR: 0.35,
-      inspectM: 0.9,
-      muzID: 3,
-      muzOff: 2,
-      muzMlt: 1.1,
-      range: 700,
-      rate: 380,
-      spread: 150,
-      jYMlt: 0.5,
-      zoom: 1.3,
-      leanMlt: 1.6,
-      recoil: 0.004,
-      recoilR: 0.01,
-      recover: 0.98,
-      recoverY: 0.99,
-      recoverF: 0.98,
-      recoilYM: 0.2,
-      aimRecMlt: 0.4,
-      recoilZ: 3.8,
-      recoilZM: -0.4,
-      recoilAnim: {
-        time: 200,
-        recoilTweenY: 0.28
-      },
-      rumble: 0.8,
-      icnPad: -10,
-      expScale: 1.55,
-      charm: true,
-      charmMXOff: -0.329,
-      charmMYOff: -0.23,
-      charmMZOff: 1.03,
-      charmMScl: 1,
-      charmXOff: 0,
-      charmYOff: 0,
-      charmZOff: 0,
-      charmScl: 1,
-      magReserve: 6,
-      mysteryBoxR: 0,
-      altSkin: {
-        projection: true,
-        video: 2,
-        outline: 0,
-        outlineS: 1.05
-      }
-    }, (iiîììiî = {
-      name: "Noob Tube",
-      src: "weapon_23",
-      icon: "icon_23",
-      assetIcon: "",
-      sound: "weapon_23",
-      noComp: true,
-      refDist: 25,
-      rollOff: 1,
-      noSpread: false,
-      akimbo: false,
-      noAim: false,
-      noAo: true,
-      nCase: true,
-      nRing: true,
-      secondary: true,
-      equipment: false,
-      swapWiggle: 0.4,
-      shine: 35,
-      type: 1,
-      physRang: 36,
-      physPow: 0.1,
-      swapTime: 200,
-      aimSpd: 100,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 1,
-      ammo: 2,
-      reload: 1200,
-      dmg: 12,
-      hsMlt: 1,
-      lsMlt: 1,
-      dmgDrop: 12,
-      scale: 1,
-      rightHoldX: 0.1,
-      leftHoldY: -0.6,
-      rightHoldY: -0.6,
-      leftHoldZ: 0.4,
-      rightHoldZ: -1.3,
-      holdW: 1,
-      xOff: 0.95,
-      yOff: -0.6,
-      zOff: -3.8,
-      wzOff: 0.28,
-      wyOff: -0.5,
-      xOrg: 0,
-      yOrg: -0.3,
-      zOrg: -2.8,
-      cLean: 0.2,
-      cRot: 0.2,
-      cDrop: 0.1,
-      jYMlt: 0.2,
-      inspectR: 0.1,
-      muzID: 3,
-      muzOff: 6,
-      muzMlt: 1.8,
-      inspectM: 1.9,
-      range: 150,
-      rate: 400,
-      innac: 110,
-      spread: 20
-    }, iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiîììiî, "noSpread", true), "noProjSpread", true), "shots", 0), "minSpread", 20), "zoom", 1.25), "leanMlt", 1.6), "recoil", 0.02), "recoilR", 0.015), "recover", 0.99), "recoverF", 0.97), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiîììiî, "recoilZ", 2.1), "recoilZM", 0.32), "aimRecMlt", 0.3), "recoilYM", 1), "recoilAnim", {
+    },
+    type: 2,
+    swapTime: 250,
+    aimSpd: 100,
+    chrgTime: 0,
+    ovrChrg: true,
+    rate: 250,
+    dmg: 50,
+    dmgDrop: 0,
+    range: 15,
+    spdMlt: 1.1,
+    spread: 100,
+    leftHoldY: -0.82,
+    leftHoldX: 1.5,
+    rightHoldX: -1.5,
+    rightHoldY: -0.82,
+    leftHoldZ: -0.5,
+    rightHoldZ: -0.5,
+    xOff: 0,
+    yOff: -0.6,
+    zOff: -3.6,
+    xOrg: 0.0001,
+    yOrg: -0.6,
+    zOrg: -3.6,
+    zRM: 0.35,
+    zoom: 1.2,
+    leanMlt: 0.8,
+    recoil: 0.006,
+    recoilR: 0.01,
+    recover: 0.98,
+    recoverF: 0.98,
+    rumble: 0.4,
+    rumbleDur: 150,
+    icnPad: -10,
+    altSkin: {
+      projection: true,
+      video: 2,
+      outline: 0,
+      outlineS: 1.05
+    }
+  }, (iiîìîiî = {
+    name: "Crossbow",
+    src: "weapon_14",
+    icon: "icon_14",
+    assetIcon: "",
+    sound: "weapon_14",
+    refDist: 25,
+    rollOff: 1,
+    noSpread: false,
+    akimbo: false,
+    secondary: false,
+    equipment: false,
+    noAim: false,
+    nInsp: true,
+    nRing: true,
+    nAuto: true,
+    noAo: true,
+    physRang: 0,
+    physPow: 0,
+    nCase: true,
+    nMuz: true,
+    attach: 0,
+    attachYOff: -0.1,
+    attachZOff: 0.75,
+    kill: ["", 75],
+    type: 0,
+    projectile: {},
+    pj_asset: "",
+    pj_mat: "BASIC",
+    pj_color: 16777179,
+    pj_explode: 100,
+    pj_dmg: 100,
+    pj_eDmg: 100,
+    pj_spd: 0.75,
+    pj_grav: 0.00008,
+    pj_nImp: true,
+    pj_lookDir: true,
+    pj_scale: 1.4,
+    pj_length: 10,
+    pj_range: 1500,
+    swapTime: 200,
+    aimSpd: 120,
+    chrgTime: 1300,
+    chrgMlt: 0.9,
+    ovrChrg: true,
+    spdMlt: 1,
+    ammo: 3,
+    reload: 900,
+    dmg: 100,
+    hsMlt: 1,
+    lsMlt: 1,
+    pierce: 0,
+    dmgDrop: 0,
+    scale: 0.0007303348040201011,
+    leftHoldY: -0.33,
+    rightHoldY: -0.28,
+    leftHoldZ: 2.2,
+    leftHoldX: 0,
+    rightHoldZ: 0.9,
+    xOff: 1,
+    yOff: -1,
+    zOff: -1.4,
+    xOrg: 0,
+    yOrg: -0.72,
+    zOrg: -0.7,
+    cLean: 0.1,
+    cRot: 0.1,
+    zRot: 0.9,
+    cDrop: 0.2,
+    holdW: 0.5,
+    muzID: 3,
+    muzOff: 2.2,
+    muzOffY: 0.1
+  }, iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiîìîiî, "muzID", 3), "muzMlt", 1.1), "jYMlt", 0.95), "range", 700), "rate", 150), "spread", 120), "zoom", 1.4), "leanMlt", 0.3), "recoil", 0.007), "recoilR", 0.01), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiîìîiî, "recover", 0.985), "recoverY", 0.996), "recoverF", 0.98), "recoilZ", 4), "recoilAnim", {
+    time: 300,
+    recoilTweenY: 0.1
+  }), "rumble", 0.5), "icnPad", 9), "charm", true), "charmMXOff", -0.23999999999999994), "charmMYOff", 0.04), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiîìîiî, "charmMZOff", -0.01), "charmMScl", 1), "charmXOff", 0), "charmYOff", 0), "charmZOff", 0), "charmScl", 1), "magReserve", 20), "mysteryBoxR", 1), "altSkin", {
+    projection: true,
+    video: 2,
+    outline: 0,
+    outlineS: 1.05
+  })), {
+    name: "Famas",
+    src: "weapon_15",
+    icon: "icon_15",
+    assetIcon: "",
+    sound: "weapon_15",
+    refDist: 25,
+    rollOff: 1,
+    akimbo: false,
+    noSpread: false,
+    secondary: false,
+    equipment: false,
+    noAim: false,
+    noAo: true,
+    nAuto: true,
+    projectile: {},
+    pj_asset: "",
+    pj_disable: true,
+    pj_mat: "BASIC",
+    pj_color: 16777179,
+    pj_dmg: 28,
+    pj_spd: 2.4,
+    pj_lookDir: true,
+    pj_grav: 0.0001,
+    pj_scale: 1.4,
+    pj_length: 10,
+    pj_range: 3000,
+    pj_snd: 0,
+    physRang: 0,
+    physPow: 0,
+    burst: true,
+    burstC: 4,
+    burstR: 90,
+    swapWiggle: 0.6,
+    attach: 0,
+    attachYOff: -0.1,
+    attachZOff: -0.5,
+    zRot: 1,
+    type: 0,
+    swapTime: 300,
+    aimSpd: 130,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 0.95,
+    ammo: 36,
+    rate: 280,
+    reload: 1200,
+    dmg: 28,
+    hsMlt: 1.5,
+    pierce: 1,
+    range: 900,
+    dmgDrop: 5,
+    scale: 0.0008858419597989991,
+    leftHoldY: -0.45,
+    rightHoldY: -0.5,
+    leftHoldZ: 0.72,
+    rightHoldZ: -0.75,
+    holdW: 1,
+    xOff: 1,
+    yOff: -0.86,
+    yRot: 0.0018,
+    zOff: -3,
+    xOrg: 0,
+    yOrg: -1.14,
+    zOrg: -2,
+    cLean: 0.2,
+    cRot: 0.2,
+    cDrop: 0.1,
+    inspectR: 0.1,
+    inspectM: 1.5,
+    caseZOff: -1.7,
+    caseYOff: -0.2,
+    muzID: 3,
+    muzOff: 4.9,
+    muzOffY: -0.05,
+    muzMlt: 1.4,
+    spread: 90,
+    minSpread: 5,
+    zoom: 1.5,
+    leanMlt: 1.5,
+    recoil: 0.003,
+    recoilR: 0.02,
+    recover: 0.978,
+    recoverY: 0.995,
+    recoverF: 0.975,
+    jYMlt: 0.9,
+    recoilYM: 0.32,
+    recoilZ: 5.5,
+    recoilZM: 0.05,
+    aimRecMlt: 0.65,
+    recoilAnim: {
+      time: 300,
+      recoilTweenY: 0.06,
+      recoilTweenZ: 0.1
+    },
+    jumpYM: 0.6,
+    rumble: 0.5,
+    expScale: 0.9,
+    icnPad: 9,
+    charm: true,
+    charmMXOff: -0.33,
+    charmMYOff: 0.195,
+    charmMZOff: 0.99,
+    charmMScl: 1,
+    charmXOff: 0,
+    charmYOff: 0,
+    charmZOff: 0,
+    charmScl: 1,
+    magReserve: 5,
+    mysteryBoxR: 2,
+    altSkin: {
+      projection: true,
+      video: 2,
+      outline: 0,
+      outlineS: 1.05
+    }
+  }, {
+    name: "Sawed Off",
+    src: "weapon_16",
+    icon: "icon_16",
+    assetIcon: "",
+    sound: "weapon_16",
+    noComp: true,
+    refDist: 25,
+    rollOff: 1,
+    noSpread: false,
+    akimbo: false,
+    noAim: false,
+    noAo: true,
+    nAuto: true,
+    nCase: true,
+    nRing: true,
+    secondary: true,
+    equipment: false,
+    swapWiggle: 0.4,
+    shine: 35,
+    type: 1,
+    physRang: 36,
+    physPow: 0.1,
+    swapTime: 200,
+    aimSpd: 100,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 1,
+    burst: true,
+    burstC: 3,
+    burstR: 100,
+    ammo: 3,
+    reload: 1100,
+    dmg: 12,
+    hsMlt: 1.5,
+    dmgDrop: 12,
+    scale: 1,
+    rightHoldX: 0.1,
+    leftHoldY: -0.5,
+    rightHoldY: -0.6,
+    leftHoldZ: 0.4,
+    rightHoldZ: -1.5,
+    holdW: 1,
+    xOff: 0.95,
+    yOff: -0.65,
+    zOff: -3.8,
+    xOrg: 0,
+    yOrg: -0.3,
+    zOrg: -2.8,
+    cLean: 0.2,
+    cRot: 0.2,
+    cDrop: 0.1,
+    jYMlt: 0.2,
+    inspectR: 0.1,
+    inspectM: 1.9,
+    muzID: 3,
+    muzOff: 6,
+    muzMlt: 1.8,
+    range: 210,
+    rate: 400,
+    innac: 110,
+    spread: 120,
+    shots: 5,
+    cSpread: [[0.03, 0.05, -0.27, -0.02, -0.03, 0.31, 0.3, -0.01, 0.01, -0.28], [0.01, 0.05, -0.17, -0.22, -0.3, 0.31, 0.32, 0.28, 0.3, -0.2]],
+    minSpread: 20,
+    zoom: 1.25,
+    leanMlt: 1.6,
+    recoil: 0.02,
+    recoilR: 0.015,
+    recover: 0.99,
+    recoverF: 0.97,
+    recoilZ: 2.1,
+    recoilZM: 0.32,
+    aimRecMlt: 0.3,
+    recoilYM: 1,
+    recoilAnim: {
       time: 340,
       recoilTweenY: 0.35
-    }), "jumpYM", 0.5), "rumble", 0.8), "icnPad", 10), "expScale", 1), "projectile", {}), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiîììiî, "pj_asset", ""), "pj_mat", "BASIC"), "pj_color", 16498733), "pj_explode", 45), "pj_dmg", 50), "pj_eDmg", 40), "pj_spd", 0.75), "pj_grav", 0.001), "pj_nImp", true), "pj_lookDir", true), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiîììiî, "pj_scale", 1.4), "pj_length", 15), "pj_range", 1000), "charm", true), "charmMXOff", -0.37), "charmMYOff", -0.51), "charmMZOff", -1.69), "charmMScl", 1), "charmXOff", 0), "charmYOff", 0), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiîììiî, "charmZOff", 0), "charmScl", 1), "magReserve", 20), "mysteryBoxR", 0), "altSkin", {
+    },
+    jumpYM: 0.5,
+    rumble: 0.8,
+    icnPad: 10,
+    expScale: 1,
+    charm: true,
+    charmMXOff: -0.37,
+    charmMYOff: -0.43,
+    charmMZOff: 1.23,
+    charmMScl: 1,
+    charmXOff: 0,
+    charmYOff: 0,
+    charmZOff: 0,
+    charmScl: 1,
+    magReserve: 20,
+    mysteryBoxR: 0,
+    altSkin: {
       projection: true,
       video: 2,
       outline: 0,
       outlineS: 1.05
-    })), {
-      name: "Slimer",
-      src: "weapon_24",
-      icon: "icon_24",
-      assetIcon: "",
-      sound: "weapon_24",
-      refDist: 25,
-      rollOff: 1,
-      noSpread: true,
-      akimbo: false,
-      noAim: true,
-      physRang: 0,
-      physPow: 0,
-      customOnly: true,
-      nAuto: true,
-      noAo: true,
-      transp: true,
-      kill: ["", 50],
-      secondary: false,
-      equipment: true,
-      type: 3,
-      swapWiggle: 0.3,
-      zRot: 1,
-      swapTime: 200,
-      aimSpd: 110,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 1,
-      ammo: 2,
-      reload: 5000,
-      noReload: true,
-      removeOnEmpty: true,
-      dmg: 1,
-      hsMlt: 1.5,
-      pierce: 0.85,
-      dmgDrop: 0,
-      scale: 0.000765961165829144,
-      leftHoldY: -0.41,
-      rightHoldY: -0.6,
-      leftHoldZ: 0.5,
-      rightHoldZ: -1.2,
-      holdW: 0.8,
-      xOff: 0.7,
-      yOff: -0.87,
-      zOff: -3.33,
-      rotOff: -0.08,
-      rotOffA: -0.035,
-      aimOffY: 0.042,
-      yRot: 0.0018,
-      xOrg: 0,
-      yOrg: -0.59,
-      zOrg: -2.14,
-      cLean: 0.2,
-      cRot: 0.1,
-      cDrop: 0.1,
-      inspectR: 0.1,
-      inspectM: 1.5,
-      caseZOff: -1.7,
-      caseYOff: -0.2,
-      muzID: 3,
-      muzOff: 5.1,
-      muzOffY: -0.05,
-      muzMlt: 1.4,
-      range: 700,
-      rate: 300,
-      minSpread: 0,
-      spread: 0,
-      zoom: 1.6,
-      leanMlt: 1.5,
-      recoil: 0.003,
-      recoilR: 0.05,
-      recover: 0.978,
-      recoverY: 0.995,
-      recoverF: 0.975,
-      jYMlt: 0.9,
-      recoilYM: 1.1,
-      recoilZ: 4.3,
-      recoilZM: -0.04,
-      aimRecMlt: 0.65,
-      recoilAnim: {
-        time: 160,
-        recoilTweenY: 0.065,
-        recoilTweenZ: 0.1
-      },
-      jumpYM: 0.3,
-      rumble: 0.4,
-      icnPad: -15,
-      shine: 20,
-      hDstOff: 1.2,
-      deployRang: 250,
-      deployable: 5
-    }, {
-      name: "Zapper",
-      src: "weapon_25",
-      icon: "icon_25",
-      assetIcon: "",
-      sound: "weapon_25",
-      refDist: 25,
-      rollOff: 1,
-      secondary: true,
-      equipment: false,
-      noSpread: false,
-      akimbo: false,
-      noAim: false,
-      noAo: true,
-      transp: true,
-      nAuto: true,
-      noComp: true,
-      projectile: {},
-      pj_asset: "",
-      pj_mat: "BASIC",
-      pj_color: 16498733,
-      pj_spd: 0.5,
-      pj_grav: 0,
-      pj_nImp: true,
-      pj_lookDir: true,
-      pj_scale: 0.8,
-      pj_dmg: 5,
-      pj_length: 10,
-      pj_range: 150,
-      physRang: 0,
-      physPow: 0,
-      kill: ["", 75],
-      swapWiggle: 0.3,
-      type: 1,
-      shine: 10,
-      swapTime: 260,
-      aimSpd: 110,
-      chrgTime: 1500,
-      ovrChrg: true,
-      spdMlt: 1.05,
-      ammo: 10,
-      reload: 1400,
-      dmg: 12,
-      hsMlt: 1,
-      lsMlt: 1,
-      range: 150,
-      dmgDrop: 10,
-      scale: 0.84,
-      wzOff: 0,
-      wyOff: 0,
-      leftHoldY: -1.1,
-      rightHoldY: -0.62,
-      leftHoldZ: -0.3,
-      rightHoldZ: -0.32,
-      rightHoldX: 0.13,
-      holdW: 1.3,
-      xOff: 1.2,
-      yOff: -0.6,
-      zOff: -3.7,
-      xOrg: 0,
-      yRot: -0.005,
-      yOrg: -0.23,
-      zOrg: -3.9,
-      jYMlt: 0.1,
-      cLean: 0.3,
-      cRot: 0.3,
-      caseZOff: 0.2,
-      caseYOff: 0,
-      inspectR: 0.3,
-      inspectM: 0.8,
-      muzID: 3,
-      muzOff: 1.5,
-      muzOffY: 0,
-      muzMlt: 0.95,
-      rate: 150,
-      spread: 60,
-      zoom: 1.4,
-      leanMlt: 1,
-      recoil: 0.006,
-      recoilR: 0.02,
-      recover: 0.98,
-      recoverY: 0.99,
-      recoverF: 0.98,
-      recoilYM: 0.2,
-      aimRecMlt: 0.4,
-      recoilZ: 3.8,
-      recoilZM: -0.4,
-      recoilAnim: {
-        time: 200,
-        recoilTweenY: 0.28,
-        recoilTweenZ: 0.1
-      },
-      rumble: 0.4,
-      icnPad: -15,
-      expScale: 1.2,
-      effectOnHit: 8,
-      charm: true,
-      charmMXOff: -0.289,
-      charmMYOff: -0.16,
-      charmMZOff: 1.09,
-      charmMScl: 1,
-      charmXOff: 0,
-      charmYOff: 0,
-      charmZOff: 0,
-      charmScl: 1,
-      magReserve: 12,
-      mysteryBoxR: 0,
-      altSkin: {
-        projection: true,
-        video: 2,
-        outline: 0,
-        outlineS: 1.05
-      }
-    }, iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí({
-      name: "Minigun",
-      src: "weapon_26",
-      icon: "icon_26",
-      assetIcon: "",
-      sound: "weapon_26",
-      refDist: 25,
-      rollOff: 1,
-      akimbo: false,
-      noAim: false,
-      nAuto: false,
-      noSpread: false,
-      projectile: {},
-      pj_asset: "",
-      pj_disable: true,
-      pj_mat: "BASIC",
-      pj_color: 16777179,
-      pj_dmg: 18,
-      pj_spd: 2.3,
-      pj_lookDir: true,
-      pj_grav: 0.0001,
-      pj_scale: 1.4,
-      pj_length: 10,
-      pj_range: 3000,
-      pj_snd: 0,
-      physRang: 0,
-      physPow: 0,
-      type: 3,
-      equipment: true,
-      swapWiggle: 0.3,
-      zRot: 0.75,
-      noAo: true,
-      swapTime: 600,
-      aimSpd: 200,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 0.5,
-      jumMlt: 0.2,
-      noJump: true,
-      ammo: 250,
-      reload: 3300,
-      noReload: true,
-      removeOnEmpty: true,
-      dmg: 18,
-      hsMlt: 1.5,
-      pierce: 1,
-      range: 700,
-      dmgDrop: 10,
-      jYMlt: 0.8,
-      scale: 0.0008856008924623108,
-      leftHoldY: -0.5,
-      leftHoldX: 0.4,
-      rightHoldX: -0.1,
-      rightHoldY: -1.6,
-      leftHoldZ: 1,
-      rightHoldZ: -0.6,
-      holdW: 1,
-      yRot: -0.01,
-      xOff: 0.95,
-      yOff: -1,
-      zOff: -2.8,
-      xOrg: 0,
-      yOrg: -0.6,
-      zOrg: -1.8,
-      cLean: 0.1,
-      cRot: 0.1,
-      cDrop: 0.1,
-      inspectR: 0.2,
-      inspectM: 0.6,
-      caseInd: 2,
-      caseZOff: -0.5,
-      caseYOff: -0.1,
-      muzID: 3,
-      muzOff: 5,
-      muzOffY: -1.2,
-      muzMlt: 1.7,
-      rate: 70,
-      spread: 300,
-      minSpread: 10,
-      zoom: 1.3,
-      leanMlt: 1.6,
-      recoil: 0.0032,
-      recoilR: 0.04,
-      recover: 0.98,
-      recoverY: 0.9975,
-      recoverF: 0.975,
-      recoilZ: 3.8,
-      recoilYM: 0.25
-    }, "recoilZ", 3), "recoilZM", -0.1), "aimRecMlt", 0.5), "recoilAnim", {
+    }
+  }, {
+    name: "Auto Pistol",
+    src: "weapon_17",
+    icon: "icon_17",
+    assetIcon: "",
+    sound: "weapon_17",
+    refDist: 25,
+    rollOff: 1,
+    noSpread: false,
+    akimbo: false,
+    secondary: true,
+    equipment: false,
+    noAim: false,
+    nAuto: false,
+    noAo: true,
+    physRang: 0,
+    physPow: 0,
+    kill: ["", 50],
+    type: 1,
+    swapTime: 200,
+    aimSpd: 100,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 1,
+    ammo: 18,
+    reload: 1000,
+    dmg: 16,
+    hsMlt: 1.1,
+    pierce: 0.95,
+    dmgDrop: 2,
+    scale: 0.0003158947055276376,
+    leftHoldY: -1.1,
+    rightHoldY: -0.62,
+    leftHoldZ: -0.3,
+    rightHoldZ: -0.32,
+    rightHoldX: 0.13,
+    holdW: 1.35,
+    xOff: 1.2,
+    yOff: -0.6,
+    zOff: -3.7,
+    xOrg: 0,
+    yRot: -0.005,
+    yOrg: -0.23,
+    zOrg: -3.9,
+    cLean: 0.3,
+    cRot: 0.3,
+    inspectR: 0.35,
+    inspectM: 0.9,
+    muzID: 3,
+    muzOff: 2,
+    muzMlt: 1.1,
+    range: 700,
+    rate: 70,
+    spread: 150,
+    jYMlt: 0.5,
+    zoom: 1.3,
+    leanMlt: 1.6,
+    recoil: 0.004,
+    recoilR: 0.01,
+    recover: 0.98,
+    recoverY: 0.99,
+    recoverF: 0.98,
+    recoilYM: 0.2,
+    aimRecMlt: 0.4,
+    recoilZ: 3.8,
+    recoilZM: -0.4,
+    recoilAnim: {
       time: 200,
-      recoilTweenY: 0.045,
-      recoilTweenZ: 0.12
-    }), "jumpYM", 0.1), "expScale", 0.85), "rumble", 0.65), "icnPad", 10), "noSwap", true), "magReserve", 0), {
-      name: "War Machine",
-      src: "weapon_27",
-      icon: "icon_27",
-      assetIcon: "",
-      sound: "weapon_27",
-      noComp: true,
-      refDist: 25,
-      rollOff: 1,
-      akimbo: false,
-      noAim: false,
-      noAo: true,
-      nAuto: true,
-      nCase: true,
-      nRing: true,
-      secondary: false,
-      equipment: true,
-      swapWiggle: 0.4,
-      shine: 35,
-      type: 3,
-      physRang: 0,
-      physPow: 0,
-      swapTime: 400,
-      aimSpd: 100,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 1,
-      ammo: 6,
-      reload: 2000,
-      noReload: true,
-      removeOnEmpty: true,
-      dmg: 12,
-      hsMlt: 1,
-      lsMlt: 1,
-      dmgDrop: 12,
-      scale: 1,
-      rightHoldX: 0.1,
-      leftHoldY: -0.6,
-      rightHoldY: -0.6,
-      leftHoldZ: 0.4,
-      rightHoldZ: -1.3,
-      holdW: 1,
-      xOff: 0.95,
-      yOff: -0.6,
-      zOff: -3.8,
-      wzOff: 0.28,
-      wyOff: -0.5,
-      aimY: 0.25,
-      xOrg: 0,
-      yOrg: -0.3,
-      zOrg: -2.8,
-      cLean: 0.2,
-      cRot: 0.2,
-      cDrop: 0.1,
-      jYMlt: 0.2,
-      inspectR: 0.1,
-      muzID: 3,
-      muzOff: 6,
-      muzMlt: 1.8,
-      inspectM: 1.9,
-      range: 150,
-      rate: 300,
-      innac: 110,
-      spread: 20,
-      noSpread: true,
-      noProjSpread: true,
-      shots: 0,
-      minSpread: 20,
-      zoom: 1.25,
-      leanMlt: 1.6,
-      recoil: 0.02,
-      recoilR: 0.015,
-      recover: 0.99,
-      recoverF: 0.97,
-      recoilZ: 2.1,
-      recoilZM: 0.32,
-      aimRecMlt: 0.3,
-      recoilYM: 1,
-      recoilAnim: {
-        time: 340,
-        recoilTweenY: 0.35
-      },
-      jumpYM: 0.5,
-      rumble: 0.8,
-      icnPad: 10,
-      expScale: 1,
-      projectile: {},
-      pj_asset: "",
-      pj_mat: "BASIC",
-      pj_color: 16498733,
-      pj_explode: 70,
-      pj_dmg: 60,
-      pj_eDmg: 65,
-      pj_spd: 0.75,
-      pj_grav: 0.001,
-      pj_nImp: true,
-      pj_lookDir: true,
-      pj_scale: 1.4,
-      pj_length: 15,
-      pj_range: 1000,
-      noSwap: true,
-      magReserve: 0
-    }, {
-      name: "Akimbo Pistol",
-      src: "weapon_28",
-      icon: "icon_28",
-      assetIcon: "",
-      sound: "weapon_28",
-      refDist: 25,
-      rollOff: 1,
-      secondary: true,
-      equipment: false,
-      nAuto: true,
-      noAo: true,
-      physRang: 0,
-      physPow: 0,
-      nInsp: true,
-      noAim: true,
-      akimbo: true,
-      type: 1,
-      swapTime: 300,
-      aimSpd: 120,
-      chrgTime: 0,
-      ovrChrg: false,
-      spdMlt: 1.04,
-      ammo: 15,
-      reload: 750,
-      dmg: 15,
-      hsMlt: 1.4,
-      pierce: 1,
-      range: 700,
-      dmgDrop: 13,
-      scale: 0.0003158947055276376,
-      leftHoldZ: -0.3,
-      leftHoldX: 0.13,
-      leftHoldY: -0.62,
-      rightHoldZ: -0.3,
-      rightHoldX: 0.13,
-      rightHoldY: -0.62,
-      holdW: 1.3,
-      xOff: 1.5,
-      yOff: -0.95,
-      zOff: -3.3,
-      xOrg: 0,
-      yOrg: -0.62,
-      zOrg: -2.5,
-      zLnM: 0.4,
-      cLean: 0.1,
-      cRot: 0.1,
-      cDrop: 0.2,
-      caseYOff: -0.15,
-      caseZOff: -0.4,
-      muzID: 3,
-      muzOff: 3.6,
-      rate: 90,
-      spread: 40,
-      noSpread: false,
-      movSpread: 0.1,
-      minSpread: 10,
-      zoom: 1.5,
-      recoil: 0.0034,
-      recoilR: 0.015,
-      leanMlt: 0.6,
-      recover: 0.978,
-      recoverY: 0.996,
-      recoverF: 0.975,
-      recoilZ: 5,
-      recoilYM: 0.7,
-      recoilAnim: {
-        recoilTweenY: 0.01
-      },
-      expScale: 0.7,
-      rumble: 0.4,
-      icnPad: -4,
-      charm: true,
-      charmMXOff: -0.2699999999999999,
-      charmMYOff: -0.42000000000000015,
-      charmMZOff: -0.040000000000000646,
-      charmMScl: 1,
-      charmXOff: 0,
-      charmYOff: 0,
-      charmZOff: 0,
-      charmScl: 1,
-      magReserve: 6,
-      mysteryBoxR: 0,
-      altSkin: {
-        projection: true,
-        video: 2,
-        outline: 0,
-        outlineS: 1.05
-      }
-    }, {
-      name: "Charge Rifle",
-      src: "weapon_29",
-      icon: "icon_29",
-      assetIcon: "",
-      sound: "weapon_29",
-      refDist: 25,
-      rollOff: 1,
-      equipment: false,
-      secondary: false,
-      noSpread: false,
-      projectile: {},
-      pj_asset: "",
-      pj_disable: true,
-      pj_mat: "BASIC",
-      pj_color: 9109499,
-      pj_dmg: 100,
-      pj_spd: 2.5,
-      pj_lookDir: true,
-      pj_grav: 0.0001,
-      pj_scale: 1.4,
-      pj_length: 10,
-      pj_range: 7000,
-      pj_snd: 0,
-      akimbo: false,
-      noAim: false,
-      animWhileAim: true,
-      trailChrg: true,
-      physRang: 0,
-      physPow: 0,
-      noAo: true,
-      nAuto: false,
-      type: 0,
-      scope: true,
-      swapTime: 300,
-      aimSpd: 120,
-      chrgTime: 700,
-      ovrChrg: false,
-      shootChrg: true,
-      bypassChrg: true,
-      chrgDec: 0.8,
-      fullChrgSht: true,
-      fullChrgMlt: 50,
-      rateChrg: true,
-      spdMlt: 0.95,
-      shots: 3,
-      cSpread: [[-0.27, 0.02, 0.03, -0.31, 0.3, -0.01], [-0.17, -0.22, -0.3, 0.31, 0.32, 0.28]],
-      ammo: 1,
-      dmg: 15,
-      hsMlt: 1,
-      pierce: 1,
-      reload: 1400,
-      range: 1000,
-      dmgDrop: 5,
-      scale: 0.00115608717587935,
-      leftHoldY: -0.65,
-      rightHoldY: -0.68,
-      leftHoldZ: 2.5,
-      rightHoldZ: 0.75,
-      holdW: 1,
-      xOff: 0.8,
-      yOff: -0.65,
-      zOff: -1.8,
-      wzOff: -1,
-      xOrg: 0,
-      yOrg: -0.55,
-      zOrg: -0.8,
-      cLean: 0.2,
-      cRot: 0.2,
-      cDrop: 0.1,
-      inspectR: 0.2,
-      inspectM: 0.1,
-      muzID: 3,
-      muzOff: 8,
-      muzMlt: 1.6,
-      rate: 150,
-      spread: 150,
-      minSpread: 5,
-      zoom: 2,
-      leanMlt: 1.5,
-      recoil: 0.003,
-      recoilR: 0.05,
-      recover: 0.978,
-      recoverY: 0.995,
-      recoverF: 0.975,
-      jYMlt: 0.9,
-      recoilYM: 1.1,
-      recoilZ: 4.3,
-      recoilZM: -0.04,
-      aimRecMlt: 0.65,
-      recoilAnim: {
-        time: 160,
-        recoilTweenY: 0.065,
-        recoilTweenZ: 0.1
-      },
-      jumpYM: 0.15,
-      rumble: 0.9,
-      rumbleDur: 500,
-      icnPad: 9,
-      charm: true,
-      charmMXOff: -0.43,
-      charmMYOff: -0.4,
-      charmMZOff: -3.71,
-      charmMScl: 1,
-      charmXOff: 0,
-      charmYOff: 0,
-      charmZOff: 0,
-      charmScl: 1,
-      magReserve: 30,
-      mysteryBoxR: 4,
-      altSkin: {
-        projection: true,
-        video: 2,
-        outline: 0,
-        outlineS: 1.05
-      }
-    }], iíîîïìì = 0; iíîîïìì < iïîïîiì.length; ++iíîîïìì) {
+      recoilTweenY: 0.28
+    },
+    rumble: 0.8,
+    icnPad: -10,
+    expScale: 1.55,
+    charm: true,
+    charmMXOff: -0.31999999999999995,
+    charmMYOff: -0.17,
+    charmMZOff: 0.9900000000000007,
+    charmMScl: 1,
+    charmXOff: 0,
+    charmYOff: 0,
+    charmZOff: 0,
+    charmScl: 1,
+    magReserve: 6,
+    mysteryBoxR: 1,
+    altSkin: {
+      projection: true,
+      video: 2,
+      outline: 0,
+      outlineS: 1.05
+    }
+  }, {
+    name: "Bomb",
+    src: "weapon_18",
+    icon: "icon_18",
+    assetIcon: "",
+    sound: "weapon_18",
+    refDist: 25,
+    rollOff: 1,
+    transp: true,
+    bomb: true,
+    equipment: true,
+    nInsp: true,
+    noAim: true,
+    noAo: true,
+    nCase: true,
+    noCross: true,
+    nMuz: true,
+    type: 3,
+    aimSpd: 140,
+    chrgTime: 0,
+    ovrChrg: false,
+    swapTime: 250,
+    spdMlt: 0.65,
+    scale: 0.63,
+    holdW: 1.2,
+    zoom: 1,
+    rot: [0, Math.PI / 2, -0.4],
+    leftHoldY: -0.3,
+    rightHoldY: -0.3,
+    leftHoldZ: 0.33,
+    rightHoldX: -0.82,
+    leftHoldX: 0.82,
+    rightHoldZ: 0.33,
+    xOff: 0,
+    yOff: -0.8,
+    zOff: -3.5,
+    xOrg: 0.0001,
+    yOrg: 0.0001,
+    zOrg: 0.0001,
+    cLean: 0,
+    cRot: 0,
+    cDrop: 0.12,
+    jYMlt: 0.95,
+    spread: 120,
+    recover: 0.98,
+    recoverF: 0.98,
+    leanMlt: 0.3,
+    icnPad: 9
+  }, {
+    name: "Blaster",
+    src: "weapon_19",
+    icon: "icon_19",
+    assetIcon: "",
+    sound: "weapon_19",
+    refDist: 25,
+    rollOff: 1,
+    secondary: false,
+    equipment: false,
+    noSpread: false,
+    akimbo: false,
+    noAim: false,
+    noAo: true,
+    nCase: true,
+    nAuto: false,
+    physRang: 0,
+    physPow: 0,
+    swapWiggle: 0.3,
+    attach: 0,
+    attachYOff: -0.07,
+    attachZOff: -0.73,
+    zRot: 1,
+    type: 0,
+    kill: ["", 75],
+    swapTime: 300,
+    aimSpd: 130,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 0.95,
+    ammo: 16,
+    rate: 110,
+    reload: 1100,
+    dmg: 1,
+    projectile: {},
+    pj_asset: "",
+    pj_mat: "BASIC",
+    pj_color: 9109499,
+    pj_spd: 1,
+    pj_grav: 0,
+    pj_nImp: true,
+    pj_lookDir: true,
+    pj_scale: 0.7,
+    pj_dmg: 35,
+    pj_length: 10,
+    pj_range: 500,
+    hsMlt: 1.5,
+    lsMlt: 1,
+    pierce: 1,
+    range: 700,
+    dmgDrop: 0,
+    scale: 0.0007946847095477368,
+    leftHoldY: -0.8,
+    rightHoldY: -0.6,
+    leftHoldZ: 1.2,
+    rightHoldZ: -1.25,
+    holdW: 0.75,
+    xOff: 0.7,
+    yOff: -0.76,
+    zOff: -3,
+    rotOff: -0.05,
+    rotOffA: -0.02,
+    aimOffY: 0.042,
+    yRot: 0.0018,
+    xOrg: 0,
+    yOrg: -0.52,
+    zOrg: -2.3,
+    cLean: 0.2,
+    cRot: 0.2,
+    cDrop: 0.1,
+    inspectR: 0.1,
+    inspectM: 1.5,
+    caseZOff: -1.7,
+    caseYOff: -0.2,
+    muzID: 3,
+    muzOff: 5.1,
+    muzOffY: -0.08,
+    muzMlt: 1.4,
+    spread: 100,
+    minSpread: 5,
+    zoom: 1.6,
+    leanMlt: 1.5,
+    recoil: 0.003,
+    recoilR: 0.05,
+    recover: 0.978,
+    recoverY: 0.995,
+    recoverF: 0.975,
+    jYMlt: 0.9,
+    recoilYM: 0.4,
+    recoilZ: 5.7,
+    recoilZM: -0.05,
+    aimRecMlt: 0.7,
+    recoilAnim: {
+      time: 300,
+      recoilTweenY: 0.07,
+      recoilTweenZ: 0.1
+    },
+    jumpYM: 0.6,
+    rumble: 0.5,
+    icnPad: 5,
+    charm: true,
+    charmMXOff: -0.37,
+    charmMYOff: -0.17,
+    charmMZOff: 0.98,
+    charmMScl: 1,
+    charmXOff: 0,
+    charmYOff: 0,
+    charmZOff: 0,
+    charmScl: 1,
+    magReserve: 5,
+    mysteryBoxR: 1,
+    altSkin: {
+      projection: true,
+      video: 2,
+      outline: 0,
+      outlineS: 1.05
+    }
+  }, {
+    name: "Build Tool",
+    src: "weapon_20",
+    icon: "icon_20",
+    assetIcon: "",
+    sound: "weapon_20",
+    refDist: 25,
+    rollOff: 1,
+    aimSound: "paper_1",
+    swapSnd: "paper_1",
+    build: true,
+    equipment: true,
+    nInsp: true,
+    noAim: false,
+    noAo: true,
+    nCase: true,
+    noCross: true,
+    nMuz: true,
+    side: 2,
+    type: 3,
+    aimSpd: 100,
+    chrgTime: 0,
+    ovrChrg: false,
+    aimLean: 0.000001,
+    swapTime: 200,
+    spdMlt: 0.9,
+    scale: 1.2,
+    holdW: 1.3,
+    zoom: 1.1,
+    rate: 300,
+    range: 50,
+    rot: [0, Math.PI / 2, -0.4],
+    leftHoldY: 0.6,
+    rightHoldY: 0.6,
+    leftHoldZ: 0.1,
+    rightHoldX: -2.2,
+    leftHoldX: 2.2,
+    rightHoldZ: 0.1,
+    xOff: 0,
+    yOff: -2.6,
+    zOff: -3.5,
+    xOrg: 0.00001,
+    yOrg: -3.8,
+    zOrg: -3.2,
+    cLean: 0,
+    cRot: 0,
+    cDrop: 0.12,
+    jYMlt: 0.95,
+    spread: 120,
+    recover: 0.98,
+    recoverF: 0.98,
+    leanMlt: 0.3,
+    icnPad: 9
+  }, {
+    name: "Grappler",
+    src: "weapon_21",
+    icon: "icon_21",
+    assetIcon: "",
+    sound: "weapon_21",
+    refDist: 25,
+    rollOff: 1,
+    noSpread: true,
+    akimbo: false,
+    secondary: true,
+    equipment: false,
+    noAim: false,
+    grapRang: 500,
+    physRang: 0,
+    physPow: 0,
+    nAuto: true,
+    noAo: true,
+    transp: true,
+    kill: ["", 50],
+    type: 1,
+    swapTime: 200,
+    aimSpd: 110,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 1,
+    ammo: 10,
+    reload: 1000,
+    dmg: 1,
+    hsMlt: 1.5,
+    pierce: 0.85,
+    dmgDrop: 0,
+    scale: 1,
+    leftHoldY: -0.9,
+    rightHoldY: -0.7,
+    leftHoldZ: -0.5,
+    rightHoldZ: -0.5,
+    holdW: 1.1,
+    xOff: 1,
+    yOff: -0.5,
+    zOff: -4.1,
+    xOrg: 0,
+    yOrg: -0.195,
+    zOrg: -3.8,
+    cLean: 0.3,
+    cRot: 0.3,
+    inspectR: 0.35,
+    inspectM: 0.9,
+    muzID: 3,
+    muzOff: 1.8,
+    muzOffY: -0.2,
+    muzMlt: 1.1,
+    range: 700,
+    rate: 300,
+    spread: 0,
+    jYMlt: 0.5,
+    zoom: 1.2,
+    leanMlt: 1.6,
+    recoil: 0.01,
+    recoilR: 0.01,
+    recover: 0.982,
+    recoverY: 0.995,
+    recoverF: 0.98,
+    recoilYM: 0.62,
+    aimRecMlt: 0.23,
+    recoilZ: 4.8,
+    recoilZM: 0.2,
+    recoilAnim: {
+      time: 180,
+      recoilTweenY: 0.34
+    },
+    rumble: 0.8,
+    icnPad: -10,
+    expScale: 1.2,
+    charm: true,
+    charmMXOff: -0.34,
+    charmMYOff: -0.2,
+    charmMZOff: 0.36,
+    charmMScl: 1,
+    charmXOff: 0,
+    charmYOff: 0,
+    charmZOff: 0,
+    charmScl: 1
+  }, {
+    name: "Tehchy-9",
+    src: "weapon_22",
+    icon: "icon_22",
+    assetIcon: "",
+    sound: "weapon_22",
+    refDist: 25,
+    rollOff: 1,
+    noSpread: false,
+    akimbo: false,
+    secondary: true,
+    equipment: false,
+    noAim: false,
+    nAuto: true,
+    noAo: true,
+    physRang: 0,
+    physPow: 0,
+    burst: true,
+    burstC: 3,
+    burstR: 80,
+    kill: ["", 50],
+    type: 1,
+    swapTime: 200,
+    aimSpd: 100,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 1,
+    ammo: 18,
+    reload: 1000,
+    dmg: 23,
+    hsMlt: 1.25,
+    pierce: 0.95,
+    dmgDrop: 2,
+    scale: 0.0003158947055276376,
+    leftHoldY: -1.1,
+    rightHoldY: -0.62,
+    leftHoldZ: -0.3,
+    rightHoldZ: -0.32,
+    rightHoldX: 0.13,
+    holdW: 1.35,
+    xOff: 1.2,
+    yOff: -0.6,
+    zOff: -3.7,
+    xOrg: 0,
+    yRot: -0.005,
+    yOrg: -0.23,
+    zOrg: -3.9,
+    cLean: 0.3,
+    cRot: 0.3,
+    inspectR: 0.35,
+    inspectM: 0.9,
+    muzID: 3,
+    muzOff: 2,
+    muzMlt: 1.1,
+    range: 700,
+    rate: 380,
+    spread: 150,
+    jYMlt: 0.5,
+    zoom: 1.3,
+    leanMlt: 1.6,
+    recoil: 0.004,
+    recoilR: 0.01,
+    recover: 0.98,
+    recoverY: 0.99,
+    recoverF: 0.98,
+    recoilYM: 0.2,
+    aimRecMlt: 0.4,
+    recoilZ: 3.8,
+    recoilZM: -0.4,
+    recoilAnim: {
+      time: 200,
+      recoilTweenY: 0.28
+    },
+    rumble: 0.8,
+    icnPad: -10,
+    expScale: 1.55,
+    charm: true,
+    charmMXOff: -0.329,
+    charmMYOff: -0.23,
+    charmMZOff: 1.03,
+    charmMScl: 1,
+    charmXOff: 0,
+    charmYOff: 0,
+    charmZOff: 0,
+    charmScl: 1,
+    magReserve: 6,
+    mysteryBoxR: 0,
+    altSkin: {
+      projection: true,
+      video: 2,
+      outline: 0,
+      outlineS: 1.05
+    }
+  }, (iiîììiî = {
+    name: "Noob Tube",
+    src: "weapon_23",
+    icon: "icon_23",
+    assetIcon: "",
+    sound: "weapon_23",
+    noComp: true,
+    refDist: 25,
+    rollOff: 1,
+    noSpread: false,
+    akimbo: false,
+    noAim: false,
+    noAo: true,
+    nCase: true,
+    nRing: true,
+    secondary: true,
+    equipment: false,
+    swapWiggle: 0.4,
+    shine: 35,
+    type: 1,
+    physRang: 36,
+    physPow: 0.1,
+    swapTime: 200,
+    aimSpd: 100,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 1,
+    ammo: 2,
+    reload: 1200,
+    dmg: 12,
+    hsMlt: 1,
+    lsMlt: 1,
+    dmgDrop: 12,
+    scale: 1,
+    rightHoldX: 0.1,
+    leftHoldY: -0.6,
+    rightHoldY: -0.6,
+    leftHoldZ: 0.4,
+    rightHoldZ: -1.3,
+    holdW: 1,
+    xOff: 0.95,
+    yOff: -0.6,
+    zOff: -3.8,
+    wzOff: 0.28,
+    wyOff: -0.5,
+    xOrg: 0,
+    yOrg: -0.3,
+    zOrg: -2.8,
+    cLean: 0.2,
+    cRot: 0.2,
+    cDrop: 0.1,
+    jYMlt: 0.2,
+    inspectR: 0.1,
+    muzID: 3,
+    muzOff: 6,
+    muzMlt: 1.8,
+    inspectM: 1.9,
+    range: 150,
+    rate: 400,
+    innac: 110,
+    spread: 20
+  }, iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiîììiî, "noSpread", true), "noProjSpread", true), "shots", 0), "minSpread", 20), "zoom", 1.25), "leanMlt", 1.6), "recoil", 0.02), "recoilR", 0.015), "recover", 0.99), "recoverF", 0.97), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiîììiî, "recoilZ", 2.1), "recoilZM", 0.32), "aimRecMlt", 0.3), "recoilYM", 1), "recoilAnim", {
+    time: 340,
+    recoilTweenY: 0.35
+  }), "jumpYM", 0.5), "rumble", 0.8), "icnPad", 10), "expScale", 1), "projectile", {}), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiîììiî, "pj_asset", ""), "pj_mat", "BASIC"), "pj_color", 16498733), "pj_explode", 45), "pj_dmg", 50), "pj_eDmg", 40), "pj_spd", 0.75), "pj_grav", 0.001), "pj_nImp", true), "pj_lookDir", true), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiîììiî, "pj_scale", 1.4), "pj_length", 15), "pj_range", 1000), "charm", true), "charmMXOff", -0.37), "charmMYOff", -0.51), "charmMZOff", -1.69), "charmMScl", 1), "charmXOff", 0), "charmYOff", 0), iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iiîììiî, "charmZOff", 0), "charmScl", 1), "magReserve", 20), "mysteryBoxR", 0), "altSkin", {
+    projection: true,
+    video: 2,
+    outline: 0,
+    outlineS: 1.05
+  })), {
+    name: "Slimer",
+    src: "weapon_24",
+    icon: "icon_24",
+    assetIcon: "",
+    sound: "weapon_24",
+    refDist: 25,
+    rollOff: 1,
+    noSpread: true,
+    akimbo: false,
+    noAim: true,
+    physRang: 0,
+    physPow: 0,
+    customOnly: true,
+    nAuto: true,
+    noAo: true,
+    transp: true,
+    kill: ["", 50],
+    secondary: false,
+    equipment: true,
+    type: 3,
+    swapWiggle: 0.3,
+    zRot: 1,
+    swapTime: 200,
+    aimSpd: 110,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 1,
+    ammo: 2,
+    reload: 5000,
+    noReload: true,
+    removeOnEmpty: true,
+    dmg: 1,
+    hsMlt: 1.5,
+    pierce: 0.85,
+    dmgDrop: 0,
+    scale: 0.000765961165829144,
+    leftHoldY: -0.41,
+    rightHoldY: -0.6,
+    leftHoldZ: 0.5,
+    rightHoldZ: -1.2,
+    holdW: 0.8,
+    xOff: 0.7,
+    yOff: -0.87,
+    zOff: -3.33,
+    rotOff: -0.08,
+    rotOffA: -0.035,
+    aimOffY: 0.042,
+    yRot: 0.0018,
+    xOrg: 0,
+    yOrg: -0.59,
+    zOrg: -2.14,
+    cLean: 0.2,
+    cRot: 0.1,
+    cDrop: 0.1,
+    inspectR: 0.1,
+    inspectM: 1.5,
+    caseZOff: -1.7,
+    caseYOff: -0.2,
+    muzID: 3,
+    muzOff: 5.1,
+    muzOffY: -0.05,
+    muzMlt: 1.4,
+    range: 700,
+    rate: 300,
+    minSpread: 0,
+    spread: 0,
+    zoom: 1.6,
+    leanMlt: 1.5,
+    recoil: 0.003,
+    recoilR: 0.05,
+    recover: 0.978,
+    recoverY: 0.995,
+    recoverF: 0.975,
+    jYMlt: 0.9,
+    recoilYM: 1.1,
+    recoilZ: 4.3,
+    recoilZM: -0.04,
+    aimRecMlt: 0.65,
+    recoilAnim: {
+      time: 160,
+      recoilTweenY: 0.065,
+      recoilTweenZ: 0.1
+    },
+    jumpYM: 0.3,
+    rumble: 0.4,
+    icnPad: -15,
+    shine: 20,
+    hDstOff: 1.2,
+    deployRang: 250,
+    deployable: 5
+  }, {
+    name: "Zapper",
+    src: "weapon_25",
+    icon: "icon_25",
+    assetIcon: "",
+    sound: "weapon_25",
+    refDist: 25,
+    rollOff: 1,
+    secondary: true,
+    equipment: false,
+    noSpread: false,
+    akimbo: false,
+    noAim: false,
+    noAo: true,
+    transp: true,
+    nAuto: true,
+    noComp: true,
+    projectile: {},
+    pj_asset: "",
+    pj_mat: "BASIC",
+    pj_color: 16498733,
+    pj_spd: 0.5,
+    pj_grav: 0,
+    pj_nImp: true,
+    pj_lookDir: true,
+    pj_scale: 0.8,
+    pj_dmg: 5,
+    pj_length: 10,
+    pj_range: 150,
+    physRang: 0,
+    physPow: 0,
+    kill: ["", 75],
+    swapWiggle: 0.3,
+    type: 1,
+    shine: 10,
+    swapTime: 260,
+    aimSpd: 110,
+    chrgTime: 1500,
+    ovrChrg: true,
+    spdMlt: 1.05,
+    ammo: 10,
+    reload: 1400,
+    dmg: 12,
+    hsMlt: 1,
+    lsMlt: 1,
+    range: 150,
+    dmgDrop: 10,
+    scale: 0.84,
+    wzOff: 0,
+    wyOff: 0,
+    leftHoldY: -1.1,
+    rightHoldY: -0.62,
+    leftHoldZ: -0.3,
+    rightHoldZ: -0.32,
+    rightHoldX: 0.13,
+    holdW: 1.3,
+    xOff: 1.2,
+    yOff: -0.6,
+    zOff: -3.7,
+    xOrg: 0,
+    yRot: -0.005,
+    yOrg: -0.23,
+    zOrg: -3.9,
+    jYMlt: 0.1,
+    cLean: 0.3,
+    cRot: 0.3,
+    caseZOff: 0.2,
+    caseYOff: 0,
+    inspectR: 0.3,
+    inspectM: 0.8,
+    muzID: 3,
+    muzOff: 1.5,
+    muzOffY: 0,
+    muzMlt: 0.95,
+    rate: 150,
+    spread: 60,
+    zoom: 1.4,
+    leanMlt: 1,
+    recoil: 0.006,
+    recoilR: 0.02,
+    recover: 0.98,
+    recoverY: 0.99,
+    recoverF: 0.98,
+    recoilYM: 0.2,
+    aimRecMlt: 0.4,
+    recoilZ: 3.8,
+    recoilZM: -0.4,
+    recoilAnim: {
+      time: 200,
+      recoilTweenY: 0.28,
+      recoilTweenZ: 0.1
+    },
+    rumble: 0.4,
+    icnPad: -15,
+    expScale: 1.2,
+    effectOnHit: 8,
+    charm: true,
+    charmMXOff: -0.289,
+    charmMYOff: -0.16,
+    charmMZOff: 1.09,
+    charmMScl: 1,
+    charmXOff: 0,
+    charmYOff: 0,
+    charmZOff: 0,
+    charmScl: 1,
+    magReserve: 12,
+    mysteryBoxR: 0,
+    altSkin: {
+      projection: true,
+      video: 2,
+      outline: 0,
+      outlineS: 1.05
+    }
+  }, iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí(iïïiïïí({
+    name: "Minigun",
+    src: "weapon_26",
+    icon: "icon_26",
+    assetIcon: "",
+    sound: "weapon_26",
+    refDist: 25,
+    rollOff: 1,
+    akimbo: false,
+    noAim: false,
+    nAuto: false,
+    noSpread: false,
+    projectile: {},
+    pj_asset: "",
+    pj_disable: true,
+    pj_mat: "BASIC",
+    pj_color: 16777179,
+    pj_dmg: 18,
+    pj_spd: 2.3,
+    pj_lookDir: true,
+    pj_grav: 0.0001,
+    pj_scale: 1.4,
+    pj_length: 10,
+    pj_range: 3000,
+    pj_snd: 0,
+    physRang: 0,
+    physPow: 0,
+    type: 3,
+    equipment: true,
+    swapWiggle: 0.3,
+    zRot: 0.75,
+    noAo: true,
+    swapTime: 600,
+    aimSpd: 200,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 0.5,
+    jumMlt: 0.2,
+    noJump: true,
+    ammo: 250,
+    reload: 3300,
+    noReload: true,
+    removeOnEmpty: true,
+    dmg: 18,
+    hsMlt: 1.5,
+    pierce: 1,
+    range: 700,
+    dmgDrop: 10,
+    jYMlt: 0.8,
+    scale: 0.0008856008924623108,
+    leftHoldY: -0.5,
+    leftHoldX: 0.4,
+    rightHoldX: -0.1,
+    rightHoldY: -1.6,
+    leftHoldZ: 1,
+    rightHoldZ: -0.6,
+    holdW: 1,
+    yRot: -0.01,
+    xOff: 0.95,
+    yOff: -1,
+    zOff: -2.8,
+    xOrg: 0,
+    yOrg: -0.6,
+    zOrg: -1.8,
+    cLean: 0.1,
+    cRot: 0.1,
+    cDrop: 0.1,
+    inspectR: 0.2,
+    inspectM: 0.6,
+    caseInd: 2,
+    caseZOff: -0.5,
+    caseYOff: -0.1,
+    muzID: 3,
+    muzOff: 5,
+    muzOffY: -1.2,
+    muzMlt: 1.7,
+    rate: 70,
+    spread: 300,
+    minSpread: 10,
+    zoom: 1.3,
+    leanMlt: 1.6,
+    recoil: 0.0032,
+    recoilR: 0.04,
+    recover: 0.98,
+    recoverY: 0.9975,
+    recoverF: 0.975,
+    recoilZ: 3.8,
+    recoilYM: 0.25
+  }, "recoilZ", 3), "recoilZM", -0.1), "aimRecMlt", 0.5), "recoilAnim", {
+    time: 200,
+    recoilTweenY: 0.045,
+    recoilTweenZ: 0.12
+  }), "jumpYM", 0.1), "expScale", 0.85), "rumble", 0.65), "icnPad", 10), "noSwap", true), "magReserve", 0), {
+    name: "War Machine",
+    src: "weapon_27",
+    icon: "icon_27",
+    assetIcon: "",
+    sound: "weapon_27",
+    noComp: true,
+    refDist: 25,
+    rollOff: 1,
+    akimbo: false,
+    noAim: false,
+    noAo: true,
+    nAuto: true,
+    nCase: true,
+    nRing: true,
+    secondary: false,
+    equipment: true,
+    swapWiggle: 0.4,
+    shine: 35,
+    type: 3,
+    physRang: 0,
+    physPow: 0,
+    swapTime: 400,
+    aimSpd: 100,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 1,
+    ammo: 6,
+    reload: 2000,
+    noReload: true,
+    removeOnEmpty: true,
+    dmg: 12,
+    hsMlt: 1,
+    lsMlt: 1,
+    dmgDrop: 12,
+    scale: 1,
+    rightHoldX: 0.1,
+    leftHoldY: -0.6,
+    rightHoldY: -0.6,
+    leftHoldZ: 0.4,
+    rightHoldZ: -1.3,
+    holdW: 1,
+    xOff: 0.95,
+    yOff: -0.6,
+    zOff: -3.8,
+    wzOff: 0.28,
+    wyOff: -0.5,
+    aimY: 0.25,
+    xOrg: 0,
+    yOrg: -0.3,
+    zOrg: -2.8,
+    cLean: 0.2,
+    cRot: 0.2,
+    cDrop: 0.1,
+    jYMlt: 0.2,
+    inspectR: 0.1,
+    muzID: 3,
+    muzOff: 6,
+    muzMlt: 1.8,
+    inspectM: 1.9,
+    range: 150,
+    rate: 300,
+    innac: 110,
+    spread: 20,
+    noSpread: true,
+    noProjSpread: true,
+    shots: 0,
+    minSpread: 20,
+    zoom: 1.25,
+    leanMlt: 1.6,
+    recoil: 0.02,
+    recoilR: 0.015,
+    recover: 0.99,
+    recoverF: 0.97,
+    recoilZ: 2.1,
+    recoilZM: 0.32,
+    aimRecMlt: 0.3,
+    recoilYM: 1,
+    recoilAnim: {
+      time: 340,
+      recoilTweenY: 0.35
+    },
+    jumpYM: 0.5,
+    rumble: 0.8,
+    icnPad: 10,
+    expScale: 1,
+    projectile: {},
+    pj_asset: "",
+    pj_mat: "BASIC",
+    pj_color: 16498733,
+    pj_explode: 70,
+    pj_dmg: 60,
+    pj_eDmg: 65,
+    pj_spd: 0.75,
+    pj_grav: 0.001,
+    pj_nImp: true,
+    pj_lookDir: true,
+    pj_scale: 1.4,
+    pj_length: 15,
+    pj_range: 1000,
+    noSwap: true,
+    magReserve: 0
+  }, {
+    name: "Akimbo Pistol",
+    src: "weapon_28",
+    icon: "icon_28",
+    assetIcon: "",
+    sound: "weapon_28",
+    refDist: 25,
+    rollOff: 1,
+    secondary: true,
+    equipment: false,
+    nAuto: true,
+    noAo: true,
+    physRang: 0,
+    physPow: 0,
+    nInsp: true,
+    noAim: true,
+    akimbo: true,
+    type: 1,
+    swapTime: 300,
+    aimSpd: 120,
+    chrgTime: 0,
+    ovrChrg: false,
+    spdMlt: 1.04,
+    ammo: 15,
+    reload: 750,
+    dmg: 15,
+    hsMlt: 1.4,
+    pierce: 1,
+    range: 700,
+    dmgDrop: 13,
+    scale: 0.0003158947055276376,
+    leftHoldZ: -0.3,
+    leftHoldX: 0.13,
+    leftHoldY: -0.62,
+    rightHoldZ: -0.3,
+    rightHoldX: 0.13,
+    rightHoldY: -0.62,
+    holdW: 1.3,
+    xOff: 1.5,
+    yOff: -0.95,
+    zOff: -3.3,
+    xOrg: 0,
+    yOrg: -0.62,
+    zOrg: -2.5,
+    zLnM: 0.4,
+    cLean: 0.1,
+    cRot: 0.1,
+    cDrop: 0.2,
+    caseYOff: -0.15,
+    caseZOff: -0.4,
+    muzID: 3,
+    muzOff: 3.6,
+    rate: 90,
+    spread: 40,
+    noSpread: false,
+    movSpread: 0.1,
+    minSpread: 10,
+    zoom: 1.5,
+    recoil: 0.0034,
+    recoilR: 0.015,
+    leanMlt: 0.6,
+    recover: 0.978,
+    recoverY: 0.996,
+    recoverF: 0.975,
+    recoilZ: 5,
+    recoilYM: 0.7,
+    recoilAnim: {
+      recoilTweenY: 0.01
+    },
+    expScale: 0.7,
+    rumble: 0.4,
+    icnPad: -4,
+    charm: true,
+    charmMXOff: -0.2699999999999999,
+    charmMYOff: -0.42000000000000015,
+    charmMZOff: -0.040000000000000646,
+    charmMScl: 1,
+    charmXOff: 0,
+    charmYOff: 0,
+    charmZOff: 0,
+    charmScl: 1,
+    magReserve: 6,
+    mysteryBoxR: 0,
+    altSkin: {
+      projection: true,
+      video: 2,
+      outline: 0,
+      outlineS: 1.05
+    }
+  }, {
+    name: "Charge Rifle",
+    src: "weapon_29",
+    icon: "icon_29",
+    assetIcon: "",
+    sound: "weapon_29",
+    refDist: 25,
+    rollOff: 1,
+    equipment: false,
+    secondary: false,
+    noSpread: false,
+    projectile: {},
+    pj_asset: "",
+    pj_disable: true,
+    pj_mat: "BASIC",
+    pj_color: 9109499,
+    pj_dmg: 100,
+    pj_spd: 2.5,
+    pj_lookDir: true,
+    pj_grav: 0.0001,
+    pj_scale: 1.4,
+    pj_length: 10,
+    pj_range: 7000,
+    pj_snd: 0,
+    akimbo: false,
+    noAim: false,
+    animWhileAim: true,
+    trailChrg: true,
+    physRang: 0,
+    physPow: 0,
+    noAo: true,
+    nAuto: false,
+    type: 0,
+    scope: true,
+    swapTime: 300,
+    aimSpd: 120,
+    chrgTime: 700,
+    ovrChrg: false,
+    shootChrg: true,
+    bypassChrg: true,
+    chrgDec: 0.8,
+    fullChrgSht: true,
+    fullChrgMlt: 50,
+    rateChrg: true,
+    spdMlt: 0.95,
+    shots: 3,
+    cSpread: [[-0.27, 0.02, 0.03, -0.31, 0.3, -0.01], [-0.17, -0.22, -0.3, 0.31, 0.32, 0.28]],
+    ammo: 1,
+    dmg: 15,
+    hsMlt: 1,
+    pierce: 1,
+    reload: 1400,
+    range: 1000,
+    dmgDrop: 5,
+    scale: 0.00115608717587935,
+    leftHoldY: -0.65,
+    rightHoldY: -0.68,
+    leftHoldZ: 2.5,
+    rightHoldZ: 0.75,
+    holdW: 1,
+    xOff: 0.8,
+    yOff: -0.65,
+    zOff: -1.8,
+    wzOff: -1,
+    xOrg: 0,
+    yOrg: -0.55,
+    zOrg: -0.8,
+    cLean: 0.2,
+    cRot: 0.2,
+    cDrop: 0.1,
+    inspectR: 0.2,
+    inspectM: 0.1,
+    muzID: 3,
+    muzOff: 8,
+    muzMlt: 1.6,
+    rate: 150,
+    spread: 150,
+    minSpread: 5,
+    zoom: 2,
+    leanMlt: 1.5,
+    recoil: 0.003,
+    recoilR: 0.05,
+    recover: 0.978,
+    recoverY: 0.995,
+    recoverF: 0.975,
+    jYMlt: 0.9,
+    recoilYM: 1.1,
+    recoilZ: 4.3,
+    recoilZM: -0.04,
+    aimRecMlt: 0.65,
+    recoilAnim: {
+      time: 160,
+      recoilTweenY: 0.065,
+      recoilTweenZ: 0.1
+    },
+    jumpYM: 0.15,
+    rumble: 0.9,
+    rumbleDur: 500,
+    icnPad: 9,
+    charm: true,
+    charmMXOff: -0.43,
+    charmMYOff: -0.4,
+    charmMZOff: -3.71,
+    charmMScl: 1,
+    charmXOff: 0,
+    charmYOff: 0,
+    charmZOff: 0,
+    charmScl: 1,
+    magReserve: 30,
+    mysteryBoxR: 4,
+    altSkin: {
+      projection: true,
+      video: 2,
+      outline: 0,
+      outlineS: 1.05
+    }
+  }], iíîîïìì = 0; iíîîïìì < iïîïîiì.length; ++iíîîïìì) {
     iïîïîiì[iíîîïìì].id = iíîîïìì;
     iïîïîiì[iíîîïìì].upgraded = true;
     iïîïîiì[iíîîïìì].sound = "weapon_upgraded";
@@ -152873,7 +152846,7 @@
             iÌîììïì.tmpBPData.rbpp -= iÍîïîîi;
             iÌîììïì.account.BP.bpp += iÌîììïì.tmpBPData.cbp;
             iÌîììïì.tmpBPData.re = iÎîiííí.getNextReward(iÌîììïì.tmpBPData.bpp, iÌîììïì.account.BP.tier);
-          } catch (iÎìììíí) {}
+          } catch (iÎìììíí) { }
           iÍïîiíî.call(175, [iÏííîiï, iÍïïïïï.join(",")], function (iÌìîîiì, iIíiiïì) {
             if ((iIíiiïì = iIíiiïì && iIíiiïì[0] ? iIíiiïì[0][0] : null) && iIíiiïì.rsp != "Try later" && (iIíiiïì.rsp + "").includes("{")) {
               var iÌìîïìi = {
@@ -153021,434 +152994,434 @@
     };
   }
   for (var iíïíìîì = [{
-      name: "Nuke",
-      desc: "Calls in a nuclear bomb that detonates after 10 seconds, killing all players that are spawned at the time the nuke goes off",
-      slot: 2,
-      kills: 25,
-      reqAccount: true,
-      activate: function (iÏïíííì, iÎìïiîï, iIîíïìï) {
-        return !iÏïíííì.nukeTimer && (iÏïíííì.incStat("n", iÎìïiîï), this.start(iÏïíííì, iÎìïiîï, iIîíïìï), iÎìïiîï.nukes++, true);
-      },
-      reset: function (iÏîìîîi, iÍiiïîï) {
-        iÏîìîîi.nukeTimer = 0;
-        iÏîìîîi.nukePlayer = null;
-      },
-      start: function (iÏïîïìí, iÌîíiîi, iÎìììîi) {
-        if (iÏïîïìí.gameTimer != "skip" && iÏïîïìí.gameTimer > 0 && !iÏïîïìí.mode.timed && iÏïîïìí.gameTimer < 10000) {
-          iÏïîïìí.nukeTimer = iÏïîïìí.gameTimer - 1;
-        } else {
-          iÏïîïìí.nukeTimer = 10000;
-        }
-        iÏïîïìí.nukePlayer = iÌîíiîi;
-        iÏïîïìí.broadcast("n", 0);
-        if (iÏïîïìí.isCustom) {
-          iÏïîïìí.findTriggers("onNukeStart", iÌîíiîi);
-        }
-      },
-      update: function (iÏiíìíi, iÍïíìíí, iÏîìïîí) {
-        if (iÏiíìíi.endTimer <= 0 && iÏiíìíi.nukeTimer && (iÏiíìíi.nukeTimer -= iÏîìïîí, iÏiíìíi.nukeTimer <= 0 && (iÏiíìíi.nukeTimer = 0, iÏiíìíi.broadcast("n", 1), iÏiíìíi.nukePlayer))) {
-          var iÍiiïîì = 0;
-          for (var iÌïïïïì = 0; iÌïïïïì < iÏiíìíi.players.list.length; ++iÌïïïïì) {
-            if (!!(iïïiíïi = iÏiíìíi.players.list[iÌïïïïì]).active && iïïiíïi != iÏiíìíi.nukePlayer && (!iïïiíïi.team || iÏiíìíi.nukePlayer.team != iïïiíïi.team) && !iïïiíïi.godMode) {
-              iÍiiïîì += 50;
-              iÏiíìíi.players.kill(iïïiíïi, iÏiíìíi.nukePlayer, {
-                stk: 0
-              }, false, true);
-            }
-          }
-          if (iÍiiïîì) {
-            iÏiíìíi.nukePlayer.send("6", [40, iÍiiïîì, 0, 1], 0, iÏiíìíi.nukePlayer.kills, iÍiiïîì / 50);
-            iÏiíìíi.nukePlayer.send(iìîïìîì.DO_DAMAGE);
-            iÏiíìíi.players.score(iÏiíìíi.nukePlayer, iÍiiïîì);
-          }
-          if (iÏiíìíi.isCustom) {
-            iÏiíìíi.findTriggers("onNukeEnd", iÏiíìíi.nukePlayer);
-          }
-          if (iÏiíìíi.nukePlayer && iÏiíìíi.nukePlayer.account && iÏiíìíi.isPubType() && iìiíiíî(1, 140) == 140) {
-            iÏiíìíi.giveSkin(iÏiíìíi.nukePlayer, "4040", "streak");
+    name: "Nuke",
+    desc: "Calls in a nuclear bomb that detonates after 10 seconds, killing all players that are spawned at the time the nuke goes off",
+    slot: 2,
+    kills: 25,
+    reqAccount: true,
+    activate: function (iÏïíííì, iÎìïiîï, iIîíïìï) {
+      return !iÏïíííì.nukeTimer && (iÏïíííì.incStat("n", iÎìïiîï), this.start(iÏïíííì, iÎìïiîï, iIîíïìï), iÎìïiîï.nukes++, true);
+    },
+    reset: function (iÏîìîîi, iÍiiïîï) {
+      iÏîìîîi.nukeTimer = 0;
+      iÏîìîîi.nukePlayer = null;
+    },
+    start: function (iÏïîïìí, iÌîíiîi, iÎìììîi) {
+      if (iÏïîïìí.gameTimer != "skip" && iÏïîïìí.gameTimer > 0 && !iÏïîïìí.mode.timed && iÏïîïìí.gameTimer < 10000) {
+        iÏïîïìí.nukeTimer = iÏïîïìí.gameTimer - 1;
+      } else {
+        iÏïîïìí.nukeTimer = 10000;
+      }
+      iÏïîïìí.nukePlayer = iÌîíiîi;
+      iÏïîïìí.broadcast("n", 0);
+      if (iÏïîïìí.isCustom) {
+        iÏïîïìí.findTriggers("onNukeStart", iÌîíiîi);
+      }
+    },
+    update: function (iÏiíìíi, iÍïíìíí, iÏîìïîí) {
+      if (iÏiíìíi.endTimer <= 0 && iÏiíìíi.nukeTimer && (iÏiíìíi.nukeTimer -= iÏîìïîí, iÏiíìíi.nukeTimer <= 0 && (iÏiíìíi.nukeTimer = 0, iÏiíìíi.broadcast("n", 1), iÏiíìíi.nukePlayer))) {
+        var iÍiiïîì = 0;
+        for (var iÌïïïïì = 0; iÌïïïïì < iÏiíìíi.players.list.length; ++iÌïïïïì) {
+          if (!!(iïïiíïi = iÏiíìíi.players.list[iÌïïïïì]).active && iïïiíïi != iÏiíìíi.nukePlayer && (!iïïiíïi.team || iÏiíìíi.nukePlayer.team != iïïiíïi.team) && !iïïiíïi.godMode) {
+            iÍiiïîì += 50;
+            iÏiíìíi.players.kill(iïïiíïi, iÏiíìíi.nukePlayer, {
+              stk: 0
+            }, false, true);
           }
         }
-      }
-    }, {
-      name: "Airdrop",
-      desc: "Calls in a air drop package containing various things.",
-      slot: 1,
-      kills: 12,
-      noCustoms: true,
-      activate: function (iIïíîii, iÌììììï, iÏiíiîî) {
-        return !iIïíîii.isCustom && !!iÌììììï && !!iÌììììï.active && !(iIïíîii.canSee(iÌììììï, iÌììììï.x, iÌììììï.y + 500, iÌììììï.z) == null ? (iIïíîii.incStat("ad", iÌììììï), iIïíîii.airDrop.drop(iÌììììï, iÌììììï.x, iÌììììï.y + 500, iÌììììï.z, {}), 0) : (iÌììììï.send(iìîïìîì.ADD_CHAT, -1, null, "This place is not suitable for an Airdrop", 2), 1));
-      }
-    }, {
-      name: "Refill",
-      desc: "Dev Streak",
-      slot: 0,
-      kills: 5,
-      devOnly: true,
-      activate: function (iÎiiìîï, iÏîîiíì, iÏìííìi) {
-        var iÎìïìïí = Date.now();
-        return !!iÏîîiíì && !iÏîîiíì.canThrow && !!(iÎìïìïí - iÏîîiíì.lastThrowTime >= 5000) && (iÎiiìîï.refillPlayer(iÏîîiíì), true);
-      }
-    }, {
-      name: "Bombardment",
-      desc: "Deploys a Bomber that carpet bombs the entire map",
-      slot: 2,
-      kills: 20,
-      activate: function (iÎiïiiî, iÍîîïii, iIîíìiî) {
-        return !iÎiïiiî.bombardmentTimer && !iÎiïiiî.bombardmentBombs.length && (this.start(iÎiïiiî, iÍîîïii, iIîíìiî), iÍîîïii.bombardments++, true);
-      },
-      calcPos: function (iÏîíìïî, iÏiíïií, iÌïïîíî) {
-        var iÎìîïii;
-        var iÍîìïíî;
-        var iÎiìîîì = 0;
-        var iÏíìîíi = 0;
-        var iÌiïiïî = 0;
-        var iÎîíiiî = 0;
-        var iÍîïììi = 0;
-        var iIiiííi = 6;
-        var iÌîiïíî = 6;
-        for (var iÏïiîïî = 0; iÏïiîïî < iÏîíìïî.map.spawns.length; ++iÏïiîïî) {
-          if ((iïïiíïi = iÏîíìïî.map.spawns[iÏïiîïî]).x < iÎiìîîì) {
-            iÎiìîîì = iïïiíïi.x;
-          }
-          if (iïïiíïi.x > iÏíìîíi) {
-            iÏíìîíi = iïïiíïi.x;
-          }
-          if (iïïiíïi.z < iÌiïiïî) {
-            iÌiïiïî = iïïiíïi.z;
-          }
-          if (iïïiíïi.z > iÎîíiiî) {
-            iÎîíiiî = iïïiíïi.z;
-          }
-          if (iïïiíïi.y > iÍîïììi) {
-            iÍîïììi = iïïiíïi.y;
-          }
+        if (iÍiiïîì) {
+          iÏiíìíi.nukePlayer.send("6", [40, iÍiiïîì, 0, 1], 0, iÏiíìíi.nukePlayer.kills, iÍiiïîì / 50);
+          iÏiíìíi.nukePlayer.send(iìîïìîì.DO_DAMAGE);
+          iÏiíìíi.players.score(iÏiíìíi.nukePlayer, iÍiiïîì);
         }
-        iÎìîïii = (iÏíìîíi - iÎiìîîì) / iIiiííi;
-        iÍîìïíî = (iÎîíiiî - iÌiïiïî) / iÌîiïíî;
-        iIiiííi += 4;
-        iÌîiïíî += 4;
-        iÏíìîíi += iÎìîïii * 2;
-        iÎîíiiî += iÍîìïíî * 2;
-        iÌiïiïî -= iÍîìïíî * 2;
-        var iÌíìiîî = [];
-        var iÎîìîíi = iÎiìîîì -= iÎìîïii * 2;
-        for (var iÏïïíîí = 0; iÏïïíîí < iIiiííi; iÏïïíîí++) {
-          var iÎîïíiì = [];
-          var iÏiîííí = iÌiïiïî;
-          for (var iÌïiìiì = 0; iÌïiìiì < iÌîiïíî; iÌïiìiì++) {
-            iÎîïíiì.push(iÎîìîíi + iìíïïíi(-15, 15), iÍîïììi + iìíïïíi(250, 500), iÏiîííí + iìíïïíi(-15, 15));
-            iÏiîííí += iÍîìïíî;
-          }
-          iÎîìîíi += iÎìîïii;
-          iÌíìiîî.push(iÎîïíiì);
+        if (iÏiíìíi.isCustom) {
+          iÏiíìíi.findTriggers("onNukeEnd", iÏiíìíi.nukePlayer);
         }
-        iÏîíìïî.bombardmentBombs = iÌíìiîî;
-      },
-      reset: function (iÏìîíîí, iÎíîiïi) {
-        iÏìîíîí.bombardmentTimer = 0;
-        iÏìîíîí.bombardmentPlayer = null;
-        iÏìîíîí.bombardmentBombs = [];
-      },
-      end: function (iIìïïií) {
-        iIìïïií.bombardmentTimer = 0;
-        iIìïïií.bombardmentBombs = [];
-      },
-      start: function (iÏìïiii, iÎííîîì, iÌíîììí) {
-        iÏìïiii.bombardmentTimer = 500;
-        iÏìïiii.bombardmentPlayer = iÎííîîì;
-        this.calcPos(iÏìïiii, iÎííîîì, iÌíîììí);
-        iÏìïiii.broadcast("bbm", 0);
-      },
-      update: function (iÏïîííi, iÍïïííi, iÌííïïí) {
-        if (iÏïîííi.endTimer <= 0 && iÏïîííi.bombardmentTimer && (iÏïîííi.bombardmentTimer -= iÌííïïí, iÏïîííi.bombardmentTimer <= 0)) {
-          if (!iÏïîííi.bombardmentBombs.length) {
-            this.end(iÏïîííi);
-            iÏïîííi.broadcast("bbm", 1);
-            return;
-          }
-          iÏïîííi.bombardmentTimer = 500;
-          iÏïîííi.projectiles.initBombs(iÏïîííi.bombardmentBombs[0], iÏïîííi.bombardmentPlayer);
-          iÏïîííi.bombardmentBombs.shift();
+        if (iÏiíìíi.nukePlayer && iÏiíìíi.nukePlayer.account && iÏiíìíi.isPubType() && iìiíiíî(1, 140) == 140) {
+          iÏiíìíi.giveSkin(iÏiíìíi.nukePlayer, "4040", "streak");
         }
-      },
-      onCollision: function (iIíïííï, iÌíiiíï, iÍíiîïi) {
-        iIíïííï.players.giveEffect(iÌíiiíï, 4);
-        iIíïííï.players.giveEffect(iÌíiiíï, 5);
-      },
-      onKill: function (iÍîíìiî, iIiíìïì, iÍîîïiï) {
-        iÍîíìiî.bombardmentPlayer.send("6", [50, 100, 0, 1], 0, iÍîíìiî.bombardmentPlayer.kills, 1);
-        iÍîíìiî.players.score(iÍîíìiî.bombardmentPlayer, 100);
       }
-    }, {
-      name: "Slimer",
-      desc: "Equips the player with a slime gun that spawns slime pads which players gain a boost from",
-      slot: 0,
-      kills: 7,
-      activate: function (iÍiìïíi, iÍìììîî, iÌîîíiî) {
-        return !!iÍìììîî && !!iÍìììîî.active && !iÍìììîî.hasEquipment() && !(iÍiìïíi.incStat("sl", iÍìììîî), iÍiìïíi.players.giveWeapon(iÍìììîî, 23), 0);
+    }
+  }, {
+    name: "Airdrop",
+    desc: "Calls in a air drop package containing various things.",
+    slot: 1,
+    kills: 12,
+    noCustoms: true,
+    activate: function (iIïíîii, iÌììììï, iÏiíiîî) {
+      return !iIïíîii.isCustom && !!iÌììììï && !!iÌììììï.active && !(iIïíîii.canSee(iÌììììï, iÌììììï.x, iÌììììï.y + 500, iÌììììï.z) == null ? (iIïíîii.incStat("ad", iÌììììï), iIïíîii.airDrop.drop(iÌììììï, iÌììììï.x, iÌììììï.y + 500, iÌììììï.z, {}), 0) : (iÌììììï.send(iìîïìîì.ADD_CHAT, -1, null, "This place is not suitable for an Airdrop", 2), 1));
+    }
+  }, {
+    name: "Refill",
+    desc: "Dev Streak",
+    slot: 0,
+    kills: 5,
+    devOnly: true,
+    activate: function (iÎiiìîï, iÏîîiíì, iÏìííìi) {
+      var iÎìïìïí = Date.now();
+      return !!iÏîîiíì && !iÏîîiíì.canThrow && !!(iÎìïìïí - iÏîîiíì.lastThrowTime >= 5000) && (iÎiiìîï.refillPlayer(iÏîîiíì), true);
+    }
+  }, {
+    name: "Bombardment",
+    desc: "Deploys a Bomber that carpet bombs the entire map",
+    slot: 2,
+    kills: 20,
+    activate: function (iÎiïiiî, iÍîîïii, iIîíìiî) {
+      return !iÎiïiiî.bombardmentTimer && !iÎiïiiî.bombardmentBombs.length && (this.start(iÎiïiiî, iÍîîïii, iIîíìiî), iÍîîïii.bombardments++, true);
+    },
+    calcPos: function (iÏîíìïî, iÏiíïií, iÌïïîíî) {
+      var iÎìîïii;
+      var iÍîìïíî;
+      var iÎiìîîì = 0;
+      var iÏíìîíi = 0;
+      var iÌiïiïî = 0;
+      var iÎîíiiî = 0;
+      var iÍîïììi = 0;
+      var iIiiííi = 6;
+      var iÌîiïíî = 6;
+      for (var iÏïiîïî = 0; iÏïiîïî < iÏîíìïî.map.spawns.length; ++iÏïiîïî) {
+        if ((iïïiíïi = iÏîíìïî.map.spawns[iÏïiîïî]).x < iÎiìîîì) {
+          iÎiìîîì = iïïiíïi.x;
+        }
+        if (iïïiíïi.x > iÏíìîíi) {
+          iÏíìîíi = iïïiíïi.x;
+        }
+        if (iïïiíïi.z < iÌiïiïî) {
+          iÌiïiïî = iïïiíïi.z;
+        }
+        if (iïïiíïi.z > iÎîíiiî) {
+          iÎîíiiî = iïïiíïi.z;
+        }
+        if (iïïiíïi.y > iÍîïììi) {
+          iÍîïììi = iïïiíïi.y;
+        }
       }
-    }, {
-      name: "Juggernaut",
-      desc: "Equips the player with a Juggernaut Suit & Minigun",
-      slot: 2,
-      kills: 30,
-      activate: function (iÏíiiìì, iIïìííï, iIììîìí) {
-        return !!iIïìííï && !!iIïìííï.active && !iIïìííï.hasEquipment() && !(iÏíiiìì.incStat("jg", iIïìííï), iÏíiiìì.setJuggernaut(iIïìííï, true), 0);
+      iÎìîïii = (iÏíìîíi - iÎiìîîì) / iIiiííi;
+      iÍîìïíî = (iÎîíiiî - iÌiïiïî) / iÌîiïíî;
+      iIiiííi += 4;
+      iÌîiïíî += 4;
+      iÏíìîíi += iÎìîïii * 2;
+      iÎîíiiî += iÍîìïíî * 2;
+      iÌiïiïî -= iÍîìïíî * 2;
+      var iÌíìiîî = [];
+      var iÎîìîíi = iÎiìîîì -= iÎìîïii * 2;
+      for (var iÏïïíîí = 0; iÏïïíîí < iIiiííi; iÏïïíîí++) {
+        var iÎîïíiì = [];
+        var iÏiîííí = iÌiïiïî;
+        for (var iÌïiìiì = 0; iÌïiìiì < iÌîiïíî; iÌïiìiì++) {
+          iÎîïíiì.push(iÎîìîíi + iìíïïíi(-15, 15), iÍîïììi + iìíïïíi(250, 500), iÏiîííí + iìíïïíi(-15, 15));
+          iÏiîííí += iÍîìïíî;
+        }
+        iÎîìîíi += iÎìîïii;
+        iÌíìiîî.push(iÎîïíiì);
       }
-    }, {
-      name: "War Machine",
-      desc: "Equips the player with a Powerful Grenade Launcher",
-      slot: 1,
-      kills: 15,
-      activate: function (iÍïíììì, iÌiìïìí, iIiíiií) {
-        return !!iÌiìïìí && !!iÌiìïìí.active && !iÌiìïìí.hasEquipment() && !(iÍïíììì.incStat("wm", iÌiìïìí), iÍïíììì.players.giveWeapon(iÌiìïìí, 26), 0);
+      iÏîíìïî.bombardmentBombs = iÌíìiîî;
+    },
+    reset: function (iÏìîíîí, iÎíîiïi) {
+      iÏìîíîí.bombardmentTimer = 0;
+      iÏìîíîí.bombardmentPlayer = null;
+      iÏìîíîí.bombardmentBombs = [];
+    },
+    end: function (iIìïïií) {
+      iIìïïií.bombardmentTimer = 0;
+      iIìïïií.bombardmentBombs = [];
+    },
+    start: function (iÏìïiii, iÎííîîì, iÌíîììí) {
+      iÏìïiii.bombardmentTimer = 500;
+      iÏìïiii.bombardmentPlayer = iÎííîîì;
+      this.calcPos(iÏìïiii, iÎííîîì, iÌíîììí);
+      iÏìïiii.broadcast("bbm", 0);
+    },
+    update: function (iÏïîííi, iÍïïííi, iÌííïïí) {
+      if (iÏïîííi.endTimer <= 0 && iÏïîííi.bombardmentTimer && (iÏïîííi.bombardmentTimer -= iÌííïïí, iÏïîííi.bombardmentTimer <= 0)) {
+        if (!iÏïîííi.bombardmentBombs.length) {
+          this.end(iÏïîííi);
+          iÏïîííi.broadcast("bbm", 1);
+          return;
+        }
+        iÏïîííi.bombardmentTimer = 500;
+        iÏïîííi.projectiles.initBombs(iÏïîííi.bombardmentBombs[0], iÏïîííi.bombardmentPlayer);
+        iÏïîííi.bombardmentBombs.shift();
       }
-    }], iìíìíïî = 0; iìíìíïî < iíïíìîì.length; ++iìíìíïî) {
+    },
+    onCollision: function (iIíïííï, iÌíiiíï, iÍíiîïi) {
+      iIíïííï.players.giveEffect(iÌíiiíï, 4);
+      iIíïííï.players.giveEffect(iÌíiiíï, 5);
+    },
+    onKill: function (iÍîíìiî, iIiíìïì, iÍîîïiï) {
+      iÍîíìiî.bombardmentPlayer.send("6", [50, 100, 0, 1], 0, iÍîíìiî.bombardmentPlayer.kills, 1);
+      iÍîíìiî.players.score(iÍîíìiî.bombardmentPlayer, 100);
+    }
+  }, {
+    name: "Slimer",
+    desc: "Equips the player with a slime gun that spawns slime pads which players gain a boost from",
+    slot: 0,
+    kills: 7,
+    activate: function (iÍiìïíi, iÍìììîî, iÌîîíiî) {
+      return !!iÍìììîî && !!iÍìììîî.active && !iÍìììîî.hasEquipment() && !(iÍiìïíi.incStat("sl", iÍìììîî), iÍiìïíi.players.giveWeapon(iÍìììîî, 23), 0);
+    }
+  }, {
+    name: "Juggernaut",
+    desc: "Equips the player with a Juggernaut Suit & Minigun",
+    slot: 2,
+    kills: 30,
+    activate: function (iÏíiiìì, iIïìííï, iIììîìí) {
+      return !!iIïìííï && !!iIïìííï.active && !iIïìííï.hasEquipment() && !(iÏíiiìì.incStat("jg", iIïìííï), iÏíiiìì.setJuggernaut(iIïìííï, true), 0);
+    }
+  }, {
+    name: "War Machine",
+    desc: "Equips the player with a Powerful Grenade Launcher",
+    slot: 1,
+    kills: 15,
+    activate: function (iÍïíììì, iÌiìïìí, iIiíiií) {
+      return !!iÌiìïìí && !!iÌiìïìí.active && !iÌiìïìí.hasEquipment() && !(iÍïíììì.incStat("wm", iÌiìïìí), iÍïíììì.players.giveWeapon(iÌiìïìí, 26), 0);
+    }
+  }], iìíìíïî = 0; iìíìíïî < iíïíìîì.length; ++iìíìíïî) {
     iíïíìîì[iìíìíïî].index = iìíìíïî;
   }
   for (var iiììîïi = [{
-      name: "KR Package",
-      noCustoms: true,
-      rarity: 0,
-      icon: 0,
-      claimTime: 2500,
-      claim: function (iIìîîïï, iÍîìïiî, iÏíìiîî, iIíïïìï, iIïiììî) {
-        return !!iIíïïìï && !!iIíïïìï.account && !(iIíïïìï.additionalReward += 5, iIíïïìï.send(iìîïìîì.ADD_MEDAL, [iIïiììî ? "KR Thief" : "KR Claimed", "5 KR", 0, 1]), iIíïïìï.send(iìîïìîì.ADD_CHAT, 0, null, "Claimed 5 KR", 2), 0);
-      }
-    }, {
-      name: "KR Package",
-      noCustoms: true,
-      rarity: 1,
-      icon: 0,
-      claimTime: 2500,
-      claim: function (iÌìiíìî, iÏiiìíì, iIiiïìï, iIiîîiî, iIîïîíi) {
-        return !!iIiîîiî && !!iIiîîiî.account && !(iIiîîiî.additionalReward += 10, iIiîîiî.send(iìîïìîì.ADD_MEDAL, [iIîïîíi ? "KR Thief" : "KR Claimed", "10 KR", 0, 1]), iIiîîiî.send(iìîïìîì.ADD_CHAT, 0, null, "Claimed 10 KR", 2), 0);
-      }
-    }, {
-      name: "KR Package",
-      noCustoms: true,
-      rarity: 2,
-      icon: 0,
-      claimTime: 2500,
-      claim: function (iÍïiïîì, iÏìiîìi, iIïíïìï, iÍìîííi, iÌííiìí) {
-        return !!iÍìîííi && !!iÍìîííi.account && !(iÍìîííi.additionalReward += 15, iÍìîííi.send(iìîïìîì.ADD_MEDAL, [iÌííiìí ? "KR Thief" : "KR Claimed", "15 KR", 0, 1]), iÍìîííi.send(iìîïìîì.ADD_CHAT, 0, null, "Claimed 15 KR", 2), 0);
-      }
-    }, {
-      name: "KR Package",
-      noCustoms: true,
-      rarity: 3,
-      icon: 0,
-      claimTime: 2500,
-      claim: function (iÎïiíïi, iÌìîîií, iÌîïììi, iIîíïíï, iÌíïíiï) {
-        return !!iIîíïíï && !!iIîíïíï.account && !(iIîíïíï.additionalReward += 20, iIîíïíï.send(iìîïìîì.ADD_MEDAL, [iÌíïíiï ? "KR Thief" : "KR Claimed", "20 KR", 0, 1]), iIîíïíï.send(iìîïìîì.ADD_CHAT, 0, null, "Claimed 20 KR", 2), 0);
-      }
-    }, {
-      name: "KR Package",
-      noCustoms: true,
-      rarity: 4,
-      icon: 0,
-      claimTime: 3000,
-      claim: function (iIììîïí, iIîïííï, iÌíìíiï, iÏíììiï, iÍïîïîï) {
-        return !!iÏíììiï && !!iÏíììiï.account && !(iÏíììiï.additionalReward += 30, iÏíììiï.send(iìîïìîì.ADD_MEDAL, [iÍïîïîï ? "KR Thief" : "KR Claimed", "30 KR", 0, 1]), iÏíììiï.send(iìîïìîì.ADD_CHAT, 0, null, "Claimed 30 KR", 2), 0);
-      }
-    }, {
-      name: "KR Package",
-      noCustoms: true,
-      rarity: 5,
-      icon: 0,
-      claimTime: 3000,
-      claim: function (iÏïïïií, iÏiïíìi, iÍìíìïï, iÌíiìîï, iIïiiìî) {
-        return !!iÌíiìîï && !!iÌíiìîï.account && !(iÌíiìîï.additionalReward += 100, iÌíiìîï.send(iìîïìîì.ADD_MEDAL, [iIïiiìî ? "KR Thief" : "KR Claimed", "100 KR", 0, 1]), iÌíiìîï.send(iìîïìîì.ADD_CHAT, 0, null, "Claimed 100 KR", 2), 0);
-      }
-    }, {
-      name: "KR Package",
-      noCustoms: true,
-      rarity: 6,
-      icon: 0,
-      animate: true,
-      claimTime: 4500,
-      claim: function (iIîiîíí, iIiîîíi, iÎïìiíï, iÍiîiíí, iIïíiïî) {
-        return !!iÍiîiíí && !!iÍiîiíí.account && !(iÍiîiíí.additionalReward += 250, iÍiîiíí.send(iìîïìîì.ADD_MEDAL, [iIïíiïî ? "KR Thief" : "KR Claimed", "250 KR", 0, 1]), iÍiîiíí.send(iìîïìîì.ADD_CHAT, 0, null, "Claimed 250 KR", 2), 0);
-      }
-    }, {
-      name: "Junk Package",
-      noCustoms: true,
-      rarity: 0,
-      icon: 3,
-      claimTime: 2500,
-      claim: function (iÍíîìiï, iÍîìíìi, iÍìíïíì, iÎíîîiì, iÌïïíîî) {
-        return !!iÎíîîiì && !!iÎíîîiì.account && !(iÎíîîiì.send(iìîïìîì.ADD_MEDAL, [iÌïïíîî ? "Junk Thief" : "Junk Claimed", "0.05 Junk", 0, 1]), iÍíîìiï.sendUserJunk("airdrop", iÎíîîiì, 0.05), 0);
-      }
-    }, {
-      name: "Junk Package",
-      noCustoms: true,
-      rarity: 1,
-      icon: 3,
-      claimTime: 2500,
-      claim: function (iÌìïìiï, iÌïïiìï, iÎiïïïï, iIììiïî, iÏîíïîì) {
-        return !!iIììiïî && !!iIììiïî.account && !(iIììiïî.send(iìîïìîì.ADD_MEDAL, [iÏîíïîì ? "Junk Thief" : "Junk Claimed", "0.1 Junk", 0, 1]), iÌìïìiï.sendUserJunk("airdrop", iIììiïî, 0.1), 0);
-      }
-    }, {
-      name: "Junk Package",
-      noCustoms: true,
-      rarity: 2,
-      icon: 3,
-      claimTime: 2500,
-      claim: function (iÎîïîïî, iÎììîïi, iÍìíìii, iÌíïîiî, iÏîíîíì) {
-        return !!iÌíïîiî && !!iÌíïîiî.account && !(iÌíïîiî.send(iìîïìîì.ADD_MEDAL, [iÏîíîíì ? "Junk Thief" : "Junk Claimed", "0.2 Junk", 0, 1]), iÎîïîïî.sendUserJunk("airdrop", iÌíïîiî, 0.2), 0);
-      }
-    }, {
-      name: "Junk Package",
-      noCustoms: true,
-      rarity: 3,
-      icon: 3,
-      claimTime: 2500,
-      claim: function (iÌiîîïï, iÎiiíïï, iÍììíïï, iIïîìíi, iÍíìíiî) {
-        return !!iIïîìíi && !!iIïîìíi.account && !(iIïîìíi.send(iìîïìîì.ADD_MEDAL, [iÍíìíiî ? "Junk Thief" : "Junk Claimed", "0.3 Junk", 0, 1]), iÌiîîïï.sendUserJunk("airdrop", iIïîìíi, 0.3), 0);
-      }
-    }, {
-      name: "Junk Package",
-      noCustoms: true,
-      rarity: 4,
-      icon: 3,
-      claimTime: 3000,
-      claim: function (iÎíiîîi, iÍîìïíì, iÌîíìií, iÎííiïî, iIïìîìî) {
-        return !!iÎííiïî && !!iÎííiïî.account && !(iÎííiïî.send(iìîïìîì.ADD_MEDAL, [iIïìîìî ? "Junk Thief" : "Junk Claimed", "0.5 Junk", 0, 1]), iÎíiîîi.sendUserJunk("airdrop", iÎííiïî, 0.5), 0);
-      }
-    }, {
-      name: "Junk Package",
-      noCustoms: true,
-      rarity: 5,
-      icon: 3,
-      claimTime: 3000,
-      claim: function (iÍiììïï, iÌìîîïí, iÍîiíií, iÎìïìïi, iIïíiîí) {
-        return !!iÎìïìïi && !!iÎìïìïi.account && !(iÎìïìïi.send(iìîïìîì.ADD_MEDAL, [iIïíiîí ? "Junk Thief" : "Junk Claimed", "1 Junk", 0, 1]), iÍiììïï.sendUserJunk("airdrop", iÎìïìïi, 1), 0);
-      }
-    }, {
-      name: "Junk Package",
-      noCustoms: true,
-      rarity: 6,
-      icon: 3,
-      animate: true,
-      claimTime: 4500,
-      claim: function (iÎiìïiï, iÎìîìíî, iIíïïiî, iIîïîîi, iÍïíîìí) {
-        return !!iIîïîîi && !!iIîïîîi.account && !(iIîïîîi.send(iìîïìîì.ADD_MEDAL, [iÍïíîìí ? "Junk Thief" : "Junk Claimed", "2.5 Junk", 0, 1]), iÎiìïiï.sendUserJunk("airdrop", iIîïîîi, 2.5), 0);
-      }
-    }, {
-      name: "Trapped Package",
-      noCustoms: true,
-      rarity: 1,
-      icon: 1,
-      imitate: true,
-      color: "#e51b23",
-      claimTime: 1000,
-      claim: function (iIîiííî, iIïîîïï, iIîïíîî, iIiíîîi, iÎîíîii) {
-        iIiíîîi.send(iìîïìîì.PLAY_SOUND, "taunt_2", 1, 1, 0, 0, 0, 1, null, null);
-        iIîiííî.players.giveEffect(iIiíîîi, 6, iIîiííî.effects[6].max);
+    name: "KR Package",
+    noCustoms: true,
+    rarity: 0,
+    icon: 0,
+    claimTime: 2500,
+    claim: function (iIìîîïï, iÍîìïiî, iÏíìiîî, iIíïïìï, iIïiììî) {
+      return !!iIíïïìï && !!iIíïïìï.account && !(iIíïïìï.additionalReward += 5, iIíïïìï.send(iìîïìîì.ADD_MEDAL, [iIïiììî ? "KR Thief" : "KR Claimed", "5 KR", 0, 1]), iIíïïìï.send(iìîïìîì.ADD_CHAT, 0, null, "Claimed 5 KR", 2), 0);
+    }
+  }, {
+    name: "KR Package",
+    noCustoms: true,
+    rarity: 1,
+    icon: 0,
+    claimTime: 2500,
+    claim: function (iÌìiíìî, iÏiiìíì, iIiiïìï, iIiîîiî, iIîïîíi) {
+      return !!iIiîîiî && !!iIiîîiî.account && !(iIiîîiî.additionalReward += 10, iIiîîiî.send(iìîïìîì.ADD_MEDAL, [iIîïîíi ? "KR Thief" : "KR Claimed", "10 KR", 0, 1]), iIiîîiî.send(iìîïìîì.ADD_CHAT, 0, null, "Claimed 10 KR", 2), 0);
+    }
+  }, {
+    name: "KR Package",
+    noCustoms: true,
+    rarity: 2,
+    icon: 0,
+    claimTime: 2500,
+    claim: function (iÍïiïîì, iÏìiîìi, iIïíïìï, iÍìîííi, iÌííiìí) {
+      return !!iÍìîííi && !!iÍìîííi.account && !(iÍìîííi.additionalReward += 15, iÍìîííi.send(iìîïìîì.ADD_MEDAL, [iÌííiìí ? "KR Thief" : "KR Claimed", "15 KR", 0, 1]), iÍìîííi.send(iìîïìîì.ADD_CHAT, 0, null, "Claimed 15 KR", 2), 0);
+    }
+  }, {
+    name: "KR Package",
+    noCustoms: true,
+    rarity: 3,
+    icon: 0,
+    claimTime: 2500,
+    claim: function (iÎïiíïi, iÌìîîií, iÌîïììi, iIîíïíï, iÌíïíiï) {
+      return !!iIîíïíï && !!iIîíïíï.account && !(iIîíïíï.additionalReward += 20, iIîíïíï.send(iìîïìîì.ADD_MEDAL, [iÌíïíiï ? "KR Thief" : "KR Claimed", "20 KR", 0, 1]), iIîíïíï.send(iìîïìîì.ADD_CHAT, 0, null, "Claimed 20 KR", 2), 0);
+    }
+  }, {
+    name: "KR Package",
+    noCustoms: true,
+    rarity: 4,
+    icon: 0,
+    claimTime: 3000,
+    claim: function (iIììîïí, iIîïííï, iÌíìíiï, iÏíììiï, iÍïîïîï) {
+      return !!iÏíììiï && !!iÏíììiï.account && !(iÏíììiï.additionalReward += 30, iÏíììiï.send(iìîïìîì.ADD_MEDAL, [iÍïîïîï ? "KR Thief" : "KR Claimed", "30 KR", 0, 1]), iÏíììiï.send(iìîïìîì.ADD_CHAT, 0, null, "Claimed 30 KR", 2), 0);
+    }
+  }, {
+    name: "KR Package",
+    noCustoms: true,
+    rarity: 5,
+    icon: 0,
+    claimTime: 3000,
+    claim: function (iÏïïïií, iÏiïíìi, iÍìíìïï, iÌíiìîï, iIïiiìî) {
+      return !!iÌíiìîï && !!iÌíiìîï.account && !(iÌíiìîï.additionalReward += 100, iÌíiìîï.send(iìîïìîì.ADD_MEDAL, [iIïiiìî ? "KR Thief" : "KR Claimed", "100 KR", 0, 1]), iÌíiìîï.send(iìîïìîì.ADD_CHAT, 0, null, "Claimed 100 KR", 2), 0);
+    }
+  }, {
+    name: "KR Package",
+    noCustoms: true,
+    rarity: 6,
+    icon: 0,
+    animate: true,
+    claimTime: 4500,
+    claim: function (iIîiîíí, iIiîîíi, iÎïìiíï, iÍiîiíí, iIïíiïî) {
+      return !!iÍiîiíí && !!iÍiîiíí.account && !(iÍiîiíí.additionalReward += 250, iÍiîiíí.send(iìîïìîì.ADD_MEDAL, [iIïíiïî ? "KR Thief" : "KR Claimed", "250 KR", 0, 1]), iÍiîiíí.send(iìîïìîì.ADD_CHAT, 0, null, "Claimed 250 KR", 2), 0);
+    }
+  }, {
+    name: "Junk Package",
+    noCustoms: true,
+    rarity: 0,
+    icon: 3,
+    claimTime: 2500,
+    claim: function (iÍíîìiï, iÍîìíìi, iÍìíïíì, iÎíîîiì, iÌïïíîî) {
+      return !!iÎíîîiì && !!iÎíîîiì.account && !(iÎíîîiì.send(iìîïìîì.ADD_MEDAL, [iÌïïíîî ? "Junk Thief" : "Junk Claimed", "0.05 Junk", 0, 1]), iÍíîìiï.sendUserJunk("airdrop", iÎíîîiì, 0.05), 0);
+    }
+  }, {
+    name: "Junk Package",
+    noCustoms: true,
+    rarity: 1,
+    icon: 3,
+    claimTime: 2500,
+    claim: function (iÌìïìiï, iÌïïiìï, iÎiïïïï, iIììiïî, iÏîíïîì) {
+      return !!iIììiïî && !!iIììiïî.account && !(iIììiïî.send(iìîïìîì.ADD_MEDAL, [iÏîíïîì ? "Junk Thief" : "Junk Claimed", "0.1 Junk", 0, 1]), iÌìïìiï.sendUserJunk("airdrop", iIììiïî, 0.1), 0);
+    }
+  }, {
+    name: "Junk Package",
+    noCustoms: true,
+    rarity: 2,
+    icon: 3,
+    claimTime: 2500,
+    claim: function (iÎîïîïî, iÎììîïi, iÍìíìii, iÌíïîiî, iÏîíîíì) {
+      return !!iÌíïîiî && !!iÌíïîiî.account && !(iÌíïîiî.send(iìîïìîì.ADD_MEDAL, [iÏîíîíì ? "Junk Thief" : "Junk Claimed", "0.2 Junk", 0, 1]), iÎîïîïî.sendUserJunk("airdrop", iÌíïîiî, 0.2), 0);
+    }
+  }, {
+    name: "Junk Package",
+    noCustoms: true,
+    rarity: 3,
+    icon: 3,
+    claimTime: 2500,
+    claim: function (iÌiîîïï, iÎiiíïï, iÍììíïï, iIïîìíi, iÍíìíiî) {
+      return !!iIïîìíi && !!iIïîìíi.account && !(iIïîìíi.send(iìîïìîì.ADD_MEDAL, [iÍíìíiî ? "Junk Thief" : "Junk Claimed", "0.3 Junk", 0, 1]), iÌiîîïï.sendUserJunk("airdrop", iIïîìíi, 0.3), 0);
+    }
+  }, {
+    name: "Junk Package",
+    noCustoms: true,
+    rarity: 4,
+    icon: 3,
+    claimTime: 3000,
+    claim: function (iÎíiîîi, iÍîìïíì, iÌîíìií, iÎííiïî, iIïìîìî) {
+      return !!iÎííiïî && !!iÎííiïî.account && !(iÎííiïî.send(iìîïìîì.ADD_MEDAL, [iIïìîìî ? "Junk Thief" : "Junk Claimed", "0.5 Junk", 0, 1]), iÎíiîîi.sendUserJunk("airdrop", iÎííiïî, 0.5), 0);
+    }
+  }, {
+    name: "Junk Package",
+    noCustoms: true,
+    rarity: 5,
+    icon: 3,
+    claimTime: 3000,
+    claim: function (iÍiììïï, iÌìîîïí, iÍîiíií, iÎìïìïi, iIïíiîí) {
+      return !!iÎìïìïi && !!iÎìïìïi.account && !(iÎìïìïi.send(iìîïìîì.ADD_MEDAL, [iIïíiîí ? "Junk Thief" : "Junk Claimed", "1 Junk", 0, 1]), iÍiììïï.sendUserJunk("airdrop", iÎìïìïi, 1), 0);
+    }
+  }, {
+    name: "Junk Package",
+    noCustoms: true,
+    rarity: 6,
+    icon: 3,
+    animate: true,
+    claimTime: 4500,
+    claim: function (iÎiìïiï, iÎìîìíî, iIíïïiî, iIîïîîi, iÍïíîìí) {
+      return !!iIîïîîi && !!iIîïîîi.account && !(iIîïîîi.send(iìîïìîì.ADD_MEDAL, [iÍïíîìí ? "Junk Thief" : "Junk Claimed", "2.5 Junk", 0, 1]), iÎiìïiï.sendUserJunk("airdrop", iIîïîîi, 2.5), 0);
+    }
+  }, {
+    name: "Trapped Package",
+    noCustoms: true,
+    rarity: 1,
+    icon: 1,
+    imitate: true,
+    color: "#e51b23",
+    claimTime: 1000,
+    claim: function (iIîiííî, iIïîîïï, iIîïíîî, iIiíîîi, iÎîíîii) {
+      iIiíîîi.send(iìîïìîì.PLAY_SOUND, "taunt_2", 1, 1, 0, 0, 0, 1, null, null);
+      iIîiííî.players.giveEffect(iIiíîîi, 6, iIîiííî.effects[6].max);
+      return false;
+    }
+  }, {
+    name: "Trapped Package",
+    noCustoms: true,
+    rarity: 2,
+    icon: 1,
+    imitate: true,
+    color: "#e51b23",
+    claimTime: 1000,
+    claim: function (iÎììíïï, iÍìïiîí, iÌìïïìi, iÏííiïì, iÌíïìíî) {
+      iÏííiïì.send(iìîïìîì.PLAY_SOUND, "taunt_3", 1, 1, 0, 0, 0, 1, null, null);
+      iÎììíïï.players.giveEffect(iÏííiïì, 4, iÎììíïï.effects[4].max);
+      iÎììíïï.players.giveEffect(iÏííiïì, 5, iÎììíïï.effects[5].max);
+      return false;
+    }
+  }, {
+    name: "Trapped Package",
+    noCustoms: true,
+    rarity: 3,
+    icon: 1,
+    imitate: true,
+    color: "#e51b23",
+    claimTime: 1000,
+    claim: function (iÍìïììî, iÌiìiìï, iIîîìîi, iÍîîîiì, iÏiìiïí) {
+      iÍîîîiì.send(iìîïìîì.PLAY_SOUND, "taunt_4", 1, 1, 0, 0, 0, 1, null, null);
+      var iÎìïïìî = iÍìïììî.players.findBySid(iIîîìîi.owner);
+      iÍìïììî.explosion(iIîîìîi.x, iIîîìîi.y + iIîîìîi.heightS / 2, iIîîìîi.z, 50, 300, iÎìïïìî || iÍîîîiì, {
+        stk: 1,
+        pkg: 1
+      });
+      return false;
+    }
+  }, {
+    name: "Skin Package",
+    noCustoms: true,
+    rarity: 4,
+    icon: 2,
+    claimTime: 3000,
+    claim: function (iIiíiìi, iÍíìììì, iÍìíïìi, iÏíìiìï, iÍiiîîi) {
+      if (!iÏíìiìï || !iÏíìiìï.account) {
         return false;
       }
-    }, {
-      name: "Trapped Package",
-      noCustoms: true,
-      rarity: 2,
-      icon: 1,
-      imitate: true,
-      color: "#e51b23",
-      claimTime: 1000,
-      claim: function (iÎììíïï, iÍìïiîí, iÌìïïìi, iÏííiïì, iÌíïìíî) {
-        iÏííiïì.send(iìîïìîì.PLAY_SOUND, "taunt_3", 1, 1, 0, 0, 0, 1, null, null);
-        iÎììíïï.players.giveEffect(iÏííiïì, 4, iÎììíïï.effects[4].max);
-        iÎììíïï.players.giveEffect(iÏííiïì, 5, iÎììíïï.effects[5].max);
+      var iÎííìíi = iIiíiìi.store.skins.filter(function (iÏìîíîî) {
+        return iÏìîíîî && iÏìîíîî.package;
+      });
+      iîïìîîï(iÎííìíi);
+      if (!iÎííìíi || !iÎííìíi.length) {
         return false;
       }
-    }, {
-      name: "Trapped Package",
-      noCustoms: true,
-      rarity: 3,
-      icon: 1,
-      imitate: true,
-      color: "#e51b23",
-      claimTime: 1000,
-      claim: function (iÍìïììî, iÌiìiìï, iIîîìîi, iÍîîîiì, iÏiìiïí) {
-        iÍîîîiì.send(iìîïìîì.PLAY_SOUND, "taunt_4", 1, 1, 0, 0, 0, 1, null, null);
-        var iÎìïïìî = iÍìïììî.players.findBySid(iIîîìîi.owner);
-        iÍìïììî.explosion(iIîîìîi.x, iIîîìîi.y + iIîîìîi.heightS / 2, iIîîìîi.z, 50, 300, iÎìïïìî || iÍîîîiì, {
-          stk: 1,
-          pkg: 1
-        });
-        return false;
-      }
-    }, {
-      name: "Skin Package",
-      noCustoms: true,
-      rarity: 4,
-      icon: 2,
-      claimTime: 3000,
-      claim: function (iIiíiìi, iÍíìììì, iÍìíïìi, iÏíìiìï, iÍiiîîi) {
-        if (!iÏíìiìï || !iÏíìiìï.account) {
-          return false;
-        }
-        var iÎííìíi = iIiíiìi.store.skins.filter(function (iÏìîíîî) {
-          return iÏìîíîî && iÏìîíîî.package;
-        });
-        iîïìîîï(iÎííìíi);
-        if (!iÎííìíi || !iÎííìíi.length) {
-          return false;
-        }
-        var iÍîíîïì = iÎííìíi[0].index;
-        iIiíiìi.giveSkin(iÏíìiìï, iÍîíîïì, "package");
-        return true;
-      }
-    }, {
-      name: "Juggernaut Package",
-      noCustoms: true,
-      rarity: 5,
-      icon: 5,
-      streak: 5,
-      claimTime: 3000,
-      claim: function (iÏííiîï, iÏíiïïî, iIíìîíí, iÌiiìïí, iÎíïïíí) {
-        return !!iÌiiìïí && !!iÌiiìïí.account && !(iÏííiîï.streaks[5].activate(iÏííiîï, iÌiiìïí, iÏíiïïî), iÏííiîï.challenges.update(iÏííiîï, "stk", 1, {
-          stk: 5
-        }, iÌiiìïí), 0);
-      }
-    }, {
-      name: "War Machine Package",
-      noCustoms: true,
-      rarity: 4,
-      icon: 6,
-      streak: 6,
-      claimTime: 3000,
-      claim: function (iÍiïììï, iÌíîìiì, iIìììiî, iÍïïïïí, iÍïììiî) {
-        return !!iÍïïïïí && !!iÍïïïïí.account && !(iÍiïììï.streaks[6].activate(iÍiïììï, iÍïïïïí, iÌíîìiì), iÍiïììï.challenges.update(iÍiïììï, "stk", 1, {
-          stk: 6
-        }, iÍïïïïí), 0);
-      }
-    }, {
-      name: "Nuke Package",
-      noCustoms: true,
-      rarity: 6,
-      icon: 7,
-      animate: true,
-      streak: 0,
-      claimTime: 3000,
-      claim: function (iIïíïiì, iÎîiiii, iÎiîîîí, iÏïììïì, iÌìïíií) {
-        return !!iÏïììïì && !!iÏïììïì.account && !(iIïíïiì.streaks[0].activate(iIïíïiì, iÏïììïì, iÎîiiii), iIïíïiì.challenges.update(iIïíïiì, "stk", 1, {
-          stk: 0
-        }, iÏïììïì), 0);
-      }
-    }, {
-      name: "Slimer Package",
-      noCustoms: true,
-      rarity: 3,
-      icon: 8,
-      streak: 4,
-      claimTime: 3000,
-      claim: function (iÏíîíiì, iÍíìiiï, iÍiîíïï, iÌïììïï, iÌìîiiî) {
-        return !!iÌïììïï && !!iÌïììïï.account && !(iÏíîíiì.streaks[4].activate(iÏíîíiì, iÌïììïï, iÍíìiiï), iÏíîíiì.challenges.update(iÏíîíiì, "stk", 1, {
-          stk: 4
-        }, iÌïììïï), 0);
-      }
-    }], iîíìíïi = 0; iîíìíïi < iiììîïi.length; iîíìíïi++) {
+      var iÍîíîïì = iÎííìíi[0].index;
+      iIiíiìi.giveSkin(iÏíìiìï, iÍîíîïì, "package");
+      return true;
+    }
+  }, {
+    name: "Juggernaut Package",
+    noCustoms: true,
+    rarity: 5,
+    icon: 5,
+    streak: 5,
+    claimTime: 3000,
+    claim: function (iÏííiîï, iÏíiïïî, iIíìîíí, iÌiiìïí, iÎíïïíí) {
+      return !!iÌiiìïí && !!iÌiiìïí.account && !(iÏííiîï.streaks[5].activate(iÏííiîï, iÌiiìïí, iÏíiïïî), iÏííiîï.challenges.update(iÏííiîï, "stk", 1, {
+        stk: 5
+      }, iÌiiìïí), 0);
+    }
+  }, {
+    name: "War Machine Package",
+    noCustoms: true,
+    rarity: 4,
+    icon: 6,
+    streak: 6,
+    claimTime: 3000,
+    claim: function (iÍiïììï, iÌíîìiì, iIìììiî, iÍïïïïí, iÍïììiî) {
+      return !!iÍïïïïí && !!iÍïïïïí.account && !(iÍiïììï.streaks[6].activate(iÍiïììï, iÍïïïïí, iÌíîìiì), iÍiïììï.challenges.update(iÍiïììï, "stk", 1, {
+        stk: 6
+      }, iÍïïïïí), 0);
+    }
+  }, {
+    name: "Nuke Package",
+    noCustoms: true,
+    rarity: 6,
+    icon: 7,
+    animate: true,
+    streak: 0,
+    claimTime: 3000,
+    claim: function (iIïíïiì, iÎîiiii, iÎiîîîí, iÏïììïì, iÌìïíií) {
+      return !!iÏïììïì && !!iÏïììïì.account && !(iIïíïiì.streaks[0].activate(iIïíïiì, iÏïììïì, iÎîiiii), iIïíïiì.challenges.update(iIïíïiì, "stk", 1, {
+        stk: 0
+      }, iÏïììïì), 0);
+    }
+  }, {
+    name: "Slimer Package",
+    noCustoms: true,
+    rarity: 3,
+    icon: 8,
+    streak: 4,
+    claimTime: 3000,
+    claim: function (iÏíîíiì, iÍíìiiï, iÍiîíïï, iÌïììïï, iÌìîiiî) {
+      return !!iÌïììïï && !!iÌïììïï.account && !(iÏíîíiì.streaks[4].activate(iÏíîíiì, iÌïììïï, iÍíìiiï), iÏíîíiì.challenges.update(iÏíîíiì, "stk", 1, {
+        stk: 4
+      }, iÌïììïï), 0);
+    }
+  }], iîíìíïi = 0; iîíìíïi < iiììîïi.length; iîíìíïi++) {
     iiììîïi[iîíìíïi].index = iîíìíïi;
   }
   var iíïiîíì = [{
@@ -157217,7 +157190,7 @@
           get collection() {
             return IIiîiìí.collection.name;
           },
-          openListing: function () {}
+          openListing: function () { }
         };
       }
     };
@@ -157393,10 +157366,10 @@
           }
         },
         URLS: {
-          openDiscord: function () {},
-          openTwitter: function () {},
-          openYoutube: function () {},
-          openOpensea: function () {}
+          openDiscord: function () { },
+          openTwitter: function () { },
+          openYoutube: function () { },
+          openOpensea: function () { }
         },
         NFT: {
           hasWallet: function (IÍïíiiï) {
@@ -157640,8 +157613,8 @@
           }
         },
         RAYCAST: {
-          from: function (IIìïîïí, IÍíìïíi, IÍïîïiï, IÍìïiìî, IÍïíîíï, IIiîíii) {},
-          fromPlayer: function (IÎììiîí, IÌiîîìí) {}
+          from: function (IIìïîïí, IÍíìïíi, IÍïîïiï, IÍìïiìî, IÍïíîíï, IIiîíii) { },
+          fromPlayer: function (IÎììiîí, IÌiîîìí) { }
         },
         TIME: {
           now: function () {
@@ -158425,8 +158398,8 @@
           }
         },
         ANIM: {
-          playClip: function (IÍiîîíi, IÍííííî, IÎïïïií) {},
-          stopClip: function (IÎíïiîï, IÎiìiií) {}
+          playClip: function (IÍiîîíi, IÍííííî, IÎïïïií) { },
+          stopClip: function (IÎíïiîï, IÎiìiií) { }
         },
         CAMERA: {
           get envZone() {
@@ -159146,7 +159119,7 @@
               }
             }
           },
-          charge: function () {}
+          charge: function () { }
         },
         PLAYERS: {
           getSelf: function () {
@@ -159507,10 +159480,10 @@
               return null;
             }
           },
-          getMatch: function () {},
-          getSettings: function () {},
-          getWeapons: function () {},
-          getClasses: function () {}
+          getMatch: function () { },
+          getSettings: function () { },
+          getWeapons: function () { },
+          getClasses: function () { }
         }
       },
       types: iíìiîïì,
@@ -159575,7 +159548,7 @@
             return {
               id: IÌííiïì.id
             };
-          } catch (IIîiííí) {}
+          } catch (IIîiííí) { }
         }
       }
     }, {
@@ -160501,7 +160474,7 @@
     this.territorialWars = new iïîiïïí(this, IÍïíììï);
     this.gameState = iíîîïií.INITIALIZING;
     this.changedObjs = new Set();
-    this.onRankedPlayerFailedToJoin = function () {};
+    this.onRankedPlayerFailedToJoin = function () { };
     if (!IÏìîïíí) {
       var IÍïìiïi = window.log || console.log;
     }
@@ -161100,7 +161073,7 @@
           if (IÍîíïìí) {
             try {
               IIìíîîî = JSON.parse(IÍîíïìí);
-            } catch (IÏìíiií) {}
+            } catch (IÏìíiií) { }
           }
           this.customMapData = {
             data: IÏïïïîî,
@@ -161845,7 +161818,7 @@
               });
               IÌïíîìí.itemRewards = [];
             }
-            if (this.mode && this.mode.noProfileStats) ;else if (this.isRanked) {
+            if (this.mode && this.mode.noProfileStats); else if (this.isRanked) {
               var IÌîìììï = Math.max(Math.min(Math.floor(IÌïíîìí.reward / 2), 60), 0);
               if (IÌîìììï > 0) {
                 IÎîïiií.push({
@@ -161907,7 +161880,7 @@
                   IIìíîií[IÌíìîií].send(iìîïìîì.UPDATE_FUNDS, IIìîìíì);
                 }
               }
-            } catch (IÍííìïì) {}
+            } catch (IÍííìïì) { }
           }
         });
       }
@@ -162210,7 +162183,7 @@
     this.updateEvents = function (IÏîiiìí) {
       this.endTimer;
     };
-    this.initEvents = function () {};
+    this.initEvents = function () { };
     this.updatePowerupTime = function (IÌïíïîi, IÎíìiíï) {
       powerUpHolder.children[IÌïíïîi].children[0].textContent = iíiîïîï(IÎíìiíï);
     };
@@ -163618,7 +163591,7 @@
           IÏîìïïì.map.manager.objectives[IÏìïïíi].mesh.material.depthTest = true;
           IÏîìïïì.map.manager.objectives[IÏìïïíi].onZone = 0;
         }
-      } catch (IÎïiïii) {}
+      } catch (IÎïiïii) { }
     };
     this.randObjective = function (IIîïíïí, IÌïïiìí) {
       var IÍíïiií = iiìììîí(this.map.manager.objectives);
@@ -163678,7 +163651,7 @@
     this.setWeapon = function (IÍîìíîi) {
       try {
         IÏîìïïì.activeObjective = IÍîìíîi;
-      } catch (IÌíìîiï) {}
+      } catch (IÌíìîiï) { }
     };
     this.nextWeapon = function (IÍiiììí, IÏìîíiî) {
       this.activeObjective = iiìììîí(this.weapons.onlyGoodWeapons);
@@ -166476,7 +166449,7 @@
     };
     this.logPunishment = function (IÌïiìïì, IÍììiii, IÌìììíi) {
       if (IÍììiii && IÌïiìïì && IÌïiìïì.account && (IÌïiìïì.account.isMod || IÌïiìïì.account.isDeputy) && IÏîìïïì.host != IÌïiìïì.id) {
-        IÏíiíìï.call(167, [IÍììiii.account ? IÍììiii.account.id : 0, IÌïiìïì.account.id, IÏîìïïì.gameInstance.id, IÌìììíi], function (IÌííiíí, IÍìïîîî) {});
+        IÏíiíìï.call(167, [IÍììiii.account ? IÍììiii.account.id : 0, IÌïiìïì.account.id, IÏîìïïì.gameInstance.id, IÌìììíi], function (IÌííiíí, IÍìïîîî) { });
       }
     };
     this.kick = function (IIiîìii, IÏìíîìî) {
@@ -166613,13 +166586,13 @@
       this.renderToScreen = false;
     }, [{
       key: "setSize",
-      value: function () {}
+      value: function () { }
     }, {
       key: "render",
-      value: function () {}
+      value: function () { }
     }, {
       key: "dispose",
-      value: function () {}
+      value: function () { }
     }]);
   }();
   new iìiïííî(-1, 1, 1, -1, 0, 1);
@@ -167447,8 +167420,8 @@
           this.save();
         }
       },
-      updateMatrixWorld: function (IÎììíîí) {},
-      updateWorldMatrix: function (IÌïîìiì, IÏiìíìí) {},
+      updateMatrixWorld: function (IÎììíîí) { },
+      updateWorldMatrix: function (IÌïîìiì, IÏiìíìí) { },
       traverse: function (IIíïïíï) {
         IIíïïíï(this);
         var IIiïîïi = this._children;
@@ -167456,8 +167429,8 @@
           IIiïîïi[IÍîïìíi].traverse(IIíïïíï);
         }
       },
-      add: function () {},
-      remove: function () {}
+      add: function () { },
+      remove: function () { }
     });
     IIïiìïì._x = 0;
     IIïiìïì._y = 0;
@@ -169251,14 +169224,14 @@
               if (IÌìîîìí) {
                 try {
                   IÌìîîìí.apply(undefined, IÏîîiíî.data);
-                } catch (IÏiîìîi) {}
+                } catch (IÏiîìîi) { }
               }
             } else {
               var IÏîiïiì = this;
               this.injectInit(IÏîîiíî.data, function () {
                 try {
                   IÏîiïiì.events.start(IÏîîiíî.data[19], 1, 1, false, undefined, true, null, 0);
-                } catch (IÌiíìïí) {}
+                } catch (IÌiíìïí) { }
                 if (IÏîiïiì.onRoundStart) {
                   IÏîiïiì.onRoundStart();
                 }
@@ -169273,7 +169246,7 @@
             if (IÍiîîîí) {
               try {
                 IÍiîîîí.apply(undefined, IÏîîiíî.data.slice(0, 4));
-              } catch (IÎiïìíi) {}
+              } catch (IÎiïìíi) { }
             }
           }
         }
@@ -169409,7 +169382,7 @@
               this.injectInit(IÍìïïìì.init, function () {
                 try {
                   IÏíiïií.events.start(IÍìïïìì.init[19], 1, 1, false, undefined, true, null, 0);
-                } catch (IÏìiîîi) {}
+                } catch (IÏìiîîi) { }
                 if (IÏíiïií.onRoundStart) {
                   IÏíiïií.onRoundStart();
                 }
@@ -171141,7 +171114,7 @@
           iîiìïìí(IÍîíîïí, iîïïïïi(IIîiîìì.data.events || []));
           iîiìïìí(IÍíìíïì, iîïïïïi(IIîiîìì.data.polls || []));
         }
-      } catch (IÍîiïíï) {}
+      } catch (IÍîiïíï) { }
       iîiìïìí(IÎìîíîi, false);
     })();
     var IÍìîiíi = iìiììíi();
@@ -171877,13 +171850,13 @@
     configurable: false,
     writable: false
   });
-  FRVR.lifecycle.onGamePause = function () {};
-  FRVR.lifecycle.onSuspend = function () {};
+  FRVR.lifecycle.onGamePause = function () { };
+  FRVR.lifecycle.onSuspend = function () { };
   FRVR.lifecycle.onResume = function () {
     window.dispatchEvent(new Event("FRVRonResume"));
   };
-  FRVR.lifecycle.onAudioSuspend = function () {};
-  FRVR.lifecycle.onAudioResume = function () {};
+  FRVR.lifecycle.onAudioSuspend = function () { };
+  FRVR.lifecycle.onAudioResume = function () { };
   if (window.JfCzGzvGIQB8rrJX.isProxy) {
     window.JfCzGzvGIQB8rrJX = function (IÌíîîíí, IÎiíïîì) {
       var IÏiïïíï = Date.now();
@@ -172131,7 +172104,7 @@
   iiïïììî.getCaptchaToken = function () {
     return iîîìiïi();
   };
-  iîìììíî().catch(function () {});
+  iîìììíî().catch(function () { });
   var iîiïiíí = new iiïïììî(iiiîiîï, iìïiiïi, iïíïíîì);
   var iìïïîií = null;
   var iíîíìiï = null;
@@ -172390,7 +172363,7 @@
       hostActionH.style.display = IÎiïîîi ? "none" : "block";
       teamLink1.innerHTML = IÎiïîîi && IÎïííiî ? iìïîîii[0] + " Team Link <a class='menuLink' style='float:right' onclick='copyGameLink(this, &quot;" + IÎiïîîi + "&quot;,1)'>Copy</a>" : "";
       teamLink2.innerHTML = IÎiïîîi && IÎïííiî ? iìïîîii[1] + " Team Link <a class='menuLink' style='float:right' onclick='copyGameLink(this, &quot;" + IÎiïîîi + "&quot;,2)'>Copy</a>" : "";
-    } catch (IÌîiiíí) {}
+    } catch (IÌîiiíí) { }
     var IIìîiíî = document.getElementById("startServBtn");
     if (IIìîiíî) {
       IIìîiíî.style.background = "#4582d1";
@@ -174270,7 +174243,7 @@
         if (!IÏìíiïí.includes("sad") && IÏìíiïí.substring(0, IÏîïïií.length + 2) == IÏîïïií + "mt") {
           try {
             IÍiíîïï[IÏìíiïí].dispose();
-          } catch (IÌiìíiï) {}
+          } catch (IÌiìíiï) { }
           IÍiíîïï[IÏìíiïí].image = IÎïííïî.image;
           IÍiíîïï[IÏìíiïí].needsUpdate = true;
         }
@@ -174398,7 +174371,7 @@
               yAlign: IIïìíiì.yAlign || 0
             });
           }
-          if (IÌïïíïì && IÌïïíïì == "emissiveMap" && IÏííiíî.noEmisTex) ;else if (IÏííiíî.canvas) {
+          if (IÌïïíïì && IÌïïíïì == "emissiveMap" && IÏííiíî.noEmisTex); else if (IÏííiíî.canvas) {
             (IÎîîíîì = new iíìíìiï(IÏííiíî.canvas)).wrapS = iíiiïiî;
             IÎîîíîì.wrapT = iíiiïiî;
             IÎîîíîì.repeat.set(IÏííiíî.repeatX || 1, IÏííiíî.repeatY || 1);
@@ -174825,20 +174798,20 @@
               IÍïîiíï(IIìíìîï);
             }
             IIìíìîï.fragmentShader = IIìíìîï.fragmentShader.replace("#include <alphamap_pars_fragment>", `#include <alphamap_pars_fragment>
-          uniform vec3 paintColor;
-          uniform float paintIntensity;
-          ${iíìïîïí}
-          ${IÌìïíìì ? "uniform float paintTime;\n" + IÍíïîïi.code : ""}
-          ${IÏìîiìi ? "#ifdef USE_MAP\nuniform sampler2D paintMaskMap;\n#endif" : ""}
-          `);
+            uniform vec3 paintColor;
+            uniform float paintIntensity;
+            ${iíìïîïí}
+            ${IÌìïíìì ? "uniform float paintTime;\n" + IÍíïîïi.code : ""}
+            ${IÏìîiìi ? "#ifdef USE_MAP\nuniform sampler2D paintMaskMap;\n#endif" : ""}
+            `);
             IIìíìîï.fragmentShader = IIìíìîï.fragmentShader.replace("#include <alphamap_fragment>", `#include <alphamap_fragment>
-          {
-            ${IÌìïíìì ? "#ifdef USE_MAP\n              vec3 painted = paintColorize(diffuseColor.rgb, paintShaderColor(vMapUv, paintTime, diffuseColor.rgb));\n              #else\n              vec3 painted = paintColorize(diffuseColor.rgb, paintShaderColor(vec2(0.5), paintTime, diffuseColor.rgb));\n              #endif" : IÍîiîií ? "float pLum = dot(diffuseColor.rgb, vec3(0.299, 0.587, 0.114));\n              vec3 painted = paintColor * pLum;" : "vec3 painted = paintColorize(diffuseColor.rgb, paintColor);"}
-            float pMask = 1.0;
-            ${IÏìîiìi ? "#ifdef USE_MAP\npMask = texture2D(paintMaskMap, vMapUv).r;\n#endif" : ""}
-            diffuseColor.rgb = mix(diffuseColor.rgb, painted, clamp(paintIntensity, 0.0, 1.0) * pMask);
-          }
-          `);
+            {
+              ${IÌìïíìì ? "#ifdef USE_MAP\n              vec3 painted = paintColorize(diffuseColor.rgb, paintShaderColor(vMapUv, paintTime, diffuseColor.rgb));\n              #else\n              vec3 painted = paintColorize(diffuseColor.rgb, paintShaderColor(vec2(0.5), paintTime, diffuseColor.rgb));\n              #endif" : IÍîiîií ? "float pLum = dot(diffuseColor.rgb, vec3(0.299, 0.587, 0.114));\n              vec3 painted = paintColor * pLum;" : "vec3 painted = paintColorize(diffuseColor.rgb, paintColor);"}
+              float pMask = 1.0;
+              ${IÏìîiìi ? "#ifdef USE_MAP\npMask = texture2D(paintMaskMap, vMapUv).r;\n#endif" : ""}
+              diffuseColor.rgb = mix(diffuseColor.rgb, painted, clamp(paintIntensity, 0.0, 1.0) * pMask);
+            }
+            `);
           };
           var IÏìíîií = IÌïiîïì.onBeforeRender;
           IÌïiîïì.onBeforeRender = function () {
@@ -174891,34 +174864,34 @@
             IÍîìîìì.vertexShader = IÍîìîìì.vertexShader.replace("#include <project_vertex>", "#include <project_vertex>\n            vLocalPosition = position;\n            ");
             var IÍìîïîí = IÌïiîïì.decalMatrix !== null;
             IÍîìîìì.fragmentShader = IÍîìîìì.fragmentShader.replace("#include <alphamap_pars_fragment>", `#include <alphamap_pars_fragment>
-          varying vec3 vLocalPosition;
-          uniform sampler2D decalMap;
-          uniform vec3 decalPosition;
-          uniform vec3 decalScale;
-          ${IÍìîïîí ? "uniform mat4 decalMatrix;" : ""}
-          `);
+            varying vec3 vLocalPosition;
+            uniform sampler2D decalMap;
+            uniform vec3 decalPosition;
+            uniform vec3 decalScale;
+            ${IÍìîïîí ? "uniform mat4 decalMatrix;" : ""}
+            `);
             IÍîìîìì.fragmentShader = IÍîìîìì.fragmentShader.replace("#include <alphatest_fragment>", `#include <alphatest_fragment>
-          // Calculate offset from decal position
-          vec3 offsetVec = vLocalPosition - decalPosition;
-          
-          // Transform offset into decal space (this rotates which axes are used for UV/depth)
-          vec3 decalSpaceOffset = offsetVec;
-          ${IÍìîïîí ? "decalSpaceOffset = (decalMatrix * vec4(offsetVec, 0.0)).xyz;" : ""}
-          
-          // In decal space, always use XY for UV mapping and Z for depth
-          // The matrix transformation determines which world axes become XY and Z
-          vec3 absOffset = abs(decalSpaceOffset);
-          if (absOffset.x <= decalScale.x && absOffset.y <= decalScale.y && absOffset.z <= decalScale.z) {
-            // Calculate UV coordinates from XY of transformed offset
-            vec2 decalUv = (decalSpaceOffset.xy + decalScale.xy) / (decalScale.xy * 2.0);
-            if (decalUv.x >= 0.0 && decalUv.x <= 1.0 && decalUv.y >= 0.0 && decalUv.y <= 1.0) {
-              vec4 decalColor = texture2D(decalMap, decalUv);
-              if (decalColor.a > 0.0) {
-                diffuseColor.rgb = mix(diffuseColor.rgb, decalColor.rgb, decalColor.a);
+            // Calculate offset from decal position
+            vec3 offsetVec = vLocalPosition - decalPosition;
+            
+            // Transform offset into decal space (this rotates which axes are used for UV/depth)
+            vec3 decalSpaceOffset = offsetVec;
+            ${IÍìîïîí ? "decalSpaceOffset = (decalMatrix * vec4(offsetVec, 0.0)).xyz;" : ""}
+            
+            // In decal space, always use XY for UV mapping and Z for depth
+            // The matrix transformation determines which world axes become XY and Z
+            vec3 absOffset = abs(decalSpaceOffset);
+            if (absOffset.x <= decalScale.x && absOffset.y <= decalScale.y && absOffset.z <= decalScale.z) {
+              // Calculate UV coordinates from XY of transformed offset
+              vec2 decalUv = (decalSpaceOffset.xy + decalScale.xy) / (decalScale.xy * 2.0);
+              if (decalUv.x >= 0.0 && decalUv.x <= 1.0 && decalUv.y >= 0.0 && decalUv.y <= 1.0) {
+                vec4 decalColor = texture2D(decalMap, decalUv);
+                if (decalColor.a > 0.0) {
+                  diffuseColor.rgb = mix(diffuseColor.rgb, decalColor.rgb, decalColor.a);
+                }
               }
             }
-          }
-          `);
+            `);
           };
           var IÏiïììi = IÌïiîïì.onBeforeRender;
           IÌïiîïì.onBeforeRender = function () {
@@ -176169,20 +176142,20 @@
                     IÎîiiiï(IÍììííí);
                   }
                   IÍììííí.fragmentShader = IÍììííí.fragmentShader.replace("#include <alphamap_pars_fragment>", `#include <alphamap_pars_fragment>
-          uniform vec3 paintColor;
-          uniform float paintIntensity;
-          ${iíìïîïí}
-          ${IIîïïìí ? "uniform float paintTime;\n" + IIïïîïï.code : ""}
-          ${IÌíîîiî ? "#ifdef USE_MAP\nuniform sampler2D paintMaskMap;\n#endif" : ""}
-          `);
+            uniform vec3 paintColor;
+            uniform float paintIntensity;
+            ${iíìïîïí}
+            ${IIîïïìí ? "uniform float paintTime;\n" + IIïïîïï.code : ""}
+            ${IÌíîîiî ? "#ifdef USE_MAP\nuniform sampler2D paintMaskMap;\n#endif" : ""}
+            `);
                   IÍììííí.fragmentShader = IÍììííí.fragmentShader.replace("#include <alphamap_fragment>", `#include <alphamap_fragment>
-          {
-            ${IIîïïìí ? "#ifdef USE_MAP\n              vec3 painted = paintColorize(diffuseColor.rgb, paintShaderColor(vMapUv, paintTime, diffuseColor.rgb));\n              #else\n              vec3 painted = paintColorize(diffuseColor.rgb, paintShaderColor(vec2(0.5), paintTime, diffuseColor.rgb));\n              #endif" : IÌïïîiî ? "float pLum = dot(diffuseColor.rgb, vec3(0.299, 0.587, 0.114));\n              vec3 painted = paintColor * pLum;" : "vec3 painted = paintColorize(diffuseColor.rgb, paintColor);"}
-            float pMask = 1.0;
-            ${IÌíîîiî ? "#ifdef USE_MAP\npMask = texture2D(paintMaskMap, vMapUv).r;\n#endif" : ""}
-            diffuseColor.rgb = mix(diffuseColor.rgb, painted, clamp(paintIntensity, 0.0, 1.0) * pMask);
-          }
-          `);
+            {
+              ${IIîïïìí ? "#ifdef USE_MAP\n              vec3 painted = paintColorize(diffuseColor.rgb, paintShaderColor(vMapUv, paintTime, diffuseColor.rgb));\n              #else\n              vec3 painted = paintColorize(diffuseColor.rgb, paintShaderColor(vec2(0.5), paintTime, diffuseColor.rgb));\n              #endif" : IÌïïîiî ? "float pLum = dot(diffuseColor.rgb, vec3(0.299, 0.587, 0.114));\n              vec3 painted = paintColor * pLum;" : "vec3 painted = paintColorize(diffuseColor.rgb, paintColor);"}
+              float pMask = 1.0;
+              ${IÌíîîiî ? "#ifdef USE_MAP\npMask = texture2D(paintMaskMap, vMapUv).r;\n#endif" : ""}
+              diffuseColor.rgb = mix(diffuseColor.rgb, painted, clamp(paintIntensity, 0.0, 1.0) * pMask);
+            }
+            `);
                 };
                 var IÏïîïìï = IÍíìîiî.onBeforeRender;
                 IÍíìîiî.onBeforeRender = function () {
@@ -176793,7 +176766,7 @@
             IÌìííïi[IÎiìîïi].dispose();
           }
         }
-      } catch (IÌíìïïî) {}
+      } catch (IÌíìïïî) { }
       for (var IÎiìîïi in IÍiíîïï) {
         if (IÍiíîïï[IÎiìîïi].dispose) {
           IÍiíîïï[IÎiìîïi].dispose();
@@ -176868,12 +176841,12 @@
         if (IÍiïiiî && IÍiïiiî.isSkinnedMesh && IÍiïiiî.skeleton && !IIíïïíì) {
           var IIìîiíì = function (IÏìîìíì, IÎíiïíi) {
             for (var IÎiiîïí = function (IÎíïîïi) {
-                if (Array.isArray(IÎíïîïi)) {
-                  return IÎíïîïi;
-                } else {
-                  return IÎíïîïi.bones;
-                }
-              }(IÎíiïíi), IÌiiíiî = 0; IÌiiíiî < IÎiiîïí.length; IÌiiíiî++) {
+              if (Array.isArray(IÎíïîïi)) {
+                return IÎíïîïi;
+              } else {
+                return IÎíïîïi.bones;
+              }
+            }(IÎíiïíi), IÌiiíiî = 0; IÌiiíiî < IÎiiîïí.length; IÌiiíiî++) {
               if (IÏìîìíì === IÎiiîïí[IÌiiíiî].name) {
                 return IÎiiîïí[IÌiiíiî];
               }
@@ -177290,7 +177263,7 @@
         iîìîíîi.send(IÎìïíïí, IÎïiîíï);
       });
     }
-  } catch (IÍìììïï) {}
+  } catch (IÍìììïï) { }
   var iîììîií = new iíîîîìí();
   var iíîìiìî = [];
   var iíìîìíi = new iíiíîïï(iíîìiìî, false, 0, null, iiiiììï, null, iîîiiïî, iîïîiiì, iìïiííí, iîìîíîi);
@@ -177607,7 +177580,7 @@
         var IÎíiiiï = IÍïíîìi.getContext("webgl2");
         var IÎììîîì = IÎíiiiï.getExtension("WEBGL_debug_renderer_info");
         IÎiíîïì = !IÎíiiiï.getParameter(IÎììîîì.UNMASKED_RENDERER_WEBGL).includes("SwiftShader");
-      } catch (IÏiiiïí) {}
+      } catch (IÏiiiïí) { }
       return IÎiíîïì;
     };
     var IÍìiïîi = IÍïíîìi.onpointerrawupdate !== undefined && PointerEvent.prototype.getCoalescedEvents != null;
@@ -177776,7 +177749,7 @@
       }
     };
     this.toggleMouseInputs();
-    IÍïíîìi.dispatchEvent = function () {};
+    IÍïíîìi.dispatchEvent = function () { };
     var IÏïïìïi = function (IIíïîìï, IÍîìiîï) {
       if (IÍîìiîï != "cntrlInput" && IÍìïìîí.gamepad.active) {
         IÍìïìîí.gamepad.active = false;
@@ -178825,47 +178798,47 @@
               }
               return `${IÏíïîìi}
 \t\t\t\t\t\t\t<div id='endLayout'>
-              <div class='endSection'>
-                <div class='endTitle'>Combat Earnings</div>
-                <div id='combatRecordLayout' style="grid-template-columns: auto;">
-                  <div class='crStat' style="display: flex; align-items: center; justify-content: center; padding: 10px 15px;">
-                    <div class='crVal'>${IÏíîiìì == "NONE" ? "<span style=\"color:#F8C55C\">+0</span> KR" : IÏíîiìì}</div>
-                  </div>
-                  <div class='crStat' style="display: flex; align-items: center; justify-content: center; padding: 10px 15px;">
-                    <div class='crVal'><span style="color:#F8C55C">+${IÍiïïîí}</span> EXP</div>
-                  </div>
+                <div class='endSection'>
+                  <div class='endTitle'>Combat Earnings</div>
+                  <div id='combatRecordLayout' style="grid-template-columns: auto;">
+                    <div class='crStat' style="display: flex; align-items: center; justify-content: center; padding: 10px 15px;">
+                      <div class='crVal'>${IÏíîiìì == "NONE" ? "<span style=\"color:#F8C55C\">+0</span> KR" : IÏíîiìì}</div>
+                    </div>
+                    <div class='crStat' style="display: flex; align-items: center; justify-content: center; padding: 10px 15px;">
+                      <div class='crVal'><span style="color:#F8C55C">+${IÍiïïîí}</span> EXP</div>
+                    </div>
 \t\t\t\t\t<div class="otherEarnings"></div>
 \t\t\t\t\t<div id="raidPromoContainer"></div>
-                </div>
-              </div>
-              <div class='endSection'>
-                <div class='endTitle'>Combat Record</div>
-                <div id='combatRecordLayout'>
-                  <div class='crStat'>
-                    <div class='crLabel'>Score</div>
-                    <div class='crVal'>${IÍiïïîí}</div>
-                  </div>
-                  <div id='kdLayout'>
-                    <div class='crStat'>
-                      <div class='crLabel'>Kills</div>
-                      <div class='crVal'>${IÍíìîïí}</div>
-                    </div>
-                    <div class='crStat'>
-                      <div class='crLabel'>Deaths</div>
-                      <div class='crVal'>${IIiiíîi}</div>
-                    </div>
-                  </div>
-                  <div class='crStat'>
-                    <div class='crLabel'>Rank</div>
-                    <div class='crVal'>${IÏiíîìî}</div>
-                  </div>
-                  <div class='crStat'>
-                    <div class='crLabel'>KDR</div>
-                    <div class='crVal'>${(IÍíìîïí / (IIiiíîi || 1) || 0).toFixed(2)}</div>
                   </div>
                 </div>
+                <div class='endSection'>
+                  <div class='endTitle'>Combat Record</div>
+                  <div id='combatRecordLayout'>
+                    <div class='crStat'>
+                      <div class='crLabel'>Score</div>
+                      <div class='crVal'>${IÍiïïîí}</div>
+                    </div>
+                    <div id='kdLayout'>
+                      <div class='crStat'>
+                        <div class='crLabel'>Kills</div>
+                        <div class='crVal'>${IÍíìîïí}</div>
+                      </div>
+                      <div class='crStat'>
+                        <div class='crLabel'>Deaths</div>
+                        <div class='crVal'>${IIiiíîi}</div>
+                      </div>
+                    </div>
+                    <div class='crStat'>
+                      <div class='crLabel'>Rank</div>
+                      <div class='crVal'>${IÏiíîìî}</div>
+                    </div>
+                    <div class='crStat'>
+                      <div class='crLabel'>KDR</div>
+                      <div class='crVal'>${(IÍíìîïí / (IIiiíîi || 1) || 0).toFixed(2)}</div>
+                    </div>
+                  </div>
+                </div>
               </div>
-            </div>
 \t\t\t\t\t\t`;
             }
           },
@@ -179097,7 +179070,7 @@
         get val() {
           return currentStorage[IÍììiïí.PING_REGION_CACHE_KEY];
         },
-        set val(IÍîìîîí) {},
+        set val(IÍîìîîí) { },
         options: Object.fromEntries(Object.keys(iìïiiïi).map(function (IÌiíïiî) {
           return [iìïiiïi[IÌiíïiî], iííîïíî[iìïiiïi[IÌiíïiî]]];
         })),
@@ -179231,7 +179204,7 @@
         cat: "experimental",
         val: !!IÌiîïîï.isMobile,
         hide: true,
-        html: function () {},
+        html: function () { },
         set: function (IÌiïïìì) {
           IÌìîîîï.tmp[this.key] = !!IÌiïïìì;
           IÌiîïîï.mouseSkipFix = !!IÌiïïìì;
@@ -179277,7 +179250,7 @@
         val: true,
         hide: true,
         toggle: true,
-        html: function () {},
+        html: function () { },
         set: function (IÎïíïïì) {
           IÌìîîîï.tmp[this.key] = IÎïíïïì;
           IÏiiiiî.kpdVision = !!IÎïíïïì;
@@ -179305,7 +179278,7 @@
         dev: true,
         val: true,
         type: "switch",
-        set: function (IÌiïïíí) {}
+        set: function (IÌiïïíí) { }
       },
       forceRegen: {
         name: "settings.dev.forceRegen",
@@ -179314,7 +179287,7 @@
         dev: true,
         val: false,
         type: "switch",
-        set: function (IÌîîíîi) {}
+        set: function (IÌîîíîi) { }
       },
       extraBan: {
         name: "settings.dev.extraBan",
@@ -179323,7 +179296,7 @@
         admin: true,
         val: false,
         type: "switch",
-        set: function (IIíiîïì) {}
+        set: function (IIíiîïì) { }
       },
       resolution: {
         name: "settings.quality.res",
@@ -179845,7 +179818,7 @@
         cat: "interface",
         val: true,
         hide: true,
-        html: function () {},
+        html: function () { },
         set: function (IÎïíïíï) {
           IÌìîîîï.tmp[this.key] = IÎïíïíï;
           window.scaleBase(null, true);
@@ -179983,7 +179956,7 @@
           3: "None"
         },
         type: "select",
-        html: function () {},
+        html: function () { },
         set: function (IIïïîiï) {
           IÌìîîîï.tmp[this.key] = IIïïîiï;
           IÏiiiiî.deathMarkerDisplay = parseInt(IIïïîiï) || 0;
@@ -180050,7 +180023,7 @@
         val: true,
         hide: true,
         toggle: true,
-        html: function () {},
+        html: function () { },
         set: function (IÎìiîìî) {
           IÌìîîîï.tmp[this.key] = IÎìiîìî;
           IÏiiiiî.showDMG = IÎìiîìî;
@@ -180910,7 +180883,7 @@
         val: false,
         hide: true,
         toggle: true,
-        html: function () {},
+        html: function () { },
         set: function (IÌïììîí) {
           IÌìîîîï.tmp[this.key] = IÌïììîí;
           IÏiiiiî.crosshairUseOpacityCustom = IÌïììîí;
@@ -181187,7 +181160,7 @@
         val: false,
         hide: true,
         toggle: true,
-        html: function () {},
+        html: function () { },
         set: function (IÍïìíîî) {
           IÌìîîîï.tmp[this.key] = IÍïìíîî;
           IÏiiiiî.crosshairUseOpacityCustomM = IÍïìíîî;
@@ -181732,7 +181705,7 @@
         cat: "controller",
         val: true,
         hide: true,
-        html: function () {},
+        html: function () { },
         set: function (IÌiíïií) {
           IÌìîîîï.tmp[this.key] = IÌiíïií;
           IÌiîïîï.cntrlInput.vibration = IÌiíïií;
@@ -182562,7 +182535,7 @@
         val: false,
         hide: true,
         toggle: true,
-        html: function () {},
+        html: function () { },
         set: function (IÎîiìîî) {
           IÌìîîîï.tmp[this.key] = !!IÎîiìîî;
         }
@@ -182988,7 +182961,7 @@
         val: true,
         hide: true,
         toggle: true,
-        html: function () {},
+        html: function () { },
         set: function (IIííiîì) {
           IÌìîîîï.tmp[this.key] = IIííiîì;
           IÏïïíìí.showTracers = IIííiîì;
@@ -183103,7 +183076,7 @@
         val: true,
         hide: true,
         toggle: true,
-        html: function () {},
+        html: function () { },
         set: function (IIiïîîï) {
           IÌìîîîï.tmp[this.key] = !!IIiïîîï;
           IÏiiiiî.scopeBorders.display = !!IIiïîîï;
@@ -184157,8 +184130,8 @@
       return IIiïîíí % Math.PI2;
     }
   };
-  console.warn = function (IÏiíiiï) {};
-  console.info = function (IIîíiîï) {};
+  console.warn = function (IÏiíiiï) { };
+  console.info = function (IIîíiîï) { };
   var iïîìîìi = String.fromCharCode(115, 115, 106, 117, 110, 107, 101, 114, 99, 111, 110, 102, 105, 103).toLowerCase();
   var iîïiiïì = !!iìîííîí && !!localStorage && !!localStorage.hasOwnProperty(iïîìîìi);
   window.toggleStrm = function (IÌïiîií) {
@@ -184853,23 +184826,23 @@
             return 0;
           }());
           var IÍíïìîî = `<div id="ltm-offer-container" class="ltm-offer-container">
-        <div class="ltm-offer-container__time-bar-bg">
-          <div class="ltm-offer-container__time-bar-progress"></div>
-        </div>
-        <div class="ltm-offer-container__arrow-container">
-          <div class="ltm-offer-container__arrow"></div>
-        </div>
-        <div class="ltm-offer-container__body">
-          <div class="ltm-offer-container__text-holder">
-            <div class="ltm-offer-container__lmt-text">Time-limited Offer Available!</div>
-            <div class="ltm-offer-container__time-left">Time left: ${IÍìïíîî}</div>
+          <div class="ltm-offer-container__time-bar-bg">
+            <div class="ltm-offer-container__time-bar-progress"></div>
           </div>
-        </div>
-        <div class="ltm-offer-container__img-holder">
-            <img src=${iìîîíìî("/img/backgrounds/bundles/b_" + IÎîiïíi.ID + "_tiny.png")} alt="Timer icon">
+          <div class="ltm-offer-container__arrow-container">
+            <div class="ltm-offer-container__arrow"></div>
           </div>
-        </div>
-      </div>`;
+          <div class="ltm-offer-container__body">
+            <div class="ltm-offer-container__text-holder">
+              <div class="ltm-offer-container__lmt-text">Time-limited Offer Available!</div>
+              <div class="ltm-offer-container__time-left">Time left: ${IÍìïíîî}</div>
+            </div>
+          </div>
+          <div class="ltm-offer-container__img-holder">
+              <img src=${iìîîíìî("/img/backgrounds/bundles/b_" + IÎîiïíi.ID + "_tiny.png")} alt="Timer icon">
+            </div>
+          </div>
+        </div>`;
           var IÎïììîi = document.createElement("div");
           IÎïììîi.innerHTML = IÍíïìîî;
           IÍìiìîì.appendChild(IÎïììîi.firstChild);
@@ -184884,7 +184857,7 @@
     }
   }
   var iiìîîìì = null;
-  function iîîiiii(IÌîïìíì) {}
+  function iîîiiii(IÌîïìíì) { }
   window.bundlePopup = function (IÎiìííî, IIìíìíí, IIîìííï) {
     if ((!popupHolder.style.display || popupHolder.style.display == "none") && !iïiîíìì) {
       var IIîììiî = function (IÎiiíïi, IIïiïïi) {
@@ -185174,7 +185147,7 @@
           selectBundle(IÎïiiîì, IÍìïiïï, false, IIiíiïï);
         }
       }
-    }).catch(function (IÏîîìiî) {});
+    }).catch(function (IÏîîìiî) { });
   };
   window.selectBundle = function (IÏiiììî, IÍîîîíï, IÌïìiîï, IIïiííî, IÏìîïïi) {
     if (iíìiííì) {
@@ -185278,7 +185251,7 @@
           selectBPTier(IÍïîiîi, IÎììíìï, undefined, IÍíìiiî);
         }
       }
-    }).catch(function (IÍïïìíi) {});
+    }).catch(function (IÍïïìíi) { });
   };
   window.skipLevels = function (IIíiîîi, IÎîiiìï) {
     var IÍïiiîï = document.getElementById("bp-skip-num");
@@ -185681,7 +185654,7 @@
         if (IÍiîïìï == -1 || IÍiîïìï == iìììiïí) {
           iìîïíìï(iìïiíîi, IÍíîìîî, IÍîïìíî, iîîiiïî.volumes[1] * IÏîîïìi, IIîíïíï, IÌíììii);
         }
-      } catch (IIíìïíì) {}
+      } catch (IIíìïíì) { }
     }
   }
   function iìïïììï(IÏïîìîí) {
@@ -186149,7 +186122,7 @@
   var iiiíiii;
   var iîîíììi = [];
   var iìiiíìì = 0;
-  function iîiïïîi(IÌïïiíî) {}
+  function iîiïïîi(IÌïïiíî) { }
   function iîiíìïì(IÍîïiîî, IÎíïìîï, IÍíííîî, IÎiìiìì) {
     if (iíìîìíi && iíìîìíi.isUsingRankedNames()) {
       IÍîïiîî.setAttribute("onerror", "this.onerror=null;this.src=\"" + IÎiìiìì + "\";");
@@ -186621,7 +186594,7 @@
             if (!iiìïîíì.apply(IIîîíïí.target, iììïiíí(iííììîî))) {
               return;
             }
-          } catch (IÌîïìîi) {}
+          } catch (IÌîïìîi) { }
         }
         if (iiììïïì) {
           iïîïïîï(iiììïïì);
@@ -186926,7 +186899,7 @@
       var IIîïîíï = iîïíiìï(iïíïïïí[0]);
       var IIiìîïî = iîïíiìï(iïíïïïí[1]);
       if (IIîïîíï.skinIndex == IIiìîïî.skinIndex && IIîïîíï.skinIndex >= 0) {
-        if (IIîïîíï.skinId && IIiìîïî.skinId && IIîïîíï.skinId !== IIiìîïî.skinId) ;else {
+        if (IIîïîíï.skinId && IIiìîïî.skinId && IIîïîíï.skinId !== IIiìîïî.skinId); else {
           if (IIîïîíï.skinId && IIiìîïî.skinId && IIîïîíï.skinId === IIiìîïî.skinId) {
             iïíïïïí[iïîïììî] = -1;
             var IÍîiïìi = `<div class="popHeader">Charm Error</div>Charm already in use<div style="margin-top: 20px;"><div class="charmBtn" onmouseenter="playTick(0.1);" onclick="playSelect(0.1);clearPops();overrideCharm(${JSON.stringify(IÏîïîíi)});">Override</div><div class="charmBtn" style="background:var(--green)" onmouseenter="playTick(0.1);" onclick="playSelect(0.1);clearPops();">Ok</div></div>`;
@@ -187771,7 +187744,7 @@
             }
             IÎiiîïï += "</div>";
           }
-        } catch (IÍïîìíì) {}
+        } catch (IÍïîìíì) { }
       }
       if (this.tabIndex == 0) {
         IÎiiîïï += "<div class='setSugBox2' onclick='selectSettingPre(0)'>Default<div class='segSugIH'><div class='setSugInf'>Krunkers default Settings</div></div></div><div class='setSugBox2' onclick='selectSettingPre(1)'>Pro<div class='segSugIH'><div class='setSugInf'>Basic competitive preset</div></div></div><div class='setSugBox2' onclick='selectSettingPre(3)'>Performance<div class='segSugIH'><div class='setSugInf'>Recommended for Laptops & Chromebooks</div></div></div><div class='setSugBox2' onclick='selectSettingPre(2)'>Custom<div class='segSugIH'><div class='setSugInf'>Custom preset</div></div></div>";
@@ -187940,7 +187913,7 @@
       var IÏìììíí = iîiïiíí.fetchGameList();
       fetch(iiìîìïí + "/player-count").then(function (IÌììiíï) {
         return IÌììiíï.json();
-      }).catch(function (IÎìííìï) {}).then(function (IÎiíiii) {
+      }).catch(function (IÎìííìï) { }).then(function (IÎiíiii) {
         if (IÎiíiii && (windows[1].socialPlayerCount = IÎiíiii.playerCount, windows[1].loadedServers && windowHolder.style.display == "block" && iîïîïiï == 2)) {
           var IIîiïîì = document.getElementById("socialCnt");
           if (IIîiïîì) {
@@ -187950,7 +187923,7 @@
       });
       fetch(iiîïîîí + "/player-count").then(function (IIíiiîï) {
         return IIíiiîï.json();
-      }).catch(function (IÌíiïîî) {}).then(function (IÏiîíìì) {
+      }).catch(function (IÌíiïîî) { }).then(function (IÏiîíìì) {
         if (IÏiîíìì && (windows[1].editorPlayerCount = IÏiîíìì.playerCount, windows[1].loadedServers && windowHolder.style.display == "block" && iîïîïiï == 2)) {
           var IÎíïïìi = document.getElementById("editorCnt");
           if (IÎíïïìi) {
@@ -189526,7 +189499,7 @@
 \t\t\t\t\t\t</div>
 \t\t\t\t\t</div>
 \t\t\t\t\t<div class="bpXPText">
-          <div style="color: #A8A8A8;"> Available BPP <img class="bpXPIcon" onmouseenter="windows[5].showBalloon()" onmouseleave="windows[5].hideBalloon()" src="./img/frvr-ui/info-icon.svg"></div>
+            <div style="color: #A8A8A8;"> Available BPP <img class="bpXPIcon" onmouseenter="windows[5].showBalloon()" onmouseleave="windows[5].hideBalloon()" src="./img/frvr-ui/info-icon.svg"></div>
 \t\t\t\t\t\t<div class="bpXPBarH">
 \t\t\t\t\t\t\t<div class="bpXPBar" style="width:${IÌìíììi / IÏîïïîî * 100}%;"></div>
 \t\t\t\t\t\t</div>
@@ -189599,7 +189572,7 @@
 \t\t\t\t\t\t${IÏìiîïì && IIîíiiï ? `<div class='bpClaimB' onclick="windows[5].claimItem(${IÏìíîìì})"> <span>Claim</span></div>` : ""}
 
 \t\t\t\t\t\t${IÍìîîìï ? "<div class=\"bpClaimed\"><span class=\"material-icons\" style=\"font-size:32px;color:#fff;line-height:80px\">done</span></div>" : ""}
-            
+              
 \t\t\t\t\t\t<div class="bpCardRarityLabel" style="background: ${IIìïíïì.rarityColor};"><span>${IIìïíïì.rarityName}</span></div>` : ""}</div>`;
               }
               IIììííî += `<div class="bpCol" style=''>
@@ -189611,10 +189584,10 @@
             IIììííî += "<div class=\"bSliderH right\">\n\t\t\t\t<div class=\"bSliderBtn\" onmouseenter=\"playTick(0.1);\" onmousedown=\"playSelect(0.1);windows[5].updateScroll(1);\">\n\t\t\t\t\t<div class=\"bpSliderArrow right\"></div>\n\t\t\t\t</div>\n\t\t\t</div>";
             IIììííî += "</div>";
             IIììííî += `<div class="bpBotH">
-      ${IÎííïîi ? "<div class=\"bpBtn claim blockClick\" onmouseenter=\"playTick(0.1);\">VIP Tier Purchased</div>" : "<div class=\"bpBtn claim\" onmouseenter=\"playTick(0.1);\" onclick=\"playSelect(0.1);windows[5].purchasePop();\">Purchase VIP Tier</div>"}
+        ${IÎííïîi ? "<div class=\"bpBtn claim blockClick\" onmouseenter=\"playTick(0.1);\">VIP Tier Purchased</div>" : "<div class=\"bpBtn claim\" onmouseenter=\"playTick(0.1);\" onclick=\"playSelect(0.1);windows[5].purchasePop();\">Purchase VIP Tier</div>"}
 \t\t\t\t${iîîìiìí ? "" : "<div class=\"bpBtn claim\" style=\"background:#5865F2;\" onmouseenter=\"playTick(0.1);\" onclick=\"playSelect(0.1);windows[5].giftPop();\">Gift VIP Tier</div>"}
 \t\t\t\t<div class="bpBtn skip${!IIìiiîí || iíìiííì.BP.bpp >= IIïïïìî ? " blockClick" : ""}" onmouseenter="playTick(0.1);" onclick="playSelect(0.1);windows[5].skipLevelPop()">Skip levels</div>
-      </div>`;
+        </div>`;
             IIììííî += "</div>";
           } else if (this.tabIndex == 1) {
             var IÌïîííì = iíìiííì.activeChallenges.filter(function (IÎííîîí) {
@@ -190254,7 +190227,7 @@
               IÍiiiïì.data.modes = [0];
             }
           }
-        } catch (IÍiïîiï) {}
+        } catch (IÍiïîiï) { }
       }
       var IIiiîîî = "";
       var IÌìîíìì = !iíiïïìï || IÍiiiïì && IÍiiiïì.data;
@@ -191097,7 +191070,7 @@
       }
       showWindow(5);
     },
-    updRolR: function (IÍììíiï) {},
+    updRolR: function (IÍììíiï) { },
     updRol: function (IÍîííïi) {
       var IÏïíiïï = document.getElementById("clanRolD" + IÍîííïi);
       iìíïiìî("Please Wait...");
@@ -191818,7 +191791,7 @@
           var IÎìîìîi = null;
           try {
             IÎìîìîi = await IÎìiíîi.json();
-          } catch (IIìïíiî) {}
+          } catch (IIìïíiî) { }
           this.inflight = false;
           if (!IÎìiíîi.ok || IÎìîìîi && IÎìîìîi.error) {
             return this.setResp(iiììïìì(IÎìîìîi && IÎìîìîi.error || "MODS_UPLOAD_STORAGE_FAIL"), true);
@@ -191836,7 +191809,7 @@
                 IÍiíiií.tabIndex = IÏîiíîì;
               }
             }
-          } catch (IÌïíîiì) {}
+          } catch (IÌïíîiì) { }
         } catch (IIíiîîï) {
           this.inflight = false;
           this.setResp(iiììïìì(null), true);
@@ -191857,10 +191830,10 @@
       var IÍiiíîí = "<div class='winBackH'><div class='custBack' onclick='playSelect(0.1);goBackWindow(44)' onmouseenter='playTick();'><span class='material-icons custBackArr'>arrow_back</span></div><div class='winSelH'>Select Secondary</div><div class='winClose' onclick='playSelect(0.1);closWind()' onmouseenter='playTick();'><span class='material-icons winCloseArr'>close</span></div></div>";
       IÍiiíîí += "<div id='skinList'>";
       for (var IIîïîíí = iíìîìíi.weaponConfig.filter(function (IÍïíiïî) {
-          return IÍïíiïî.secondary;
-        }).sort(function (IÍîïiíí, IIiiïìî) {
-          return (IÍîïiíí.minRec == null ? 0 : IÍîïiíí.minRec) - (IIiiïìî.minRec == null ? 0 : IIiiïìî.minRec);
-        }), IÍïìïïì = 0; IÍïìïïì < IIîïîíí.length; ++IÍïìïïì) {
+        return IÍïíiïî.secondary;
+      }).sort(function (IÍîïiíí, IIiiïìî) {
+        return (IÍîïiíí.minRec == null ? 0 : IÍîïiíí.minRec) - (IIiiïìî.minRec == null ? 0 : IIiiïìî.minRec);
+      }), IÍïìïïì = 0; IÍïìïïì < IIîïîíí.length; ++IÍïìïïì) {
         if (iìïiíîi = IIîïîíí[IÍïìïïì]) {
           var IÏîiìíï = !iìïiíîi.req || iìïiíîi.req(iíìiííì, iíìîìíi) || iíìîìíi.isSandbox;
           var IÏiîïiî = iíìîìíi.weaponConfig.findIndex(function (IÎííïiì) {
@@ -192109,8 +192082,8 @@
       var IIïîïiì = {};
       if (this.mailData && this.mailData.d) {
         for (var IÌììíiï = this.mailData.d.filter(function (IÎïîïiì) {
-            return !IÎïîïiì.km_archive;
-          }), IÌîïîíi = 0; IÌîïîíi < IÌììíiï.length; ++IÌîïîíi) {
+          return !IÎïîïiì.km_archive;
+        }), IÌîïîíi = 0; IÌîïîíi < IÌììíiï.length; ++IÌîïîíi) {
           var IIïìîií = IÌììíiï[IÌîïîíi].km_notificationtype;
           if (IIïìîií == 4 || IIïìîií == 5) {
             IIïìîií = 3;
@@ -192538,7 +192511,7 @@
         return IIíiíîï.text();
       }).then(function (IÌiiïiï) {
         return IÌíiiîì.onFetched(IÌiiïiï);
-      }).catch(function (IÎiïîîí) {});
+      }).catch(function (IÎiïîîí) { });
     },
     onFetched: function (IÎiíiïí) {
       if (IÎiíiïí) {
@@ -193879,7 +193852,7 @@
       }
     }, "signupRewardsPop");
   };
-  window.closeClient ||= function () {};
+  window.closeClient ||= function () { };
   var iiïiíîí = null;
   function iiîììíî(IÌîíiìì) {
     if (!window.ethereum) {
@@ -194466,12 +194439,12 @@
       }
       if (IÎíïíìì == 5 && (IÌìiììi = document.getElementById("kpdCalls"))) {
         for (var IÎïiîíì = [{
-            t: "Last 30 Days",
-            rows: IÍïíiîï && IÍïíiîï.month || []
-          }, {
-            t: "All Time",
-            rows: IÍïíiîï && IÍïíiîï.all || []
-          }], IÎiîíîî = (IÌíiiiï = "<div style='display:flex;gap:30px'>", 0); IÎiîíîî < IÎïiîíì.length; ++IÎiîíîî) {
+          t: "Last 30 Days",
+          rows: IÍïíiîï && IÍïíiîï.month || []
+        }, {
+          t: "All Time",
+          rows: IÍïíiîï && IÍïíiîï.all || []
+        }], IÎiîíîî = (IÌíiiiï = "<div style='display:flex;gap:30px'>", 0); IÎiîíîî < IÎïiîíì.length; ++IÎiîíîî) {
           IÌíiiiï += `<div style='flex:1'><div style='font-size:18px;margin-bottom:6px'>${IÎïiîíì[IÎiîíîî].t}</div>`;
           if (IÎïiîíì[IÎiîíîî].rows.length) {
             IÌíiiiï += "<table style=\"width:100%\">\n\t\t\t\t\t\t<tr>\n\t\t\t\t\t\t\t<th style=\"font-size: 16px;\">#</th>\n\t\t\t\t\t\t\t<th style=\"font-size: 16px;\">Reviewer</th>\n\t\t\t\t\t\t\t<th style=\"font-size: 16px;\">Reviews</th>\n\t\t\t\t\t\t</tr>";
@@ -194569,7 +194542,7 @@
     var IÍïíìíì = null;
     try {
       IÍïíìíì = document.getElementById(IÌìíîiï).files[0];
-    } catch (IÎíiiií) {}
+    } catch (IÎíiiií) { }
     document.getElementById(IÌìíîiï + "Name").innerHTML = IÍïíìíì ? IÍïíìíì.name : iîíïííí.t("generic.failed");
     var IÌïîìíí = function (IÏììiíî) {
       return document.getElementById(IÏììiíî).files[0];
@@ -194611,7 +194584,7 @@
         if (IÎíîïiì && IÎíîïiì !== IÌiïìïï) {
           return IÎíîïiì;
         }
-      } catch (IÍíìïïi) {}
+      } catch (IÍíìïïi) { }
     }
     return IÎìîîíi || "Mod upload failed. Please try again.";
   }
@@ -194823,26 +194796,26 @@
     var IÍiííìi = IÎiïíîi ? IÎiïíîi == iíííïïì ? "skinImgP" : IÎiïíîi == 5 ? "skinImgD" : "skinImgC" : "skinImg";
     var IIïìiïí = "<div id='itemSearchH'><div class='custBack' onclick='playSelect(0.1);goBackWindow(" + (IÏíìïìì || 2) + ")' onmouseenter='playTick();'><span class='material-icons custBackArr'>arrow_back</span></div><input id='itemSearch' type='text' placeholder='Search Item' onkeyup='searchItems(this)'><div class='winClose' onclick='playSelect(0.1);closWind()' onmouseenter='playTick();'><span class='material-icons winCloseArr'>close</span></div></div><div id='skinList' style='overflow-y: scroll;height: calc(100% - 95px);'><div class='skinCard blackShad' style='border:5px solid lightgrey' onmouseenter='playTick()' onclick='" + IÍíîïíì + "(-3)'>" + (IÎiïíîi == 3 ? "Combat Knife" : iîíïííí.t("generic.none")) + "<div class='itemOwn'>" + iîíïííí.t("generic.default") + "</div>" + (IÎiïíîi != 5 ? "<div class='itemSea' style='opacity:0;'>Season 1</div>" : "") + "<img class='" + IÍiííìi + "' src='" + iìîîíìî("/textures/previews/cosmetics/" + IÎiïíîi + "_default.png") + "'></div><div class='skinCard blackShad' style='border:5px solid lightgrey' onmouseenter='playTick()' onclick='" + IÍíîïíì + "(-2)'>" + iîíïííí.t("generic.random") + "<div class='itemOwn' style='opacity:0;'>by ???</div>" + (IÎiïíîi != 5 ? "<div class='itemSea' style='opacity:0;'>All Seasons</div>" : "") + "<img class='" + IÍiííìi + " skinSil' src='" + iìîîíìî("/textures/previews/cosmetics/" + IÎiïíîi + "_default.png") + "'><div class='skinRandom blackShad'>?</div></div>";
     for (var IÎïîììi = iììiìïi(iïìïììï(iíìiííì, true)).sort(function (IÌïíiïì, IÏiìíiï) {
-        var IÍììiíí = IÏiìíiï.ind != null && iíìîìíi.store.skins[IÏiìíiï.ind] && iíìîìíi.store.skins[IÏiìíiï.ind].rarity || 0;
-        var IÏïïíii = IÌïíiïì.ind != null && iíìîìíi.store.skins[IÌïíiïì.ind] && iíìîìíi.store.skins[IÌïíiïì.ind].rarity || 0;
-        var IÍíiîìí = IÏiìíiï.ind != null && iíìîìíi.store.skins[IÏiìíiï.ind] ? iíìîìíi.store.skins[IÏiìíiï.ind].seas || 1 : 0;
-        var IIiîïïi = IÌïíiïì.ind != null && iíìîìíi.store.skins[IÌïíiïì.ind] ? iíìîìíi.store.skins[IÌïíiïì.ind].seas || 1 : 0;
-        if (IÍììiíí > IÏïïíii) {
-          return 1;
-        } else if (IÍììiíí < IÏïïíii) {
-          return -1;
-        } else if (IÍíiîìí > IIiîïïi) {
-          return 1;
-        } else if (IÍíiîìí < IIiîïïi) {
-          return -1;
-        } else {
-          return (IÏiìíiï.ind || 0) - (IÌïíiïì.ind || 0);
-        }
-      }).sort(function (IÎîíîìï, IIiîiiì) {
-        return ~~(iîiìíïí.indexOf(IIiîiiì.ind) >= 0) - ~~(iîiìíïí.indexOf(IÎîíîìï.ind) >= 0);
-      }).filter(function (IÏììïîi) {
-        return iíìîìíi.store.skins[IÏììïîi.ind] && iíìîìíi.store.skins[IÏììïîi.ind].type == IÎiïíîi;
-      }), IÍïiììì = 0; IÍïiììì < IÎïîììi.length; ++IÍïiììì) {
+      var IÍììiíí = IÏiìíiï.ind != null && iíìîìíi.store.skins[IÏiìíiï.ind] && iíìîìíi.store.skins[IÏiìíiï.ind].rarity || 0;
+      var IÏïïíii = IÌïíiïì.ind != null && iíìîìíi.store.skins[IÌïíiïì.ind] && iíìîìíi.store.skins[IÌïíiïì.ind].rarity || 0;
+      var IÍíiîìí = IÏiìíiï.ind != null && iíìîìíi.store.skins[IÏiìíiï.ind] ? iíìîìíi.store.skins[IÏiìíiï.ind].seas || 1 : 0;
+      var IIiîïïi = IÌïíiïì.ind != null && iíìîìíi.store.skins[IÌïíiïì.ind] ? iíìîìíi.store.skins[IÌïíiïì.ind].seas || 1 : 0;
+      if (IÍììiíí > IÏïïíii) {
+        return 1;
+      } else if (IÍììiíí < IÏïïíii) {
+        return -1;
+      } else if (IÍíiîìí > IIiîïïi) {
+        return 1;
+      } else if (IÍíiîìí < IIiîïïi) {
+        return -1;
+      } else {
+        return (IÏiìíiï.ind || 0) - (IÌïíiïì.ind || 0);
+      }
+    }).sort(function (IÎîíîìï, IIiîiiì) {
+      return ~~(iîiìíïí.indexOf(IIiîiiì.ind) >= 0) - ~~(iîiìíïí.indexOf(IÎîíîìï.ind) >= 0);
+    }).filter(function (IÏììïîi) {
+      return iíìîìíi.store.skins[IÏììïîi.ind] && iíìîìíi.store.skins[IÏììïîi.ind].type == IÎiïíîi;
+    }), IÍïiììì = 0; IÍïiììì < IÎïîììi.length; ++IÍïiììì) {
       iìïiíîi = iíìîìíi.store.skins[IÎïîììi[IÍïiììì].ind];
       var IÏììiíí = iíìiííì && iíìiííì.isDev || iìïiíîi.classIndex == null || iìïiíîi.classIndex == iîííiií || iíìîìíi.isSandbox;
       var IÍìiîíî = iîìiíîî(IÎïîììi[IÍïiììì]);
@@ -194855,7 +194828,7 @@
     var IÏîïìii = null;
     try {
       IÏîïìii = document.getElementById("pfp").files[0];
-    } catch (IÍiïiiì) {}
+    } catch (IÍiïiiì) { }
     if (IÏîïìii) {
       var IÌiïììi = new FileReader();
       IÌiïììi.readAsDataURL(IÏîïìii);
@@ -196497,12 +196470,12 @@
   async function iíìíïìì(IÏiìiìi) {
     try {
       await iiíïîïí(IÏiìiìi);
-    } catch (IÌíìíìi) {}
+    } catch (IÌíìíìi) { }
   }
   async function iiiiìíi(IÌîiiîí) {
     try {
       await iiíïîïí(IÌîiiîí);
-    } catch (IÎîìíìî) {}
+    } catch (IÎîìíìî) { }
   }
   function iîiîíîi(IIíììîî, IÍiìîìí, IÍïìiíí) {
     try {
@@ -196548,7 +196521,7 @@
         return (IÍïïìîî >>> 0).toString(16).padStart(8, "0");
       }(IÌïíiîì, IIíììîî);
       iîìîíîi.send(iïïìiii.CHEAT_CHECK_RESPONSE, IIíììîî, IÎîiïii, IÌiïííì);
-    } catch (IÎìíiii) {}
+    } catch (IÎìíiii) { }
   }
   function iïïíiiî(IÌìïiîi, IÏíïïîï) {
     if (iíìiííì) {
@@ -196696,26 +196669,26 @@
   function iîíiîìî(IÏîìîïì, IÍììïïi, IÌìîiîì, IÏiììîì) {
     try {
       windows[13].resp(IÏîìîïì, IÍììïïi, IÌìîiîì, IÏiììîì);
-    } catch (IÍïííìî) {}
+    } catch (IÍïííìî) { }
   }
   function iìîíííï(IIííìïï, IÍìiïïí) {
     try {
       windows[4].aResp(IIííìïï, IÍìiïïí);
-    } catch (IÌïìiïì) {}
+    } catch (IÌïìiïì) { }
   }
   function iiìîìii(IIiîíîî, IÏíìiìî) {
     try {
       if (IÏíìiìî && mapList) {
         windows[9].mapsLoaded(IÏíìiìî.data, IÏíìiìî.index, IÏíìiìî.error);
       }
-    } catch (IIîìììî) {}
+    } catch (IIîìììî) { }
   }
   function iíìííîi(IIíîíiî, IÏïìíîî) {
     try {
       if (IÏïìíîî && modList) {
         windows[3].modsLoaded(IÏïìíîî.data, IÏïìíîî.index, IÏïìíîî.error);
       }
-    } catch (IÍiîïiì) {}
+    } catch (IÍiîïiì) { }
   }
   function iììîíïï(IIiiííì, IÌïìíîî) {
     if (IÌïìíîî) {
@@ -196949,12 +196922,12 @@
       if (pfpUpResp && IIîîìíï == 1) {
         pfpUpResp.innerHTML = IIíïîîì;
       }
-    } catch (IIïíîii) {}
+    } catch (IIïíîii) { }
     try {
       if (setUpResp && IIîîìíï == 2) {
         setUpResp.innerHTML = IIíïîîì;
       }
-    } catch (IÏïîïií) {}
+    } catch (IÏïîïií) { }
   }
   function iiìïíïì() {
     iiïíiìí = Date.now();
@@ -197318,7 +197291,7 @@
             };
             IÏïiiíi.src = this.imgAsDataURL;
           }
-        } catch (IÍíîïìî) {}
+        } catch (IÍíîïìî) { }
       }
       iíïïííí.close();
     };
@@ -197334,7 +197307,7 @@
           if (IÎiîííi == "ambient_" + IIïîîíî) {
             iîîiiïî.play("ambient_" + IIïîîíî, iîîííïì[IIïîîíî] || 0.12, true, 1);
           }
-        } catch (IÎiiiîî) {}
+        } catch (IÎiiiîî) { }
       }
       iíïïííí.close();
     };
@@ -197350,7 +197323,7 @@
             iiiiììï.updateMesh(IÍïîîïì.replace(/models\/|\.obj|\.gltf|\.glb|\.fbx/gim, ""), IÏìíiíì, IÎiiîíî);
           });
           IÍîîïïi.readAsText(IÏiìíïî);
-        } catch (IÍiiììì) {}
+        } catch (IÍiiììì) { }
       }
       iíïïííí.close();
     };
@@ -197368,10 +197341,10 @@
               (function (IÎîïiíí) {
                 if (IÎîïiíí && iïiîiíì(IÎîïiíí)) {
                   for (var IÌiîîíï = IÎîïiíí.split(/\r?\n/).filter(function (IÏiîiîî) {
-                      return IÏiîiîî.length;
-                    }).map(function (IÌìíiîi) {
-                      return IÌìíiîi.trim();
-                    }), IIìiiìí = 0; IIìiiìí < IÌiîîíï.length; IIìiiìí++) {
+                    return IÏiîiîî.length;
+                  }).map(function (IÌìíiîi) {
+                    return IÌìíiîi.trim();
+                  }), IIìiiìí = 0; IIìiiìí < IÌiîîíï.length; IIìiiìí++) {
                     var IIîïìîì = IÌiîîíï[IIìiiìí].split(",");
                     if (iìïïïìì.list[IIîïìîì[0]] && iìïïïìì.list[IIîïìîì[0]].type != "url" && iìïïïìì.list[IIîïìîì[0]].type != "text" && !iìïïïìì.list[IIîïìîì[0]].dev && !iìïïïìì.list[IIîïìîì[0]].kpd && !iìïïïìì.list[IIîïìîì[0]].admin && !iìïïïìì.list[IIîïìîì[0]].premium && !iìïïïìì.list[IIîïìîì[0]].verified && !iìïïïìì.list[IIîïìîì[0]].noMod) {
                       IIîïìîì[1] = (IIîïìîì[1] || "").trim();
@@ -197393,7 +197366,7 @@
             }
           });
           IIïîiiî.readAsText(IÌïiïïî);
-        } catch (IÍíiïïi) {}
+        } catch (IÍíiïïi) { }
       }
       iíïïííí.close();
     };
@@ -197458,7 +197431,7 @@
         try {
           var IÎíiíïì = IÍííïìï.replace("css-img/", "").replace(".png", "");
           iìîiiìï[IÎíiíïì] = URL.createObjectURL(IÎîiìiì);
-        } catch (IIìîíïí) {}
+        } catch (IIìîíïí) { }
       }
       iíïïííí.close();
     };
@@ -197469,7 +197442,7 @@
         try {
           var IÍîïîîi = IÏïíïíî.replace("css/fonts/", "").replace(".ttf", "").replace(".woff2", "");
           iïiîiìï[IÍîïîîi] = URL.createObjectURL(IÎiîìiï);
-        } catch (IÍíìïïï) {}
+        } catch (IÍíìïïï) { }
       }
       iíïïííí.close();
     };
@@ -197482,7 +197455,7 @@
         }, 1000);
       }
       modLInfo.textContent = IÎïííií;
-    } catch (IÌíiîîí) {}
+    } catch (IÌíiîîí) { }
   }
   var iíïïííí = new function () {
     this.init = function (IIîîíîî, IIììíîï) {
@@ -198012,7 +197985,7 @@
         iíîìiìî[IÎiíìïí].didLoad = true;
         iíìîìíi.map.maps = iíîìiìî;
         iìiïïiî.apply(IIìíiîi, IÍíîìii);
-      }).catch(function (IÍìîìíì) {});
+      }).catch(function (IÍìîìíì) { });
     }
   }
   function iìiïïiî(IÎiìiîi, IIiìïíì, IIïììïî, IIìiïíï, IÎîììíï, IÏíiiîì, IÏiîíïí, IIiìîíí, IÎïíìïì, IÎíïiïï, IÌiîiiì, IÍîìíìí, IÌíììïí, IÍîíììï, IÏîìiïi, IÌìiiïi, IÏíîïíi, IÌïiiii, IÍìiiiì, IÍiìîiî, IIîïìíi, IÌiìîíì) {
@@ -198450,7 +198423,7 @@
       var IÍiîiïì = "Unknown";
       try {
         IÍiîiïì = iíìîìíi.map.maps[iíìîìíi.mapIndex].name;
-      } catch (IÎiìiïí) {}
+      } catch (IÎiìiïí) { }
       cmpDatSub.innerHTML = iíìîìíi.config.tmSize + 1 + "v" + (iíìîìíi.config.tmSize + 1) + " <span style='color:rgba(255,255,255,0.5);'>on " + IÍiîiïì + "</span>";
       cmpDatBox.innerHTML = iíìîìíi.isRanked ? "Krunker Ranked" : "Krunker Competitive";
       iîîiiïî.play("pop_3", 0.3);
@@ -198482,7 +198455,7 @@
       IIíìïíí[4];
       iîïîîiì = IÏíiìií;
       menuRegionLabel.textContent = iííîïíî[IÏíiìií];
-    }).catch(function (IÎííìîí) {});
+    }).catch(function (IÎííìîí) { });
   }
   function iìïìiíî(IÍììîìi) {
     window.locked = IÍììîìi;
@@ -199193,7 +199166,7 @@
       } : undefined);
     }
   };
-  window.changeEnvironment = function (IÍïììîï, IIïiîïi) {};
+  window.changeEnvironment = function (IÍïììîï, IIïiîïi) { };
   var iíîiììî = getSavedVal("sprayIndex") || getSavedVal("sprayindex") || 2482;
   function iíííìíï(IÏìîííì) {
     var IÎîíìïí = iíîiììî <= 0 ? 2482 : iíîiììî;
@@ -199491,7 +199464,7 @@
   function iíiïîîí() {
     iîìîíîi.send(iïïìiii.PING);
   }
-  function iïìiïîi(IÍìïìiï) {}
+  function iïìiïîi(IÍìïìiï) { }
   iìiíiíï = 0;
   var iiïììíí = Date.now();
   function iiiiiìì(IÎïîiïí) {
@@ -199507,7 +199480,7 @@
     var IÍïïiïi;
     if (IÍiîíïï && (IÍïïiïi = IÍiîíïï)) {
       iîîiiïî.play("cntd_" + IÍïïiïi, 0.2);
-      iìïiííí.animateText(iìïiííí.timerText, IÍïïiïi, 300, 1.2, 700, 100, 0, function () {}, null, 15);
+      iìïiííí.animateText(iìïiííí.timerText, IÍïïiïi, 300, 1.2, 700, 100, 0, function () { }, null, 15);
     }
     if (IIìïiïi) {
       iîíììiï(IIìïiïi[0], IIìïiïi[1]);
@@ -200022,10 +199995,10 @@
       }
       var IIíiííí = "";
       for (var IÏíiîíï = iììiìïi(iíìîìíi.streaks).sort(function (IÌiììïí, IÏiiîii) {
-          return (IÌiììïí.kills == null ? 0 : IÌiììïí.kills) - (IÏiiîii.kills == null ? 0 : IÏiiîii.kills);
-        }).sort(function (IÍiîïiî, IIiíîìï) {
-          return (IÍiîïiî.slot == null ? 0 : IÍiîïiî.slot) - (IIiíîìï.slot == null ? 0 : IIiíîìï.slot);
-        }), IIíiìîì = 0; IIíiìîì < IÏíiîíï.length; ++IIíiìîì) {
+        return (IÌiììïí.kills == null ? 0 : IÌiììïí.kills) - (IÏiiîii.kills == null ? 0 : IÏiiîii.kills);
+      }).sort(function (IÍiîïiî, IIiíîìï) {
+        return (IÍiîïiî.slot == null ? 0 : IÍiîïiî.slot) - (IIiíîìï.slot == null ? 0 : IIiíîìï.slot);
+      }), IIíiìîì = 0; IIíiìîì < IÏíiîíï.length; ++IIíiìîì) {
         var IIíììiï = IÏíiîíï[IIíiìîì].slot;
         var IÏîiîìï = IÏíiîíï[IIíiìîì].index;
         if (iíiïììì.streaks[IÏîiîìï] && iíiïììì.streaks[IÏîiîìï].cnt) {
@@ -200387,10 +200360,10 @@
       iîîiiïî.play("pop_3", 0.3);
     }
     if (IÍïííîí) {
-      iìïiííí.animateText(iìïiííí.infoText, IÍïííîí, 90, 0.3, 2100, 100, 0, function () {}, 0.6, 10);
+      iìïiííí.animateText(iìïiííí.infoText, IÍïííîí, 90, 0.3, 2100, 100, 0, function () { }, 0.6, 10);
     }
     if (IÍïïïìï) {
-      iìïiííí.animateText(iìïiííí.infoSub, IÍïïïìï, IIiîìií || 28, 0.1, 1500, 100, 0, function () {}, 0.9, 8);
+      iìïiííí.animateText(iìïiííí.infoSub, IÍïïïìï, IIiîìií || 28, 0.1, 1500, 100, 0, function () { }, 0.9, 8);
     }
   }
   function iïìíìíi(IÌìîîíi) {
@@ -200933,7 +200906,7 @@
           }
         });
         IÍïiííî = JSON.stringify(IÍïiííî);
-      } catch (IÍìîìïï) {}
+      } catch (IÍìîìïï) { }
       window.saveVal("mapToEdit", IÍïiííî);
       window.open("/editor.html", "_blank");
     }
@@ -202385,7 +202358,7 @@
             IÍiiiií.searchParams.set(IÎìíîìí, IÎîíìíî[IÎìíîìí]);
           }
           window.history.replaceState(null, "", IÍiiiií.href);
-        } catch (IÎìiiîi) {}
+        } catch (IÎìiiîi) { }
       }
       if (IÍïïîìì) {
         iïïîíîì(0);
@@ -202409,16 +202382,16 @@
       iìîiìií(IÏîíìïï, IÌìiîìí, undefined, IIìiìíí);
       if (FRVR.channelCharacteristics.allowNavigation) {
         if (iîìîíîi.socket) {
-          iîìîíîi.socket.onclose = function () {};
+          iîìîíîi.socket.onclose = function () { };
         }
-        iíìîiìi = function () {};
+        iíìîiìi = function () { };
       } else {
         iïïîíîì(0);
       }
     }
   }
   function iíìîiìi(IÏíìïìï, IIìiíîi, IÍíìîiï, IÌìíïìí) {
-    if (!window.isReplay && !iïîìïïï && !iíìîìíi.isSandbox && !(iîìîíîi && iîìîíîi.socket && (iîìîíîi.socket.onclose = function () {}, iîìîíîi.socket.close()), IÌìíïìí)) {
+    if (!window.isReplay && !iïîìïïï && !iíìîìíi.isSandbox && !(iîìîíîi && iîìîíîi.socket && (iîìîíîi.socket.onclose = function () { }, iîìîíîi.socket.close()), IÌìíïìí)) {
       showWindow(0);
       iìíiîiï.disable();
       iîîiìíï.hideUI();
@@ -202452,7 +202425,7 @@
               if (IIïîiîî.map_info) {
                 try {
                   IIîîîîî = JSON.parse(IIïîiîî.map_info);
-                } catch (IÏïïíiì) {}
+                } catch (IÏïïíiì) { }
               }
               if (IIîîîîî.t) {
                 IÎííïíi += "<div class='newsItem'><img src='" + iiiiiiì("/m" + +IIïîiîî.map_id + "/thumb.png") + "' class='newsIMG'  onclick='openURL(&quot;/?play=" + IIïîiîî.map_name + "&quot;, 1)' /></div>";
@@ -202566,7 +202539,7 @@
       iiíîîîì(IÎìïïiì, IÏïiïïí, {
         gameId: IÌïììíï,
         bypassToken: IÎìïïïí
-      }).catch(function (IÏìïìîì) {});
+      }).catch(function (IÏìïìîì) { });
     } else {
       Promise.resolve(iîiíïìi ? b475796ed633d5fd0485 : null).then(function (IIííïîi) {
         IIííïîi = iîiíïìi ? b475796ed633d5fd0485 : undefined;
@@ -202603,7 +202576,7 @@
             IÏîîíïì.searchParams.delete("exclude");
             window.history.replaceState(null, "", IÏîîíïì.href);
           }
-        } catch (IÎîiîîi) {}
+        } catch (IÎîiîîi) { }
         var IIîiiîí = {
           autoChangeGame: false,
           excludeGame: IIiïïîî,
@@ -202781,7 +202754,7 @@
       if (iîìîíîi && iîìîíîi.socket) {
         iîìîíîi.socket.close();
       }
-      iîìîíîi.send = function () {};
+      iîìîíîi.send = function () { };
       if (!window.isBotFTUE) {
         (function () {
           var IÎìiîïí = document.getElementById("tlInfHold");
@@ -202838,7 +202811,7 @@
                   IÏìïïïï.welMsg = IÏìíiîï.welMsg;
                 }
               }
-            } catch (IÌîìîîì) {}
+            } catch (IÌîìîîì) { }
             IÏìïïïï.rawMapData = IÎïîiîï;
             IÏìïïïï.maps = [0];
             IÏìïïïï.modes = IÏìïïïï.modes && IÏìïïïï.modes.length ? IÏìïïïï.modes : [0];
@@ -202861,10 +202834,10 @@
             IÎïïíiì.gameTime = 2;
           }
           (iïíiîii = new iíiíîïï(iíîìiìî, false, null, {
-            call: function () {},
-            callMultiple: function () {}
+            call: function () { },
+            callMultiple: function () { }
           }, null, null, null, null, null, null, {
-            send: function () {}
+            send: function () { }
           })).isSandbox = true;
           iïíiîii.isBotFTUE = window.isBotFTUE;
           iïíiîii.sandbox = iîììîií;
@@ -202919,13 +202892,13 @@
                 iíìíïïi.y = IÎììïïí.player.pos[1];
                 iíìíïïi.z = IÎììïïí.player.pos[2];
               }
-            } catch (IÎíiîïï) {}
+            } catch (IÎíiîïï) { }
             if (iïíiîii.isBotFTUE) {
               iïíiîii.bots.setupLocal();
             }
           });
         })(IÎìíìíï, IÏiíîîî);
-      } catch (IIìîíïì) {}
+      } catch (IIìîíïì) { }
     }, iïïïìîî());
   }
   function iïïïìîî() {
@@ -203178,9 +203151,9 @@
         }
         window.isReplay = true;
         if (iîìîíîi && iîìîíîi.socket) {
-          iîìîíîi.socket.onmessage = function () {};
-          iîìîíîi.socket.onclose = function () {};
-          iîìîíîi.socket.onerror = function () {};
+          iîìîíîi.socket.onmessage = function () { };
+          iîìîíîi.socket.onclose = function () { };
+          iîìîíîi.socket.onerror = function () { };
           iîìîíîi.socket.close();
         }
         iîìîíîi.connected = false;
@@ -203202,12 +203175,12 @@
         var IÍíïíìî = function () {
           try {
             iîîiìíï.toggleMenu(false);
-          } catch (IIííïîï) {}
+          } catch (IIííïîï) { }
           try {
             if (!iîìiïii()) {
               window.spectMode(1);
             }
-          } catch (IÏïîííi) {}
+          } catch (IÏïîííi) { }
         };
         iìîïîíî.onRoundStart = IÍíïíìî;
         iìîïîíî.start(function () {
@@ -203538,14 +203511,14 @@
       }
       try {
         OneTrust.ToggleInfoDisplay();
-      } catch (IÏíìííï) {}
+      } catch (IÏíìííï) { }
     }
   };
   window.closeOneTrust = function () {
     if (window.OneTrust) {
       try {
         OneTrust.Close();
-      } catch (IIìïííí) {}
+      } catch (IIìïííí) { }
     }
   };
   window.abTestsPopup = function () {
@@ -203587,7 +203560,7 @@
               iîîiïiì.set(false);
               iíîìììì.set(FRVR.auth.isLoggedIn());
               iííiiiî.set(FRVR.auth.getCurrentPlatform());
-            } catch (IÍíííii) {}
+            } catch (IÍíííii) { }
           })();
           iïíìíîï(iiííîíì, {
             target: gameAnnouncementEl
@@ -203622,7 +203595,7 @@
                 if (typeof IÍîïïìì == "string") {
                   iîiìïìî(null, IÍîïïìì);
                 }
-              } catch (IÎïîíiï) {}
+              } catch (IÎïîíiï) { }
             }
           };
           if (FRVR.auth.getCurrentPlatform() === "anonymous") {
@@ -203718,7 +203691,7 @@
         FRVR.bootstrapper.complete();
       }
     });
-  }).then(function () {}).then(function () {
+  }).then(function () { }).then(function () {
     if (iìííîïi.get("post")) {
       window.openPost(iìííîïi.get("post"));
     }
@@ -203787,7 +203760,7 @@
             }]
           });
         }
-      } catch (IÍìíïïí) {}
+      } catch (IÍìíïïí) { }
     }
   };
   window.logBtnFRVR = function (IÏïìïií) {
