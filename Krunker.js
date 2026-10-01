@@ -1,6 +1,11 @@
+/* * STATUS: Added
+ * SEARCH KEY: isProxy
+ * FOUND OBJECT: JfCzGzvGIQB8rrJX
+ * ACTION: Initialized with {isProxy: true}
+ * NOTE: Identified via 'isProxy' search; the object has been successfully added to the window scope.
+ */
 window.JfCzGzvGIQB8rrJX = { isProxy: true };
-(function anonymous(b475796ed633d5fd0485, f9e2c8d63a4b7128b031) {
-  (function () {
+(function () {
     "use strict";
     var iììïîîí = typeof document != "undefined" ? document.currentScript : null;
     function iîííïìï(iïiiîïì, iîîiììi) {
@@ -203983,4 +203988,3 @@ window.JfCzGzvGIQB8rrJX = { isProxy: true };
       iìïiííí.addPingIcon(IÌîiïii, IÍîîíîí);
     };
   })();
-});
